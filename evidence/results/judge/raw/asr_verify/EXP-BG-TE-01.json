@@ -1,0 +1,21 @@
+{
+ "task": "asr_verify",
+ "id": "EXP-BG-TE-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-BG-TE-01.wav",
+ "latency_ms": 9761,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "పోట్టర్",
+    "heard": "పోర్టర్"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 313,
+  "output": 54
+ }
+}

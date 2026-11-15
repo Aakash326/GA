@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T83",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T83.wav",
+ "latency_ms": 4707,
+ "reply": {
+  "heard": "First, verify the name. Second, check the amount. Finally, confirm only if both are correct.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 312,
+  "output": 37
+ }
+}

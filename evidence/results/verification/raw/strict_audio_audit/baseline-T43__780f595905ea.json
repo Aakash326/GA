@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T43",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "780f595905eafcaa58fc2557",
+ "audio": "results/tts_audio/T43.wav",
+ "latency_ms": 6267,
+ "reply": {
+  "heard": "Please pay ten lakh rupees before the due date.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "ten lakh rupees"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 335,
+  "output": 38
+ }
+}

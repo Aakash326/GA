@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TA-BG-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "6538deca863fb826a5ea938c",
+ "audio": "data/next/audio/NX-TA-BG-01.wav",
+ "latency_ms": 4884,
+ "reply": {
+  "transcript": "சீனாவின் முதல் பிரதமர் யார்?",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 291,
+  "output": 29
+ }
+}

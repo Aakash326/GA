@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT055",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "0de36a6bbe074dfed185a533",
+ "audio": "results/next/audio/NT055.wav",
+ "latency_ms": 4389,
+ "reply": {
+  "heard": "ನಿಮ್ಮ ಕೋಡ್ ಎಪ್ಪತ್ತು",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 177,
+  "output": 18
+ }
+}

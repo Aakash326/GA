@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-EN-03",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-CL-EN-03.wav",
+ "latency_ms": 5891,
+ "reply": {
+  "transcript": "When was last exile released?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 215,
+  "output": 29
+ }
+}

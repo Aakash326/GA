@@ -1,0 +1,36 @@
+{
+  "task": "blind",
+  "id": "NF-S-25-short",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "7267b946c6e7b2dd99128bc8a9b31720a5613d12ebdf00745a9b2bed3639b747",
+  "input_sha256": [
+    "b8c95fc710dc62a3884e43709f72357a434191f4da12eb4f3dfaf5006a83d02d"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-S-25-short.wav"
+  ],
+  "reply": {
+    "heard": "Your request has been received. We will contact you tomorrow.",
+    "naturalness_1to5": 3,
+    "prosody_1to5": 3,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "neutral",
+      "calm",
+      "professional"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "normal",
+    "artifacts": [],
+    "confidence": "high",
+    "reason": "Clear synthesized speech with standard, slightly robotic corporate pacing and appropriate phrasing."
+  },
+  "prompt_tokens": 329,
+  "output_tokens": 193,
+  "thought_tokens": 171,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

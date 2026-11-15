@@ -1,0 +1,40 @@
+{
+  "task": "blind",
+  "id": "NF-T-3-en-sigh-recheck-24000",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "e9a3d153594e38987d207faf78b353ff9b0fce7775cf53fa0a56cfc01269db0f",
+  "prompt": "Listen to the AUDIO without a reference transcript, model name, or requested delivery label. Assess only what is audible. Return compact JSON:\n{\"heard\":str,\"naturalness_1to5\":int,\"prosody_1to5\":int,\"intelligibility_1to5\":int,\"observed_delivery\":[str],\"nonverbal_events\":[str],\"tag_words_spoken\":bool,\"initial_sound_then_unexpected_silence\":bool,\"gap_start_s\":number|null,\"gap_duration_s\":number|null,\"leading_silence_description\":str,\"artifacts\":[str],\"confidence\":\"high|medium|low\",\"reason\":str}.\nUse 1=severe/robotic/inappropriate or unintelligible, 3=understandable with noticeable issues, 5=natural/appropriate/clear. Prosody means rhythm, stress and phrase timing. Describe whispering, shouting, excitement, slow pace, laughter, breathing or deliberate pauses ONLY when audible. Distinguish an initial click/noise from actual words; don't call ordinary sentence pauses a delivery stall. Times are approximate listening judgments. If unsure say so; these are provisional model ratings, not human MOS. Keep reasons brief.",
+  "input_sha256": [
+    "9917ba369615d1b1a13419a2a000866dc5d60c9b3a9fba746da3a64d1373dbf6"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-T-3-en-sigh-recheck-24000.wav"
+  ],
+  "reply": {
+    "heard": "Your request is ready. Please continue when you're ready.",
+    "naturalness_1to5": 4,
+    "prosody_1to5": 4,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "calm",
+      "breathy",
+      "measured pace"
+    ],
+    "nonverbal_events": [
+      "sigh",
+      "breath"
+    ],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "none",
+    "artifacts": [],
+    "confidence": "high",
+    "reason": "Audio is clear and intelligible with an audible intake of breath/sigh between sentences."
+  },
+  "prompt_tokens": 365,
+  "output_tokens": 139,
+  "thought_tokens": 268,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

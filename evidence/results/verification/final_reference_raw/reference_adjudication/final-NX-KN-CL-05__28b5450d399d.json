@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-KN-CL-05",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "28b5450d399d50b76e0c137c",
+ "audio": "data/next/audio/NX-KN-CL-05.wav",
+ "latency_ms": 6128,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "ಸಲಾಂ ಪದವು ಯಾವ ಧರ್ಮ ನಿಕಟವಾದ ಸಂಬಂಧವನ್ನು ಹೊಂದಿದೆ?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The word 'ನಿಕಟವಾದ' was misspelled as 'ನಿಖಟವಾದ' with an aspirated 'ಖ' in the candidate, and there was an errant apostrophe."
+ },
+ "tokens": {
+  "prompt": 338,
+  "output": 75
+ }
+}

@@ -1,0 +1,9 @@
+{
+  "prepared": 24,
+  "successful": 24,
+  "pending_or_failed": 0,
+  "reference_assessment": "dataset references, provisional; not human verified",
+  "scope": "finance-related read questions and technical Hindi-English code-switching; not transaction commands",
+  "wer": 0.1927710843373494,
+  "cer": 0.13247539742619227
+}

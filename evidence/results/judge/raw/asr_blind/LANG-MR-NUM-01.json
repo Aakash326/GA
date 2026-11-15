@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-MR-NUM-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-MR-NUM-01.wav",
+ "latency_ms": 6713,
+ "reply": {
+  "transcript": "2018 च जनगणनेनुसार गोव्याची जनसंख्या किती आहे?",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 265,
+  "output": 39
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T75",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ff211cb43070a94cf4b604cc",
+ "audio": "results/tts_audio/T75.wav",
+ "latency_ms": 4267,
+ "reply": {
+  "heard": "Satinder Kaur will visit the Bengaluru office.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "name",
+    "result": "correct",
+    "heard": "Satinder Kaur"
+   },
+   {
+    "id": "city",
+    "result": "correct",
+    "heard": "Bengaluru"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 376,
+  "output": 50
+ }
+}

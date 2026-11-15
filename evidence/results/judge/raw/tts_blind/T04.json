@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T04",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T04.wav",
+ "latency_ms": 3761,
+ "reply": {
+  "heard": "Your portfolio returned twelve point seven five percent this year.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 224,
+  "output": 21
+ }
+}

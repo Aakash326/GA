@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-DS-CS-HI-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "efce955d361313cad93f2022",
+ "audio": "data/next/dataset_replacement/DS-CS-HI-01.wav",
+ "latency_ms": 5348,
+ "reply": {
+  "transcript": "यदि आपके पास अच्छा bandwidth नहीं है तो आप इसे download करके देख सकते हैं spoken tutorial project team",
+  "language": "Hindi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 275,
+  "output": 43
+ }
+}

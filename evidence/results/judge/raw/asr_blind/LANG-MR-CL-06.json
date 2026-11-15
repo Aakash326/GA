@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-MR-CL-06",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-MR-CL-06.wav",
+ "latency_ms": 3340,
+ "reply": {
+  "transcript": "एका व्यक्तीचे हृदय प्रति तास सरासरी किती वेळ धडधडते?",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 285,
+  "output": 40
+ }
+}

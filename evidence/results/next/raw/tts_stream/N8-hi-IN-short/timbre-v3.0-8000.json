@@ -1,0 +1,164 @@
+{
+ "events": [
+  {
+   "event": "start",
+   "t_s": 0.0619
+  },
+  {
+   "event": "chunk",
+   "t_s": 2.0012
+  },
+  {
+   "event": "chunk",
+   "t_s": 3.0605
+  },
+  {
+   "event": "chunk",
+   "t_s": 3.0608
+  },
+  {
+   "event": "chunk",
+   "t_s": 3.0608
+  },
+  {
+   "event": "chunk",
+   "t_s": 3.0856
+  },
+  {
+   "event": "chunk",
+   "t_s": 3.0857
+  },
+  {
+   "event": "chunk",
+   "t_s": 3.09
+  },
+  {
+   "event": "chunk",
+   "t_s": 3.0903
+  },
+  {
+   "event": "chunk",
+   "t_s": 3.0905
+  },
+  {
+   "event": "chunk",
+   "t_s": 3.0907
+  },
+  {
+   "event": "chunk",
+   "t_s": 3.1117
+  },
+  {
+   "event": "chunk",
+   "t_s": 3.1118
+  },
+  {
+   "event": "chunk",
+   "t_s": 3.113
+  },
+  {
+   "event": "chunk",
+   "t_s": 3.113
+  },
+  {
+   "event": "chunk",
+   "t_s": 3.1223
+  },
+  {
+   "event": "complete",
+   "t_s": 3.1232
+  }
+ ],
+ "chunks": [
+  {
+   "index": 1,
+   "t_s": 2.0012,
+   "bytes": 980,
+   "dur_s": 0.0612
+  },
+  {
+   "index": 2,
+   "t_s": 3.0605,
+   "bytes": 4096,
+   "dur_s": 0.256
+  },
+  {
+   "index": 3,
+   "t_s": 3.0608,
+   "bytes": 4096,
+   "dur_s": 0.256
+  },
+  {
+   "index": 4,
+   "t_s": 3.0608,
+   "bytes": 224,
+   "dur_s": 0.014
+  },
+  {
+   "index": 5,
+   "t_s": 3.0856,
+   "bytes": 2348,
+   "dur_s": 0.1467
+  },
+  {
+   "index": 6,
+   "t_s": 3.0857,
+   "bytes": 1392,
+   "dur_s": 0.087
+  },
+  {
+   "index": 7,
+   "t_s": 3.09,
+   "bytes": 4096,
+   "dur_s": 0.256
+  },
+  {
+   "index": 8,
+   "t_s": 3.0903,
+   "bytes": 4096,
+   "dur_s": 0.256
+  },
+  {
+   "index": 9,
+   "t_s": 3.0905,
+   "bytes": 2992,
+   "dur_s": 0.187
+  },
+  {
+   "index": 10,
+   "t_s": 3.0907,
+   "bytes": 1398,
+   "dur_s": 0.0874
+  },
+  {
+   "index": 11,
+   "t_s": 3.1117,
+   "bytes": 4096,
+   "dur_s": 0.256
+  },
+  {
+   "index": 12,
+   "t_s": 3.1118,
+   "bytes": 2482,
+   "dur_s": 0.1551
+  },
+  {
+   "index": 13,
+   "t_s": 3.113,
+   "bytes": 1402,
+   "dur_s": 0.0876
+  },
+  {
+   "index": 14,
+   "t_s": 3.113,
+   "bytes": 556,
+   "dur_s": 0.0348
+  },
+  {
+   "index": 15,
+   "t_s": 3.1223,
+   "bytes": 306,
+   "dur_s": 0.0191
+  }
+ ]
+}

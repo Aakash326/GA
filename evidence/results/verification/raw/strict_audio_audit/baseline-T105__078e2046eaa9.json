@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T105",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "078e2046eaa9770e7545e990",
+ "audio": "results/tts_audio/T105.wav",
+ "latency_ms": 5240,
+ "reply": {
+  "heard": "तुमचे KYC pending आहे कृपया आज complete करा",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "kyc",
+    "result": "correct",
+    "heard": "KYC"
+   },
+   {
+    "id": "english",
+    "result": "correct",
+    "heard": "pending ... complete"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 381,
+  "output": 51
+ }
+}

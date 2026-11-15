@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T96",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T96.wav",
+ "latency_ms": 6396,
+ "reply": {
+  "heard": "ನಿಮ್ಮ ಬ್ಯಾಲೆನ್ಸ್ ಒಂದು ಲಕ್ಷ ಇಪ್ಪತ್ತೈದು ಸಾವಿರದ ನಾನೂರ ಐವತ್ತು ರೂಪಾಯಿ ಆಗಿದೆ.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 224,
+  "output": 40
+ }
+}

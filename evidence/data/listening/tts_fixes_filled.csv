@@ -1,0 +1,55 @@
+﻿case_id,listener_id,listener_languages,target_id,target_critical,target_result,naturalness_1to5,prosody_1to5,content_complete,meaning_preserved,artifact_flags,comment,blind_transcription,blind_before_reveal,cannot_judge,rated_at
+M-T34-A,,,value,true,wrong,,,,,,it is still 2.5 percent,,,false,2026-11-13T17:53:52.658Z
+M-T34-B,,,value,true,correct,,,,,,,,,false,2026-11-13T17:54:49.771Z
+M-T40-A,,,neg_amount,true,correct,,,,,,,,,false,2026-11-13T17:55:18.586Z
+M-T40-A,,,pos_amount,true,correct,,,,,,,,,false,2026-11-13T17:55:18.586Z
+M-T40-A,,,not,true,correct,,,,,,,,,false,2026-11-13T17:55:18.586Z
+M-T40-B,,,neg_amount,true,correct,,,,,,,,,false,2026-11-13T17:55:02.580Z
+M-T40-B,,,pos_amount,true,correct,,,,,,,,,false,2026-11-13T17:55:02.580Z
+M-T40-B,,,not,true,correct,,,,,,,,,false,2026-11-13T17:55:02.580Z
+M-T52-A,,,digits,true,correct,,,,,,,,,false,2026-11-13T17:55:26.412Z
+M-T52-B,,,digits,true,correct,,,,,,,,,false,2026-11-13T17:57:10.611Z
+M-T44-A,,,start,true,correct,,,,,,,,,false,2026-11-13T17:56:08.434Z
+M-T44-A,,,end,true,correct,,,,,,,,,false,2026-11-13T17:56:08.434Z
+M-T41-A,,,qty,true,,,,,,,still i think it is not clearly fifteen,,,false,2026-11-13T17:55:57.983Z
+M-T41-A,,,rejected,true,,,,,,,still i think it is not clearly fifteen,,,false,2026-11-13T17:55:57.983Z
+M-T41-A,,,not,true,,,,,,,still i think it is not clearly fifteen,,,false,2026-11-13T17:55:57.983Z
+M-T41-B,,,qty,true,correct,,,,,,the fifteen i still think we can you test it any way with other models and see,,,true,2026-11-13T17:57:02.613Z
+M-T41-B,,,rejected,true,correct,,,,,,the fifteen i still think we can you test it any way with other models and see,,,true,2026-11-13T17:57:02.613Z
+M-T41-B,,,not,true,correct,,,,,,the fifteen i still think we can you test it any way with other models and see,,,true,2026-11-13T17:57:02.613Z
+M-T41-SHIVANI-R,,,qty,true,,,,,,,not sure ,,,false,2026-11-13T18:01:50.757Z
+M-T41-SHIVANI-R,,,rejected,true,,,,,,,not sure ,,,false,2026-11-13T18:01:50.757Z
+M-T41-SHIVANI-R,,,not,true,,,,,,,not sure ,,,false,2026-11-13T18:01:50.757Z
+M-T41-SHIVANI-W,,,qty,true,,,,,,,,,,false,
+M-T41-SHIVANI-W,,,rejected,true,,,,,,,,,,false,
+M-T41-SHIVANI-W,,,not,true,,,,,,,,,,false,
+M-T41-KALPANA-R,,,qty,true,,,,,,,not sure still,,,false,2026-11-13T18:00:48.606Z
+M-T41-KALPANA-R,,,rejected,true,,,,,,,not sure still,,,false,2026-11-13T18:00:48.606Z
+M-T41-KALPANA-R,,,not,true,,,,,,,not sure still,,,false,2026-11-13T18:00:48.606Z
+M-T41-KALPANA-W,,,qty,true,,,,,,,okk,,,false,2026-11-13T18:02:43.740Z
+M-T41-KALPANA-W,,,rejected,true,,,,,,,okk,,,false,2026-11-13T18:02:43.740Z
+M-T41-KALPANA-W,,,not,true,,,,,,,okk,,,false,2026-11-13T18:02:43.740Z
+M-T41-AVINASH-R,,,qty,true,,,,,,,,,,false,
+M-T41-AVINASH-R,,,rejected,true,,,,,,,,,,false,
+M-T41-AVINASH-R,,,not,true,,,,,,,,,,false,
+M-T41-AVINASH-W,,,qty,true,,,,,,,not sure,,,false,2026-11-13T18:02:27.137Z
+M-T41-AVINASH-W,,,rejected,true,,,,,,,not sure,,,false,2026-11-13T18:02:27.137Z
+M-T41-AVINASH-W,,,not,true,,,,,,,not sure,,,false,2026-11-13T18:02:27.137Z
+M-T41-DEVANSH-R,,,qty,true,,,,,,,,,,false,
+M-T41-DEVANSH-R,,,rejected,true,,,,,,,,,,false,
+M-T41-DEVANSH-R,,,not,true,,,,,,,,,,false,
+M-T41-DEVANSH-W,,,qty,true,,,,,,,good ,,,false,2026-11-13T18:02:14.583Z
+M-T41-DEVANSH-W,,,rejected,true,,,,,,,good ,,,false,2026-11-13T18:02:14.583Z
+M-T41-DEVANSH-W,,,not,true,,,,,,,good ,,,false,2026-11-13T18:02:14.583Z
+M-T41-KAVERI-R,,,qty,true,,,,,,,this was good and clear,,,false,2026-11-13T18:02:03.941Z
+M-T41-KAVERI-R,,,rejected,true,,,,,,,this was good and clear,,,false,2026-11-13T18:02:03.941Z
+M-T41-KAVERI-R,,,not,true,,,,,,,this was good and clear,,,false,2026-11-13T18:02:03.941Z
+M-T41-KAVERI-W,,,qty,true,,,,,,,good ,,,false,2026-11-13T18:02:20.448Z
+M-T41-KAVERI-W,,,rejected,true,,,,,,,good ,,,false,2026-11-13T18:02:20.448Z
+M-T41-KAVERI-W,,,not,true,,,,,,,good ,,,false,2026-11-13T18:02:20.448Z
+M-T41-PRANAV-R,,,qty,true,,,,,,,same,,,false,2026-11-13T18:01:36.205Z
+M-T41-PRANAV-R,,,rejected,true,,,,,,,same,,,false,2026-11-13T18:01:36.205Z
+M-T41-PRANAV-R,,,not,true,,,,,,,same,,,false,2026-11-13T18:01:36.205Z
+M-T41-PRANAV-W,,,qty,true,,,,,,,when i hear closly i can see change ,,,false,2026-11-13T18:01:11.505Z
+M-T41-PRANAV-W,,,rejected,true,,,,,,,when i hear closly i can see change ,,,false,2026-11-13T18:01:11.505Z
+M-T41-PRANAV-W,,,not,true,,,,,,,when i hear closly i can see change ,,,false,2026-11-13T18:01:11.505Z

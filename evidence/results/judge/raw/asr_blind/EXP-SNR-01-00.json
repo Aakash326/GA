@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-SNR-01-00",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-SNR-01-00.wav",
+ "latency_ms": 4618,
+ "reply": {
+  "transcript": "How many home games does Rogers Stadium see a season?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 257,
+  "output": 40
+ }
+}

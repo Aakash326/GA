@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "python": "3.14.4",
+  "replay_command": "python run_evaluation.py --mode replay --part all --reports",
+  "replay_working_directory": "evidence",
+  "replay_log": "assets/replay_output.txt",
+  "headline_results_reproduced": true,
+  "markdown_files_checked": 11,
+  "local_markdown_links_checked": 116,
+  "broken_local_links": 0,
+  "required_repository_files_exist": true,
+  "implementation_tests": 74,
+  "two_page_pdfs": 3,
+  "trace_provenance": {
+    "original_N8/saved_trace": 14,
+    "fresh_SSE/saved_trace": 6,
+    "report4_WS/cold_warmup": 2,
+    "report4_WS/warm_measured": 10
+  },
+  "trace_source_hashes_verified": 64,
+  "streaming_traces": 32,
+  "buffer_conditions": 576,
+  "excluded_warm_ttfa_ids": [
+    "R4-WARM-WS-3-1",
+    "R4-WARM-WS-25-1"
+  ],
+  "new_human_listening_marks": 0,
+  "heldout_tts_rewrite_pairs_scored": 0,
+  "unfinished_human_studies_labeled_future_validation": true,
+  "pip_check": "No broken requirements found.",
+  "new_api_calls": 0
+}

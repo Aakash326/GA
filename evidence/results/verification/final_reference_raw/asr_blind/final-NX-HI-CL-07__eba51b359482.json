@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-NX-HI-CL-07",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "eba51b3594827fda1fee7b41",
+ "audio": "data/next/audio/NX-HI-CL-07.wav",
+ "latency_ms": 2233,
+ "reply": {
+  "transcript": "अब्दुर रहमान ख़ान कितने साल तक जीवित रहे?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 274,
+  "output": 35
+ }
+}

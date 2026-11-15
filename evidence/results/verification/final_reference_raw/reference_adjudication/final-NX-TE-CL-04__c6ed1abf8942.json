@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-TE-CL-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c6ed1abf89427a82857a64e7",
+ "audio": "data/next/audio/NX-TE-CL-04.wav",
+ "latency_ms": 4215,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "కొమ్మలపాడు గ్రామ వైశాల్యం ఎంత?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The audio says కొమ్మలపాడు with a short 'ma' vowel, not కొమ్మాలపాడు with a lengthened 'maa' vowel."
+ },
+ "tokens": {
+  "prompt": 320,
+  "output": 65
+ }
+}

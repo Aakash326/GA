@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T33",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "b2aa8852baa70059e1eb83b5",
+ "audio": "results/tts_audio/T33.wav",
+ "latency_ms": 3906,
+ "reply": {
+  "heard": "Yes",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "yes",
+    "result": "correct",
+    "heard": "Yes"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 244,
+  "output": 27
+ }
+}

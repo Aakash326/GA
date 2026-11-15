@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T77",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T77.wav",
+ "latency_ms": 3975,
+ "reply": {
+  "heard": "Please download the P D F and scan the Q R code",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 198,
+  "output": 23
+ }
+}

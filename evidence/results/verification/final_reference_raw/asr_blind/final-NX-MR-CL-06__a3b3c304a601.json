@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-NX-MR-CL-06",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "a3b3c304a6010bc125e234e3",
+ "audio": "data/next/audio/NX-MR-CL-06.wav",
+ "latency_ms": 4138,
+ "reply": {
+  "transcript": "कोयंबतूर शहर तमिळनाडूच्या कोणत्या जिल्ह्यात आहे?",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 216,
+  "output": 39
+ }
+}

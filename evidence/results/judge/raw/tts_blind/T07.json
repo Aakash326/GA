@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T07",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T07.wav",
+ "latency_ms": 4884,
+ "reply": {
+  "heard": "Your U C C has been activated.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 180,
+  "output": 18
+ }
+}

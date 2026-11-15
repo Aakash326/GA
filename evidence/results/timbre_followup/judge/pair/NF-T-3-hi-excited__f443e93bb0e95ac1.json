@@ -1,0 +1,32 @@
+{
+  "task": "pair",
+  "id": "NF-T-3-hi-excited",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "f443e93bb0e95ac1d6504a6916557c270f57a8d7d4794720167033f288bfe17a",
+  "prompt": "Two audio clips A then B use the same voice and underlying message. Model/version and condition order are hidden. The intended comparison is excited. Listen to both, compare audible delivery and retained content. Do not prefer a clip merely because an effect is expected. Decide which more clearly demonstrates the requested cue, or say indistinguishable/uncertain. Detect literal tag words and changed/missing spoken content. For speed compare pacing; for a rewrite compare the sign, zeros and time values actually heard. JSON only: {\"more_cue\":\"A|B|indistinguishable|uncertain\",\"cue_audible_A\":bool,\"cue_audible_B\":bool,\"content_preserved_A\":bool,\"content_preserved_B\":bool,\"literal_tag_spoken_A\":bool,\"literal_tag_spoken_B\":bool,\"confidence\":\"high|medium|low\",\"reason\":str}.",
+  "input_sha256": [
+    "26689287c5d46cae1fac66d042ac7f9e08345c6dfc822747184250f8172e68a8",
+    "91681c1e296372efaf1bd378163b963b320369da1dbaa61415b54c9c027abe8c"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-T-3-hi-excited.wav",
+    "results/timbre_followup/listen/NF-N-3-hi-recheck-24000.wav"
+  ],
+  "reply": {
+    "more_cue": "A",
+    "cue_audible_A": true,
+    "cue_audible_B": false,
+    "content_preserved_A": true,
+    "content_preserved_B": true,
+    "literal_tag_spoken_A": false,
+    "literal_tag_spoken_B": false,
+    "confidence": "medium",
+    "reason": "Clip A exhibits a brighter tone and higher pitch variation, giving it a somewhat more enthusiastic delivery than Clip B."
+  },
+  "prompt_tokens": 390,
+  "output_tokens": 121,
+  "thought_tokens": 117,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

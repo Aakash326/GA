@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT028",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c82a297c8dbbb1293f784f05",
+ "audio": "results/next/audio/NT028.wav",
+ "latency_ms": 3480,
+ "reply": {
+  "heard": "The call is at nine oh five a.m.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "nine oh five"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 311,
+  "output": 39
+ }
+}

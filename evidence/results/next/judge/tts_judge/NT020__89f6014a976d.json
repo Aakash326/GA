@@ -1,0 +1,31 @@
+{
+ "task": "tts_judge",
+ "id": "NT020",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "89f6014a976dc793f5b0621d",
+ "audio": "results/next/audio/NT020.wav",
+ "latency_ms": 9366,
+ "reply": {
+  "targets": [
+   {
+    "id": "sign",
+    "result": "correct",
+    "heard": "minus"
+   },
+   {
+    "id": "value",
+    "result": "correct",
+    "heard": "three thousand two hundred rupees"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The prompt is read clearly and accurately with acceptable prosody and clear Indian English accent."
+ },
+ "tokens": {
+  "prompt": 454,
+  "output": 140
+ }
+}

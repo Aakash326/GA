@@ -1,0 +1,21 @@
+{
+ "task": "asr_verify",
+ "id": "NEG-SWAP-CL-HI-04",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/CL-HI-04.wav",
+ "latency_ms": 3651,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "गर्ज वॉशिंगटन के समय न्यूयॉर्क किस देश की राजधानी थी",
+    "heard": "स्वतंत्र पाकिस्तान के पहले राष्ट्रपति कौन थे"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 286,
+  "output": 46
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT005",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "06654a4ce64879a1ffd444ae",
+ "audio": "results/next/audio/NT005.wav",
+ "latency_ms": 5035,
+ "reply": {
+  "heard": "Please send fifteen units, not fifty.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 192,
+  "output": 18
+ }
+}

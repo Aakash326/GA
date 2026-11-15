@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T105",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T105.wav",
+ "latency_ms": 8076,
+ "reply": {
+  "heard": "तुमचे K Y C पेंडिंग आहे कृपया आज कम्प्लीट करा",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 225,
+  "output": 25
+ }
+}

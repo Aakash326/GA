@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-TE-BG-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c1399e07e326e15ba12e736d",
+ "audio": "data/next/audio/NX-TE-BG-01.wav",
+ "latency_ms": 4630,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "పస్నూరి రవీందర్ యువపురస్కారం ఏ సంవత్సరంలో అందుకున్నాడు?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The speaker says పస్నూరి without the vowel 'u' in the second syllable, rather than పసునూరి."
+ },
+ "tokens": {
+  "prompt": 354,
+  "output": 68
+ }
+}

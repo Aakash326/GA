@@ -1,0 +1,33 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T79",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "8514240ef309a5d17b43250b",
+ "audio": "results/tts_audio/T79.wav",
+ "latency_ms": 4865,
+ "reply": {
+  "heard": "Did you say fifteen shares, or fifty shares?",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "question",
+    "result": "correct",
+    "heard": "?"
+   },
+   {
+    "id": "fifteen",
+    "result": "correct",
+    "heard": "fifteen"
+   },
+   {
+    "id": "fifty",
+    "result": "correct",
+    "heard": "fifty"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 370,
+  "output": 128
+ }
+}

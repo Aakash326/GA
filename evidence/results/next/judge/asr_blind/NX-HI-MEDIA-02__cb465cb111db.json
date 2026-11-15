@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-HI-MEDIA-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "cb465cb111db4b63798041a5",
+ "audio": "data/next/audio/NX-HI-MEDIA-02.wav",
+ "latency_ms": 3835,
+ "reply": {
+  "transcript": "सिख धर्म की स्थापना किसने की थी?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 243,
+  "output": 42
+ }
+}

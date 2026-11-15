@@ -1,0 +1,66 @@
+﻿model,voice,gender,persona,sentence_id,clip_id,rating_1to5,numbers_clear,favourite,latency_ms,audio_s,note
+v2.5,Ambuja,Female,Professional,HI-MIX,V25-AMBUJA-HI-MIX,,,false,971,7.2,good
+v2.5,Bhavna,Female,Friendly,HI-MIX,V25-BHAVNA-HI-MIX,,,false,1196,7.04,
+v2.5,Chitra,Female,"Warm, empathetic",HI-MIX,V25-CHITRA-HI-MIX,,,false,822,5.76,good
+v2.5,Devika,Female,Professional,EN-NUM,V25-DEVIKA-EN-NUM,,false,false,1210,9.44,good
+v2.5,Devika,Female,Professional,EN-CHAT,V25-DEVIKA-EN-CHAT,,,false,895,4.48,good
+v2.5,Jwala,Female,Friendly,HI-MIX,V25-JWALA-HI-MIX,,,false,1099,6.4,ok
+v2.5,Kaveri,Female,Professional,EN-NUM,V25-KAVERI-EN-NUM,,false,false,1152,8.64,good
+v2.5,Kaveri,Female,Professional,EN-CHAT,V25-KAVERI-EN-CHAT,,,false,912,4.16,good
+v2.5,Nalini,Female,Friendly,HI-MIX,V25-NALINI-HI-MIX,,,false,1119,5.92,ok
+v2.5,Poorvi,Female,Conversational (Hinglish),HI-MIX,V25-POORVI-HI-MIX,,,false,991,6.88,good
+v2.5,Trupti,Female,Professional,EN-NUM,V25-TRUPTI-EN-NUM,,false,false,1414,8.64,
+v2.5,Trupti,Female,Professional,EN-CHAT,V25-TRUPTI-EN-CHAT,,,false,834,4.16,
+v2.5,Urmila,Female,Professional,HI-MIX,V25-URMILA-HI-MIX,,,false,1149,6.56,
+v2.5,Yashvi,Female,"Warm, empathetic",HI-MIX,V25-YASHVI-HI-MIX,,,false,1205,6.88,
+v2.5,Deepak,Male,Professional,HI-MIX,V25-DEEPAK-HI-MIX,,,false,862,5.76,good
+v2.5,Girish,Male,"Expressive, energetic",EN-NUM,V25-GIRISH-EN-NUM,,false,false,1362,7.84,ok
+v2.5,Girish,Male,"Expressive, energetic",EN-CHAT,V25-GIRISH-EN-CHAT,,,false,810,3.68,ok
+v2.5,Hemraj,Male,"Confident, authoritative",HI-MIX,V25-HEMRAJ-HI-MIX,,,false,966,5.28,good 
+v2.5,Jalaj,Male,"Expressive, energetic",HI-MIX,V25-JALAJ-HI-MIX,,,false,1512,6.4,
+v2.5,Omkar,Male,"Confident, authoritative",HI-MIX,V25-OMKAR-HI-MIX,,,false,834,6.08,ok
+v2.5,Pranav,Male,Friendly,EN-NUM,V25-PRANAV-EN-NUM,,false,false,1663,8.96,
+v2.5,Pranav,Male,Friendly,EN-CHAT,V25-PRANAV-EN-CHAT,,,false,638,4.16,
+v2.5,Roopesh,Male,Professional,HI-MIX,V25-ROOPESH-HI-MIX,,,false,799,5.76,good
+v2.5,Shlok,Male,Conversational,EN-NUM,V25-SHLOK-EN-NUM,,false,false,1128,8.96,ok
+v2.5,Shlok,Male,Conversational,EN-CHAT,V25-SHLOK-EN-CHAT,,,false,614,4,ok
+v2.5,Vikrant,Male,Conversational,HI-MIX,V25-VIKRANT-HI-MIX,,,false,1133,6.24,
+v3.0,Chetana,Female,"Warm, empathetic",EN-NUM,V30-CHETANA-EN-NUM,,false,false,7817,11.44,good
+v3.0,Chetana,Female,"Warm, empathetic",EN-CHAT,V30-CHETANA-EN-CHAT,,,false,2906,4.96,good
+v3.0,Chetana,Female,"Warm, empathetic",HI-MIX,V30-CHETANA-HI-MIX,,,false,3521,6.4,good
+v3.0,Kalpana,Female,"Warm, empathetic",EN-NUM,V30-KALPANA-EN-NUM,,false,false,12258,12.24,good
+v3.0,Kalpana,Female,"Warm, empathetic",EN-CHAT,V30-KALPANA-EN-CHAT,,,false,3884,5.04,good
+v3.0,Kalpana,Female,"Warm, empathetic",HI-MIX,V30-KALPANA-HI-MIX,,,false,4977,7.6,good
+v3.0,Lakshmi,Female,"Expressive, energetic",EN-NUM,V30-LAKSHMI-EN-NUM,,false,false,7744,11.2,ok
+v3.0,Lakshmi,Female,"Expressive, energetic",EN-CHAT,V30-LAKSHMI-EN-CHAT,,,false,3749,5.12,ok
+v3.0,Lakshmi,Female,"Expressive, energetic",HI-MIX,V30-LAKSHMI-HI-MIX,,,false,5160,7.12,ok
+v3.0,Riyaa,Female,"Confident, authoritative",EN-NUM,V30-RIYAA-EN-NUM,,false,false,8140,11.6,ok
+v3.0,Riyaa,Female,"Confident, authoritative",EN-CHAT,V30-RIYAA-EN-CHAT,,,false,3773,4.56,ok
+v3.0,Riyaa,Female,"Confident, authoritative",HI-MIX,V30-RIYAA-HI-MIX,,,false,3883,6.88,ok
+v3.0,Shivani,Female,"Warm, empathetic",EN-NUM,V30-SHIVANI-EN-NUM,,false,false,7744,10.96,good
+v3.0,Shivani,Female,"Warm, empathetic",EN-CHAT,V30-SHIVANI-EN-CHAT,,,false,3490,5.44,good
+v3.0,Shivani,Female,"Warm, empathetic",HI-MIX,V30-SHIVANI-HI-MIX,,,false,5621,7.12,good
+v3.0,Tarika,Female,"Warm, empathetic",EN-NUM,V30-TARIKA-EN-NUM,,false,false,6547,12.16,ok
+v3.0,Tarika,Female,"Warm, empathetic",EN-CHAT,V30-TARIKA-EN-CHAT,,,false,3815,4.88,ok
+v3.0,Tarika,Female,"Warm, empathetic",HI-MIX,V30-TARIKA-HI-MIX,,,false,4213,7.36,ok
+v3.0,Vasudha,Female,"Expressive, energetic",EN-NUM,V30-VASUDHA-EN-NUM,,false,false,8364,11.68,good
+v3.0,Vasudha,Female,"Expressive, energetic",EN-CHAT,V30-VASUDHA-EN-CHAT,,,false,3931,5.12,good
+v3.0,Vasudha,Female,"Expressive, energetic",HI-MIX,V30-VASUDHA-HI-MIX,,,false,2861,7.2,good
+v3.0,Avinash,Male,Professional,EN-NUM,V30-AVINASH-EN-NUM,,false,false,7889,10.8,good
+v3.0,Avinash,Male,Professional,EN-CHAT,V30-AVINASH-EN-CHAT,,,false,3640,4.88,good
+v3.0,Avinash,Male,Professional,HI-MIX,V30-AVINASH-HI-MIX,,,false,5767,7.12,good
+v3.0,Devansh,Male,Conversational,EN-NUM,V30-DEVANSH-EN-NUM,,false,false,8307,11.84,ok
+v3.0,Devansh,Male,Conversational,EN-CHAT,V30-DEVANSH-EN-CHAT,,,false,3339,4.56,ok
+v3.0,Devansh,Male,Conversational,HI-MIX,V30-DEVANSH-HI-MIX,,,false,4760,6.56,ok
+v3.0,Harshad,Male,Professional,EN-NUM,V30-HARSHAD-EN-NUM,,false,false,4032,9.92,ok
+v3.0,Harshad,Male,Professional,EN-CHAT,V30-HARSHAD-EN-CHAT,,,false,2557,4.88,ok
+v3.0,Harshad,Male,Professional,HI-MIX,V30-HARSHAD-HI-MIX,,,false,4684,6.16,ok
+v3.0,Prakash,Male,Professional,EN-NUM,V30-PRAKASH-EN-NUM,,false,false,9341,12.32,ok
+v3.0,Prakash,Male,Professional,EN-CHAT,V30-PRAKASH-EN-CHAT,,,false,4430,5.28,ok
+v3.0,Prakash,Male,Professional,HI-MIX,V30-PRAKASH-HI-MIX,,,false,5850,7.28,ok
+v3.0,Shubham,Male,"Expressive, energetic",EN-NUM,V30-SHUBHAM-EN-NUM,,false,false,7403,10,ok
+v3.0,Shubham,Male,"Expressive, energetic",EN-CHAT,V30-SHUBHAM-EN-CHAT,,,false,3494,4.48,ok
+v3.0,Shubham,Male,"Expressive, energetic",HI-MIX,V30-SHUBHAM-HI-MIX,,,false,5683,7.2,ok
+v3.0,Yashraj,Male,"Warm, empathetic",EN-NUM,V30-YASHRAJ-EN-NUM,,false,false,7909,10.32,ok
+v3.0,Yashraj,Male,"Warm, empathetic",EN-CHAT,V30-YASHRAJ-EN-CHAT,,,false,1627,4.64,ok
+v3.0,Yashraj,Male,"Warm, empathetic",HI-MIX,V30-YASHRAJ-HI-MIX,,,false,2329,7.6,ok

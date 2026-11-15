@@ -1,0 +1,35 @@
+{
+  "task": "blind",
+  "id": "NF-R-25-short-1",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "ec2e48b08e76ffec2f982204eabde0bbdf902969090c7f4b247bfc0f0a1e785d",
+  "input_sha256": [
+    "7ff5ee716285e1ea0e14d14977ca79618d3f82308b4e570c1078fec37b04269a"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-R-25-short-1.wav"
+  ],
+  "reply": {
+    "heard": "Your request has been received. We will contact you tomorrow.",
+    "naturalness_1to5": 3,
+    "prosody_1to5": 3,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "neutral",
+      "formal"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "none",
+    "artifacts": [],
+    "confidence": "high",
+    "reason": "Clear synthesized speech with standard, slightly flat prosody."
+  },
+  "prompt_tokens": 321,
+  "output_tokens": 125,
+  "thought_tokens": 175,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

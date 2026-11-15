@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-DS-CS-HI-12",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "7a449c6b0500c184bd8b9de3",
+ "audio": "data/next/dataset_replacement/DS-CS-HI-12.wav",
+ "latency_ms": 4584,
+ "reply": {
+  "transcript": "अब अपने text में document शब्द को खोजें और file शब्द से बदलें",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 300,
+  "output": 39
+ }
+}

@@ -1,0 +1,32 @@
+{
+  "task": "pair",
+  "id": "NF-T-3-hi-whispers",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "30794399a85f3588c5514730dbde47e4353ebf9b611d8b891db7ee9967d61b84",
+  "prompt": "Two audio clips A then B use the same voice and underlying message. Model/version and condition order are hidden. The intended comparison is whispers. Listen to both, compare audible delivery and retained content. Do not prefer a clip merely because an effect is expected. Decide which more clearly demonstrates the requested cue, or say indistinguishable/uncertain. Detect literal tag words and changed/missing spoken content. For speed compare pacing; for a rewrite compare the sign, zeros and time values actually heard. JSON only: {\"more_cue\":\"A|B|indistinguishable|uncertain\",\"cue_audible_A\":bool,\"cue_audible_B\":bool,\"content_preserved_A\":bool,\"content_preserved_B\":bool,\"literal_tag_spoken_A\":bool,\"literal_tag_spoken_B\":bool,\"confidence\":\"high|medium|low\",\"reason\":str}.",
+  "input_sha256": [
+    "1a566666388e9ad7341c61d6ebbe1291640bf7bc65344fe33250e15506ef6295",
+    "91681c1e296372efaf1bd378163b963b320369da1dbaa61415b54c9c027abe8c"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-T-3-hi-whispers.wav",
+    "results/timbre_followup/listen/NF-N-3-hi-recheck-24000.wav"
+  ],
+  "reply": {
+    "more_cue": "A",
+    "cue_audible_A": true,
+    "cue_audible_B": false,
+    "content_preserved_A": true,
+    "content_preserved_B": true,
+    "literal_tag_spoken_A": false,
+    "literal_tag_spoken_B": false,
+    "confidence": "high",
+    "reason": "Clip A transitions into a whisper for the second sentence, whereas Clip B is spoken in a standard voice throughout."
+  },
+  "prompt_tokens": 399,
+  "output_tokens": 121,
+  "thought_tokens": 140,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

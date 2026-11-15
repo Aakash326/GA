@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T71",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5ace4285db539899d3435bb5",
+ "audio": "results/tts_audio/T71.wav",
+ "latency_ms": 3801,
+ "reply": {
+  "heard": "The RTGS and IMPS services have different limits.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "rtgs",
+    "result": "correct",
+    "heard": "RTGS"
+   },
+   {
+    "id": "imps",
+    "result": "correct",
+    "heard": "IMPS"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 414,
+  "output": 52
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-NX-EN-CL-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "a6788cd5004f130cbf00a901",
+ "audio": "data/next/audio/NX-EN-CL-03.wav",
+ "latency_ms": 2949,
+ "reply": {
+  "transcript": "Anatolian leopards considered rare",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 248,
+  "output": 30
+ }
+}

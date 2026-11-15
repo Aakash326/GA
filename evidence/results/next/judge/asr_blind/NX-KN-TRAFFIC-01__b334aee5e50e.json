@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-KN-TRAFFIC-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "b334aee5e50e240ef6893fdc",
+ "audio": "data/next/audio/NX-KN-TRAFFIC-01.wav",
+ "latency_ms": 6383,
+ "reply": {
+  "transcript": "ಸ್ವತಂತ್ರ ಬಾಂಗ್ಲಾದೇಶದ ಮೊದಲ ಚಲನಚಿತ್ರೋತ್ಸವ ಯಾವ ವರ್ಷದಲ್ಲಿ ನೆರೆಯಿತು?",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 283,
+  "output": 50
+ }
+}

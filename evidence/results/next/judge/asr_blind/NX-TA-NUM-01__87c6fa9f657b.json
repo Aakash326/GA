@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TA-NUM-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "87c6fa9f657bccb2e53d051a",
+ "audio": "data/next/audio/NX-TA-NUM-01.wav",
+ "latency_ms": 5736,
+ "reply": {
+  "transcript": "2018 ஆம் ஆண்டில் பங்களாதேஷின் இட ஒதுக்கீடு சீர்திருத்த இயக்கத்தில் எத்தனை பேர் காயமடைந்தனர்",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 406,
+  "output": 51
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-KN-NUM-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "28f5724ea6a3c71c2c39eb49",
+ "audio": "data/next/audio/NX-KN-NUM-04.wav",
+ "latency_ms": 5538,
+ "reply": {
+  "transcript": "2010 ರಲ್ಲೂ ಚೀನಾ ಕೃಷಿ ವಲಯದಲ್ಲಿ ಪ್ರಮುಖ ಸ್ಥಾನವನ್ನು ಹೊಂದಿದೆಯಾ",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 299,
+  "output": 48
+ }
+}

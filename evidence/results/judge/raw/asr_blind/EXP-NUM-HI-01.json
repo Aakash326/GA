@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-NUM-HI-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-NUM-HI-01.wav",
+ "latency_ms": 4503,
+ "reply": {
+  "transcript": "2019 तक बाइबल का कितनी भाषाओं में अनुवाद किया गया था?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 265,
+  "output": 39
+ }
+}

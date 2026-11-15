@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TA-CL-05",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f2c7315ac282044ed0bca37f",
+ "audio": "data/next/audio/NX-TA-CL-05.wav",
+ "latency_ms": 6246,
+ "reply": {
+  "transcript": "ஆப்கானிஸ்தானின் அமீர் நஸ்ருல்லா கானின் தந்தையின் பெயர் என்ன",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 271,
+  "output": 45
+ }
+}

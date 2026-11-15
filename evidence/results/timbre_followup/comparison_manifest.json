@@ -1,0 +1,174 @@
+{
+  "page": "timbre_comparison.html",
+  "standalone": true,
+  "embedded_audio_clips": 18,
+  "comparison_pairs": 9,
+  "rest_selection": "Median-latency run separately per model/length; 5 repeats each, fixed selection rule",
+  "streaming_audio": "Existing independent arrival-timed PCM reconstruction, including startup and starvation zeros",
+  "voices": "Tarika (v3.0) and Kaveri (v2.5); different voices, no universal quality ranking",
+  "new_api_calls": 0,
+  "assets": [
+    {
+      "asset": "R4-R-3-short-3-completed_audio",
+      "case_id": "R4-R-3-short-3",
+      "kind": "completed_audio",
+      "source_path": "results/report4/listen/R4-R-3-short-3.wav",
+      "sha256": "4df976bd524fab2b7f65daca48eb7cb25dfe1c04775bf16137ee4da32a51de0b",
+      "bytes": 169004,
+      "duration_s": 3.52
+    },
+    {
+      "asset": "NF-S-3-short-network_playback",
+      "case_id": "NF-S-3-short",
+      "kind": "network_playback",
+      "source_path": "results/timbre_followup/playback/NF-S-3-short__immediate.wav",
+      "sha256": "eb865aeefe1f0857edf1b0822270ebfdc9fd60f3e04e35eb68c6b2a91b6cec07",
+      "bytes": 320856,
+      "duration_s": 6.683583333333333
+    },
+    {
+      "asset": "R4-R-25-short-3-completed_audio",
+      "case_id": "R4-R-25-short-3",
+      "kind": "completed_audio",
+      "source_path": "results/report4/listen/R4-R-25-short-3.wav",
+      "sha256": "f2d8448d8b6203991840f7820777606f00399a859890bc16a0d6267dab25343f",
+      "bytes": 145964,
+      "duration_s": 3.04
+    },
+    {
+      "asset": "NF-S-25-short-network_playback",
+      "case_id": "NF-S-25-short",
+      "kind": "network_playback",
+      "source_path": "results/timbre_followup/playback/NF-S-25-short__immediate.wav",
+      "sha256": "f54786cc79ead118eecdce6b64303c394a6f6699abe4daeb9be47a3635ea2bb4",
+      "bytes": 154288,
+      "duration_s": 3.213416666666667
+    },
+    {
+      "asset": "R4-R-3-medium-5-completed_audio",
+      "case_id": "R4-R-3-medium-5",
+      "kind": "completed_audio",
+      "source_path": "results/report4/listen/R4-R-3-medium-5.wav",
+      "sha256": "937673550e6bc16a6425bab3fb9d58acd583b78e4761a280cb8867fc397d87fe",
+      "bytes": 710444,
+      "duration_s": 14.8
+    },
+    {
+      "asset": "NF-S-3-medium-network_playback",
+      "case_id": "NF-S-3-medium",
+      "kind": "network_playback",
+      "source_path": "results/timbre_followup/playback/NF-S-3-medium__immediate.wav",
+      "sha256": "056de26493ba37e07697dc2b4f39345c7bf07ed4890af79bbeb2b79866818162",
+      "bytes": 1146202,
+      "duration_s": 23.878291666666666
+    },
+    {
+      "asset": "R4-R-25-medium-5-completed_audio",
+      "case_id": "R4-R-25-medium-5",
+      "kind": "completed_audio",
+      "source_path": "results/report4/listen/R4-R-25-medium-5.wav",
+      "sha256": "55bc6b58f17f911f1a21caba6fa05ba2a81ef218df34556c56f97716558836ad",
+      "bytes": 844844,
+      "duration_s": 17.6
+    },
+    {
+      "asset": "NF-S-25-medium-network_playback",
+      "case_id": "NF-S-25-medium",
+      "kind": "network_playback",
+      "source_path": "results/timbre_followup/playback/NF-S-25-medium__immediate.wav",
+      "sha256": "695d212b3e761c69c2ad71afc89e79c084f995b8340a23fc516ce4ddfe6c22c8",
+      "bytes": 852894,
+      "duration_s": 17.767708333333335
+    },
+    {
+      "asset": "R4-R-3-long-3-completed_audio",
+      "case_id": "R4-R-3-long-3",
+      "kind": "completed_audio",
+      "source_path": "results/report4/listen/R4-R-3-long-3.wav",
+      "sha256": "1b8b1432df1c674e1422d12b360282ff19d7aa5ca432f79921601912c5143972",
+      "bytes": 2538284,
+      "duration_s": 52.88
+    },
+    {
+      "asset": "NF-S-3-long-network_playback",
+      "case_id": "NF-S-3-long",
+      "kind": "network_playback",
+      "source_path": "results/timbre_followup/playback/NF-S-3-long__immediate.wav",
+      "sha256": "75dc7f1c7f28fefa40666e2021385d8b29b5846a68c81090354eb7fe9a4a9c56",
+      "bytes": 2157774,
+      "duration_s": 44.952708333333334
+    },
+    {
+      "asset": "R4-R-25-long-4-completed_audio",
+      "case_id": "R4-R-25-long-4",
+      "kind": "completed_audio",
+      "source_path": "results/report4/listen/R4-R-25-long-4.wav",
+      "sha256": "2a1716900e9074389ce837447e07f1d235bdcff4e49259e23d1de98c89e13e9c",
+      "bytes": 2081324,
+      "duration_s": 43.36
+    },
+    {
+      "asset": "NF-S-25-long-network_playback",
+      "case_id": "NF-S-25-long",
+      "kind": "network_playback",
+      "source_path": "results/timbre_followup/playback/NF-S-25-long__immediate.wav",
+      "sha256": "c88562cad9ed60b998ae23c56841e38cfb282f49718f0607f8922bf8d42f6cab",
+      "bytes": 2051060,
+      "duration_s": 42.7295
+    },
+    {
+      "asset": "NF-N-3-en-completed_audio",
+      "case_id": "NF-N-3-en",
+      "kind": "completed_audio",
+      "source_path": "results/timbre_followup/listen/NF-N-3-en.wav",
+      "sha256": "d7cfb60caf0eaa67241cab4151d0464892ea0fbfd7956e5e7f1bfffbfb5c7590",
+      "bytes": 153644,
+      "duration_s": 3.2
+    },
+    {
+      "asset": "NF-N-25-en-completed_audio",
+      "case_id": "NF-N-25-en",
+      "kind": "completed_audio",
+      "source_path": "results/timbre_followup/listen/NF-N-25-en.wav",
+      "sha256": "d3f5bc0bbc4389ddf959a491d6f296c17f639a53b236c203088041f2d58c1802",
+      "bytes": 122924,
+      "duration_s": 2.56
+    },
+    {
+      "asset": "NF-T-3-en-whispers-completed_audio",
+      "case_id": "NF-T-3-en-whispers",
+      "kind": "completed_audio",
+      "source_path": "results/timbre_followup/listen/NF-T-3-en-whispers.wav",
+      "sha256": "15d1c30bad59dda7c7a9d03c8d2c5c2925f5bcfbc8d4ef97ee10a704344c55a9",
+      "bytes": 155384,
+      "duration_s": 3.23625
+    },
+    {
+      "asset": "NF-T-25-en-whispers-completed_audio",
+      "case_id": "NF-T-25-en-whispers",
+      "kind": "completed_audio",
+      "source_path": "results/timbre_followup/listen/NF-T-25-en-whispers.wav",
+      "sha256": "af1a1d01352b622b8fd271fdb6884839fe84e7f71f5b608465368c8d054908b0",
+      "bytes": 130604,
+      "duration_s": 2.72
+    },
+    {
+      "asset": "NF-T-3-en-excited-completed_audio",
+      "case_id": "NF-T-3-en-excited",
+      "kind": "completed_audio",
+      "source_path": "results/timbre_followup/listen/NF-T-3-en-excited.wav",
+      "sha256": "afbdf0f292f4bc356fb19901cdc3757e45d68808e95f83907e11f848f03d20a9",
+      "bytes": 163838,
+      "duration_s": 3.412375
+    },
+    {
+      "asset": "NF-T-25-en-excited-completed_audio",
+      "case_id": "NF-T-25-en-excited",
+      "kind": "completed_audio",
+      "source_path": "results/timbre_followup/listen/NF-T-25-en-excited.wav",
+      "sha256": "412e7ac55e997d9c985f23bb8d1dad17162c2fdeb453257282f5469a28be1b48",
+      "bytes": 130604,
+      "duration_s": 2.72
+    }
+  ]
+}

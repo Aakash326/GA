@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-KN-CL-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "cd6efa8f6d21c8cd11ec7a50",
+ "audio": "data/next/audio/NX-KN-CL-01.wav",
+ "latency_ms": 4294,
+ "reply": {
+  "transcript": "ಸೋವಿಯತ್ ಒಕ್ಕೂಟದಲ್ಲಿ ಒಟ್ಟು ಎಷ್ಟು ದೇಶಗಳಿದ್ದವು?",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 238,
+  "output": 50
+ }
+}

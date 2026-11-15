@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-EN-NUM-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "a7e4c4adc7d166bd42cdcd05",
+ "audio": "data/next/audio/NX-EN-NUM-04.wav",
+ "latency_ms": 4783,
+ "reply": {
+  "transcript": "Who was the most popular jazz artist of the 20th century?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 290,
+  "output": 38
+ }
+}

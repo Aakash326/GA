@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T32",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "4f9db9e988074fe8971a567c",
+ "audio": "results/tts_audio/T32.wav",
+ "latency_ms": 5112,
+ "reply": {
+  "heard": "आपका अनुरोध मिल गया है। हम कल आपसे संपर्क करेंगे।",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "content",
+    "result": "correct",
+    "heard": "आपका अनुरोध मिल गया है। हम कल आपसे संपर्क करेंगे।"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 332,
+  "output": 48
+ }
+}

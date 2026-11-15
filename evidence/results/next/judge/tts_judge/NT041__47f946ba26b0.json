@@ -1,0 +1,33 @@
+{
+ "task": "tts_judge",
+ "id": "NT041",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "47f946ba26b07a44080c1d22",
+ "audio": "results/next/audio/NT041.wav",
+ "latency_ms": 38998,
+ "reply": {
+  "targets": [
+   {
+    "id": "sign",
+    "result": "wrong",
+    "heard": ""
+   },
+   {
+    "id": "value",
+    "result": "wrong",
+    "heard": "పాయింట్ ఐదు పర్సెంట్"
+   }
+  ],
+  "content_complete": false,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [
+   "omission"
+  ],
+  "comment": "The minus sign and the integer 'one' were omitted from the spoken output."
+ },
+ "tokens": {
+  "prompt": 436,
+  "output": 150
+ }
+}

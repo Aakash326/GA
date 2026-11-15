@@ -1,0 +1,30 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT064",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "9fe5360f9a12a8742b86f95a",
+ "audio": "results/next/audio/NT064.wav",
+ "latency_ms": 5804,
+ "reply": {
+  "heard": "आपका balance minus तीन हज़ार दो सौ रुपए है",
+  "target_spec_issues": [
+   "Target 'must_hear' is written in English ('three thousand two hundred rupees') for a Hindi utterance ('तीन हज़ार दो सौ रुपए')"
+  ],
+  "targets": [
+   {
+    "id": "sign",
+    "result": "correct",
+    "heard": "minus"
+   },
+   {
+    "id": "value",
+    "result": "correct",
+    "heard": "तीन हज़ार दो सौ रुपए"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 368,
+  "output": 79
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "task": "asr_verify",
+ "id": "LANG-TA-CL-08",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-TA-CL-08.wav",
+ "latency_ms": 5596,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "மின்ஹல்லுடைய",
+    "heard": "மஜ்னூனுடைய"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 298,
+  "output": 35
+ }
+}

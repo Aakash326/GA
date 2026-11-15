@@ -1,0 +1,16 @@
+﻿case_id,model,voice,input_text,prisma_transcript,prisma_heard_15,prisma_heard_50,both_correct
+T41,timbre-v3.0,Tarika,"The quantity is 15, not 50.",The quantity is 15 not 50.,True,True,True
+M-T41-A,timbre-v3.0,Tarika,"The quantity is fifteen, not fifty.",The quantity is 15 not 50.,True,True,True
+M-T41-B,timbre-v3.0,Tarika,"The quantity is one five, fifteen, not five zero, fifty.",The quantity is 1515 not 5050.,False,False,False
+M-T41-SHIVANI-R,timbre-v3.0,Shivani,"The quantity is 15, not 50.",The quantity is 15 not 50.,True,True,True
+M-T41-SHIVANI-W,timbre-v3.0,Shivani,"The quantity is fifteen, not fifty.",The quantity is 15 not 50.,True,True,True
+M-T41-KALPANA-R,timbre-v3.0,Kalpana,"The quantity is 15, not 50.",The quantity is 15 not 50.,True,True,True
+M-T41-KALPANA-W,timbre-v3.0,Kalpana,"The quantity is fifteen, not fifty.",The quantity is 15 not 50.,True,True,True
+M-T41-AVINASH-R,timbre-v3.0,Avinash,"The quantity is 15, not 50.",The quantity is 15 not 50.,True,True,True
+M-T41-AVINASH-W,timbre-v3.0,Avinash,"The quantity is fifteen, not fifty.",The quantity is 15 not 50.,True,True,True
+M-T41-DEVANSH-R,timbre-v3.0,Devansh,"The quantity is 15, not 50.",The quantity is 15 not 50.,True,True,True
+M-T41-DEVANSH-W,timbre-v3.0,Devansh,"The quantity is fifteen, not fifty.",The quantity is 15 not 50.,True,True,True
+M-T41-KAVERI-R,timbre-v2.5,Kaveri,"The quantity is 15, not 50.",The quantity is 15 not 50.,True,True,True
+M-T41-KAVERI-W,timbre-v2.5,Kaveri,"The quantity is fifteen, not fifty.",The quantity is 15 not 50.,True,True,True
+M-T41-PRANAV-R,timbre-v2.5,Pranav,"The quantity is 15, not 50.",The quantity is 15 not 50.,True,True,True
+M-T41-PRANAV-W,timbre-v2.5,Pranav,"The quantity is fifteen, not fifty.",The quantity is 15 not 50.,True,True,True

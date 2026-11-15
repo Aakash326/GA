@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T63",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ed43147447b07e16e2ce28b3",
+ "audio": "results/tts_audio/T63.wav",
+ "latency_ms": 5226,
+ "reply": {
+  "heard": "Your refund abhi pending hai kripya kal phir check karein",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "english",
+    "result": "correct",
+    "heard": "refund ... pending ... check"
+   },
+   {
+    "id": "hindi",
+    "result": "correct",
+    "heard": "abhi ... kal phir"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 360,
+  "output": 59
+ }
+}

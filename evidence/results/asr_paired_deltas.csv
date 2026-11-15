@@ -1,0 +1,59 @@
+﻿condition,clip_id,source,lang,src_word_edits,word_edits,ref_words,src_char_edits,char_edits,ref_chars,dWER_pp,dCER_pp
+"real traffic take vs clean take (Telugu, 1 speaker)",RNP-TE-01N,RNP-TE-01C,te-IN,4,3,7,16,15,49,-14.3,-2.0
+"real traffic take vs clean take (Telugu, 1 speaker)",RNP-TE-02N,RNP-TE-02C,te-IN,3,3,5,10,12,29,0.0,6.9
+"real traffic take vs clean take (Telugu, 1 speaker)",RNP-TE-03N,RNP-TE-03C,te-IN,2,2,5,1,1,26,0.0,0.0
+noise 20 dB SNR vs clean,SNR-EN-20,CL-EN-01,en-IN,0,0,5,0,0,32,0.0,0.0
+noise 10 dB SNR vs clean,SNR-EN-10,CL-EN-01,en-IN,0,0,5,0,0,32,0.0,0.0
+noise 0 dB SNR vs clean,SNR-EN-00,CL-EN-01,en-IN,0,1,5,0,1,32,20.0,3.1
+noise 20 dB SNR vs clean,SNR-HI-20,CL-HI-01,hi-IN,2,2,6,12,12,28,0.0,0.0
+noise 10 dB SNR vs clean,SNR-HI-10,CL-HI-01,hi-IN,2,2,6,12,12,28,0.0,0.0
+noise 0 dB SNR vs clean,SNR-HI-00,CL-HI-01,hi-IN,2,3,6,12,14,28,16.7,7.1
+8 kHz band-limited vs clean (bandwidth),TEL-EN-8K,CL-EN-02,en-IN,0,0,8,0,0,43,0.0,0.0
+A-law vs 8 kHz PCM (codec only),TEL-EN-ALAW,TEL-EN-8K,en-IN,0,0,8,0,0,43,0.0,0.0
+μ-law vs 8 kHz PCM (codec only),TEL-EN-ULAW,TEL-EN-8K,en-IN,0,0,8,0,0,43,0.0,0.0
+8 kHz band-limited vs clean (bandwidth),TEL-HI-8K,CL-HI-02,hi-IN,0,0,5,0,0,26,0.0,0.0
+A-law vs 8 kHz PCM (codec only),TEL-HI-ALAW,TEL-HI-8K,hi-IN,0,0,5,0,0,26,0.0,0.0
+μ-law vs 8 kHz PCM (codec only),TEL-HI-ULAW,TEL-HI-8K,hi-IN,0,0,5,0,0,26,0.0,0.0
+inserted pause vs original,PAUSE-EN-01,CL-EN-03,en-IN,0,0,6,0,0,37,0.0,0.0
+noise 20 dB SNR vs clean,EXP-SNR-01-20,EXP-CL-EN-01,en-IN,1,1,10,1,1,53,0.0,0.0
+noise 10 dB SNR vs clean,EXP-SNR-01-10,EXP-CL-EN-01,en-IN,1,1,10,1,3,53,0.0,3.8
+noise 0 dB SNR vs clean,EXP-SNR-01-00,EXP-CL-EN-01,en-IN,1,1,10,1,3,53,0.0,3.8
+8 kHz band-limited vs clean (bandwidth),EXP-TEL-01-8K,EXP-CL-EN-01,en-IN,1,1,10,1,1,53,0.0,0.0
+A-law vs 8 kHz PCM (codec only),EXP-TEL-01-ALAW,EXP-TEL-01-8K,en-IN,1,1,10,1,1,53,0.0,0.0
+μ-law vs 8 kHz PCM (codec only),EXP-TEL-01-ULAW,EXP-TEL-01-8K,en-IN,1,1,10,1,1,53,0.0,0.0
+inserted pause vs original,EXP-PAUSE-01,EXP-CL-EN-01,en-IN,1,1,10,1,1,53,0.0,0.0
+noise 20 dB SNR vs clean,EXP-SNR-02-20,EXP-CL-EN-02,en-IN,0,0,6,0,0,31,0.0,0.0
+noise 10 dB SNR vs clean,EXP-SNR-02-10,EXP-CL-EN-02,en-IN,0,0,6,0,0,31,0.0,0.0
+noise 0 dB SNR vs clean,EXP-SNR-02-00,EXP-CL-EN-02,en-IN,0,0,6,0,0,31,0.0,0.0
+8 kHz band-limited vs clean (bandwidth),EXP-TEL-02-8K,EXP-CL-EN-02,en-IN,0,0,6,0,0,31,0.0,0.0
+A-law vs 8 kHz PCM (codec only),EXP-TEL-02-ALAW,EXP-TEL-02-8K,en-IN,0,0,6,0,0,31,0.0,0.0
+μ-law vs 8 kHz PCM (codec only),EXP-TEL-02-ULAW,EXP-TEL-02-8K,en-IN,0,0,6,0,0,31,0.0,0.0
+inserted pause vs original,EXP-PAUSE-02,EXP-CL-EN-02,en-IN,0,0,6,0,0,31,0.0,0.0
+noise 20 dB SNR vs clean,EXP-SNR-03-20,EXP-CL-HI-01,hi-IN,0,0,11,0,0,56,0.0,0.0
+noise 10 dB SNR vs clean,EXP-SNR-03-10,EXP-CL-HI-01,hi-IN,0,0,11,0,0,56,0.0,0.0
+noise 0 dB SNR vs clean,EXP-SNR-03-00,EXP-CL-HI-01,hi-IN,0,1,11,0,3,56,9.1,5.4
+8 kHz band-limited vs clean (bandwidth),EXP-TEL-03-8K,EXP-CL-HI-01,hi-IN,0,0,11,0,0,56,0.0,0.0
+A-law vs 8 kHz PCM (codec only),EXP-TEL-03-ALAW,EXP-TEL-03-8K,hi-IN,0,0,11,0,0,56,0.0,0.0
+μ-law vs 8 kHz PCM (codec only),EXP-TEL-03-ULAW,EXP-TEL-03-8K,hi-IN,0,0,11,0,0,56,0.0,0.0
+inserted pause vs original,EXP-PAUSE-03,EXP-CL-HI-01,hi-IN,0,0,11,0,0,56,0.0,0.0
+noise 20 dB SNR vs clean,EXP-SNR-04-20,EXP-CL-HI-02,hi-IN,1,1,11,6,6,55,0.0,0.0
+noise 10 dB SNR vs clean,EXP-SNR-04-10,EXP-CL-HI-02,hi-IN,1,1,11,6,6,55,0.0,0.0
+noise 0 dB SNR vs clean,EXP-SNR-04-00,EXP-CL-HI-02,hi-IN,1,1,11,6,6,55,0.0,0.0
+8 kHz band-limited vs clean (bandwidth),EXP-TEL-04-8K,EXP-CL-HI-02,hi-IN,1,1,11,6,6,55,0.0,0.0
+A-law vs 8 kHz PCM (codec only),EXP-TEL-04-ALAW,EXP-TEL-04-8K,hi-IN,1,1,11,6,6,55,0.0,0.0
+μ-law vs 8 kHz PCM (codec only),EXP-TEL-04-ULAW,EXP-TEL-04-8K,hi-IN,1,1,11,6,6,55,0.0,0.0
+inserted pause vs original,EXP-PAUSE-04,EXP-CL-HI-02,hi-IN,1,1,11,6,6,55,0.0,0.0
+noise 20 dB SNR vs clean,EXP-SNR-05-20,EXP-CL-TE-01,te-IN,0,0,6,0,0,37,0.0,0.0
+noise 10 dB SNR vs clean,EXP-SNR-05-10,EXP-CL-TE-01,te-IN,0,0,6,0,0,37,0.0,0.0
+noise 0 dB SNR vs clean,EXP-SNR-05-00,EXP-CL-TE-01,te-IN,0,0,6,0,0,37,0.0,0.0
+8 kHz band-limited vs clean (bandwidth),EXP-TEL-05-8K,EXP-CL-TE-01,te-IN,0,0,6,0,0,37,0.0,0.0
+A-law vs 8 kHz PCM (codec only),EXP-TEL-05-ALAW,EXP-TEL-05-8K,te-IN,0,0,6,0,0,37,0.0,0.0
+μ-law vs 8 kHz PCM (codec only),EXP-TEL-05-ULAW,EXP-TEL-05-8K,te-IN,0,0,6,0,0,37,0.0,0.0
+inserted pause vs original,EXP-PAUSE-05,EXP-CL-TE-01,te-IN,0,0,6,0,0,37,0.0,0.0
+noise 20 dB SNR vs clean,EXP-SNR-06-20,EXP-CL-TE-02,te-IN,2,3,4,3,5,37,25.0,5.4
+noise 10 dB SNR vs clean,EXP-SNR-06-10,EXP-CL-TE-02,te-IN,2,3,4,3,5,37,25.0,5.4
+noise 0 dB SNR vs clean,EXP-SNR-06-00,EXP-CL-TE-02,te-IN,2,4,4,3,12,37,50.0,24.3
+8 kHz band-limited vs clean (bandwidth),EXP-TEL-06-8K,EXP-CL-TE-02,te-IN,2,2,4,3,3,37,0.0,0.0
+A-law vs 8 kHz PCM (codec only),EXP-TEL-06-ALAW,EXP-TEL-06-8K,te-IN,2,2,4,3,3,37,0.0,0.0
+μ-law vs 8 kHz PCM (codec only),EXP-TEL-06-ULAW,EXP-TEL-06-8K,te-IN,2,2,4,3,3,37,0.0,0.0
+inserted pause vs original,EXP-PAUSE-06,EXP-CL-TE-02,te-IN,2,3,4,3,5,37,25.0,5.4

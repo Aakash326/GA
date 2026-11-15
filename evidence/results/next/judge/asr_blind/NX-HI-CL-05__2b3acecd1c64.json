@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-HI-CL-05",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "2b3acecd1c64301acada049c",
+ "audio": "data/next/audio/NX-HI-CL-05.wav",
+ "latency_ms": 3783,
+ "reply": {
+  "transcript": "किसका पुत्र हिंदू देवताओं का राजा इंद्र है?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 229,
+  "output": 33
+ }
+}

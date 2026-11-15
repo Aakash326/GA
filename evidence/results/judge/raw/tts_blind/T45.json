@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T45",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T45.wav",
+ "latency_ms": 3759,
+ "reply": {
+  "heard": "The payment date is third November twenty twenty six not thirtieth November twenty twenty six.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 272,
+  "output": 34
+ }
+}

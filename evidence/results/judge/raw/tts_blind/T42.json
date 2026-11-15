@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T42",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T42.wav",
+ "latency_ms": 4745,
+ "reply": {
+  "heard": "The interest rate changed from seven point zero five percent to seven point five zero percent.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 266,
+  "output": 27
+ }
+}

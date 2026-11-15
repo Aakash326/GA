@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-DS-CS-HI-10",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c96a866edc8827212de59f24",
+ "audio": "data/next/dataset_replacement/DS-CS-HI-10.wav",
+ "latency_ms": 27351,
+ "reply": {
+  "transcript": "click करने की आवश्यकता है और फिर manual break option पर click करें dialog",
+  "language": "Hindi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 250,
+  "output": 48
+ }
+}

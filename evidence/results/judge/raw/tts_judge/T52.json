@@ -1,0 +1,25 @@
+{
+ "task": "tts_judge",
+ "id": "T52",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T52.wav",
+ "latency_ms": 6459,
+ "reply": {
+  "targets": [
+   {
+    "id": "digits",
+    "result": "wrong",
+    "heard": "seventy"
+   }
+  ],
+  "content_complete": false,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "Leading zeros were omitted, reading '0070' simply as 'seventy'."
+ },
+ "tokens": {
+  "prompt": 394,
+  "output": 79
+ }
+}

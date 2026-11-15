@@ -1,0 +1,31 @@
+{
+  "task": "pair",
+  "id": "NF-T-3-en-shouting",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "27c3d430d204eaf80a104ed9ad347019915ee81c88311ad7c43c1e4a0361cffd",
+  "input_sha256": [
+    "f9c09e72b1224c304cc8047c0ac67a3d8c729dac0e77d0c35894635e2b1a16de",
+    "d7cfb60caf0eaa67241cab4151d0464892ea0fbfd7956e5e7f1bfffbfb5c7590"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-T-3-en-shouting.wav",
+    "results/timbre_followup/listen/NF-N-3-en.wav"
+  ],
+  "reply": {
+    "more_cue": "A",
+    "cue_audible_A": true,
+    "cue_audible_B": false,
+    "content_preserved_A": true,
+    "content_preserved_B": true,
+    "literal_tag_spoken_A": false,
+    "literal_tag_spoken_B": false,
+    "confidence": "high",
+    "reason": "Clip A projects with raised vocal intensity and shouting on the second sentence, whereas Clip B maintains a calm, conversational tone throughout."
+  },
+  "prompt_tokens": 347,
+  "output_tokens": 124,
+  "thought_tokens": 165,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

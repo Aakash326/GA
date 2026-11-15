@@ -1,0 +1,30 @@
+{
+ "task": "asr_verify",
+ "id": "NX-KN-MEDIA-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "bd7e9d4e545d5634906bcfea",
+ "audio": "data/next/audio/NX-KN-MEDIA-02.wav",
+ "latency_ms": 6914,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "ಟಂಗುಟೂರಿ",
+    "heard": "ತಂಗುಟೂರಿ"
+   },
+   {
+    "reference": "ಪಂಟುಳು",
+    "heard": "ಪಂತುಲು"
+   },
+   {
+    "reference": "ಶೀರ್ಷಕೆ",
+    "heard": "ಶೀರ್ಷಿಕೆ"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 313,
+  "output": 73
+ }
+}

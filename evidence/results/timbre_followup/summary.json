@@ -1,0 +1,394 @@
+{
+  "status": "completed",
+  "new_api_calls_in_replay": 0,
+  "planned_cases": 73,
+  "attempted_cases": 73,
+  "valid_audio_clips": 66,
+  "rest_valid_clips": 60,
+  "expected_rejections": [
+    {
+      "case_id": "NF-ONLY-25",
+      "expected_http": "400",
+      "actual_http": 400,
+      "ok": false,
+      "error": "{\"success\": false, \"message\": \"Invalid request: Value error, Text is required and cannot be empty. Delivery tags such as <laugh> are only supported by model 'timbre-v3.0'. at body\", \"status_code\": 400}"
+    }
+  ],
+  "unexpected_failures": [
+    {
+      "case_id": "NF-T-3-en-sigh",
+      "expected_http": "200",
+      "actual_http": 200,
+      "ok": false,
+      "error": "empty or silent audio"
+    },
+    {
+      "case_id": "NF-T-3-en-yawns",
+      "expected_http": "200",
+      "actual_http": 200,
+      "ok": false,
+      "error": "empty or silent audio"
+    },
+    {
+      "case_id": "NF-C-3-raw",
+      "expected_http": "200",
+      "actual_http": 200,
+      "ok": false,
+      "error": "empty or silent audio"
+    },
+    {
+      "case_id": "NF-N-3-hi",
+      "expected_http": "200",
+      "actual_http": 200,
+      "ok": false,
+      "error": "empty or silent audio"
+    },
+    {
+      "case_id": "NF-T-3-en-sigh-recheck-48000",
+      "expected_http": "200",
+      "actual_http": 200,
+      "ok": false,
+      "error": "empty or silent audio"
+    },
+    {
+      "case_id": "NF-C-3-raw-recheck-24000",
+      "expected_http": "200",
+      "actual_http": 200,
+      "ok": false,
+      "error": "empty or silent audio"
+    }
+  ],
+  "rest_latency": [
+    {
+      "model": "timbre-v3.0",
+      "voice": "Tarika",
+      "length": "short",
+      "n": 3,
+      "text_characters": 61,
+      "median_ms": 5043.1,
+      "min_ms": 4195.2,
+      "max_ms": 5279.2,
+      "median_audio_s": 3.92
+    },
+    {
+      "model": "timbre-v3.0",
+      "voice": "Tarika",
+      "length": "medium",
+      "n": 3,
+      "text_characters": 396,
+      "median_ms": 7811.3,
+      "min_ms": 5325.2,
+      "max_ms": 8385.5,
+      "median_audio_s": 15.04
+    },
+    {
+      "model": "timbre-v3.0",
+      "voice": "Tarika",
+      "length": "long",
+      "n": 3,
+      "text_characters": 930,
+      "median_ms": 17199.7,
+      "min_ms": 14634.5,
+      "max_ms": 21424.9,
+      "median_audio_s": 51.76
+    },
+    {
+      "model": "timbre-v2.5",
+      "voice": "Kaveri",
+      "length": "short",
+      "n": 3,
+      "text_characters": 61,
+      "median_ms": 541.6,
+      "min_ms": 512.5,
+      "max_ms": 713.7,
+      "median_audio_s": 2.88
+    },
+    {
+      "model": "timbre-v2.5",
+      "voice": "Kaveri",
+      "length": "medium",
+      "n": 3,
+      "text_characters": 396,
+      "median_ms": 1073.6,
+      "min_ms": 1037.1,
+      "max_ms": 1088.8,
+      "median_audio_s": 17.6
+    },
+    {
+      "model": "timbre-v2.5",
+      "voice": "Kaveri",
+      "length": "long",
+      "n": 3,
+      "text_characters": 930,
+      "median_ms": 2749.6,
+      "min_ms": 2515.0,
+      "max_ms": 3345.8,
+      "median_audio_s": 43.2
+    }
+  ],
+  "fresh_streams": [
+    {
+      "case_id": "NF-S-3-short",
+      "model": "timbre-v3.0",
+      "voice": "Tarika",
+      "chunks": 63,
+      "sample_rate_hz": 24000,
+      "pcm_frames": 99840,
+      "chunk_frames": 99840,
+      "timeline_sha256": "d623e097ffb9da2c86baff6fe762cde55aa7980836faf3b1100218620e3b9b16",
+      "first_audio_ms": 837.2916666666666,
+      "underruns": 2,
+      "starvation_s": 1.6862916666666667,
+      "extra_wait_ms": 1686.2916666666667,
+      "immediate_path": "playback/NF-S-3-short__immediate.wav",
+      "delayed_path": "playback/NF-S-3-short__delayed.wav",
+      "gaps": "[{\"start_s\": 0.9172916666666666, \"duration_s\": 1.6807916666666667}, {\"start_s\": 2.627083333333333, \"duration_s\": 0.0055}]"
+    },
+    {
+      "case_id": "NF-S-25-short",
+      "model": "timbre-v2.5",
+      "voice": "Kaveri",
+      "chunks": 79,
+      "sample_rate_hz": 24000,
+      "pcm_frames": 72960,
+      "chunk_frames": 72960,
+      "timeline_sha256": "0c24e19e4d67f67e7d3fad6a281849144cf0b49e69192a971ee36daa297a36f0",
+      "first_audio_ms": 173.41666666666666,
+      "underruns": 0,
+      "starvation_s": 0,
+      "extra_wait_ms": 0.0,
+      "immediate_path": "playback/NF-S-25-short__immediate.wav",
+      "delayed_path": "playback/NF-S-25-short__delayed.wav",
+      "gaps": "[]"
+    },
+    {
+      "case_id": "NF-S-3-medium",
+      "model": "timbre-v3.0",
+      "voice": "Tarika",
+      "chunks": 313,
+      "sample_rate_hz": 24000,
+      "pcm_frames": 545280,
+      "chunk_frames": 545280,
+      "timeline_sha256": "197bf908551bd248c96eadd7c89d38ef7b5454bfe7b7e1fd048387c2defd4b2f",
+      "first_audio_ms": 312.2916666666667,
+      "underruns": 1,
+      "starvation_s": 0.846,
+      "extra_wait_ms": 846.0,
+      "immediate_path": "playback/NF-S-3-medium__immediate.wav",
+      "delayed_path": "playback/NF-S-3-medium__delayed.wav",
+      "gaps": "[{\"start_s\": 0.39229166666666665, \"duration_s\": 0.846}]"
+    },
+    {
+      "case_id": "NF-S-25-medium",
+      "model": "timbre-v2.5",
+      "voice": "Kaveri",
+      "chunks": 294,
+      "sample_rate_hz": 24000,
+      "pcm_frames": 422400,
+      "chunk_frames": 422400,
+      "timeline_sha256": "32de7fde676608e83f163592208f56ef670e60d31fa56fa9269109d8d0759a11",
+      "first_audio_ms": 167.70833333333331,
+      "underruns": 0,
+      "starvation_s": 0,
+      "extra_wait_ms": 0.0,
+      "immediate_path": "playback/NF-S-25-medium__immediate.wav",
+      "delayed_path": "playback/NF-S-25-medium__delayed.wav",
+      "gaps": "[]"
+    },
+    {
+      "case_id": "NF-S-3-long",
+      "model": "timbre-v3.0",
+      "voice": "Tarika",
+      "chunks": 588,
+      "sample_rate_hz": 24000,
+      "pcm_frames": 935040,
+      "chunk_frames": 935040,
+      "timeline_sha256": "149a8c528d10b188371f7a356ec7439daff9bf2c7e586421f42563395fa2a50b",
+      "first_audio_ms": 4612.583333333333,
+      "underruns": 3,
+      "starvation_s": 1.380125,
+      "extra_wait_ms": 1380.125,
+      "immediate_path": "playback/NF-S-3-long__immediate.wav",
+      "delayed_path": "playback/NF-S-3-long__delayed.wav",
+      "gaps": "[{\"start_s\": 4.692583333333333, \"duration_s\": 0.6819166666666666}, {\"start_s\": 12.8145, \"duration_s\": 0.21279166666666666}, {\"start_s\": 13.107291666666667, \"duration_s\": 0.48541666666666666}]"
+    },
+    {
+      "case_id": "NF-S-25-long",
+      "model": "timbre-v2.5",
+      "voice": "Kaveri",
+      "chunks": 786,
+      "sample_rate_hz": 24000,
+      "pcm_frames": 1021440,
+      "chunk_frames": 1021440,
+      "timeline_sha256": "eea1c06b82c336842dec336e603054fa01dff077ed2ddc3742f0692ab78db235",
+      "first_audio_ms": 169.5,
+      "underruns": 0,
+      "starvation_s": 0,
+      "extra_wait_ms": 0.0,
+      "immediate_path": "playback/NF-S-25-long__immediate.wav",
+      "delayed_path": "playback/NF-S-25-long__delayed.wav",
+      "gaps": "[]"
+    }
+  ],
+  "speed_controls": [
+    {
+      "case_id": "NF-V-3-0_85",
+      "model": "timbre-v3.0",
+      "speed": "0.85",
+      "duration_s": 3.44,
+      "neutral_duration_s": 3.2,
+      "duration_ratio": 1.075
+    },
+    {
+      "case_id": "NF-V-3-1_15",
+      "model": "timbre-v3.0",
+      "speed": "1.15",
+      "duration_s": 2.96,
+      "neutral_duration_s": 3.2,
+      "duration_ratio": 0.9249999999999999
+    },
+    {
+      "case_id": "NF-V-25-0_85",
+      "model": "timbre-v2.5",
+      "speed": "0.85",
+      "duration_s": 3.2,
+      "neutral_duration_s": 2.56,
+      "duration_ratio": 1.25
+    },
+    {
+      "case_id": "NF-V-25-1_15",
+      "model": "timbre-v2.5",
+      "speed": "1.15",
+      "duration_s": 2.3652083333333334,
+      "neutral_duration_s": 2.56,
+      "duration_ratio": 0.9239095052083334
+    }
+  ],
+  "judge_models": [
+    "gemini-3.8-flash"
+  ],
+  "judge_returned_models": [
+    "gemini-3.8-flash"
+  ],
+  "blind_judgments": 66,
+  "paired_judgments": 29,
+  "eligible_audio_pairs": 29,
+  "rating_summary": [
+    {
+      "model": "timbre-v3.0",
+      "scope": "all_conditions",
+      "n": 40,
+      "naturalness_mean": 3.425,
+      "prosody_mean": 3.4,
+      "intelligibility_mean": 4.0,
+      "interpretation": "One audio-model screen, not human MOS; mixed voice/text/condition convenience sample"
+    },
+    {
+      "model": "timbre-v3.0",
+      "scope": "neutral_en_hi_only",
+      "n": 1,
+      "naturalness_mean": 3.0,
+      "prosody_mean": 3.0,
+      "intelligibility_mean": 4.0,
+      "interpretation": "One audio-model screen, not human MOS; mixed voice/text/condition convenience sample"
+    },
+    {
+      "model": "timbre-v3.0",
+      "scope": "rest_three_prompts_three_repeats",
+      "n": 9,
+      "naturalness_mean": 3.2222222222222223,
+      "prosody_mean": 3.111111111111111,
+      "intelligibility_mean": 4.0,
+      "interpretation": "One audio-model screen, not human MOS; mixed voice/text/condition convenience sample"
+    },
+    {
+      "model": "timbre-v2.5",
+      "scope": "all_conditions",
+      "n": 26,
+      "naturalness_mean": 3.3461538461538463,
+      "prosody_mean": 3.269230769230769,
+      "intelligibility_mean": 4.0,
+      "interpretation": "One audio-model screen, not human MOS; mixed voice/text/condition convenience sample"
+    },
+    {
+      "model": "timbre-v2.5",
+      "scope": "neutral_en_hi_only",
+      "n": 2,
+      "naturalness_mean": 4.0,
+      "prosody_mean": 4.0,
+      "intelligibility_mean": 4.0,
+      "interpretation": "One audio-model screen, not human MOS; mixed voice/text/condition convenience sample"
+    },
+    {
+      "model": "timbre-v2.5",
+      "scope": "rest_three_prompts_three_repeats",
+      "n": 9,
+      "naturalness_mean": 3.2222222222222223,
+      "prosody_mean": 3.111111111111111,
+      "intelligibility_mean": 4.0,
+      "interpretation": "One audio-model screen, not human MOS; mixed voice/text/condition convenience sample"
+    }
+  ],
+  "playback_judgments": 8,
+  "judge_gap_control_results": [
+    {
+      "id": "PLANTED-positive",
+      "expected_initial_gap": true,
+      "detected_initial_gap": false,
+      "passed": false
+    },
+    {
+      "id": "PLANTED-negative",
+      "expected_initial_gap": false,
+      "detected_initial_gap": false,
+      "passed": true
+    }
+  ],
+  "judge_gap_controls_all_passed": false,
+  "http_requests": 74,
+  "http_status_counts": {
+    "200": 72,
+    "500": 1,
+    "400": 1
+  },
+  "transient_http_failures": [
+    {
+      "case_id": "NF-V-3-0_85",
+      "attempt": 1,
+      "http_status": 500,
+      "error": "{\"success\": false, \"message\": \"We are facing technical difficulties. Please try again later.\", \"status_code\": 500}"
+    }
+  ],
+  "collection_first_utc": "2026-11-15T07:48:56.787+00:00",
+  "collection_last_utc": "2026-11-15T07:56:26.531+00:00",
+  "tag_counts": {
+    "cue_demonstrated": 14,
+    "not_distinguished": 1,
+    "no_literal_tag_detected": 9
+  },
+  "stripping_controls": {
+    "assessed": 9,
+    "condition_cue_preferred": 5
+  },
+  "v3_supported_tag_screen": {
+    "cue_demonstrated": 14,
+    "not_distinguished": 1
+  },
+  "rest_early_gap_energy_flags": [],
+  "rest_initial_gap_judge_flags": [],
+  "rest_initial_gap_both_flags": [],
+  "judge_usage": {
+    "cached_successful_responses": 103,
+    "prompt_tokens": 50538,
+    "output_tokens": 18326,
+    "thought_tokens": 21021
+  },
+  "boundaries": [
+    "REST full-body dispatch timer is not TTFA; completed PCM cannot have network-arrival underruns.",
+    "SSE quality judgments initially hear concatenated PCM; separately rendered immediate playback retains measured network gaps.",
+    "Different model voice catalogs prevent same-voice isolation. Three sequential repeats per length/model, fixed v3/v2.5 order; region/load/cold state uncontrolled.",
+    "Energy thresholds -35/-45/-55 dBFS at 10 ms are flags, not perceptual silence or stall ground truth.",
+    "Single audio-model ratings and cue comparisons are provisional; not human MOS or native-speaker verification.",
+    "Provider documentation describes features; this test cannot prove deployment dates or a provider-side fix."
+  ]
+}

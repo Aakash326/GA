@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-TA-CL-05",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "2395758c789ccee52c9a29d6",
+ "audio": "data/next/audio/NX-TA-CL-05.wav",
+ "latency_ms": 4406,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "ஆப்கானிஸ்தானின் அமீர் நஸ்ருல்லா கானின் தந்தையின் பெயர் என்ன?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The audio clearly pronounces the long vowel 'லா' in நஸ்ருல்லா, whereas the dataset candidate has the short vowel 'ல' in நஸ்ருல்ல."
+ },
+ "tokens": {
+  "prompt": 379,
+  "output": 80
+ }
+}

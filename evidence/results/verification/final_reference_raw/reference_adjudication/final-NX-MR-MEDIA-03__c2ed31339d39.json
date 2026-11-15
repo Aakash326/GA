@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-MR-MEDIA-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c2ed31339d39d963bbf95430",
+ "audio": "data/next/audio/NX-MR-MEDIA-03.wav",
+ "latency_ms": 4215,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "रिचर्ड हार्पर ॲलिसनचा जन्म कोणत्या वर्षी झाला?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The speaker clearly says 'हार्पर' rather than 'मार्क'."
+ },
+ "tokens": {
+  "prompt": 370,
+  "output": 52
+ }
+}

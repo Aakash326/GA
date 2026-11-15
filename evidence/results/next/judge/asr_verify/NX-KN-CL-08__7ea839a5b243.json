@@ -1,0 +1,26 @@
+{
+ "task": "asr_verify",
+ "id": "NX-KN-CL-08",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "7ea839a5b243631dde152cef",
+ "audio": "data/next/audio/NX-KN-CL-08.wav",
+ "latency_ms": 6812,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "ಡೆಲ್ಲ್",
+    "heard": "ಡೆಲ್ಲಿ"
+   },
+   {
+    "reference": "ಬಿಡಿಗಡೆ",
+    "heard": "ಬಿಡುಗಡೆ"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 385,
+  "output": 81
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "task": "asr_verify",
+ "id": "NX-MR-BG-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "3dabe55871527384e0bad3a5",
+ "audio": "data/next/audio/NX-MR-BG-02.wav",
+ "latency_ms": 7327,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "प्रकिया",
+    "heard": "प्रक्रिया"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 412,
+  "output": 30
+ }
+}

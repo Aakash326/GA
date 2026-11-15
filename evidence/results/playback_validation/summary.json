@@ -1,0 +1,248 @@
+{
+  "status": "passed",
+  "streams": 14,
+  "byte_duration_checks_passed": 14,
+  "v3_streams": 12,
+  "v3_with_stalls": 12,
+  "v25_streams": 2,
+  "v25_with_stalls": 0,
+  "all_delayed_streams_without_stalls": true,
+  "v3_extra_wait_ms_min": 844.8333333333334,
+  "v3_extra_wait_ms_max": 3910.9166666666665,
+  "max_absolute_rounding_correction_ms": 1.1833333333329392,
+  "definition": "Independent integer-sample reconstruction of saved network arrivals; not new live/device measurements; delayed policy uses future arrivals",
+  "buffer_sensitivity": {
+    "conditions": 168,
+    "initial_prebuffers_ms": [
+      0,
+      50,
+      100,
+      200
+    ],
+    "tolerances_ms": [
+      1,
+      10,
+      20
+    ],
+    "v3_underflow_in_all_conditions": true,
+    "v25_no_underflows_in_all_conditions": true,
+    "aggregation": [
+      {
+        "model": "timbre-v3.0",
+        "initial_prebuffer_ms": 0,
+        "tolerance_ms": 1,
+        "streams": 12,
+        "streams_with_underflows": 12,
+        "starvation_ms_min": 844.8333333333334,
+        "starvation_ms_max": 3910.9166666666665
+      },
+      {
+        "model": "timbre-v2.5",
+        "initial_prebuffer_ms": 0,
+        "tolerance_ms": 1,
+        "streams": 2,
+        "streams_with_underflows": 0,
+        "starvation_ms_min": 0.0,
+        "starvation_ms_max": 0.0
+      },
+      {
+        "model": "timbre-v3.0",
+        "initial_prebuffer_ms": 0,
+        "tolerance_ms": 10,
+        "streams": 12,
+        "streams_with_underflows": 12,
+        "starvation_ms_min": 844.8333333333334,
+        "starvation_ms_max": 3910.9166666666665
+      },
+      {
+        "model": "timbre-v2.5",
+        "initial_prebuffer_ms": 0,
+        "tolerance_ms": 10,
+        "streams": 2,
+        "streams_with_underflows": 0,
+        "starvation_ms_min": 0.0,
+        "starvation_ms_max": 0.0
+      },
+      {
+        "model": "timbre-v3.0",
+        "initial_prebuffer_ms": 0,
+        "tolerance_ms": 20,
+        "streams": 12,
+        "streams_with_underflows": 12,
+        "starvation_ms_min": 844.8333333333334,
+        "starvation_ms_max": 3910.9166666666665
+      },
+      {
+        "model": "timbre-v2.5",
+        "initial_prebuffer_ms": 0,
+        "tolerance_ms": 20,
+        "streams": 2,
+        "streams_with_underflows": 0,
+        "starvation_ms_min": 0.0,
+        "starvation_ms_max": 0.0
+      },
+      {
+        "model": "timbre-v3.0",
+        "initial_prebuffer_ms": 50,
+        "tolerance_ms": 1,
+        "streams": 12,
+        "streams_with_underflows": 12,
+        "starvation_ms_min": 794.8333333333333,
+        "starvation_ms_max": 3860.916666666667
+      },
+      {
+        "model": "timbre-v2.5",
+        "initial_prebuffer_ms": 50,
+        "tolerance_ms": 1,
+        "streams": 2,
+        "streams_with_underflows": 0,
+        "starvation_ms_min": 0.0,
+        "starvation_ms_max": 0.0
+      },
+      {
+        "model": "timbre-v3.0",
+        "initial_prebuffer_ms": 50,
+        "tolerance_ms": 10,
+        "streams": 12,
+        "streams_with_underflows": 12,
+        "starvation_ms_min": 794.8333333333333,
+        "starvation_ms_max": 3860.916666666667
+      },
+      {
+        "model": "timbre-v2.5",
+        "initial_prebuffer_ms": 50,
+        "tolerance_ms": 10,
+        "streams": 2,
+        "streams_with_underflows": 0,
+        "starvation_ms_min": 0.0,
+        "starvation_ms_max": 0.0
+      },
+      {
+        "model": "timbre-v3.0",
+        "initial_prebuffer_ms": 50,
+        "tolerance_ms": 20,
+        "streams": 12,
+        "streams_with_underflows": 12,
+        "starvation_ms_min": 794.8333333333333,
+        "starvation_ms_max": 3860.916666666667
+      },
+      {
+        "model": "timbre-v2.5",
+        "initial_prebuffer_ms": 50,
+        "tolerance_ms": 20,
+        "streams": 2,
+        "streams_with_underflows": 0,
+        "starvation_ms_min": 0.0,
+        "starvation_ms_max": 0.0
+      },
+      {
+        "model": "timbre-v3.0",
+        "initial_prebuffer_ms": 100,
+        "tolerance_ms": 1,
+        "streams": 12,
+        "streams_with_underflows": 12,
+        "starvation_ms_min": 744.8333333333334,
+        "starvation_ms_max": 3810.9166666666665
+      },
+      {
+        "model": "timbre-v2.5",
+        "initial_prebuffer_ms": 100,
+        "tolerance_ms": 1,
+        "streams": 2,
+        "streams_with_underflows": 0,
+        "starvation_ms_min": 0.0,
+        "starvation_ms_max": 0.0
+      },
+      {
+        "model": "timbre-v3.0",
+        "initial_prebuffer_ms": 100,
+        "tolerance_ms": 10,
+        "streams": 12,
+        "streams_with_underflows": 12,
+        "starvation_ms_min": 744.8333333333334,
+        "starvation_ms_max": 3810.9166666666665
+      },
+      {
+        "model": "timbre-v2.5",
+        "initial_prebuffer_ms": 100,
+        "tolerance_ms": 10,
+        "streams": 2,
+        "streams_with_underflows": 0,
+        "starvation_ms_min": 0.0,
+        "starvation_ms_max": 0.0
+      },
+      {
+        "model": "timbre-v3.0",
+        "initial_prebuffer_ms": 100,
+        "tolerance_ms": 20,
+        "streams": 12,
+        "streams_with_underflows": 12,
+        "starvation_ms_min": 744.8333333333334,
+        "starvation_ms_max": 3810.9166666666665
+      },
+      {
+        "model": "timbre-v2.5",
+        "initial_prebuffer_ms": 100,
+        "tolerance_ms": 20,
+        "streams": 2,
+        "streams_with_underflows": 0,
+        "starvation_ms_min": 0.0,
+        "starvation_ms_max": 0.0
+      },
+      {
+        "model": "timbre-v3.0",
+        "initial_prebuffer_ms": 200,
+        "tolerance_ms": 1,
+        "streams": 12,
+        "streams_with_underflows": 12,
+        "starvation_ms_min": 644.8333333333334,
+        "starvation_ms_max": 3710.916666666667
+      },
+      {
+        "model": "timbre-v2.5",
+        "initial_prebuffer_ms": 200,
+        "tolerance_ms": 1,
+        "streams": 2,
+        "streams_with_underflows": 0,
+        "starvation_ms_min": 0.0,
+        "starvation_ms_max": 0.0
+      },
+      {
+        "model": "timbre-v3.0",
+        "initial_prebuffer_ms": 200,
+        "tolerance_ms": 10,
+        "streams": 12,
+        "streams_with_underflows": 12,
+        "starvation_ms_min": 644.8333333333334,
+        "starvation_ms_max": 3710.916666666667
+      },
+      {
+        "model": "timbre-v2.5",
+        "initial_prebuffer_ms": 200,
+        "tolerance_ms": 10,
+        "streams": 2,
+        "streams_with_underflows": 0,
+        "starvation_ms_min": 0.0,
+        "starvation_ms_max": 0.0
+      },
+      {
+        "model": "timbre-v3.0",
+        "initial_prebuffer_ms": 200,
+        "tolerance_ms": 20,
+        "streams": 12,
+        "streams_with_underflows": 12,
+        "starvation_ms_min": 644.8333333333334,
+        "starvation_ms_max": 3710.916666666667
+      },
+      {
+        "model": "timbre-v2.5",
+        "initial_prebuffer_ms": 200,
+        "tolerance_ms": 20,
+        "streams": 2,
+        "streams_with_underflows": 0,
+        "starvation_ms_min": 0.0,
+        "starvation_ms_max": 0.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T81",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T81.wav",
+ "latency_ms": 5228,
+ "reply": {
+  "heard": "Please record the message. The record is now complete.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 216,
+  "output": 27
+ }
+}

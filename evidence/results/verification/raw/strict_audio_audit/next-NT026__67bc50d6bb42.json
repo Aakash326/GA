@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT026",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "67bc50d6bb4298c6f91d37d9",
+ "audio": "results/next/audio/NT026.wav",
+ "latency_ms": 6221,
+ "reply": {
+  "heard": "Your ID is zero zero zero one two three",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "digits",
+    "result": "correct",
+    "heard": "zero zero zero one two three"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 353,
+  "output": 40
+ }
+}

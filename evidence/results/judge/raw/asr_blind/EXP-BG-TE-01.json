@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-BG-TE-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-BG-TE-01.wav",
+ "latency_ms": 4010,
+ "reply": {
+  "transcript": "హ్యారీ పోర్టర్ భాగాలలో మొదటి చిత్రం ఎప్పుడు విడుదలైంది",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 262,
+  "output": 40
+ }
+}

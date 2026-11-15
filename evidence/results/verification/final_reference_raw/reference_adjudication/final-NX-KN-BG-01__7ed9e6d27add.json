@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-KN-BG-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "7ed9e6d27addbb0443830f13",
+ "audio": "data/next/audio/NX-KN-BG-01.wav",
+ "latency_ms": 5236,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "ತೆಲುಗು ಪಂಚಾಂಗದ ಪ್ರಕಾರ ಆಂಗ್ಲ ಕ್ಯಾಲೆಂಡರಿನ ಯಾವ ತಿಂಗಳಲ್ಲಿ ಹೊಸ ವರ್ಷ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The audio clearly says 'ಕ್ಯಾಲೆಂಡರಿನ' instead of 'ಕಾಲೆಂಡರಿನ' and 'ತಿಂಗಳಲ್ಲಿ' instead of 'ತಿಂಗಳಳ್ಳಿ'."
+ },
+ "tokens": {
+  "prompt": 504,
+  "output": 82
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T92",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T92.wav",
+ "latency_ms": 3887,
+ "reply": {
+  "heard": "உங்கள் குறிப்பு எண் பூஜ்ஜியம் பூஜ்ஜியம் நான்கு இரண்டு ஒன்பது ஒன்று",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 227,
+  "output": 28
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TA-CL-06",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5f29b63237ec61d3d61362c1",
+ "audio": "data/next/audio/NX-TA-CL-06.wav",
+ "latency_ms": 5221,
+ "reply": {
+  "transcript": "அசாம் மாநிலத்தில் எத்தனை மாவட்டங்கள் உள்ளன?",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 214,
+  "output": 32
+ }
+}

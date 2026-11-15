@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-MR-CL-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "0a7bdf1c943cf7e34f71cef9",
+ "audio": "data/next/audio/NX-MR-CL-02.wav",
+ "latency_ms": 3949,
+ "reply": {
+  "transcript": "अजमल खान कोणत्या राजकीय पक्षाशी संबंधित होते?",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 277,
+  "output": 34
+ }
+}

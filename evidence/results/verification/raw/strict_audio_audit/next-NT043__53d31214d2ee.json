@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT043",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "53d31214d2eebbc16212a88d",
+ "audio": "results/next/audio/NT043.wav",
+ "latency_ms": 5027,
+ "reply": {
+  "heard": "మీ కోడ్ డెబ్బై",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "digits",
+    "result": "wrong",
+    "heard": "డెబ్బై"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 276,
+  "output": 36
+ }
+}

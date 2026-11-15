@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT047",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "d19e4d77b6bcc551f0b6d8dd",
+ "audio": "results/next/audio/NT047.wav",
+ "latency_ms": 6610,
+ "reply": {
+  "heard": "மாற்றம் ஒன்று பாயிண்ட் ஐந்து பர்சன்ட்",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 205,
+  "output": 23
+ }
+}

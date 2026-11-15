@@ -1,0 +1,21 @@
+{
+ "task": "asr_verify",
+ "id": "EXP-CL-HI-06",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-CL-HI-06.wav",
+ "latency_ms": 6296,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "रिद्दर",
+    "heard": "रेद्दर"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 277,
+  "output": 32
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T47",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "02d7e5d40d9ff3729b18512e",
+ "audio": "results/tts_audio/T47.wav",
+ "latency_ms": 4069,
+ "reply": {
+  "heard": "The exchange value is 0.125 units per point.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "decimal",
+    "result": "correct",
+    "heard": "zero point one two five"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 370,
+  "output": 44
+ }
+}

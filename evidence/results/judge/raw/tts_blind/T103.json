@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T103",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T103.wav",
+ "latency_ms": 7392,
+ "reply": {
+  "heard": "तुमचे पेमेंट तेवीस नोव्हेंबरला देय आहे",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 201,
+  "output": 23
+ }
+}

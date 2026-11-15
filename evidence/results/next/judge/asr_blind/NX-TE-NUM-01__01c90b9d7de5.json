@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TE-NUM-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "01c90b9d7de55d91fa819f56",
+ "audio": "data/next/audio/NX-TE-NUM-01.wav",
+ "latency_ms": 5133,
+ "reply": {
+  "transcript": "2018 జనగణన ప్రకారం మక్త కౌసరాలి గ్రామంలో ఎన్ని ఇల్లులు ఉన్నాయి",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 292,
+  "output": 46
+ }
+}

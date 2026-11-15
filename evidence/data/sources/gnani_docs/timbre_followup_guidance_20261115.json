@@ -1,0 +1,21 @@
+{
+  "checked_date": "2026-11-15",
+  "basis": "public Gnani documentation, not private support correspondence",
+  "source_urls": [
+    "https://docs.gnani.ai/api/TTS/tts-inference",
+    "https://docs.gnani.ai/api/TTS/tts-audio-tags",
+    "https://docs.gnani.ai/api/TTS/tts-input-formating",
+    "https://docs.gnani.ai/api/TTS/available-voices",
+    "https://docs.gnani.ai/api/TTS/tts-websocket",
+    "https://docs.gnani.ai/api/introduction/changelog"
+  ],
+  "tested_settings": [
+    "explicit language",
+    "model-specific voices",
+    "documented inline tags",
+    "speed 0.85/1.15",
+    "supported 24/48 kHz",
+    "REST complete-body / SSE audio output"
+  ],
+  "caveat": "No published startup-gap fix found; normalization guidance and REST introductory warning differ. Validate behavior experimentally."
+}

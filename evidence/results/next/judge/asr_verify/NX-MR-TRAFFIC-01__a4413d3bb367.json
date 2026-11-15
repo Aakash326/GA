@@ -1,0 +1,17 @@
+{
+ "task": "asr_verify",
+ "id": "NX-MR-TRAFFIC-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "a4413d3bb367283aa9738589",
+ "audio": "data/next/audio/NX-MR-TRAFFIC-01.wav",
+ "latency_ms": 3747,
+ "reply": {
+  "matches": true,
+  "differences": [],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 366,
+  "output": 16
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T68",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T68.wav",
+ "latency_ms": 4238,
+ "reply": {
+  "heard": "कल सुबह नौ बजे सपोर्ट टीम आपको कॉल करेगी",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 202,
+  "output": 20
+ }
+}

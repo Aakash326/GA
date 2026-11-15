@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TA-CL-07",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "9b3817b3d07fe3678eb70f6e",
+ "audio": "data/next/audio/NX-TA-CL-07.wav",
+ "latency_ms": 5022,
+ "reply": {
+  "transcript": "டாக்கா பல்கலைக்கழகத்தின் தலைமையகம் எங்குள்ளது?",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 214,
+  "output": 33
+ }
+}

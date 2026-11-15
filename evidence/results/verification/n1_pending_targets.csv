@@ -1,0 +1,16 @@
+﻿case_id,listener_id,listener_languages,target_id,target_critical,target_result,naturalness_1to5,prosody_1to5,content_complete,meaning_preserved,artifact_flags,comment,blind_transcription,blind_before_reveal,cannot_judge,rated_at
+T94,,,negation,true,,,,,,,,,false,false,2026-11-14T17:14:47.741Z
+T100,,,negation,true,,,,,,,,,false,false,2026-11-14T17:15:04.590Z
+T101,,,content,true,,,,,,,,,false,false,2026-11-14T17:03:16.058Z
+NT039,,,rejected,true,,,,,,,,,false,false,2026-11-14T17:17:01.253Z
+NT047,,,sign,true,,,,,,,,,false,false,2026-11-14T17:02:58.020Z
+NT047,,,value,true,,,,,,,,,false,false,2026-11-14T17:02:58.020Z
+NT048,,,value,true,,,,,,,,,false,false,2026-11-14T17:16:51.988Z
+NT049,,,digits,true,,,,,,,dont know,,false,false,2026-11-14T17:11:41.794Z
+NT054,,,value,true,,,,,,,i dont know tamil,,false,false,2026-11-14T17:10:02.324Z
+NT055,,,digits,true,,,,,,,i think it was 70 ,,false,false,2026-11-14T17:11:33.324Z
+NT059,,,sign,true,,,,,,,,,false,false,2026-11-14T17:03:51.637Z
+NT059,,,value,true,,,,,,,,,false,false,2026-11-14T17:03:51.637Z
+NT060,,,sign,true,,,,,,,,,false,false,2026-11-14T17:03:56.362Z
+NT060,,,value,true,,,,,,,,,false,false,2026-11-14T17:03:56.362Z
+NT061,,,digits,true,,,,,,,it said 70 only ,,false,false,2026-11-14T17:10:27.883Z

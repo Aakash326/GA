@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T14",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "baf3d738471fb2571b7ac40f",
+ "audio": "results/tts_audio/T14.wav",
+ "latency_ms": 4415,
+ "reply": {
+  "heard": "Your order kal subah execute hoga.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "hindi",
+    "result": "correct",
+    "heard": "kal subah"
+   },
+   {
+    "id": "english",
+    "result": "correct",
+    "heard": "execute"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 318,
+  "output": 48
+ }
+}

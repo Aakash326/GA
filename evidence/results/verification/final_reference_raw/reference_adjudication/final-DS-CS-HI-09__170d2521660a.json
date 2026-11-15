@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-DS-CS-HI-09",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "170d2521660a03a234b8b072",
+ "audio": "data/next/dataset_replacement/DS-CS-HI-09.wav",
+ "latency_ms": 5542,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "Slide Show button पर click करें फिर animation को देखने के लिए screen पर कहीं भी click करें animation प्रस्तुति की निर",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The dataset candidate omits the final phrase spoken after the pause: 'animation प्रस्तुति की निर'."
+ },
+ "tokens": {
+  "prompt": 533,
+  "output": 85
+ }
+}

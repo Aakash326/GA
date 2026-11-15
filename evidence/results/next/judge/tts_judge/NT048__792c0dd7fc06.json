@@ -1,0 +1,31 @@
+{
+ "task": "tts_judge",
+ "id": "NT048",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "792c0dd7fc069fd4f71cf5bb",
+ "audio": "results/next/audio/NT048.wav",
+ "latency_ms": 9824,
+ "reply": {
+  "targets": [
+   {
+    "id": "sign",
+    "result": "correct",
+    "heard": "மைனஸ்"
+   },
+   {
+    "id": "value",
+    "result": "correct",
+    "heard": "ஒன்று புள்ளி ஐந்து சதவீதம்"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "artifacts": [],
+  "comment": "The text was spoken clearly with accurate pronunciation of all numeric components and symbols."
+ },
+ "tokens": {
+  "prompt": 476,
+  "output": 141
+ }
+}

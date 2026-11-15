@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-TRAFFIC-TE-03",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-TRAFFIC-TE-03.wav",
+ "latency_ms": 3727,
+ "reply": {
+  "transcript": "భారతదేశంలో ముఖ్యమంత్రి పదవి కాలపరిమితి ఎంత?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 279,
+  "output": 39
+ }
+}

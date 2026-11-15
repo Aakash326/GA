@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T74",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T74.wav",
+ "latency_ms": 4072,
+ "reply": {
+  "heard": "Shanmugapriya will contact Srinivasan tomorrow.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 204,
+  "output": 20
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-MR-CL-06",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "b0bfc29d782de42d1051a40f",
+ "audio": "data/next/audio/NX-MR-CL-06.wav",
+ "latency_ms": 9665,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "कोइंबतूर शहर तमिळनाडूच्या कोणत्या जिल्ह्यात आहे?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The speaker clearly says 'तमिळनाडूच्या' with a short initial vowel, rather than 'तामिळनाडूच्या'."
+ },
+ "tokens": {
+  "prompt": 314,
+  "output": 85
+ }
+}

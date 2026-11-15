@@ -1,0 +1,38 @@
+{
+  "task": "blind",
+  "id": "NF-I-3-Excited",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "858185dec2c12a510f967ee409ac5c7cbfa943ab27bbf2b878904e619f302bf1",
+  "input_sha256": [
+    "540390eda89c1ee9fb8a9cbfde4016e9ff304733e04251377a905e9389dafc2d"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-I-3-Excited.wav"
+  ],
+  "reply": {
+    "heard": "Your request is ready. Please continue when you're ready.",
+    "naturalness_1to5": 3,
+    "prosody_1to5": 3,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "calm",
+      "measured",
+      "noticeable pause between sentences"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "gap_start_s": 1.3,
+    "gap_duration_s": 1.5,
+    "leading_silence_description": "clean start",
+    "artifacts": [],
+    "confidence": "high",
+    "reason": "Speech is clear and clean, with a slightly long pause between the two phrases."
+  },
+  "prompt_tokens": 386,
+  "output_tokens": 143,
+  "thought_tokens": 244,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

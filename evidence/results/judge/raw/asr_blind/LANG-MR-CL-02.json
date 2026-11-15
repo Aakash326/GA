@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-MR-CL-02",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-MR-CL-02.wav",
+ "latency_ms": 4421,
+ "reply": {
+  "transcript": "हलणारे दगड कोणी शोधले?",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 201,
+  "output": 31
+ }
+}

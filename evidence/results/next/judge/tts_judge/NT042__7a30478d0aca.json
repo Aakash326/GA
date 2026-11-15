@@ -1,0 +1,31 @@
+{
+ "task": "tts_judge",
+ "id": "NT042",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "7a30478d0aca8a1c3242d9d5",
+ "audio": "results/next/audio/NT042.wav",
+ "latency_ms": 9188,
+ "reply": {
+  "targets": [
+   {
+    "id": "sign",
+    "result": "correct",
+    "heard": "మైనస్"
+   },
+   {
+    "id": "value",
+    "result": "correct",
+    "heard": "ఒకటి పాయింట్ ఐదు శాతం"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The prompt is fully rendered without omissions, though the cadence sounds moderately synthetic."
+ },
+ "tokens": {
+  "prompt": 454,
+  "output": 123
+ }
+}

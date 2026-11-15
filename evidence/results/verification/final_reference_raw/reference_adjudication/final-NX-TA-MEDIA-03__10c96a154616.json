@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-TA-MEDIA-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "10c96a1546163750d0faffb9",
+ "audio": "data/next/audio/NX-TA-MEDIA-03.wav",
+ "latency_ms": 5225,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "ரைட்ஸ் சகோதரர்களால் எந்த போக்குவரத்து உருவாக்கப்பட்டது",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The audio clearly says 'ரைட்ஸ்' with an 's' sound, and 'சகோதரர்களால்' with 'ளா' rather than 'சகோதரர்கலால்'."
+ },
+ "tokens": {
+  "prompt": 371,
+  "output": 68
+ }
+}

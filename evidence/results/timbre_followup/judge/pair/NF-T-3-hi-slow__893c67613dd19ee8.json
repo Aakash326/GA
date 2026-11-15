@@ -1,0 +1,32 @@
+{
+  "task": "pair",
+  "id": "NF-T-3-hi-slow",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "893c67613dd19ee8d9aa5288e7279f79664df21d25a605e56df65ae3a23cf011",
+  "prompt": "Two audio clips A then B use the same voice and underlying message. Model/version and condition order are hidden. The intended comparison is slow. Listen to both, compare audible delivery and retained content. Do not prefer a clip merely because an effect is expected. Decide which more clearly demonstrates the requested cue, or say indistinguishable/uncertain. Detect literal tag words and changed/missing spoken content. For speed compare pacing; for a rewrite compare the sign, zeros and time values actually heard. JSON only: {\"more_cue\":\"A|B|indistinguishable|uncertain\",\"cue_audible_A\":bool,\"cue_audible_B\":bool,\"content_preserved_A\":bool,\"content_preserved_B\":bool,\"literal_tag_spoken_A\":bool,\"literal_tag_spoken_B\":bool,\"confidence\":\"high|medium|low\",\"reason\":str}.",
+  "input_sha256": [
+    "11611fd3485facb8ecb8ac23b9543827b44f02080170e7be8c2060a4439e2d74",
+    "91681c1e296372efaf1bd378163b963b320369da1dbaa61415b54c9c027abe8c"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-T-3-hi-slow.wav",
+    "results/timbre_followup/listen/NF-N-3-hi-recheck-24000.wav"
+  ],
+  "reply": {
+    "more_cue": "A",
+    "cue_audible_A": true,
+    "cue_audible_B": false,
+    "content_preserved_A": true,
+    "content_preserved_B": true,
+    "literal_tag_spoken_A": false,
+    "literal_tag_spoken_B": false,
+    "confidence": "medium",
+    "reason": "Clip A has a slightly slower tempo with more drawn-out pauses between phrases compared to Clip B."
+  },
+  "prompt_tokens": 421,
+  "output_tokens": 119,
+  "thought_tokens": 128,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

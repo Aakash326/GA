@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T100",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T100.wav",
+ "latency_ms": 9812,
+ "reply": {
+  "heard": "ನಿಮ್ಮ O T P ಯನ್ನು ಯಾರೊಂದಿಗೂ ಹಂಚಿಕೊಳ್ಳಬೇಡಿ",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 192,
+  "output": 27
+ }
+}

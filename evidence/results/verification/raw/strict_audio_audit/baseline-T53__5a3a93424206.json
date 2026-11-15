@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T53",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5a3a93424206a0da135ed634",
+ "audio": "results/tts_audio/T53.wav",
+ "latency_ms": 5759,
+ "reply": {
+  "heard": "Please use reference ZX 204 double 0 9",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "ref",
+    "result": "correct",
+    "heard": "ZX 204 double 0 9"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 373,
+  "output": 48
+ }
+}

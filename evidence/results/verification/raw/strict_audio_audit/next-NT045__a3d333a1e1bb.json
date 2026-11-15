@@ -1,0 +1,35 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT045",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "a3d333a1e1bb51a61e645031",
+ "audio": "results/next/audio/NT045.wav",
+ "latency_ms": 5931,
+ "reply": {
+  "heard": "அளவு பதினைந்து ஐம்பதல்ல",
+  "target_spec_issues": [
+   "Target specifications and accept/reject criteria define English terms ('fifteen', 'fifty', 'not') for a Tamil audio prompt."
+  ],
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "பதினைந்து"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "ஐம்பது"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "அல்ல"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 385,
+  "output": 165
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "task": "tts_judge",
+ "id": "NT018",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "6ae8f95ea5929b93c4ff38b1",
+ "audio": "results/next/audio/NT018.wav",
+ "latency_ms": 9912,
+ "reply": {
+  "targets": [
+   {
+    "id": "sign",
+    "result": "wrong",
+    "heard": ""
+   },
+   {
+    "id": "value",
+    "result": "correct",
+    "heard": "three thousand two hundred rupees"
+   }
+  ],
+  "content_complete": false,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The minus sign was omitted from the speech, reading only the positive amount."
+ },
+ "tokens": {
+  "prompt": 459,
+  "output": 136
+ }
+}

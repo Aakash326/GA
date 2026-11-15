@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT019",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "8dc0dce7e35a3fdf0ea54ea7",
+ "audio": "results/next/audio/NT019.wav",
+ "latency_ms": 4076,
+ "reply": {
+  "heard": "Your balance is negative three thousand two hundred rupees",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 224,
+  "output": 20
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT051",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "b7854806a1fde06ad1cb51cc",
+ "audio": "results/next/audio/NT051.wav",
+ "latency_ms": 5265,
+ "reply": {
+  "heard": "ಪ್ರಮಾಣ ಹದಿನೈದು ಐವತ್ತು ಅಲ್ಲ",
+  "target_spec_issues": [
+   "Target must_hear conditions are written in English ('fifteen', 'fifty', 'negation audible') rather than Kannada phonetic/lexical equivalents ('hadinaidu', 'aivattu', 'alla')."
+  ],
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "ಹದಿನೈದು"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "ಐವತ್ತು"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "ಅಲ್ಲ"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 387,
+  "output": 110
+ }
+}

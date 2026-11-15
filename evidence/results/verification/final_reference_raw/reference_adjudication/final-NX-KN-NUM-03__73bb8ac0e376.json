@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-KN-NUM-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "73bb8ac0e376f12883663a64",
+ "audio": "data/next/audio/NX-KN-NUM-03.wav",
+ "latency_ms": 13916,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "2010 ರಂತೆ ಭಾರತ ಯಾವ ಭಾಗದಲ್ಲಿ ಅತ್ಯಂತ ಹೆಚ್ಚಿನ ಸಂಖ್ಯೆಯಲ್ಲಿ ಕ್ರೈಸ್ತರಿದ್ದಾರೆ?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The speaker says 'ಭಾರತ' without the genitive suffix 'ದ', and pronounces 'ಕ್ರೈಸ್ತರಿದ್ದಾರೆ' with an unaspirated 'ಸ್ತ'."
+ },
+ "tokens": {
+  "prompt": 405,
+  "output": 96
+ }
+}

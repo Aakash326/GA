@@ -1,0 +1,1 @@
+{"success":true,"request_id":"RT-T41-roundtrip-a1-f7b0834a","transcript":"The quantity is 15 not 50.","model":"prisma-v3.0","processing_time":0.11723065376281738,"end_to_end_latency":0.1187598705291748,"detected_language_code":"en-IN"}

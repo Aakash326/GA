@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T03",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T03.wav",
+ "latency_ms": 4803,
+ "reply": {
+  "heard": "Your S I P is scheduled for twenty third November twenty twenty six",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 246,
+  "output": 24
+ }
+}

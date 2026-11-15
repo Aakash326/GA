@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT056",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "fdb6aa7e19f8c9b490d278cb",
+ "audio": "results/next/audio/NT056.wav",
+ "latency_ms": 5012,
+ "reply": {
+  "heard": "ನಿಮ್ಮ ಕೋಡ್ ಸೊನ್ನೆ ಸೊನ್ನೆ ಏಳು ಸೊನ್ನೆ",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 208,
+  "output": 23
+ }
+}

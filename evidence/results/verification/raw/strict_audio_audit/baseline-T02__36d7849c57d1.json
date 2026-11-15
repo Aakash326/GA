@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "36d7849c57d1c2bdbff28662",
+ "audio": "results/tts_audio/T02.wav",
+ "latency_ms": 5314,
+ "reply": {
+  "heard": "Your pending amount is 1,57,890 rupees and 50 paise.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "1,57,890 rupees and 50 paise"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 459,
+  "output": 58
+ }
+}

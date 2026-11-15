@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-TA-NUM-03",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-TA-NUM-03.wav",
+ "latency_ms": 4821,
+ "reply": {
+  "transcript": "2018 ஆம் ஆண்டு எந்த இந்திய தொழில்நுட்ப நிறுவனம் இந்தியாவில் முதல் இடத்தை பிடித்துள்ளது?",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 303,
+  "output": 40
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T54",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T54.wav",
+ "latency_ms": 4087,
+ "reply": {
+  "heard": "Your ticket number is one double zero one double zero",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 208,
+  "output": 21
+ }
+}

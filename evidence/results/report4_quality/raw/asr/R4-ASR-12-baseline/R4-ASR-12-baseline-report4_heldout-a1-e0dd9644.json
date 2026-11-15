@@ -1,0 +1,1 @@
+{"success":true,"request_id":"R4-ASR-12-baseline-report4_heldout-a1-e0dd9644","transcript":"Hi, can you tell me what my current account balance is, please?","model":"prisma-v3.0","processing_time":0.16276168823242188,"end_to_end_latency":0.16403818130493164,"detected_language_code":"en-IN"}

@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-DS-FIN-HI-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "31a1c8df20682af95b0c5714",
+ "audio": "data/next/dataset_replacement/DS-FIN-HI-01.wav",
+ "latency_ms": 5101,
+ "reply": {
+  "transcript": "Hey Google 2015 में भारत के वित्त मंत्री कौन हैं?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 261,
+  "output": 38
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-NUM-TE-03",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-NUM-TE-03.wav",
+ "latency_ms": 5334,
+ "reply": {
+  "language": "te",
+  "no_speech": false,
+  "transcript": "2011 లో కారణి గ్రామ జనాభా ఎంత?",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 234,
+  "output": 42
+ }
+}

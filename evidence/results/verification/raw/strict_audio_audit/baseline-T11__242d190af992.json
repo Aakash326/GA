@@ -1,0 +1,33 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T11",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "242d190af99272c300a45023",
+ "audio": "results/tts_audio/T11.wav",
+ "latency_ms": 4521,
+ "reply": {
+  "heard": "आपका SIP successfully process हो गया है",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "sip",
+    "result": "correct",
+    "heard": "SIP"
+   },
+   {
+    "id": "english",
+    "result": "correct",
+    "heard": "successfully process"
+   },
+   {
+    "id": "hindi",
+    "result": "correct",
+    "heard": "हो गया है"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 389,
+  "output": 59
+ }
+}

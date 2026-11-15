@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT016",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "074cc9e50010a1719a147f17",
+ "audio": "results/next/audio/NT016.wav",
+ "latency_ms": 4428,
+ "reply": {
+  "heard": "The change was 1.5%",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "sign",
+    "result": "wrong",
+    "heard": ""
+   },
+   {
+    "id": "value",
+    "result": "correct",
+    "heard": "1.5%"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 365,
+  "output": 47
+ }
+}

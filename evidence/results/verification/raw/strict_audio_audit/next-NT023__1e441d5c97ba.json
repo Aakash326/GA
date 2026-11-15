@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT023",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "1e441d5c97ba86ef2c71bf67",
+ "audio": "results/next/audio/NT023.wav",
+ "latency_ms": 3904,
+ "reply": {
+  "heard": "The pin ends in double zero nine one",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "digits",
+    "result": "correct",
+    "heard": "double zero nine one"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 315,
+  "output": 37
+ }
+}

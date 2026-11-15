@@ -1,0 +1,38 @@
+{
+  "task": "blind",
+  "id": "NF-R-3-long-3",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "06db41964dcc088b229e9994fbf6a8f755808ef198ea4a6d004969050c55244b",
+  "input_sha256": [
+    "00df3acae6a99d35e87dc2ac47ef8224daed20052f6ea6e6cc9828cd97adca0c"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-R-3-long-3.wav"
+  ],
+  "reply": {
+    "heard": "If any information is wrong, contact our support team so we can help you update it. We will send a message when the review is complete. Do not share your password or verification code with anyone who contacts you unexpectedly. You can find the official support contact details inside your account. Once the request is complete, save the receipt for your records.",
+    "naturalness_1to5": 3,
+    "prosody_1to5": 3,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "clear",
+      "instructional",
+      "measured pace"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "none",
+    "artifacts": [
+      "mild synthetic timbre"
+    ],
+    "confidence": "high",
+    "reason": "Speech is clear and understandable with typical synthetic cadence."
+  },
+  "prompt_tokens": 793,
+  "output_tokens": 188,
+  "thought_tokens": 181,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

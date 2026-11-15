@@ -1,0 +1,25 @@
+{
+ "task": "asr_verify",
+ "id": "EXP-MEDIA-HI-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-MEDIA-HI-01.wav",
+ "latency_ms": 4752,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "अभिनिति",
+    "heard": "अभिनेत्री"
+   },
+   {
+    "reference": "नर्मिता",
+    "heard": "निर्माता"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 368,
+  "output": 79
+ }
+}

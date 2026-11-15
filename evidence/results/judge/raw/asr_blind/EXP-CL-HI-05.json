@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-HI-05",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-CL-HI-05.wav",
+ "latency_ms": 4087,
+ "reply": {
+  "transcript": "मोहनदास करमचंद गांधी के माता-पिता कौन हैं?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 238,
+  "output": 36
+ }
+}

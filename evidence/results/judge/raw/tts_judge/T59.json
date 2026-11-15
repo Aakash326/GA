@@ -1,0 +1,25 @@
+{
+ "task": "tts_judge",
+ "id": "T59",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T59.wav",
+ "latency_ms": 6850,
+ "reply": {
+  "targets": [
+   {
+    "id": "content",
+    "result": "correct",
+    "heard": "भुगतान ... रसीद"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "artifacts": [],
+  "comment": "The sentence is spoken clearly with accurate pronunciation and appropriate pacing."
+ },
+ "tokens": {
+  "prompt": 434,
+  "output": 106
+ }
+}

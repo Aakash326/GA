@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T41",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T41.wav",
+ "latency_ms": 4194,
+ "reply": {
+  "heard": "The quantity is fifteen, not fifty.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 192,
+  "output": 18
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT047",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "7a4e8e39fe2b9c7b1dde147e",
+ "audio": "results/next/audio/NT047.wav",
+ "latency_ms": 6684,
+ "reply": {
+  "heard": "மாற்றம் ஒன்று பாயிண்ட் ஐந்து பர்சன்ட்",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "sign",
+    "result": "wrong",
+    "heard": ""
+   },
+   {
+    "id": "value",
+    "result": "correct",
+    "heard": "ஒன்று பாயிண்ட் ஐந்து பர்சன்ட்"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 363,
+  "output": 60
+ }
+}

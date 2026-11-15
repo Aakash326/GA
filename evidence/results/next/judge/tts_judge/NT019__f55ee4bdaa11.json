@@ -1,0 +1,31 @@
+{
+ "task": "tts_judge",
+ "id": "NT019",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f55ee4bdaa1196c873f567d7",
+ "audio": "results/next/audio/NT019.wav",
+ "latency_ms": 10633,
+ "reply": {
+  "targets": [
+   {
+    "id": "sign",
+    "result": "correct",
+    "heard": "negative"
+   },
+   {
+    "id": "value",
+    "result": "correct",
+    "heard": "three thousand two hundred rupees"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "Clear pronunciation and correct expansion of symbols, though cadence is slightly synthetic."
+ },
+ "tokens": {
+  "prompt": 471,
+  "output": 96
+ }
+}

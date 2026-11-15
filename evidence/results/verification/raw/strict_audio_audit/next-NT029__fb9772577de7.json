@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT029",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "fb9772577de76b4a4421e3a8",
+ "audio": "results/next/audio/NT029.wav",
+ "latency_ms": 4914,
+ "reply": {
+  "heard": "Cut-off time is 3:30 PM.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "3:30"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 313,
+  "output": 40
+ }
+}

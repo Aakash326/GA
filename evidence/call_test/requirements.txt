@@ -1,0 +1,4 @@
+# Phone-leg test bot (N10). Separate env: Pipecat 1.7 needs Python 3.12.
+pipecat-ai[websocket,runner,silero,google]==1.7.0
+google-genai
+python-dotenv

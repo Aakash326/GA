@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT055",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "d68b12fc6212bf69e574f6a3",
+ "audio": "results/next/audio/NT055.wav",
+ "latency_ms": 3703,
+ "reply": {
+  "heard": "ನಿಮ್ಮ ಕೋಡ್ ಎಪ್ಪತ್ತು",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "digits",
+    "result": "wrong",
+    "heard": "ಎಪ್ಪತ್ತು"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 297,
+  "output": 35
+ }
+}

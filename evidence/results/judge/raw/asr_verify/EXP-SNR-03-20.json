@@ -1,0 +1,25 @@
+{
+ "task": "asr_verify",
+ "id": "EXP-SNR-03-20",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-SNR-03-20.wav",
+ "latency_ms": 4514,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "समर्टफोंस",
+    "heard": "स्मार्टफोंस"
+   },
+   {
+    "reference": "कॉन्स",
+    "heard": "कौन से"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 299,
+  "output": 50
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "ok": true,
+ "kind": "stt_stream",
+ "case_id": "CL-TE-02",
+ "run_tag": "ws",
+ "fingerprint": "e1caaca9acd7a3097af4c0a5",
+ "connect_ms": 147.2,
+ "speech_end_s": 4.196,
+ "transcript": "హైదరాబాద్లో Metroని ఎప్పుడు ప్రారంభించారు?",
+ "first_final_s": 4.073,
+ "last_final_after_speech_ms": -123.3,
+ "server_latency_ms": [
+  113
+ ],
+ "segments": 1,
+ "errors": [],
+ "messages": [
+  {
+   "type": "connected",
+   "message": "STT service ready — VAD service connected",
+   "request_id": "01a1da41-8a7d-750f-a1a3-0161b847f00d",
+   "config": {
+    "sample_rate": 16000,
+    "chunk_size": 512,
+    "partials_enabled": false,
+    "partial_interval_ms": 450,
+    "partial_max_window_s": 15.0,
+    "language_code": "te-IN",
+    "format": "transcribe"
+   },
+   "timestamp": "2026-11-14T13:31:30.879161+00:00",
+   "t_s": 0.04340029999730177
+  },
+  {
+   "type": "speech_start",
+   "utterance_id": "u2cd79f2b",
+   "t_ms": 1044,
+   "timestamp": "2026-11-14T13:31:32.165737+00:00",
+   "t_s": 1.3302225000079488
+  },
+  {
+   "type": "transcript",
+   "text": "హైదరాబాద్లో Metroని ఎప్పుడు ప్రారంభించారు?",
+   "audio_duration_ms": 3252.0,
+   "segment_id": "01a1da41-8a7d-750f-a1a3-0161b847f00d-seg-1",
+   "segment_index": 1,
+   "utterance_id": "u2cd79f2b",
+   "is_final": true,
+   "latency": 113,
+   "prefetched": false,
+   "timestamp": "2026-11-14T13:31:34.908351+00:00",
+   "detected_language_code": "te-IN",
+   "t_s": 4.072652999995626
+  }
+ ]
+}

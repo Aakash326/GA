@@ -1,0 +1,56 @@
+{
+ "ok": true,
+ "kind": "stt_stream",
+ "case_id": "CL-HI-04",
+ "run_tag": "ws",
+ "fingerprint": "2566bb58e1797791527f53b3",
+ "connect_ms": 359.5,
+ "speech_end_s": 4.676,
+ "transcript": "स्वतंत्र पाकिस्तान के पहले राष्ट्रपति कौन थे?",
+ "first_final_s": 4.584,
+ "last_final_after_speech_ms": -91.9,
+ "server_latency_ms": [
+  106
+ ],
+ "segments": 1,
+ "errors": [],
+ "messages": [
+  {
+   "type": "connected",
+   "message": "STT service ready — VAD service connected",
+   "request_id": "01a1da41-3449-7c9d-8d99-02a009b2c3ec",
+   "config": {
+    "sample_rate": 16000,
+    "chunk_size": 512,
+    "partials_enabled": false,
+    "partial_interval_ms": 450,
+    "partial_max_window_s": 15.0,
+    "language_code": "hi-IN",
+    "format": "transcribe"
+   },
+   "timestamp": "2026-11-14T13:31:09.032024+00:00",
+   "t_s": 0.05458560000988655
+  },
+  {
+   "type": "speech_start",
+   "utterance_id": "uaad9573b",
+   "t_ms": 500,
+   "timestamp": "2026-11-14T13:31:09.767957+00:00",
+   "t_s": 0.7873896000091918
+  },
+  {
+   "type": "transcript",
+   "text": "स्वतंत्र पाकिस्तान के पहले राष्ट्रपति कौन थे?",
+   "audio_duration_ms": 4308.0,
+   "segment_id": "01a1da41-3449-7c9d-8d99-02a009b2c3ec-seg-1",
+   "segment_index": 1,
+   "utterance_id": "uaad9573b",
+   "is_final": true,
+   "latency": 106,
+   "prefetched": false,
+   "timestamp": "2026-11-14T13:31:13.563547+00:00",
+   "detected_language_code": "hi-IN",
+   "t_s": 4.584103400004096
+  }
+ ]
+}

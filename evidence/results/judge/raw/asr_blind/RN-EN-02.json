@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "RN-EN-02",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/RN-EN-02.wav",
+ "latency_ms": 4804,
+ "reply": {
+  "transcript": "What year was the revolution of roses?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 221,
+  "output": 31
+ }
+}

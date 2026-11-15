@@ -1,0 +1,36 @@
+{
+ "task": "tts_judge",
+ "id": "NT005",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "44c3c79ba71e0ebcfdb6ab1f",
+ "audio": "results/next/audio/NT005.wav",
+ "latency_ms": 6742,
+ "reply": {
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "fifteen"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "fifty"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "not"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "artifacts": [],
+  "comment": "Clear and natural speech with distinct contrast between fifteen and fifty."
+ },
+ "tokens": {
+  "prompt": 471,
+  "output": 162
+ }
+}

@@ -1,0 +1,19 @@
+{
+  "source_file": "n1_tts_filled.csv",
+  "source_sha256": "5cf49ca74e99db599007618487ecec0dc8d43d6b780dcfcd43edd1d898358985",
+  "listener_identity": "Human reviewer; listener ID and language metadata were not supplied in the export.",
+  "selected_clips": 50,
+  "fully_marked_clips": 38,
+  "selected_targets": 89,
+  "human_marked_targets": 74,
+  "pending_targets": 15,
+  "human_results": {
+    "correct": 56,
+    "ambiguous": 2,
+    "wrong": 16
+  },
+  "blind_first_marked_targets": 0,
+  "subjective_ratings_complete": false,
+  "status": "partial_human_review",
+  "selection": "targeted priority sample; not a representative population accuracy estimate"
+}

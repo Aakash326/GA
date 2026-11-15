@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T97",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T97.wav",
+ "latency_ms": 5384,
+ "reply": {
+  "heard": "ನಿಮ್ಮ ಪಾವತಿ ನವೆಂಬರ್ ಇಪ್ಪತ್ತ ಮೂರು ರಂದು ಬಾಕಿ ಇದೆ",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 216,
+  "output": 30
+ }
+}

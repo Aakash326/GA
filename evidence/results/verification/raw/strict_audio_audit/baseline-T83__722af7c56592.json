@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T83",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "722af7c56592c4a3a0d119f4",
+ "audio": "results/tts_audio/T83.wav",
+ "latency_ms": 4826,
+ "reply": {
+  "heard": "First, verify the name. Second, check the amount. Finally, confirm only if both are correct.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "condition",
+    "result": "correct",
+    "heard": "confirm only if both are correct"
+   },
+   {
+    "id": "list",
+    "result": "correct",
+    "heard": "First, verify the name. Second, check the amount. Finally,"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 480,
+  "output": 76
+ }
+}

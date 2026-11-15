@@ -1,0 +1,22 @@
+{
+ "task": "asr_verify",
+ "id": "NX-TA-CL-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ec16caf0022e9ad18619a47f",
+ "audio": "data/next/audio/NX-TA-CL-03.wav",
+ "latency_ms": 4063,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "எங்க",
+    "heard": "எங்கு"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 297,
+  "output": 52
+ }
+}

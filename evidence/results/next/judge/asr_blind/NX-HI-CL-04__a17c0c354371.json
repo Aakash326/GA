@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-HI-CL-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "a17c0c354371978e160bc79d",
+ "audio": "data/next/audio/NX-HI-CL-04.wav",
+ "latency_ms": 4589,
+ "reply": {
+  "transcript": "भगवान ब्रह्मा कहां रहते थे",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 210,
+  "output": 35
+ }
+}

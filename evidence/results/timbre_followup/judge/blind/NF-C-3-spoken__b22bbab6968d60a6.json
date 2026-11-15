@@ -1,0 +1,38 @@
+{
+  "task": "blind",
+  "id": "NF-C-3-spoken",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "b22bbab6968d60a6e5068593dff479f0d6b2734c99f94548f06401bc09763937",
+  "input_sha256": [
+    "88f5b7b043c5a69081ac3c2707bec1694e7f34e01a6b0a18e2629bc93567914e"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-C-3-spoken.wav"
+  ],
+  "reply": {
+    "heard": "The change was minus 2.5%. The pin is 0070. The call starts at 9:05 AM.",
+    "naturalness_1to5": 3,
+    "prosody_1to5": 3,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "neutral",
+      "measured pace",
+      "clear articulation"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "normal brief pause before speech",
+    "artifacts": [
+      "mild synthetic quality"
+    ],
+    "confidence": "high",
+    "reason": "Clear TTS delivery with standard pause structure and neutral intonation across three declarative statements."
+  },
+  "prompt_tokens": 489,
+  "output_tokens": 211,
+  "thought_tokens": 159,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

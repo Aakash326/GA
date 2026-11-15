@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T56",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T56.wav",
+ "latency_ms": 5726,
+ "reply": {
+  "heard": "Please read the digits separately. zero zero four two nine one",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 233,
+  "output": 23
+ }
+}

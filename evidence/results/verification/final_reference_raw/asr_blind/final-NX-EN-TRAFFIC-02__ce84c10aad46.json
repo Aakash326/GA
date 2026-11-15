@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-NX-EN-TRAFFIC-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ce84c10aad46342daf6d0a6b",
+ "audio": "data/next/audio/NX-EN-TRAFFIC-02.wav",
+ "latency_ms": 2844,
+ "reply": {
+  "transcript": "When did Arabic abjad develop?",
+  "language": "English",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 245,
+  "output": 30
+ }
+}

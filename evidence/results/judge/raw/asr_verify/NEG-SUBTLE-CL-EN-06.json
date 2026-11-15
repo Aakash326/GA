@@ -1,0 +1,21 @@
+{
+ "task": "asr_verify",
+ "id": "NEG-SUBTLE-CL-EN-06",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/CL-EN-06.wav",
+ "latency_ms": 3936,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "many",
+    "heard": "wrestling"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 316,
+  "output": 29
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "ok": true,
+ "kind": "stt_stream",
+ "case_id": "CL-EN-02",
+ "run_tag": "ws",
+ "fingerprint": "105641b4c7bfaf0beadc0e5a",
+ "connect_ms": 199.3,
+ "speech_end_s": 4.068,
+ "transcript": "What is the NBC affiliated station in Tulsa?",
+ "first_final_s": 4.373,
+ "last_final_after_speech_ms": 305.3,
+ "server_latency_ms": [
+  107
+ ],
+ "segments": 1,
+ "errors": [],
+ "messages": [
+  {
+   "type": "connected",
+   "message": "STT service ready — VAD service connected",
+   "request_id": "01a1da40-4db2-7a7c-aaa8-d66bc0cbe8a3",
+   "config": {
+    "sample_rate": 16000,
+    "chunk_size": 512,
+    "partials_enabled": false,
+    "partial_interval_ms": 450,
+    "partial_max_window_s": 15.0,
+    "language_code": "en-IN",
+    "format": "transcribe"
+   },
+   "timestamp": "2026-11-14T13:30:09.780766+00:00",
+   "t_s": 0.043559999990975484
+  },
+  {
+   "type": "speech_start",
+   "utterance_id": "ubdb21dfa",
+   "t_ms": 596,
+   "timestamp": "2026-11-14T13:30:10.643952+00:00",
+   "t_s": 0.9086301999923307
+  },
+  {
+   "type": "transcript",
+   "text": "What is the NBC affiliated station in Tulsa?",
+   "audio_duration_ms": 3988.0,
+   "segment_id": "01a1da40-4db2-7a7c-aaa8-d66bc0cbe8a3-seg-1",
+   "segment_index": 1,
+   "utterance_id": "ubdb21dfa",
+   "is_final": true,
+   "latency": 107,
+   "prefetched": false,
+   "timestamp": "2026-11-14T13:30:14.108723+00:00",
+   "detected_language_code": "en-IN",
+   "t_s": 4.373320800004876
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T86",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c2c4f433f9ed1faec3d5acab",
+ "audio": "results/tts_audio/T86.wav",
+ "latency_ms": 4602,
+ "reply": {
+  "heard": "Your statement shows the opening balance, completed payments, and closing balance for the selected period. A pending transaction may appear separately until processing is complete. Check the date and amount of each entry before raising a query. If an entry looks unfamiliar, note its reference number and contact support through the application. Do not share passwords or verification codes.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "start",
+    "result": "correct",
+    "heard": "Your statement shows the opening balance"
+   },
+   {
+    "id": "end",
+    "result": "correct",
+    "heard": "Do not share passwords or verification codes"
+   },
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "Do not share passwords"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 1010,
+  "output": 198
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "model": "gemini-3.8-flash",
+ "asr": {
+  "positive": {
+   "n": 30,
+   "judge_correct": 29,
+   "rate": 0.967
+  },
+  "negative_swap": {
+   "n": 10,
+   "judge_correct": 10,
+   "rate": 1.0
+  },
+  "negative_subtle": {
+   "n": 17,
+   "judge_correct": 17,
+   "rate": 1.0
+  }
+ },
+ "tts": {
+  "targets": 68,
+  "exact_agreement": 0.912,
+  "kappa_3class": 0.589,
+  "agreement_correct_vs_not": 0.912,
+  "kappa_correct_vs_not": 0.579,
+  "confusion_human_to_judge": {
+   "wrong": {
+    "wrong": 5,
+    "correct": 1
+   },
+   "correct": {
+    "correct": 57,
+    "wrong": 1
+   },
+   "ambiguous": {
+    "correct": 4
+   }
+  }
+ }
+}

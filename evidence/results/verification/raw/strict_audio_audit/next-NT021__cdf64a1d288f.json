@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT021",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "cdf64a1d288f1adab3bc1861",
+ "audio": "results/next/audio/NT021.wav",
+ "latency_ms": 3669,
+ "reply": {
+  "heard": "The code is double zero seven double zero",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "digits",
+    "result": "correct",
+    "heard": "double zero seven double zero"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 334,
+  "output": 38
+ }
+}

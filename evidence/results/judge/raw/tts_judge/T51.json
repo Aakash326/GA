@@ -1,0 +1,25 @@
+{
+ "task": "tts_judge",
+ "id": "T51",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T51.wav",
+ "latency_ms": 8102,
+ "reply": {
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "A B one zero O zero"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The speaker clearly distinguishes the letter O as 'oh' from the surrounding 'zero' digits."
+ },
+ "tokens": {
+  "prompt": 467,
+  "output": 113
+ }
+}

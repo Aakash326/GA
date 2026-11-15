@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T66",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T66.wav",
+ "latency_ms": 3486,
+ "reply": {
+  "heard": "మీ పేమెంట్ కంప్లీట్ అయింది రిసీప్ట్ సేవ్ చేసుకోండి",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 208,
+  "output": 30
+ }
+}

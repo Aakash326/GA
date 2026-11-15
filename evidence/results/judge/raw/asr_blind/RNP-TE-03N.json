@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "RNP-TE-03N",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/RNP-TE-03N.wav",
+ "latency_ms": 4566,
+ "reply": {
+  "transcript": "మనీలా లో అధికారిక భాష ఏంటి",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 225,
+  "output": 33
+ }
+}

@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+# Review audio licenses and raw artifacts before publishing them.
+data/sources/cache/

@@ -1,0 +1,25 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T39",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "df1abaaaaeb13bd3f80f624a",
+ "audio": "results/tts_audio/T39.wav",
+ "latency_ms": 7768,
+ "reply": {
+  "heard": "Your available balance is zero rupees and five paise",
+  "target_spec_issues": [
+   "Accept list should include 'zero rupees and five paise'"
+  ],
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "zero rupees and five paise"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 331,
+  "output": 50
+ }
+}

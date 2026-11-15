@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT044",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "8892d553e4304c565e090125",
+ "audio": "results/next/audio/NT044.wav",
+ "latency_ms": 3883,
+ "reply": {
+  "heard": "మీ కోడ్ సున్నా సున్నా ఏడు సున్నా",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "digits",
+    "result": "correct",
+    "heard": "సున్నా సున్నా ఏడు సున్నా"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 311,
+  "output": 44
+ }
+}

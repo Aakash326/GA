@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LONG-TE-02",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LONG-TE-02.wav",
+ "latency_ms": 4927,
+ "reply": {
+  "transcript": "విజ్ఞాన శాస్త్ర విధానం ద్వారా ప్రపంచం ఎలా పనిచేస్తుందో కనుక్కోవడమే విజ్ఞాన శాస్త్ర ప్రధాన లక్ష్యం. నిజానికి ఈ పద్ధతి చాలా శాస్త్రీయ పరిశోధనలకు మార్గదర్శకంగా ఉంటుంది.",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 472,
+  "output": 74
+ }
+}

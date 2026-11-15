@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-TE-TRAFFIC-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "7694cb3c42dd18866e408cc7",
+ "audio": "data/next/audio/NX-TE-TRAFFIC-01.wav",
+ "latency_ms": 5689,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "బంగారువలస గ్రామ పిన్ కోడ్ ఏంటి?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The dataset candidate has 'బంగరువలస' with a short vowel, but the speaker distinctly pronounces 'బంగారువలస' with a long vowel (deergham)."
+ },
+ "tokens": {
+  "prompt": 312,
+  "output": 73
+ }
+}

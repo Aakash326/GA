@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-KN-BG-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ae9c71d6b0ddbd719c460e47",
+ "audio": "data/next/audio/NX-KN-BG-02.wav",
+ "latency_ms": 6257,
+ "reply": {
+  "transcript": "Question Noor Mohammad Taraki was associated with which political party in Afghanistan",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 430,
+  "output": 37
+ }
+}

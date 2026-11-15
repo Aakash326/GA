@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-DS-FIN-EN-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "9d733828f5aa5f05b23a0578",
+ "audio": "data/next/dataset_replacement/DS-FIN-EN-02.wav",
+ "latency_ms": 2985,
+ "reply": {
+  "dataset_matches": true,
+  "selected_reference": "What's the maximum benefit from Universal Credit?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": ""
+ },
+ "tokens": {
+  "prompt": 337,
+  "output": 34
+ }
+}

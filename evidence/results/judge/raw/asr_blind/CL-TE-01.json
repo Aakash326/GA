@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "CL-TE-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/CL-TE-01.wav",
+ "latency_ms": 3806,
+ "reply": {
+  "transcript": "కృష్ణా జిల్లా యొక్క విస్తీర్ణం ఎంత",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 276,
+  "output": 34
+ }
+}

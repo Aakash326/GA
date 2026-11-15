@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T62",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "0a01c6885523ae41b05a6cc4",
+ "audio": "results/tts_audio/T62.wav",
+ "latency_ms": 3895,
+ "reply": {
+  "heard": "Aapka payment mil gaya hai. Kripya receipt sambhal kar rakhen.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "hindi",
+    "result": "correct",
+    "heard": "Aapka payment mil gaya hai. Kripya receipt sambhal kar rakhen."
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 335,
+  "output": 60
+ }
+}

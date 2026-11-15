@@ -1,0 +1,25 @@
+{
+ "task": "tts_judge",
+ "id": "M-T52-A",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/M-T52-A.wav",
+ "latency_ms": 4070,
+ "reply": {
+  "targets": [
+   {
+    "id": "digits",
+    "result": "correct",
+    "heard": "zero zero seven zero"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "artifacts": [],
+  "comment": "The prompt was read accurately and naturally with clear articulation."
+ },
+ "tokens": {
+  "prompt": 428,
+  "output": 103
+ }
+}

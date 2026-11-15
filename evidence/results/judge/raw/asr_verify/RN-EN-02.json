@@ -1,0 +1,16 @@
+{
+ "task": "asr_verify",
+ "id": "RN-EN-02",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/RN-EN-02.wav",
+ "latency_ms": 3805,
+ "reply": {
+  "matches": true,
+  "differences": [],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 255,
+  "output": 16
+ }
+}

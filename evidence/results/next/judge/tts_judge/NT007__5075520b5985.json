@@ -1,0 +1,36 @@
+{
+ "task": "tts_judge",
+ "id": "NT007",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5075520b59853e89452c75bd",
+ "audio": "results/next/audio/NT007.wav",
+ "latency_ms": 7668,
+ "reply": {
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "sixteen"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "sixty"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "not"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "artifacts": [],
+  "comment": "The prompt is articulated clearly with appropriate contrastive emphasis between sixteen and sixty."
+ },
+ "tokens": {
+  "prompt": 470,
+  "output": 136
+ }
+}

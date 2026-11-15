@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T59",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T59.wav",
+ "latency_ms": 4094,
+ "reply": {
+  "heard": "आपका भुगतान पूरा हो गया है। कृपया रसीद सुरक्षित रखें।",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 223,
+  "output": 25
+ }
+}

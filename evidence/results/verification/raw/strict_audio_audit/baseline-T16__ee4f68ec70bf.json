@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T16",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ee4f68ec70bf46ad3b086250",
+ "audio": "results/tts_audio/T16.wav",
+ "latency_ms": 6484,
+ "reply": {
+  "heard": "Your HDFC Bank shares have been credited.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "hdfc",
+    "result": "correct",
+    "heard": "HDFC Bank"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 309,
+  "output": 38
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "NUM-HI-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/NUM-HI-01.wav",
+ "latency_ms": 4832,
+ "reply": {
+  "transcript": "2015 क्रिकेट विश्व कप के दौरान भारतीय टीम के सह कप्तान कौन थे?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 288,
+  "output": 40
+ }
+}

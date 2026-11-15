@@ -1,0 +1,35 @@
+{
+ "task": "tts_judge",
+ "id": "T05",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T05.wav",
+ "latency_ms": 10228,
+ "reply": {
+  "targets": [
+   {
+    "id": "from",
+    "result": "correct",
+    "heard": "eight hundred fifty rupees"
+   },
+   {
+    "id": "to",
+    "result": "correct",
+    "heard": "one thousand fifty rupees"
+   },
+   {
+    "id": "order",
+    "result": "correct",
+    "heard": "from 850 to 1,050"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "artifacts": [],
+  "comment": "All currency values and numbers read accurately with clear pronunciation and appropriate pacing."
+ },
+ "tokens": {
+  "prompt": 603,
+  "output": 150
+ }
+}

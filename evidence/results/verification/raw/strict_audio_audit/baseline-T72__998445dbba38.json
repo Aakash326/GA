@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T72",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "998445dbba38debfb4cec913",
+ "audio": "results/tts_audio/T72.wav",
+ "latency_ms": 4213,
+ "reply": {
+  "heard": "Please check the pan and GST details on the form.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "pan",
+    "result": "correct",
+    "heard": "pan"
+   },
+   {
+    "id": "gst",
+    "result": "correct",
+    "heard": "GST"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 357,
+  "output": 49
+ }
+}

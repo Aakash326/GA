@@ -1,0 +1,31 @@
+{
+  "task": "pair",
+  "id": "NF-T-3-en-laugh",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "32002001be690cf06955438a2ace80648559d33241ce52a2fe58dc57fcc7a85b",
+  "input_sha256": [
+    "5b7400b4c4baad46d7da7d7ab470f085f14dfe8b2b4222662423a5038b863f8f",
+    "d7cfb60caf0eaa67241cab4151d0464892ea0fbfd7956e5e7f1bfffbfb5c7590"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-T-3-en-laugh.wav",
+    "results/timbre_followup/listen/NF-N-3-en.wav"
+  ],
+  "reply": {
+    "more_cue": "A",
+    "cue_audible_A": true,
+    "cue_audible_B": false,
+    "content_preserved_A": true,
+    "content_preserved_B": true,
+    "literal_tag_spoken_A": false,
+    "literal_tag_spoken_B": false,
+    "confidence": "high",
+    "reason": "Clip A includes an audible laugh between the sentences, whereas Clip B is spoken normally without any laughing."
+  },
+  "prompt_tokens": 366,
+  "output_tokens": 88,
+  "thought_tokens": 163,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

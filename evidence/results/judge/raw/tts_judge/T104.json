@@ -1,0 +1,25 @@
+{
+ "task": "tts_judge",
+ "id": "T104",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T104.wav",
+ "latency_ms": 7233,
+ "reply": {
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "शून्य शून्य चार दोन नऊ एक"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The digits are pronounced clearly in Marathi with slightly deliberate pacing."
+ },
+ "tokens": {
+  "prompt": 483,
+  "output": 108
+ }
+}

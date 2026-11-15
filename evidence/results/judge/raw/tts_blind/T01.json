@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T01",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T01.wav",
+ "latency_ms": 4768,
+ "reply": {
+  "heard": "Your available balance is one lakh twenty five thousand four hundred fifty rupees",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 231,
+  "output": 24
+ }
+}

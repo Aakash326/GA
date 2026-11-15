@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT050",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "dd3c3f9677a6b5720a46a067",
+ "audio": "results/next/audio/NT050.wav",
+ "latency_ms": 4283,
+ "reply": {
+  "heard": "உங்கள் குறியீடு பூஜ்யம் பூஜ்யம் ஏழு பூஜ்யம்",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "digits",
+    "result": "correct",
+    "heard": "பூஜ்யம் பூஜ்யம் ஏழு பூஜ்யம்"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 340,
+  "output": 50
+ }
+}

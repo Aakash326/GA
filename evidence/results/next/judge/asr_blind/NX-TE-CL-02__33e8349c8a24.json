@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TE-CL-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "33e8349c8a246d1f4856b6ee",
+ "audio": "data/next/audio/NX-TE-CL-02.wav",
+ "latency_ms": 3617,
+ "reply": {
+  "transcript": "కొత్తపాలెం గ్రామ విస్తీర్ణం ఎంత",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 226,
+  "output": 34
+ }
+}

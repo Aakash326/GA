@@ -1,0 +1,56 @@
+{
+ "ok": true,
+ "kind": "stt_stream",
+ "case_id": "CL-TE-01",
+ "run_tag": "ws",
+ "fingerprint": "7ddf6bc5b6cfe308b7262250",
+ "connect_ms": 126.9,
+ "speech_end_s": 5.796,
+ "transcript": "కృష్ణా జిల్లా యొక్క విస్తీర్ణం ఎంత?",
+ "first_final_s": 5.785,
+ "last_final_after_speech_ms": -11.3,
+ "server_latency_ms": [
+  123
+ ],
+ "segments": 1,
+ "errors": [],
+ "messages": [
+  {
+   "type": "connected",
+   "message": "STT service ready — VAD service connected",
+   "request_id": "01a1da41-5d90-76cc-809e-c52008c07841",
+   "config": {
+    "sample_rate": 16000,
+    "chunk_size": 512,
+    "partials_enabled": false,
+    "partial_interval_ms": 450,
+    "partial_max_window_s": 15.0,
+    "language_code": "te-IN",
+    "format": "transcribe"
+   },
+   "timestamp": "2026-11-14T13:31:19.373190+00:00",
+   "t_s": 0.042881600005785
+  },
+  {
+   "type": "speech_start",
+   "utterance_id": "u989da631",
+   "t_ms": 2004,
+   "timestamp": "2026-11-14T13:31:21.620927+00:00",
+   "t_s": 2.292495500005316
+  },
+  {
+   "type": "transcript",
+   "text": "కృష్ణా జిల్లా యొక్క విస్తీర్ణం ఎంత?",
+   "audio_duration_ms": 3988.0,
+   "segment_id": "01a1da41-5d90-76cc-809e-c52008c07841-seg-1",
+   "segment_index": 1,
+   "utterance_id": "u989da631",
+   "is_final": true,
+   "latency": 123,
+   "prefetched": false,
+   "timestamp": "2026-11-14T13:31:25.115216+00:00",
+   "detected_language_code": "te-IN",
+   "t_s": 5.784741600000416
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T70",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T70.wav",
+ "latency_ms": 6685,
+ "reply": {
+  "heard": "Your N E F T transfer is pending, but your U P I payment is complete.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 240,
+  "output": 28
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T82",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T82.wav",
+ "latency_ms": 3731,
+ "reply": {
+  "heard": "Your request is approved. However, the transfer is still pending.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 238,
+  "output": 23
+ }
+}

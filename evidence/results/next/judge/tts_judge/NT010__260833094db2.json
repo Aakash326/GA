@@ -1,0 +1,36 @@
+{
+ "task": "tts_judge",
+ "id": "NT010",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "260833094db2d7c33c6ba88b",
+ "audio": "results/next/audio/NT010.wav",
+ "latency_ms": 10052,
+ "reply": {
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "seventeen"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "seventy"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "not"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "Clear pronunciation with appropriate contrastive stress distinguishing seventeen and seventy."
+ },
+ "tokens": {
+  "prompt": 484,
+  "output": 134
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "task": "tts_judge",
+ "id": "NT052",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "aed262a322aeea737b02304f",
+ "audio": "results/next/audio/NT052.wav",
+ "latency_ms": 9054,
+ "reply": {
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "ಹದಿನೈದು"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "ಐವತ್ತು"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "ಅಲ್ಲ"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "Speech is clear, fully legible, and matches the target script accurately."
+ },
+ "tokens": {
+  "prompt": 469,
+  "output": 117
+ }
+}

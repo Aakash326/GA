@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT060",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "b61c5e40999e25f5f38eb394",
+ "audio": "results/next/audio/NT060.wav",
+ "latency_ms": 28977,
+ "reply": {
+  "heard": "बदलून हे एक पूर्णांक पाच टक्के आहे",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 193,
+  "output": 21
+ }
+}

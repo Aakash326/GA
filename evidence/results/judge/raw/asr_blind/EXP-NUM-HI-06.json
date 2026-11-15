@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-NUM-HI-06",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-NUM-HI-06.wav",
+ "latency_ms": 6514,
+ "reply": {
+  "transcript": "1977 में कोसने टीम ने सीरीज कब जीता था?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 325,
+  "output": 37
+ }
+}

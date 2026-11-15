@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TE-MEDIA-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "28adfcacb49205a1eb07a7ef",
+ "audio": "data/next/audio/NX-TE-MEDIA-03.wav",
+ "latency_ms": 4053,
+ "reply": {
+  "transcript": "టెలివిజన్ ను ఎవరు కనుగొన్నారు",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 216,
+  "output": 36
+ }
+}

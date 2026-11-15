@@ -1,0 +1,1 @@
+{"success":true,"request_id":"EXP-CL-EN-06-run1-a1-185a4ff4","transcript":"How many Sherlock Holmes stories did Conan Doyle write?","model":"prisma-v3.0","processing_time":0.10387611389160156,"end_to_end_latency":0.10866475105285645,"detected_language_code":"en-IN"}

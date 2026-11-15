@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-HI-NUM-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "bcca8cef6b60f1496e9f3b0d",
+ "audio": "data/next/audio/NX-HI-NUM-02.wav",
+ "latency_ms": 6866,
+ "reply": {
+  "transcript": "2011 के जनगणना के अनुसार जंगारेड्डीगुडेम मंडल की जनसंख्या कितनी है?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 353,
+  "output": 43
+ }
+}

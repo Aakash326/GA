@@ -1,0 +1,36 @@
+{
+ "task": "tts_judge",
+ "id": "NT006",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "3094cb858dce14c33cd3c3bb",
+ "audio": "results/next/audio/NT006.wav",
+ "latency_ms": 6952,
+ "reply": {
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "fifteen"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "fifty"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "not"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "artifacts": [],
+  "comment": "Clear pronunciation and distinction between fifteen and fifty."
+ },
+ "tokens": {
+  "prompt": 469,
+  "output": 129
+ }
+}

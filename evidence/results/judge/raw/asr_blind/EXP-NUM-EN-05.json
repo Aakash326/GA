@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-NUM-EN-05",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-NUM-EN-05.wav",
+ "latency_ms": 6305,
+ "reply": {
+  "transcript": "How much did House of a 1000 Corpses gross?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 281,
+  "output": 38
+ }
+}

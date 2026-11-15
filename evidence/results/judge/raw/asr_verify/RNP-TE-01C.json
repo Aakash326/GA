@@ -1,0 +1,16 @@
+{
+ "task": "asr_verify",
+ "id": "RNP-TE-01C",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/RNP-TE-01C.wav",
+ "latency_ms": 7178,
+ "reply": {
+  "matches": true,
+  "differences": [],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 328,
+  "output": 16
+ }
+}

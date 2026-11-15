@@ -1,0 +1,33 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT057",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "214b6717c694a3d6557f5b7a",
+ "audio": "results/next/audio/NT057.wav",
+ "latency_ms": 3374,
+ "reply": {
+  "heard": "प्रमाण पंधरा आहे पन्नास नाही",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "पंधरा"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "पन्नास"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "नाही"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 390,
+  "output": 63
+ }
+}

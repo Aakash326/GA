@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T43",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T43.wav",
+ "latency_ms": 4599,
+ "reply": {
+  "heard": "Please pay ten lakh rupees before the due date.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 200,
+  "output": 20
+ }
+}

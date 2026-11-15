@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-EN-BG-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "1de9f6b05e733002f90cb0d0",
+ "audio": "data/next/audio/NX-EN-BG-03.wav",
+ "latency_ms": 5401,
+ "reply": {
+  "transcript": "When did electrodynamic tether get invented",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 292,
+  "output": 37
+ }
+}

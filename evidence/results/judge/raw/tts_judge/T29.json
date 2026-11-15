@@ -1,0 +1,30 @@
+{
+ "task": "tts_judge",
+ "id": "T29",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T29.wav",
+ "latency_ms": 5108,
+ "reply": {
+  "targets": [
+   {
+    "id": "read_present",
+    "result": "correct",
+    "heard": "reed"
+   },
+   {
+    "id": "read_past",
+    "result": "correct",
+    "heard": "red"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "artifacts": [],
+  "comment": "Both pronunciations of 'read' (present vs past tense) were handled accurately."
+ },
+ "tokens": {
+  "prompt": 425,
+  "output": 140
+ }
+}

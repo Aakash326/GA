@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T46",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T46.wav",
+ "latency_ms": 3036,
+ "reply": {
+  "heard": "Your delivery window is three to five working days.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 206,
+  "output": 20
+ }
+}

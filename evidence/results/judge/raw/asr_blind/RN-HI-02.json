@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "RN-HI-02",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/RN-HI-02.wav",
+ "latency_ms": 5743,
+ "reply": {
+  "transcript": "मेक्सिको की राज्य भाषा क्या है?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 271,
+  "output": 32
+ }
+}

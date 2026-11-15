@@ -1,0 +1,38 @@
+{
+  "task": "blind",
+  "id": "NF-S-25-long",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "ae4610161006a851be517ea719a614b0202fb26f7a009d584bfd44b3cbcc7e78",
+  "input_sha256": [
+    "e2566b1ad63a4e913d2db1fc8f3532cbdda56aa447211fca5c6d6e7aac4afeaf"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-S-25-long.wav"
+  ],
+  "reply": {
+    "heard": "Your request has been received and is now under review. Please check the details shown in your account before you confirm the next step. If any information is wrong, contact our support team so we can help you update it. We will send a message when the review is complete. You do not need to submit the same request again. Keep your reference number safe and use it when you ask us for an update. Before placing an order review the company name, quantity, and price carefully. The amount shown on the confirmation screen may include charges that were not included in an earlier estimate. If you decide to change the order return to the details page and check the updated information before confirming. Do not share your password or verification code with anyone who contacts you unexpectedly. You can find the official support contact details inside your account. Once the request is complete, save the receipt for your records.",
+    "naturalness_1to5": 3,
+    "prosody_1to5": 3,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "calm",
+      "steady pace",
+      "formal tone"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "normal brief lead-in",
+    "artifacts": [
+      "mild synthetic timbre"
+    ],
+    "confidence": "high",
+    "reason": "Clear synthesized speech with consistent pacing and slight electronic quality."
+  },
+  "prompt_tokens": 1317,
+  "output_tokens": 354,
+  "thought_tokens": 318,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

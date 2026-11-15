@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-HI-NUM-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "936c1dfa2a3543b276ec2579",
+ "audio": "data/next/audio/NX-HI-NUM-01.wav",
+ "latency_ms": 4347,
+ "reply": {
+  "transcript": "2017 में भारत के प्रधानमंत्री कौन हैं?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 264,
+  "output": 34
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-EN-07",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-CL-EN-07.wav",
+ "latency_ms": 3812,
+ "reply": {
+  "transcript": "What are the major schools of therapy?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 226,
+  "output": 31
+ }
+}

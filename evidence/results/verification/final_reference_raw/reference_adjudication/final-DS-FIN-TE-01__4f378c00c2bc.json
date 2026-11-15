@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-DS-FIN-TE-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "4f378c00c2bc03fa322d8e79",
+ "audio": "data/next/dataset_replacement/DS-FIN-TE-01.wav",
+ "latency_ms": 6305,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "భారతదేశంలో 2000 రూపాయల నోటుని ఎప్పుడు ప్రవేశపెట్టారు?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The speaker says రూపాయల (roopaayala) rather than రూపాయలు (roopaayalu)."
+ },
+ "tokens": {
+  "prompt": 476,
+  "output": 67
+ }
+}

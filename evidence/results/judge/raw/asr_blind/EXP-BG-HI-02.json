@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-BG-HI-02",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-BG-HI-02.wav",
+ "latency_ms": 6614,
+ "reply": {
+  "transcript": "अ पैसेज भारत पुस्तक पहली बार कब प्रकाशित हुई थी?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 297,
+  "output": 35
+ }
+}

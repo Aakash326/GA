@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-DS-FIN-EN-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "73a4b436fca638a4790cdcce",
+ "audio": "data/next/dataset_replacement/DS-FIN-EN-02.wav",
+ "latency_ms": 5433,
+ "reply": {
+  "transcript": "What's the maximum benefit from Universal Credit?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 251,
+  "output": 33
+ }
+}

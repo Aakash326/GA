@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT036",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "646dbdd3facd23d233a9e8a0",
+ "audio": "results/next/audio/NT036.wav",
+ "latency_ms": 3549,
+ "reply": {
+  "heard": "आपका कोड शून्य शून्य सात शून्य है",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 207,
+  "output": 18
+ }
+}

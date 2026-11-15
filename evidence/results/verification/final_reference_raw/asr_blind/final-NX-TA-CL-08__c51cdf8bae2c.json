@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-NX-TA-CL-08",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c51cdf8bae2c65c4c53974da",
+ "audio": "data/next/audio/NX-TA-CL-08.wav",
+ "latency_ms": 4891,
+ "reply": {
+  "transcript": "இஸ்லாமிய மதத்தின் மூன்றாவது கலிப்பாக இருந்தவர் யார்?",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 256,
+  "output": 37
+ }
+}

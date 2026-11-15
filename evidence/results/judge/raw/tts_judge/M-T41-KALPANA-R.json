@@ -1,0 +1,35 @@
+{
+ "task": "tts_judge",
+ "id": "M-T41-KALPANA-R",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/M-T41-KALPANA-R.wav",
+ "latency_ms": 6869,
+ "reply": {
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "fifteen"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "fifty"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "not"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The numbers are clearly articulated and distinguishable with appropriate contrastive stress."
+ },
+ "tokens": {
+  "prompt": 470,
+  "output": 163
+ }
+}

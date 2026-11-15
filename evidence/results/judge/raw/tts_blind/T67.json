@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T67",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T67.wav",
+ "latency_ms": 3835,
+ "reply": {
+  "heard": "నా ఆర్డర్ క్యాన్సల్ చేయండి కన్ఫర్మ్ చేయవద్దు",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 206,
+  "output": 29
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "task": "asr_verify",
+ "id": "NX-TA-CL-08",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "bce4b02317c6c83bc7c96bc1",
+ "audio": "data/next/audio/NX-TA-CL-08.wav",
+ "latency_ms": 6301,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "மதத்தில்",
+    "heard": "மதத்தின்"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 302,
+  "output": 32
+ }
+}

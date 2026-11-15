@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T75",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T75.wav",
+ "latency_ms": 3700,
+ "reply": {
+  "heard": "Satinder Kaur will visit the Bengaluru office.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 196,
+  "output": 19
+ }
+}

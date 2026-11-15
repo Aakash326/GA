@@ -1,0 +1,21 @@
+{
+ "task": "asr_verify",
+ "id": "EXP-NUM-TE-04",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-NUM-TE-04.wav",
+ "latency_ms": 6007,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "కొటూరూ",
+    "heard": "కోటూరు"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 385,
+  "output": 33
+ }
+}

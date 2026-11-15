@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T46",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "3553906affa241816ccb5b85",
+ "audio": "results/tts_audio/T46.wav",
+ "latency_ms": 5357,
+ "reply": {
+  "heard": "Your delivery window is three to five working days.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "range",
+    "result": "correct",
+    "heard": "three to five"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 317,
+  "output": 38
+ }
+}

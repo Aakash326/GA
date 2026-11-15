@@ -1,0 +1,33 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "86f4c1340709553ef198cc45",
+ "audio": "results/tts_audio/T03.wav",
+ "latency_ms": 5966,
+ "reply": {
+  "heard": "Your S I P is scheduled for 23rd November 2026.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "sip",
+    "result": "correct",
+    "heard": "S I P"
+   },
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "23rd November"
+   },
+   {
+    "id": "year",
+    "result": "correct",
+    "heard": "2026"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 519,
+  "output": 76
+ }
+}

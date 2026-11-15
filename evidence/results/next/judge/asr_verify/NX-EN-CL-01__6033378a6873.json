@@ -1,0 +1,17 @@
+{
+ "task": "asr_verify",
+ "id": "NX-EN-CL-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "6033378a6873cac1ced253bc",
+ "audio": "data/next/audio/NX-EN-CL-01.wav",
+ "latency_ms": 4214,
+ "reply": {
+  "matches": true,
+  "differences": [],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 283,
+  "output": 16
+ }
+}

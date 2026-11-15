@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT021",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "8bdfb80638da4418581e91b3",
+ "audio": "results/next/audio/NT021.wav",
+ "latency_ms": 3997,
+ "reply": {
+  "heard": "The code is double zero seven double zero",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 210,
+  "output": 19
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "ok": true,
+ "kind": "stt_stream",
+ "case_id": "CALLER-L1",
+ "run_tag": "multi",
+ "fingerprint": "047e931715d944cea93f069c",
+ "connect_ms": 219.7,
+ "speech_end_s": 2.244,
+ "transcript": "I want to buy 25 shares of Infosys.",
+ "first_final_s": 2.719,
+ "last_final_after_speech_ms": 475.1,
+ "server_latency_ms": [
+  107
+ ],
+ "segments": 1,
+ "errors": [],
+ "messages": [
+  {
+   "type": "connected",
+   "message": "STT service ready — VAD service connected",
+   "request_id": "01a1da1b-1cec-725a-99d5-a08f7352542d",
+   "config": {
+    "sample_rate": 16000,
+    "chunk_size": 512,
+    "partials_enabled": false,
+    "partial_interval_ms": 450,
+    "partial_max_window_s": 15.0,
+    "language_code": "hi-IN",
+    "format": "transcribe"
+   },
+   "timestamp": "2026-11-14T12:49:32.463096+00:00",
+   "t_s": 0.04899409999779891
+  },
+  {
+   "type": "speech_start",
+   "utterance_id": "u00b39ab8",
+   "t_ms": 0,
+   "timestamp": "2026-11-14T12:49:32.687014+00:00",
+   "t_s": 0.27264729999296833
+  },
+  {
+   "type": "transcript",
+   "text": "I want to buy 25 shares of Infosys.",
+   "audio_duration_ms": 2592.0,
+   "segment_id": "01a1da1b-1cec-725a-99d5-a08f7352542d-seg-1",
+   "segment_index": 1,
+   "utterance_id": "u00b39ab8",
+   "is_final": true,
+   "latency": 107,
+   "prefetched": false,
+   "timestamp": "2026-11-14T12:49:35.131959+00:00",
+   "detected_language_code": "en-IN",
+   "t_s": 2.7190850999904796
+  }
+ ]
+}

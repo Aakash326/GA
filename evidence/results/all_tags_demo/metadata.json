@@ -1,0 +1,48 @@
+{
+  "case_id": "TAGS-ALL-13-EN-01",
+  "request_id": "TAGS-ALL-13-EN-01-all_tags_demo-a1-0882e708",
+  "model": "timbre-v3.0",
+  "voice": "Tarika",
+  "language": "en-IN",
+  "sample_rate": 48000,
+  "duration_s": 31.977708333333332,
+  "request_latency_ms": 14151.5,
+  "settings": {
+    "endpoint": "https://api.vachana.ai/api/v1/tts/inference",
+    "voice": "Tarika",
+    "model": "timbre-v3.0",
+    "language": "en-IN",
+    "speed": 1.0,
+    "audio_config": {
+      "sample_rate": 48000,
+      "num_channels": 1,
+      "sample_width": 2,
+      "encoding": "linear_pcm",
+      "container": "wav"
+    }
+  },
+  "fingerprint": "25b30f0e1b758b14f8013162",
+  "prompt_path": "data/timbre_v3_all_tags.txt",
+  "prompt_sha256": "408f25f567fdaf19e977f601febb9a60976e3eedc6a36d326006b2711024104f",
+  "raw_audio_path": "results/all_tags_demo/audio/TAGS-ALL-13-EN-01-all_tags_demo-a1-0882e708.wav",
+  "raw_audio_sha256": "27e06d3edacdd5d6c424f5b2fc6cf6a7339181f6086db8133e185a600c82ba11",
+  "audio_path": "timbre_v3_all_13_tags.wav",
+  "audio_sha256": "003fce6abefb55a63973983bc8cd1ef1e96c2f3717d6881bae650d28a2e894f8",
+  "pcm_frames": 1534930,
+  "tags": [
+    "laugh",
+    "giggle",
+    "sigh",
+    "exhales",
+    "sniffles",
+    "yawns",
+    "coughs",
+    "clears throat",
+    "whispers",
+    "shouting",
+    "excited",
+    "slow",
+    "pauses"
+  ],
+  "scope": "One-request listening demonstration, not a scored quality benchmark"
+}

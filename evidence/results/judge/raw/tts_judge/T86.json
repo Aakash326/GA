@@ -1,0 +1,35 @@
+{
+ "task": "tts_judge",
+ "id": "T86",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T86.wav",
+ "latency_ms": 8312,
+ "reply": {
+  "targets": [
+   {
+    "id": "start",
+    "result": "correct",
+    "heard": "Your statement shows the opening balance"
+   },
+   {
+    "id": "end",
+    "result": "correct",
+    "heard": "Do not share passwords or verification codes"
+   },
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "Do not share passwords"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "artifacts": [],
+  "comment": "The prompt is read accurately and clearly with natural pacing and correct phrasing."
+ },
+ "tokens": {
+  "prompt": 1144,
+  "output": 178
+ }
+}

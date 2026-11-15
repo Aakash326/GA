@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-MR-NUM-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "32c8e6dc0cfee8b7e49dd7f9",
+ "audio": "data/next/audio/NX-MR-NUM-04.wav",
+ "latency_ms": 4392,
+ "reply": {
+  "transcript": "2017 मध्ये भारताचे पंतप्रधान कोण आहेत",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 244,
+  "output": 34
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "TEL-EN-ULAW",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/TEL-EN-ULAW.wav",
+ "latency_ms": 4138,
+ "reply": {
+  "transcript": "What is the NBC affiliated station in Tulsa?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 233,
+  "output": 32
+ }
+}

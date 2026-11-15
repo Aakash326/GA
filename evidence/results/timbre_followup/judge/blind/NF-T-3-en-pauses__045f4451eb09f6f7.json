@@ -1,0 +1,36 @@
+{
+  "task": "blind",
+  "id": "NF-T-3-en-pauses",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "045f4451eb09f6f733b5f7a72a11f0bbdef03c906c5b75e6fe83366e9fb36c18",
+  "input_sha256": [
+    "dcccff55497970b12fea16223988c6acf7ee770defc163d8c5b724ce7ff12b6d"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-T-3-en-pauses.wav"
+  ],
+  "reply": {
+    "heard": "Your request is ready. Please continue when you're ready.",
+    "naturalness_1to5": 4,
+    "prosody_1to5": 4,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "calm",
+      "polite",
+      "gentle"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "normal brief lead-in",
+    "artifacts": [],
+    "confidence": "high",
+    "reason": "Speech is clear, well-paced, and polite with standard synthetic assistant cadence."
+  },
+  "prompt_tokens": 351,
+  "output_tokens": 140,
+  "thought_tokens": 148,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

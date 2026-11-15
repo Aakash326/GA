@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "RN-EN-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/RN-EN-01.wav",
+ "latency_ms": 4941,
+ "reply": {
+  "transcript": "What are the primary symptoms of Alzheimer's disease?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 259,
+  "output": 40
+ }
+}

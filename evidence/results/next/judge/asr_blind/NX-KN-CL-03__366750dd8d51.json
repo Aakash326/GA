@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-KN-CL-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "366750dd8d5163c4767d30d4",
+ "audio": "data/next/audio/NX-KN-CL-03.wav",
+ "latency_ms": 3306,
+ "reply": {
+  "transcript": "ಅಧಿಪತಿ ಚಿತ್ರ ಯಾವಾಗ ಬಿಡುಗಡೆಯಾಯಿತು?",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 253,
+  "output": 35
+ }
+}

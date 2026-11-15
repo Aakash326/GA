@@ -1,0 +1,25 @@
+{
+ "task": "tts_judge",
+ "id": "T102",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T102.wav",
+ "latency_ms": 6285,
+ "reply": {
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "एक लाख पंचवीस हजार चारशे पन्नास रुपये"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The text was read accurately, including the correct conversion of currency and numbers. The speech flow is clear with slightly synthetic pacing."
+ },
+ "tokens": {
+  "prompt": 459,
+  "output": 124
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T10",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T10.wav",
+ "latency_ms": 5774,
+ "reply": {
+  "heard": "You can increase your S I P by five hundred rupees",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 204,
+  "output": 22
+ }
+}

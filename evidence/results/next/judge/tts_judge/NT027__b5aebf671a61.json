@@ -1,0 +1,26 @@
+{
+ "task": "tts_judge",
+ "id": "NT027",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "b5aebf671a616dc31bfb1677",
+ "audio": "results/next/audio/NT027.wav",
+ "latency_ms": 7731,
+ "reply": {
+  "targets": [
+   {
+    "id": "time",
+    "result": "wrong",
+    "heard": "nine five"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The time was pronounced as 'nine five' without the 'oh' or 'zero'."
+ },
+ "tokens": {
+  "prompt": 397,
+  "output": 108
+ }
+}

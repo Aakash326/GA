@@ -1,0 +1,35 @@
+{
+ "task": "tts_judge",
+ "id": "T25",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T25.wav",
+ "latency_ms": 8194,
+ "reply": {
+  "targets": [
+   {
+    "id": "start",
+    "result": "correct",
+    "heard": "Your request has been received"
+   },
+   {
+    "id": "end",
+    "result": "correct",
+    "heard": "save the receipt for your records"
+   },
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "Do not share"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and fully transcribed with appropriate phrasing and natural Indian English pronunciation."
+ },
+ "tokens": {
+  "prompt": 2098,
+  "output": 147
+ }
+}

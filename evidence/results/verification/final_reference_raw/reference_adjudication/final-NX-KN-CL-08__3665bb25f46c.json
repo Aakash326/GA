@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-KN-CL-08",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "3665bb25f46c23e012581ad7",
+ "audio": "data/next/audio/NX-KN-CL-08.wav",
+ "latency_ms": 4845,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "ಯಾವ ವರ್ಷದಲ್ಲಿ ಡೆಲ್ ಕಂಪೆನಿ ಅವರು ಭಾರತದಲ್ಲಿ ಮೊದಲ ಲ್ಯಾಪ್ಟಾಪ್ಅನ್ನು ಬಿಡುಗಡೆ ಮಾಡಿದರು?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "Typo in dataset candidate: 'ಬಿಡಿಗಡೆ' instead of 'ಬಿಡುಗಡೆ'."
+ },
+ "tokens": {
+  "prompt": 424,
+  "output": 72
+ }
+}

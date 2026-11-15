@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TE-CL-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ac4d7a4530b42a631fc44a03",
+ "audio": "data/next/audio/NX-TE-CL-01.wav",
+ "latency_ms": 4315,
+ "reply": {
+  "transcript": "కాలుష్యం ఎన్ని రకాలు",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 256,
+  "output": 30
+ }
+}

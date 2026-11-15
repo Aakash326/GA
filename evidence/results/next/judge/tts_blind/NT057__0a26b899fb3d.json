@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT057",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "0a26b899fb3dcdca7c077bfb",
+ "audio": "results/next/audio/NT057.wav",
+ "latency_ms": 4393,
+ "reply": {
+  "heard": "प्रमाण पंधरा आहे पन्नास नाही",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 187,
+  "output": 20
+ }
+}

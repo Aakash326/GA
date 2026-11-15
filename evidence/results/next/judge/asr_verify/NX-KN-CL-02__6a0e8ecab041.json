@@ -1,0 +1,30 @@
+{
+ "task": "asr_verify",
+ "id": "NX-KN-CL-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "6a0e8ecab04101e72f4f15ad",
+ "audio": "data/next/audio/NX-KN-CL-02.wav",
+ "latency_ms": 5233,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "ಮರ್ಮ",
+    "heard": "ಬರ್ಮಾ"
+   },
+   {
+    "reference": "ಜನರದ",
+    "heard": "ಜನರ"
+   },
+   {
+    "reference": "ಮಾತ್ರ",
+    "heard": "ಮಾತೃ"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 247,
+  "output": 60
+ }
+}

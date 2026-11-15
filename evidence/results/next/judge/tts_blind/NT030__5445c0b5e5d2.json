@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT030",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5445c0b5e5d241e8ad9bbd65",
+ "audio": "results/next/audio/NT030.wav",
+ "latency_ms": 5275,
+ "reply": {
+  "heard": "Cut off time is three thirty P M.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 190,
+  "output": 19
+ }
+}

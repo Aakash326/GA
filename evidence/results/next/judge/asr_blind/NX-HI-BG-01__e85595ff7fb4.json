@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-HI-BG-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "e85595ff7fb432321101a240",
+ "audio": "data/next/audio/NX-HI-BG-01.wav",
+ "latency_ms": 4274,
+ "reply": {
+  "transcript": "ट्यूनीशिया देश में किस धर्म के लोग बहुसंख्यक हैं?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 279,
+  "output": 37
+ }
+}

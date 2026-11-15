@@ -1,0 +1,31 @@
+{
+  "clips": 24,
+  "successful_calls": 24,
+  "scored": 24,
+  "reference_unresolved": 0,
+  "wer": 0.22344322344322345,
+  "cer": 0.18107556160653507,
+  "by_category": {
+    "finance_related_questions": {
+      "clips": 12,
+      "successful_calls": 12,
+      "scored": 12,
+      "reference_unresolved": 0,
+      "wer": 0.13978494623655913,
+      "cer": 0.10971223021582734
+    },
+    "technical_hindi_english_codeswitch": {
+      "clips": 12,
+      "successful_calls": 12,
+      "scored": 12,
+      "reference_unresolved": 0,
+      "wer": 0.26666666666666666,
+      "cer": 0.22453450164293537
+    }
+  },
+  "source_reference_wer": 0.1928,
+  "source_reference_cer": 0.1325,
+  "reference_assessment": "Audio-LLM adjudicated independently of Gnani hypotheses; provisional, not human truth",
+  "dataset_scope": "12 finance-related questions; 12 technical Hindi-English tutorial utterances",
+  "evaluation_status": "completed_provisional_reference_scoring"
+}

@@ -1,0 +1,21 @@
+{
+ "task": "asr_verify",
+ "id": "NEG-SWAP-CL-TE-04",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/CL-TE-04.wav",
+ "latency_ms": 5050,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి",
+    "heard": "న్యుమోనియాను మొదట ఏ దేశంలో కనుగొన్నారు"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 294,
+  "output": 57
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "task": "tts_judge",
+ "id": "T84",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T84.wav",
+ "latency_ms": 7518,
+ "reply": {
+  "targets": [
+   {
+    "id": "start",
+    "result": "correct",
+    "heard": "Your request is saved"
+   },
+   {
+    "id": "end",
+    "result": "correct",
+    "heard": "go back and edit the details"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The prompt is fully and accurately spoken with clear pronunciation and appropriate pausing."
+ },
+ "tokens": {
+  "prompt": 624,
+  "output": 121
+ }
+}

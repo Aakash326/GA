@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT037",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c0ebeb3e5e9fbd6eeef18f97",
+ "audio": "results/next/audio/NT037.wav",
+ "latency_ms": 6179,
+ "reply": {
+  "heard": "कॉल सुबह नौ बजकर पाँच मिनट है।",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "नौ बजकर पाँच मिनट"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 309,
+  "output": 38
+ }
+}

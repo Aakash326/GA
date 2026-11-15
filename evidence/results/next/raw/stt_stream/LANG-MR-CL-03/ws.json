@@ -1,0 +1,56 @@
+{
+ "ok": true,
+ "kind": "stt_stream",
+ "case_id": "LANG-MR-CL-03",
+ "run_tag": "ws",
+ "fingerprint": "4b4304e6bb0c16ef19491423",
+ "connect_ms": 135.8,
+ "speech_end_s": 5.028,
+ "transcript": "मेजर चंद्रकांत चित्रपटाचा दिग्दर्शक कोण आहे?",
+ "first_final_s": 5.364,
+ "last_final_after_speech_ms": 336.3,
+ "server_latency_ms": [
+  128
+ ],
+ "segments": 1,
+ "errors": [],
+ "messages": [
+  {
+   "type": "connected",
+   "message": "STT service ready — VAD service connected",
+   "request_id": "01a1da42-c1d9-7bae-bcd2-31342e0527f9",
+   "config": {
+    "sample_rate": 16000,
+    "chunk_size": 512,
+    "partials_enabled": false,
+    "partial_interval_ms": 450,
+    "partial_max_window_s": 15.0,
+    "language_code": "mr-IN",
+    "format": "transcribe"
+   },
+   "timestamp": "2026-11-14T13:32:50.584396+00:00",
+   "t_s": 0.04334210000524763
+  },
+  {
+   "type": "speech_start",
+   "utterance_id": "uac10fec2",
+   "t_ms": 1012,
+   "timestamp": "2026-11-14T13:32:51.897855+00:00",
+   "t_s": 1.355518900003517
+  },
+  {
+   "type": "transcript",
+   "text": "मेजर चंद्रकांत चित्रपटाचा दिग्दर्शक कोण आहे?",
+   "audio_duration_ms": 4564.0,
+   "segment_id": "01a1da42-c1d9-7bae-bcd2-31342e0527f9-seg-1",
+   "segment_index": 1,
+   "utterance_id": "uac10fec2",
+   "is_final": true,
+   "latency": 128,
+   "prefetched": false,
+   "timestamp": "2026-11-14T13:32:55.906288+00:00",
+   "detected_language_code": "mr-IN",
+   "t_s": 5.364323899993906
+  }
+ ]
+}

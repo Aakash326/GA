@@ -1,0 +1,33 @@
+{
+ "task": "tts_judge",
+ "id": "NT016",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "789d275e57257f5afc77996d",
+ "audio": "results/next/audio/NT016.wav",
+ "latency_ms": 9170,
+ "reply": {
+  "targets": [
+   {
+    "id": "sign",
+    "result": "wrong",
+    "heard": ""
+   },
+   {
+    "id": "value",
+    "result": "correct",
+    "heard": "one point five percent"
+   }
+  ],
+  "content_complete": false,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [
+   "unnatural pause"
+  ],
+  "comment": "The minus sign was omitted and replaced by an unnatural pause."
+ },
+ "tokens": {
+  "prompt": 446,
+  "output": 142
+ }
+}

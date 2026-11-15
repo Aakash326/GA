@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-DS-CS-HI-06",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "9f205bcdea722d5b30f77954",
+ "audio": "data/next/dataset_replacement/DS-CS-HI-06.wav",
+ "latency_ms": 4162,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "structures बनाने के लिए smiles और inchi कीज़ को सम्मिलित करना इस ट्यूटो",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The audio continues after 'सम्मिलित करना' with 'इस ट्यूटो' before cutting off, which is missing from the dataset candidate."
+ },
+ "tokens": {
+  "prompt": 374,
+  "output": 69
+ }
+}

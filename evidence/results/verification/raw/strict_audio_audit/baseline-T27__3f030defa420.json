@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T27",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "3f030defa420862ba7043fd0",
+ "audio": "results/tts_audio/T27.wav",
+ "latency_ms": 4574,
+ "reply": {
+  "heard": "Do not share your OTP with anyone.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "Do not"
+   },
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "OTP"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 355,
+  "output": 47
+ }
+}

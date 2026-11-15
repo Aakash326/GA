@@ -1,0 +1,31 @@
+{
+  "task": "pair",
+  "id": "NF-T-25-hi-pauses",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "4122e0874ff66eeedc36c92f80fa54388c46ad89fb8de249ebc47df6d537965d",
+  "input_sha256": [
+    "29b9143dfcf882bd4f91aca023dbe0178b706218172e9bc09a058bae757f6cd9",
+    "a04ff4e36f492d904c752854802501ea050ea808b9f54b433195779ac9e6249f"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-N-25-hi.wav",
+    "results/timbre_followup/listen/NF-T-25-hi-pauses.wav"
+  ],
+  "reply": {
+    "more_cue": "B",
+    "cue_audible_A": true,
+    "cue_audible_B": true,
+    "content_preserved_A": true,
+    "content_preserved_B": true,
+    "literal_tag_spoken_A": false,
+    "literal_tag_spoken_B": false,
+    "confidence": "medium",
+    "reason": "Clip B features a longer and more noticeable pause between the two sentences compared to Clip A."
+  },
+  "prompt_tokens": 379,
+  "output_tokens": 117,
+  "thought_tokens": 193,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

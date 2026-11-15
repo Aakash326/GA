@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-DS-FIN-EN-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "2e36c898d7cfe9a5d5c7a358",
+ "audio": "data/next/dataset_replacement/DS-FIN-EN-01.wav",
+ "latency_ms": 5521,
+ "reply": {
+  "dataset_matches": true,
+  "selected_reference": "What currency is used in Gjakova?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": ""
+ },
+ "tokens": {
+  "prompt": 312,
+  "output": 33
+ }
+}

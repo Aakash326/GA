@@ -1,0 +1,36 @@
+{
+ "task": "tts_judge",
+ "id": "NT004",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "959d6a09c9056c528de0c9ec",
+ "audio": "results/next/audio/NT004.wav",
+ "latency_ms": 7536,
+ "reply": {
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "fourteen"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "forty"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "not"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "artifacts": [],
+  "comment": "Clear pronunciation with proper contrast between fourteen and forty."
+ },
+ "tokens": {
+  "prompt": 468,
+  "output": 108
+ }
+}

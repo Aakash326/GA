@@ -1,0 +1,36 @@
+{
+ "task": "tts_judge",
+ "id": "NT008",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "6133b88f0b388f3e434a6474",
+ "audio": "results/next/audio/NT008.wav",
+ "latency_ms": 10079,
+ "reply": {
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "sixteen"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "sixty"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "not"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "artifacts": [],
+  "comment": "The prompt is clearly enunciated with appropriate distinction between sixteen and sixty."
+ },
+ "tokens": {
+  "prompt": 482,
+  "output": 112
+ }
+}

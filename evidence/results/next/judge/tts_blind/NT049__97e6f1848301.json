@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT049",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "97e6f18483019379f5d40416",
+ "audio": "results/next/audio/NT049.wav",
+ "latency_ms": 4319,
+ "reply": {
+  "heard": "உங்கள் குறியீடு எழுபது",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 169,
+  "output": 18
+ }
+}

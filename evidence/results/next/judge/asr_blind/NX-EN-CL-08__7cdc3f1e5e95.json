@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-EN-CL-08",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "7cdc3f1e5e95478cab62158e",
+ "audio": "data/next/audio/NX-EN-CL-08.wav",
+ "latency_ms": 25109,
+ "reply": {
+  "transcript": "Minimum time allowed has been bounded",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 227,
+  "output": 30
+ }
+}

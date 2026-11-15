@@ -1,0 +1,36 @@
+{
+  "task": "blind",
+  "id": "NF-T-25-hi-excited",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "b61bd64b5b7b05ab272cffc45fdb4827634da794d2db7dd5a912ee9983d4877c",
+  "input_sha256": [
+    "79ab39e6493b2a2af59b184bbd77d92e351cc5b64400833b1ae303aff1fec925"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-T-25-hi-excited.wav"
+  ],
+  "reply": {
+    "heard": "आपका अनुरोध तैयार है। जब आप तैयार हों तो कृपया आगे बढ़ें।",
+    "naturalness_1to5": 3,
+    "prosody_1to5": 3,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "neutral",
+      "clear",
+      "steady pace"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "none",
+    "artifacts": [],
+    "confidence": "high",
+    "reason": "Synthetic Hindi TTS voice with clear articulation and acceptable pacing, but slightly flat intonation."
+  },
+  "prompt_tokens": 349,
+  "output_tokens": 190,
+  "thought_tokens": 195,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

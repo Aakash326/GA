@@ -1,0 +1,17 @@
+{
+  "mode": "public_datasets_only",
+  "clips": 24,
+  "finance_related_questions": 12,
+  "hindi_english_codeswitch": 12,
+  "audio_seconds": 139.2,
+  "human_recording_required": false,
+  "paid_api_calls": 0,
+  "evaluation_status": "prepared_not_run",
+  "source_references": "provisional; not human verified",
+  "not_covered": [
+    "scripted finance transactions",
+    "matched negation/self-correction/identifier scenarios",
+    "Telugu-English conversational codeswitch",
+    "live telephone network"
+  ]
+}

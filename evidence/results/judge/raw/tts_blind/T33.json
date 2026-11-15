@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T33",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T33.wav",
+ "latency_ms": 3898,
+ "reply": {
+  "heard": "Yes",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 146,
+  "output": 12
+ }
+}

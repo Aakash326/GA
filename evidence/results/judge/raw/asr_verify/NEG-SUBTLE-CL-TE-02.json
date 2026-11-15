@@ -1,0 +1,21 @@
+{
+ "task": "asr_verify",
+ "id": "NEG-SUBTLE-CL-TE-02",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/CL-TE-02.wav",
+ "latency_ms": 3321,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "గ్రామ",
+    "heard": "ప్రారంభించారు"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 273,
+  "output": 33
+ }
+}

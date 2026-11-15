@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T68",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f0b331f0f7f90265c7ca7e80",
+ "audio": "results/tts_audio/T68.wav",
+ "latency_ms": 5029,
+ "reply": {
+  "heard": "कल सुबह नौ बजे support team आपको call करेगी",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "कल सुबह नौ बजे"
+   },
+   {
+    "id": "english",
+    "result": "correct",
+    "heard": "support team ... call"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 364,
+  "output": 53
+ }
+}

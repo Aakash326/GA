@@ -1,0 +1,36 @@
+{
+ "task": "tts_judge",
+ "id": "NT011",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "54b993d7a5fbaf8d0aa879fe",
+ "audio": "results/next/audio/NT011.wav",
+ "latency_ms": 5098,
+ "reply": {
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "eighteen"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "eighty"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "not"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "artifacts": [],
+  "comment": "Clear pronunciation with proper contrastive stress between eighteen and eighty."
+ },
+ "tokens": {
+  "prompt": 472,
+  "output": 133
+ }
+}

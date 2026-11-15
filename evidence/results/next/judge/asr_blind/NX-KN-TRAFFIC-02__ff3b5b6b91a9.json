@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-KN-TRAFFIC-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ff3b5b6b91a9fe93a7a7c7d4",
+ "audio": "data/next/audio/NX-KN-TRAFFIC-02.wav",
+ "latency_ms": 4237,
+ "reply": {
+  "transcript": "ಕ್ಯಾನ್ಸರ್ ಕಂಡುಹಿಡಿದವರು ಯಾರು",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 226,
+  "output": 34
+ }
+}

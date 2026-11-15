@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T29",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "664a75fdcf0b885b1b711faa",
+ "audio": "results/tts_audio/T29.wav",
+ "latency_ms": 4689,
+ "reply": {
+  "heard": "I will read the report now. I read it yesterday.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "read_present",
+    "result": "correct",
+    "heard": "will read"
+   },
+   {
+    "id": "read_past",
+    "result": "correct",
+    "heard": "I read it yesterday"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 343,
+  "output": 58
+ }
+}

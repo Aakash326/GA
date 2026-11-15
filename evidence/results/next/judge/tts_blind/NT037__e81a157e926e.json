@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT037",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "e81a157e926e6a8e1a6af3e3",
+ "audio": "results/next/audio/NT037.wav",
+ "latency_ms": 5478,
+ "reply": {
+  "heard": "कॉल सुबह नौ बजकर पाँच मिनट है",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 187,
+  "output": 19
+ }
+}

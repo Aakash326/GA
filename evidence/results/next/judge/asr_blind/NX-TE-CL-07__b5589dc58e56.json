@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TE-CL-07",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "b5589dc58e562fb1616e26ba",
+ "audio": "data/next/audio/NX-TE-CL-07.wav",
+ "latency_ms": 5217,
+ "reply": {
+  "transcript": "ఒరిస్సా రాష్ట్ర రాజధాని ఏది?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 261,
+  "output": 34
+ }
+}

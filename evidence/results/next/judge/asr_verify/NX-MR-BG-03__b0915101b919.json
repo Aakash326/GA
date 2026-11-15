@@ -1,0 +1,17 @@
+{
+ "task": "asr_verify",
+ "id": "NX-MR-BG-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "b0915101b91902973743428d",
+ "audio": "data/next/audio/NX-MR-BG-03.wav",
+ "latency_ms": 12028,
+ "reply": {
+  "matches": true,
+  "differences": [],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 351,
+  "output": 25
+ }
+}

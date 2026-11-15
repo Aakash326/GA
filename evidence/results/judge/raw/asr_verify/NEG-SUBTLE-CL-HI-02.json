@@ -1,0 +1,21 @@
+{
+ "task": "asr_verify",
+ "id": "NEG-SUBTLE-CL-HI-02",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/CL-HI-02.wav",
+ "latency_ms": 3249,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "वास्तविक",
+    "heard": "महाभारत"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 240,
+  "output": 30
+ }
+}

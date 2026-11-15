@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-HI-BG-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "b0bc1c8856a2cc7549938a8b",
+ "audio": "data/next/audio/NX-HI-BG-01.wav",
+ "latency_ms": 11144,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "ट्यूनीशिया देश में किस धर्म के लोग बहुसंख्यक हैं?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The speaker clearly pronounces the plural nasalized auxiliary verb 'हैं' rather than singular 'है'."
+ },
+ "tokens": {
+  "prompt": 374,
+  "output": 76
+ }
+}

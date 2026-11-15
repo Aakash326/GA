@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TE-MEDIA-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "49b6df38310cea7e9596ec28",
+ "audio": "data/next/audio/NX-TE-MEDIA-01.wav",
+ "latency_ms": 4427,
+ "reply": {
+  "transcript": "భారతదేశంలో క్రైస్తవ మిషనరీ మొదటగా ఎక్కడ స్థాపించబడింది",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 306,
+  "output": 46
+ }
+}

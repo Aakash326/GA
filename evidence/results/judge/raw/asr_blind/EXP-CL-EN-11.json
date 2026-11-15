@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-EN-11",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-CL-EN-11.wav",
+ "latency_ms": 4836,
+ "reply": {
+  "transcript": "How many channels are part of the prime time time slot?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 224,
+  "output": 45
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT049",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "89002a6ddc2a86fe125d35eb",
+ "audio": "results/next/audio/NT049.wav",
+ "latency_ms": 5297,
+ "reply": {
+  "heard": "உங்கள் குறியீடு எழுபது",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "digits",
+    "result": "wrong",
+    "heard": "எழுபது"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 291,
+  "output": 36
+ }
+}

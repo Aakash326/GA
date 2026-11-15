@@ -1,0 +1,26 @@
+{
+ "task": "tts_judge",
+ "id": "NT062",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "8bb3de5cb122a01c0face81b",
+ "audio": "results/next/audio/NT062.wav",
+ "latency_ms": 6814,
+ "reply": {
+  "targets": [
+   {
+    "id": "digits",
+    "result": "correct",
+    "heard": "शून्य शून्य सात शून्य"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The Marathi sentence and digits are read clearly and accurately with acceptable synthetic prosody."
+ },
+ "tokens": {
+  "prompt": 429,
+  "output": 109
+ }
+}

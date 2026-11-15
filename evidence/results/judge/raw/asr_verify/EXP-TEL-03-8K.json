@@ -1,0 +1,25 @@
+{
+ "task": "asr_verify",
+ "id": "EXP-TEL-03-8K",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-TEL-03-8K.wav",
+ "latency_ms": 6663,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "समर्टफोंस",
+    "heard": "स्मार्टफोन्स"
+   },
+   {
+    "reference": "कॉन्स",
+    "heard": "कौन से"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 295,
+  "output": 49
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "task": "asr_verify",
+ "id": "NX-MR-TRAFFIC-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "1efb35484e277f3b5c3a4327",
+ "audio": "data/next/audio/NX-MR-TRAFFIC-02.wav",
+ "latency_ms": 6435,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "आली",
+    "heard": "अली"
+   },
+   {
+    "reference": "मक्केचा",
+    "heard": "मक्केच्या"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 350,
+  "output": 77
+ }
+}

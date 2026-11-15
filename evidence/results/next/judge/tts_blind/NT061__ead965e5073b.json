@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT061",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ead965e5073bf5055f818184",
+ "audio": "results/next/audio/NT061.wav",
+ "latency_ms": 3455,
+ "reply": {
+  "heard": "तुमचा कोड सत्तर आहे",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 157,
+  "output": 17
+ }
+}

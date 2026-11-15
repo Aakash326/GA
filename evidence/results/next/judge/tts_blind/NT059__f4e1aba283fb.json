@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT059",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f4e1aba283fb34bd05d5519f",
+ "audio": "results/next/audio/NT059.wav",
+ "latency_ms": 5591,
+ "reply": {
+  "heard": "बदल एक पॉइंट पाच परसेंट आहे",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 201,
+  "output": 18
+ }
+}

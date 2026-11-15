@@ -1,0 +1,21 @@
+{
+ "task": "asr_verify",
+ "id": "LANG-KN-CL-04",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-KN-CL-04.wav",
+ "latency_ms": 5055,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "ಸಂಸ್ಛೆಯು",
+    "heard": "ಸಂಸ್ಥೆಯು"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 298,
+  "output": 37
+ }
+}

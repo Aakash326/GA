@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-DS-CS-HI-08",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "baf354775c8128d40a5f9ff4",
+ "audio": "data/next/dataset_replacement/DS-CS-HI-08.wav",
+ "latency_ms": 7557,
+ "reply": {
+  "transcript": "Pane पर click करें यह या तो task pane को दिखाए",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 250,
+  "output": 35
+ }
+}

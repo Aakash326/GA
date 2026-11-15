@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TE-CL-08",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "18791ca2726f5fd33202ab3b",
+ "audio": "data/next/audio/NX-TE-CL-08.wav",
+ "latency_ms": 3961,
+ "reply": {
+  "transcript": "తెలుగు ప్రాథమిక భాషగా ఎన్ని రాష్ట్రాలకు ఉంది?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 286,
+  "output": 35
+ }
+}

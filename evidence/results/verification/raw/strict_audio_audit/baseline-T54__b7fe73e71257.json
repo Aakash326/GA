@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T54",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "b7fe73e712571155213336ff",
+ "audio": "results/tts_audio/T54.wav",
+ "latency_ms": 3968,
+ "reply": {
+  "heard": "Your ticket number is one double zero one double zero",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "ticket",
+    "result": "correct",
+    "heard": "one double zero one double zero"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 350,
+  "output": 41
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "task": "tts_judge",
+ "id": "T56",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T56.wav",
+ "latency_ms": 7371,
+ "reply": {
+  "targets": [
+   {
+    "id": "digits",
+    "result": "correct",
+    "heard": "zero zero four two nine one"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "All text and digits spoken accurately and clearly with natural pauses."
+ },
+ "tokens": {
+  "prompt": 463,
+  "output": 106
+ }
+}

@@ -1,0 +1,31 @@
+{
+  "task": "pair",
+  "id": "NF-T-3-en-sniffles",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "d97f50474933dbdfa42b2b44871c3c6184aeac8ec24a783bf90c90c37ff97be8",
+  "input_sha256": [
+    "d7cfb60caf0eaa67241cab4151d0464892ea0fbfd7956e5e7f1bfffbfb5c7590",
+    "bfbd760c8e1117180546e6a20bea309940340c1c429a49e1c4c44a6e546625da"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-N-3-en.wav",
+    "results/timbre_followup/listen/NF-T-3-en-sniffles.wav"
+  ],
+  "reply": {
+    "more_cue": "B",
+    "cue_audible_A": false,
+    "cue_audible_B": true,
+    "content_preserved_A": true,
+    "content_preserved_B": true,
+    "literal_tag_spoken_A": false,
+    "literal_tag_spoken_B": false,
+    "confidence": "high",
+    "reason": "Clip B clearly includes audible sniffling between sentences, whereas Clip A does not."
+  },
+  "prompt_tokens": 361,
+  "output_tokens": 116,
+  "thought_tokens": 143,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

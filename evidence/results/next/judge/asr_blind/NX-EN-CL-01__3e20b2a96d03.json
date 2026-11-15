@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-EN-CL-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "3e20b2a96d035a1124b376ed",
+ "audio": "data/next/audio/NX-EN-CL-01.wav",
+ "latency_ms": 5479,
+ "reply": {
+  "transcript": "How many episodes does the Red Green Show have?",
+  "language": "English",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 245,
+  "output": 39
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "task": "tts_judge",
+ "id": "NT063",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "95509f7994fbad92445ccec3",
+ "audio": "results/next/audio/NT063.wav",
+ "latency_ms": 8744,
+ "reply": {
+  "targets": [
+   {
+    "id": "sign",
+    "result": "wrong",
+    "heard": ""
+   },
+   {
+    "id": "value",
+    "result": "correct",
+    "heard": "तीन हज़ार दो सौ रुपए"
+   }
+  ],
+  "content_complete": false,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The minus sign was omitted from the speech; pronunciation is otherwise clear and fluent."
+ },
+ "tokens": {
+  "prompt": 454,
+  "output": 137
+ }
+}

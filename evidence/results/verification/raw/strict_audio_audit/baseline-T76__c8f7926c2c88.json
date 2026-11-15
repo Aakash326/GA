@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T76",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c8f7926c2c88aca78212282d",
+ "audio": "results/tts_audio/T76.wav",
+ "latency_ms": 3942,
+ "reply": {
+  "heard": "The appointment is at Saint Johns Road near the main branch.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "st",
+    "result": "correct",
+    "heard": "Saint Johns Road"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 325,
+  "output": 40
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "task": "tts_judge",
+ "id": "T14",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T14.wav",
+ "latency_ms": 7128,
+ "reply": {
+  "targets": [
+   {
+    "id": "hindi",
+    "result": "correct",
+    "heard": "kal subah"
+   },
+   {
+    "id": "english",
+    "result": "correct",
+    "heard": "execute"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The text was read accurately with acceptable code-switching between English and Hindi."
+ },
+ "tokens": {
+  "prompt": 404,
+  "output": 136
+ }
+}

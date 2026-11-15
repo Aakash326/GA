@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-HI-CL-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "0ba512eb60b2b8e8f34ebdf5",
+ "audio": "data/next/audio/NX-HI-CL-02.wav",
+ "latency_ms": 4484,
+ "reply": {
+  "transcript": "बर्मा का अभियान युद्ध किस वर्ष में शुरू हुआ था?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 249,
+  "output": 35
+ }
+}

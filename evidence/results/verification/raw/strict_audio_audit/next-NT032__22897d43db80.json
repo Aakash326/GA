@@ -1,0 +1,35 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT032",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "22897d43db80749d0a49aa98",
+ "audio": "results/next/audio/NT032.wav",
+ "latency_ms": 5625,
+ "reply": {
+  "heard": "मात्रा पंद्रह है, पचास नहीं",
+  "target_spec_issues": [
+   "Target descriptions are in English for Hindi speech"
+  ],
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "पंद्रह"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "पचास"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "नहीं"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 374,
+  "output": 71
+ }
+}

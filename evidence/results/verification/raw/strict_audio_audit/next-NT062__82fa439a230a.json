@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT062",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "82fa439a230a082f4c7b2f87",
+ "audio": "results/next/audio/NT062.wav",
+ "latency_ms": 4063,
+ "reply": {
+  "heard": "तुमचा कोड शून्य शून्य सात शून्य आहे",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "digits",
+    "result": "correct",
+    "heard": "0 0 7 0"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 343,
+  "output": 40
+ }
+}

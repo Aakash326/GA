@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-HI-CL-06",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "bc3c96d04f11b324078fd21a",
+ "audio": "data/next/audio/NX-HI-CL-06.wav",
+ "latency_ms": 4285,
+ "reply": {
+  "transcript": "भारतीय साहित्य में कितने रसों का उल्लेख मिलता है?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 274,
+  "output": 40
+ }
+}

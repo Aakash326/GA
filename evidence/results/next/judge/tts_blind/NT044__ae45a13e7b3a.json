@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT044",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ae45a13e7b3a0e402e94c915",
+ "audio": "results/next/audio/NT044.wav",
+ "latency_ms": 6247,
+ "reply": {
+  "heard": "మీ కోడ్ సున్నా సున్నా ఏడు సున్నా",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 187,
+  "output": 22
+ }
+}

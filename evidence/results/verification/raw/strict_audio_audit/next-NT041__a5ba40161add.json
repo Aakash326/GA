@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT041",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "a5ba40161addbc23fe6586cf",
+ "audio": "results/next/audio/NT041.wav",
+ "latency_ms": 5523,
+ "reply": {
+  "heard": "మార్పు పాయింట్ ఐదు పర్సెంట్ ఉంది",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "sign",
+    "result": "wrong",
+    "heard": ""
+   },
+   {
+    "id": "value",
+    "result": "wrong",
+    "heard": "పాయింట్ ఐదు పర్సెంట్"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 351,
+  "output": 58
+ }
+}

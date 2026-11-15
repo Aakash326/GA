@@ -1,0 +1,38 @@
+{
+  "task": "blind",
+  "id": "NF-T-3-hi-slow",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "8e51af6413763e33a042986cabc59703878f41715dacc393dcc6ab57022f446d",
+  "input_sha256": [
+    "11611fd3485facb8ecb8ac23b9543827b44f02080170e7be8c2060a4439e2d74"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-T-3-hi-slow.wav"
+  ],
+  "reply": {
+    "heard": "आपका अनुरोध तैयार है। जब आप तैयार हों, तो कृपया आगे बढ़ें।",
+    "naturalness_1to5": 3,
+    "prosody_1to5": 3,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "calm",
+      "clear",
+      "polite"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "normal brief onset",
+    "artifacts": [
+      "subtle tts timbre"
+    ],
+    "confidence": "high",
+    "reason": "Clear Hindi speech with understandable pronunciation and steady, synthetic-leaning cadence."
+  },
+  "prompt_tokens": 380,
+  "output_tokens": 213,
+  "thought_tokens": 191,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

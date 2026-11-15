@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T36",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T36.wav",
+ "latency_ms": 7411,
+ "reply": {
+  "heard": "आपका पोर्टफोलियो बैलेंस अभी अपडेट हुआ है",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 198,
+  "output": 20
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "task": "asr_verify",
+ "id": "CL-TE-03",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/CL-TE-03.wav",
+ "latency_ms": 3636,
+ "reply": {
+  "matches": true,
+  "differences": [],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 346,
+  "output": 16
+ }
+}

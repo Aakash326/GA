@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "M-T41-PRANAV-R",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/M-T41-PRANAV-R.wav",
+ "latency_ms": 4001,
+ "reply": {
+  "heard": "The quantity is fifteen, not fifty.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 177,
+  "output": 18
+ }
+}

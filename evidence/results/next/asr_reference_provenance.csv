@@ -1,0 +1,121 @@
+clip_id,reference,ref_ok,reference_assessor,human_unscorable
+NX-EN-CL-01,How many episodes does The Red Green Show have?,True,audio_llm,False
+NX-EN-CL-02,Which mammal has the shortest gestation period?,True,audio_llm,False
+NX-EN-CL-03,Are Anatolian shepherds considered rare?,True,audio_llm_adjudicated,False
+NX-EN-CL-04,What home world did the Autobots come from?,True,audio_llm,False
+NX-EN-CL-05,What has Fancy Bear done?,True,audio_llm,False
+NX-EN-CL-06,What scientific name does the Asian Black bear have?,True,audio_llm,False
+NX-EN-CL-07,How far is the constellation Corvus from Earth?,True,audio_llm,False
+NX-EN-CL-08,"When was Pamplona, Spain founded?",True,audio_llm,False
+NX-EN-NUM-01,What kind of jazz was played in the 1930's?,True,audio_llm,False
+NX-EN-NUM-02,How long did the Joel appear on Mystery Science Theater 3000?,True,audio_llm,False
+NX-EN-NUM-03,When was the USS Arkansas (BB-33) built?,True,audio_llm,False
+NX-EN-NUM-04,Who was the most popular jazz artist of the 20th century?,True,audio_llm,False
+NX-EN-BG-01,What is the cell membrane made of?,True,audio_llm,False
+NX-EN-BG-02,What is a rift lake?,True,audio_llm,False
+NX-EN-BG-03,When did electrodynamic tether get invented,True,audio_llm_adjudicated,False
+NX-EN-MEDIA-01,How cold does it get in winter in Milwaukee?,True,audio_llm,False
+NX-EN-MEDIA-02,Who is considered the father of Eastern philosophy?,True,audio_llm,False
+NX-EN-MEDIA-03,What English word has the most syllables? accent challenge,True,audio_llm_adjudicated,False
+NX-EN-TRAFFIC-01,When was Nike founded?,True,audio_llm,False
+NX-EN-TRAFFIC-02,When did Arabic abjad develop?,True,audio_llm_adjudicated,False
+NX-HI-CL-01,मुगल साम्राज्य का सिंहासन के लिए जहीर-उद-दिन मुहम्मद बाबर का उत्तराधिकारी कौन था ?,True,audio_llm,False
+NX-HI-CL-02,बर्मा का अभियान युद्ध किस वर्ष में शुरू हुआ था?,True,audio_llm,False
+NX-HI-CL-03,बांग्लादेश का महास्थानगढ़ किस उप जिले में स्थित है?,True,audio_llm,False
+NX-HI-CL-04,भगवान ब्रह्मा कहां रहते थे?,True,audio_llm,False
+NX-HI-CL-05,किसका पुत्र हिंदू देवताओं का राजा इंद्र है ?,True,audio_llm,False
+NX-HI-CL-06,भारतीय साहित्य में कितने 'रसों' का उल्लेख मिलता है?,True,audio_llm,False
+NX-HI-CL-07,अब्दुर रहमान खान कितने साल तक जीवित रहे?,True,audio_llm_adjudicated,False
+NX-HI-CL-08,सऊदी अरब के एकीकरण के बाद सऊदी अरब की राजधानी कहाँ स्थापित की गई?,True,audio_llm_adjudicated,False
+NX-HI-NUM-01,2017 में भारत के प्रधानमंत्री कौन है?,True,audio_llm,False
+NX-HI-NUM-02,2011 के जनगणना के अनुसार जंगारेद्दीगुडम मंडल की जनसंख्या कितनी है ?,True,audio_llm,False
+NX-HI-NUM-03,2011 में अमेरिकी राष्ट्रपति के रूप में किसने कार्य किया था?,True,audio_llm,False
+NX-HI-NUM-04,भारत में 2004 में सुनामी में कितने लोगों की मृत्यु हुई थी?,True,audio_llm_adjudicated,False
+NX-HI-BG-01,ट्यूनीशिया देश में किस धर्म के लोग बहुसंख्यक हैं?,True,audio_llm_adjudicated,False
+NX-HI-BG-02,भारत उपमहाद्वीप में समाजवादी आंदोलन कब शुरू हुआ?,True,audio_llm_adjudicated,False
+NX-HI-BG-03,फिल्म रक्षा का निर्माण किस कंपनी ने किया था?,True,audio_llm_adjudicated,False
+NX-HI-MEDIA-01,भारतीय राज्य में आंध्र प्रदेश के प्रकाशम जिले का मुख्य शहर कौन सा है?,True,audio_llm,False
+NX-HI-MEDIA-02,सिख धर्म की स्थापना किसने की थी?,True,audio_llm,False
+NX-HI-MEDIA-03,दक्षिण अमेरिका महाद्वीप में कुल कितने देश हैं?,True,audio_llm,False
+NX-HI-TRAFFIC-01,बैंड के सिद्धांत की खोज कब हुई थी?,True,audio_llm,False
+NX-HI-TRAFFIC-02,अंडमान द्वीप समूह के किस शहर में हवाई अड्डा है?,True,audio_llm,False
+NX-TE-CL-01,కాలుష్యం ఎన్ని రకాలు?,True,audio_llm,False
+NX-TE-CL-02,కొత్తపాలెం గ్రామ విస్తీర్ణం ఎంత?,True,audio_llm,False
+NX-TE-CL-03,మఖన్ పురా నుండి  నిజాం పురా గ్రామానికి ఎంత దూరం?,True,audio_llm,False
+NX-TE-CL-04,కొమ్మలపాడు గ్రామ వైశాల్యం ఎంత?,True,audio_llm_adjudicated,False
+NX-TE-CL-05,శ్రీ విద్యా ప్రకాశానందగిరి స్వామి ఎక్కడ జన్మించారు?,True,audio_llm,False
+NX-TE-CL-06,గుంజుగూడెం గ్రామంలో ప్రధాన పంట ఏంటి?,True,audio_llm,False
+NX-TE-CL-07,ఒరిస్సా రాష్ట్ర రాజధాని ఏది ?,True,audio_llm,False
+NX-TE-CL-08,తెలుగు ప్రాథమిక భాషగా ఎన్ని రాష్ట్రాలకు ఉంది?,True,audio_llm,False
+NX-TE-NUM-01,2018 జనగణన ప్రకారం మక్త కౌసరాలి గ్రామంలో ఎన్ని ఇల్లులు ఉన్నాయి,True,audio_llm_adjudicated,False
+NX-TE-NUM-02,2002నాటికి మంచాల గ్రామ జనాభా ఎంత?,True,audio_llm,False
+NX-TE-NUM-03,2001 నాటికి మైపాడు గ్రామములోని స్త్రీల సంఖ్య ఎంత ?,True,audio_llm,False
+NX-TE-NUM-04,2011 నాటికి కే.జీ.మడుగుల గ్రామ జనాభా ఎంత?,True,audio_llm,False
+NX-TE-BG-01,పస్నూరి రవీందర్ యువపురస్కారం ఏ సంవత్సరంలో అందుకున్నాడు?,True,audio_llm_adjudicated,False
+NX-TE-BG-02,ఐక్యరాజ్యసమితి ఎక్కడ ఉంది ?,True,audio_llm,False
+NX-TE-BG-03,మందస నుండి చీపి కి ఎంత దూరం?,True,audio_llm,False
+NX-TE-MEDIA-01,భారతదేశంలో క్రైస్తవ మిషనరీ మొదటగా ఎక్కడ స్థాపించబడింది ?,True,audio_llm,False
+NX-TE-MEDIA-02,Android Play Store లో మొదటగా ప్రవేశపెట్టిన web browser పేరేమిటి?,True,audio_llm_adjudicated,False
+NX-TE-MEDIA-03,టెలివిజన్ ను ఎవరు కనుగొన్నారు?,True,audio_llm,False
+NX-TE-TRAFFIC-01,బంగారువలస గ్రామ పిన్ కోడ్ ఏంటి?,True,audio_llm_adjudicated,False
+NX-TE-TRAFFIC-02,ఆంధ్ర ప్రదేశ్ రాష్ట్ర హైకోర్టు ఎక్కడ ఉంది?,True,audio_llm,False
+NX-TA-CL-01,சான் ஓ சானுக்கு முன்பு தாய்லாந்து நாட்டின் பிரதம மந்திரி யார்?,True,audio_llm,False
+NX-TA-CL-02,பீர் ஷ்ரேஷ்டிர லெஃப்டினென்ட் மத்தியூர் ரகுமானுடைய தாயார் பெயர் என்ன?,True,audio_llm,False
+NX-TA-CL-03,ஆங்கிலேயர்கள் தங்கள் முதல் தளத்தை இந்தியாவில் எங்கு நிறுவினார்கள்?,True,audio_llm_adjudicated,False
+NX-TA-CL-04,இந்தியாவின் முதல் காமிக்ஸ் இதழை எந்த நிறுவனம் வெளியிட்டது?,True,audio_llm,False
+NX-TA-CL-05,ஆப்கானிஸ்தானின் அமீர் நஸ்ருல்லா கானின் தந்தையின் பெயர் என்ன?,True,audio_llm_adjudicated,False
+NX-TA-CL-06,அஸ்ஸாம் மாநிலத்தில் எத்தனை மாவட்டங்கள் உள்ளன?,True,audio_llm,False
+NX-TA-CL-07,டாக்கா பல்கலைக்கழகத்தின் தலைமையகம் எங்குள்ளது?,True,audio_llm_adjudicated,False
+NX-TA-CL-08,இஸ்லாமிய மதத்தின் மூன்றாவது கலிப்பாக இருந்தவர் யார்?,True,audio_llm_adjudicated,False
+NX-TA-NUM-01,2018 ஆம் ஆண்டில் பங்களாதேஷின் இடஒதுக்கீடு சீர்த்திருத்த இயக்கத்தில் எத்தனை பேர் காயமடைந்தனர் ,True,audio_llm,False
+NX-TA-NUM-02,2018 இல் எந்த நாடு சர்க்கரையை அதிகமாக உற்பத்தி செய்தது?,True,audio_llm,False
+NX-TA-NUM-03,2011இல் பெண்டபாடு கிராமத்தில் வாழ்ந்த பெண்கள் எண்ணிக்கை என்ன?,True,audio_llm,False
+NX-TA-NUM-04,லெனோவா நிறுவனத்தின் தற்போதைய (2019) உரிமையாளர் யார்?,True,audio_llm,False
+NX-TA-BG-01,சீனாவின் முதல் பிரதமர் யார்?,True,audio_llm,False
+NX-TA-BG-02,மேஜர் சந்திரகாந்த் படத்தின் இயக்குநர் யார் ,True,audio_llm,False
+NX-TA-BG-03,தனிம அட்டவணையின் முதல் தனிமம் எது?,True,audio_llm,False
+NX-TA-MEDIA-01,பிரிட்டிஷ் படையில் உயர்ந்த பதவியின் பெயர் என்ன?,True,audio_llm,False
+NX-TA-MEDIA-02,அமீர் அப்துல்லா கான் நாஜி எத்தனை ஆண்டுகள் தற்காப்பு கலையின் நிர்வாகியாக இருந்தார்?,True,audio_llm,False
+NX-TA-MEDIA-03,ரைட்ஸ் சகோதரர்களால் எந்த போக்குவரத்து உருவாக்கப்பட்டது,True,audio_llm_adjudicated,False
+NX-TA-TRAFFIC-01,பங்களாதேஷின் முதல் பெண் ஜனாதிபதி யார்?,True,audio_llm,False
+NX-TA-TRAFFIC-02,ஈரானின் தற்போதைய ஜனாதிபதி யார்?,True,audio_llm,False
+NX-KN-CL-01,ಸೋವಿಯತ್ ಒಕ್ಕೂಟದಲ್ಲಿ ಒಟ್ಟು ಎಷ್ಟು ದೇಶಗಳಿದ್ದವು?,True,audio_llm_adjudicated,False
+NX-KN-CL-02,ಬರ್ಮಾ ಜನರ ಮಾತೃಭಾಷೆ ಯಾವುದು,True,audio_llm_adjudicated,False
+NX-KN-CL-03,ಅಧಿಪತಿ ಚಿತ್ರ ಯಾವಾಗ ಬಿಡುಗಡೆಯಾಯಿತು?,True,audio_llm,False
+NX-KN-CL-04,ಭಾರತದಲ್ಲಿ ಪ್ರೀತಿಯ ಸಂಕೇತವಾಗಿ ಕಟ್ಟಿದ ಕಟ್ಟಡ ಯಾವುದು?,True,audio_llm,False
+NX-KN-CL-05,ಸಲಾಂ ಪದವು ಯಾವ ಧರ್ಮ ನಿಕಟವಾದ ಸಂಬಂಧವನ್ನು ಹೊಂದಿದೆ?,True,audio_llm_adjudicated,False
+NX-KN-CL-06,ಯಾವ ವರ್ಷದಲ್ಲಿ ಇಂಗ್ಲೆಂಡ್ ಕ್ರಿಕೆಟಿಗ ಮೈಕಲ್ ಜಾನ್ ನೈಟ್ ಸ್ಮಿತ್ ತಮ್ಮ ಕೊನೆಯ ಟೆಸ್ಟ್ ಪಂದ್ಯವನ್ನು ಆಡಿದರು?,True,audio_llm,False
+NX-KN-CL-07,ತೆಂಗಿನ ಮರದ ಆಯುಷ್ಯವೆಷ್ಟು?,True,audio_llm,False
+NX-KN-CL-08,ಯಾವ ವರ್ಷದಲ್ಲಿ ಡೆಲ್ ಕಂಪೆನಿ ಅವರು ಭಾರತದಲ್ಲಿ ಮೊದಲ ಲ್ಯಾಪ್ಟಾಪ್ಅನ್ನು ಬಿಡುಗಡೆ ಮಾಡಿದರು?,True,audio_llm_adjudicated,False
+NX-KN-NUM-01,ನೇಪಾಳ ೨೦೧೬ ರಲ್ಲಿ ಸಂಭವಿಸಿದ ಭೂಕಂಪ ಕೇಂದ್ರಬಿಂದು ಯಾವುದು? ,True,audio_llm,False
+NX-KN-NUM-02,2018ರಲ್ಲಿ ಯುನೈಟೆಡ್ ಸ್ಟೇಟ್ಸ್ ಆಫ್ ಅಮೇರಿಕಾದ ರಾಷ್ಟ್ರಪತಿ ಯಾರಾಗಿರುವರು,True,audio_llm,False
+NX-KN-NUM-03,2010 ರಂತೆ ಭಾರತ ಯಾವ ಭಾಗದಲ್ಲಿ ಅತ್ಯಂತ ಹೆಚ್ಚಿನ ಸಂಖ್ಯೆಯಲ್ಲಿ ಕ್ರೈಸ್ತರಿದ್ದಾರೆ?,True,audio_llm_adjudicated,False
+NX-KN-NUM-04,2010ರಲ್ಲೂ ಚೀನಾ ಕೃಷಿ ವಲಯದಲ್ಲಿ ಪ್ರಮುಖ ಸ್ಥಾನವನ್ನು ಹೊಂದಿದೆಯಾ?,True,audio_llm,False
+NX-KN-BG-01,ತೆಲುಗು ಪಂಚಾಂಗದ ಪ್ರಕಾರ ಆಂಗ್ಲ ಕ್ಯಾಲೆಂಡರಿನ ಯಾವ ತಿಂಗಳಲ್ಲಿ ಹೊಸ ವರ್ಷ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ?,True,audio_llm_adjudicated,False
+NX-KN-BG-02,ಕುಎಸ್ತಿಒನ: ನೂರ್ ಮುಹಮ್ಮದ್ ಟರ್ಕಿ ವಾಸ್ ಅಸೋಸಿಯೇಟೆಡ್ ವಿಥ್ ವ್ಹಿಚ್ ಪೊಲಿಟಿಕಲ್ ಪಾರ್ಟಿ ಇನ್ ಅಫ್ಘಾನಿಸ್ತಾನ್?,True,audio_llm,False
+NX-KN-BG-03,ಟೈಟಾನಿಕ್ ಯಾವ ಸಮುದ್ರದಲ್ಲಿ ಮುಳುಗಿತು?,True,audio_llm,False
+NX-KN-MEDIA-01,ಅತ್ಯಂತ ಹೆಚ್ಚಿನ ಕೋಳಿಗಳು ಯಾವ ದೇಶದಲ್ಲಿದೆ?,True,audio_llm,False
+NX-KN-MEDIA-02,ಟಂಗುಟೂರಿ ಪ್ರಕಾಶಂ ಪಂತುಲು ಅವರ ಶೀರ್ಷಿಕೆ ಯಾರು?,True,audio_llm_adjudicated,False
+NX-KN-MEDIA-03,ಜಪಾನಿ ಚಲನಚಿತ್ರ ಅಕೀರಾ ಕುರೋಸವಾ ಯಾವ ವರ್ಷದಲ್ಲಿ ಬಿಡುಗಡೆಯಾಯಿತು,True,audio_llm_adjudicated,False
+NX-KN-TRAFFIC-01,ಸ್ವತಂತ್ರ ಬಾಂಗ್ಲಾದೇಶದ ಮೊದಲ ಚಲನಚಿತ್ರೋತ್ಸವ ಯಾವ ವರ್ಷದಲ್ಲಿ ನೆರೆಯಿತು? ,True,audio_llm,False
+NX-KN-TRAFFIC-02,ಕ್ಯಾನ್ಸರ್ ಕಂಡುಹಿಡಿದವರು ಯಾರು?,True,audio_llm,False
+NX-MR-CL-01,मध्यपूर्व जगातील सर्वात प्राचीन संस्कृतीचे नाव काय आहे?,True,audio_llm,False
+NX-MR-CL-02,अजमल खान कोणत्या राजकीय पक्षाशी संबंधित होते ?,True,audio_llm,False
+NX-MR-CL-03,मिस्टर अब्राहम बेंजामिन डी विलर्सने त्याच्या पहिल्या कसोटी सामन्यात पदार्पण केले तेव्हा विरोधी संघ कोणत्या देशाचा होता ?,True,audio_llm,False
+NX-MR-CL-04,कोणत्या देशाने प्रथम अंतर्गत महसूल प्रणाली लागू केली ?,True,audio_llm,False
+NX-MR-CL-05,कॅलिफोर्निया मधील क्षेत्रफळाच्या दृष्टीने राज्यातील सर्वात मोठे शहर कोणते आहे?,True,audio_llm_adjudicated,False
+NX-MR-CL-06,कोइंबतूर शहर तमिळनाडूच्या कोणत्या जिल्ह्यात आहे?,True,audio_llm_adjudicated,False
+NX-MR-CL-07,मेनहेटन मधील सर्वात उंच इमारत कोणती आहे ?,True,audio_llm_adjudicated,False
+NX-MR-CL-08,ब्रह्मदेव कुठे राहतात?,True,audio_llm,False
+NX-MR-NUM-01,जगातील 70% पाण्यापैकी मानव मूलभूत गरजांसाठी किती टक्के पाणी वापरतो ?,True,audio_llm_adjudicated,False
+NX-MR-NUM-02,2017 मध्ये भारताचे पंतप्रधान कोण आहेत?,True,audio_llm,False
+NX-MR-NUM-03,इस्राएलचे सध्याचे (2019) प्रंतप्रधान कसे आहेत ?,True,audio_llm,False
+NX-MR-NUM-04,2017 मध्ये भारताचे पंतप्रधान कोण आहेत?,True,audio_llm,False
+NX-MR-BG-01,दक्षिण कोरिया ची अधिकृत भाषा काय आहे ?,True,audio_llm,False
+NX-MR-BG-02,फरुकुल इस्लाम आलमगीर यांना बांगलादेश राष्ट्रीय पक्षाचे अध्यक्ष बनवण्याची प्रक्रिया कोणी केली?,True,audio_llm_adjudicated,False
+NX-MR-BG-03,अटलांटिक महासागर पृथ्वी च कोणत्या खंडात आहे ?,True,audio_llm,False
+NX-MR-MEDIA-01,\\\हजार बोचोर ढोरे या चित्रपटाचे निर्माते कोण होते ?,True,audio_llm,False
+NX-MR-MEDIA-02,नवग्रहा पैकी सूर्याचा सर्वात जवळचा ग्रह कोणता आहे ?,True,audio_llm,False
+NX-MR-MEDIA-03,रिचर्ड हार्पर ॲलिसनचा जन्म कोणत्या वर्षी झाला?,True,audio_llm_adjudicated,False
+NX-MR-TRAFFIC-01,अनिल कुंबळेने कोणत्या वर्षी आंतरराष्ट्रीय कसोटी पदार्पण केले?,True,audio_llm,False
+NX-MR-TRAFFIC-02,हुसेन बिन अली यांनी आपण मक्केच्या राजा असल्याची घोषणा केव्हा केली,True,audio_llm_adjudicated,False

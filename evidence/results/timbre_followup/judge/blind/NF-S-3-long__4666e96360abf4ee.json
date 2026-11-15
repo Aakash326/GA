@@ -1,0 +1,36 @@
+{
+  "task": "blind",
+  "id": "NF-S-3-long",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "4666e96360abf4eee434c88f82ab668da67ea8a6e624c6756901a5372361a4d6",
+  "input_sha256": [
+    "6cc697279ecda13c4aa6f45d839e937df72ba94bfa5ff4318fa81bd5cdf0ebff"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-S-3-long.wav"
+  ],
+  "reply": {
+    "heard": "Your request has been received and is now under review. Please check the details shown in your account before you confirm the next step. Before placing an order review the company name, quantity, and price carefully. The amount shown on the confirmation screen may include charges that were not included in an earlier estimate. If you decide to change the order return to the details page, and check the updated information before confirming. Do not share your password or verification code with anyone who contacts you unexpectedly. You can find the official support contact details inside your account. Once the request is complete, save the receipt for your records.",
+    "naturalness_1to5": 4,
+    "prosody_1to5": 4,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "clear",
+      "instructional",
+      "measured pace"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "normal brief lead-in",
+    "artifacts": [],
+    "confidence": "high",
+    "reason": "Speech is clear, well-paced, and intelligible with consistent delivery throughout."
+  },
+  "prompt_tokens": 1227,
+  "output_tokens": 246,
+  "thought_tokens": 320,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

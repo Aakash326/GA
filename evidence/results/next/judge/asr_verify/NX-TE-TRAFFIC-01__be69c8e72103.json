@@ -1,0 +1,22 @@
+{
+ "task": "asr_verify",
+ "id": "NX-TE-TRAFFIC-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "be69c8e721039c302f01c87b",
+ "audio": "data/next/audio/NX-TE-TRAFFIC-01.wav",
+ "latency_ms": 5790,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "బంగరువలస",
+    "heard": "బంగారువలస"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 263,
+  "output": 36
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "task": "asr_verify",
+ "id": "EXP-PAUSE-05",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-PAUSE-05.wav",
+ "latency_ms": 3256,
+ "reply": {
+  "matches": true,
+  "differences": [],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 401,
+  "output": 16
+ }
+}

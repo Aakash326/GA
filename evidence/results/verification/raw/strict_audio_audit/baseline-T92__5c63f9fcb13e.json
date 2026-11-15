@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T92",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5c63f9fcb13eae0344489fef",
+ "audio": "results/tts_audio/T92.wav",
+ "latency_ms": 5103,
+ "reply": {
+  "heard": "உங்கள் குறிப்பு எண் பூஜ்ஜியம் பூஜ்ஜியம் நான்கு இரண்டு ஒன்பது ஒன்று",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "பூஜ்ஜியம் பூஜ்ஜியம் நான்கு இரண்டு ஒன்பது ஒன்று"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 361,
+  "output": 55
+ }
+}

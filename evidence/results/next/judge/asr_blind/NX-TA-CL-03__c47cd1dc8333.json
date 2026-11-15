@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TA-CL-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c47cd1dc833389923182b597",
+ "audio": "data/next/audio/NX-TA-CL-03.wav",
+ "latency_ms": 4171,
+ "reply": {
+  "transcript": "ஆங்கிலேயர்கள் தங்கள் முதல் தளத்தை இந்தியாவில் எங்கு நிறுவினார்கள்?",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 252,
+  "output": 38
+ }
+}

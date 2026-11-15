@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT017",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "e8a8b7295f34bbaa9e206c34",
+ "audio": "results/next/audio/NT017.wav",
+ "latency_ms": 4122,
+ "reply": {
+  "heard": "the change was minus one point five percent",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 198,
+  "output": 19
+ }
+}

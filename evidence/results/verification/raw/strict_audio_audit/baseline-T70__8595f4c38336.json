@@ -1,0 +1,33 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T70",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "8595f4c38336d57091cbafe3",
+ "audio": "results/tts_audio/T70.wav",
+ "latency_ms": 4912,
+ "reply": {
+  "heard": "Your NEFT transfer is pending, but your UPI payment is complete.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "neft",
+    "result": "correct",
+    "heard": "NEFT"
+   },
+   {
+    "id": "upi",
+    "result": "correct",
+    "heard": "UPI"
+   },
+   {
+    "id": "contrast",
+    "result": "correct",
+    "heard": "pending ... complete"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 468,
+  "output": 68
+ }
+}

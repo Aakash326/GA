@@ -1,0 +1,21 @@
+{
+ "task": "asr_verify",
+ "id": "EXP-MEDIA-HI-04",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-MEDIA-HI-04.wav",
+ "latency_ms": 4785,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "है",
+    "heard": "हैं"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 294,
+  "output": 29
+ }
+}

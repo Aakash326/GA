@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T86",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T86.wav",
+ "latency_ms": 5064,
+ "reply": {
+  "heard": "Your statement shows the opening balance, completed payments, and closing balance for the selected period. A pending transaction may appear separately until processing is complete. Check the date and amount of each entry before raising a query. If an entry looks unfamiliar, note its reference number and contact support through the application. Do not share passwords or verification codes.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 720,
+  "output": 77
+ }
+}

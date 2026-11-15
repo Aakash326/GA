@@ -1,0 +1,16 @@
+{
+ "task": "asr_verify",
+ "id": "NUM-HI-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/NUM-HI-01.wav",
+ "latency_ms": 4460,
+ "reply": {
+  "matches": true,
+  "differences": [],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 343,
+  "output": 16
+ }
+}

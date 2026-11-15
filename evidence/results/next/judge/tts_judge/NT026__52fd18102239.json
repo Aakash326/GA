@@ -1,0 +1,26 @@
+{
+ "task": "tts_judge",
+ "id": "NT026",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "52fd1810223981f5d746abe6",
+ "audio": "results/next/audio/NT026.wav",
+ "latency_ms": 10074,
+ "reply": {
+  "targets": [
+   {
+    "id": "digits",
+    "result": "correct",
+    "heard": "zero zero zero one two three"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "Clear pronunciation with steady pacing across all digits."
+ },
+ "tokens": {
+  "prompt": 443,
+  "output": 74
+ }
+}

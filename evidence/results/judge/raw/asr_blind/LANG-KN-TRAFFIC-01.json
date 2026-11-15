@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-KN-TRAFFIC-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-KN-TRAFFIC-01.wav",
+ "latency_ms": 7656,
+ "reply": {
+  "transcript": "ಅಬು ಹಮೀದ್ ಮೊಹಮ್ಮದ್ ಇಬ್ನ್ ಮೊಹಮ್ಮದ್ ಅಲ್ ಗಜಾಲಿ ಅವರು ಜನಿಸಿದ ವರ್ಷ ಯಾವುದು?",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 310,
+  "output": 62
+ }
+}

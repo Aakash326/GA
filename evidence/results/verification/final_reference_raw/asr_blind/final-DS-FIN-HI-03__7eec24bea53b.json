@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-DS-FIN-HI-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "7eec24bea53bfc23b5b7ad49",
+ "audio": "data/next/dataset_replacement/DS-FIN-HI-03.wav",
+ "latency_ms": 3354,
+ "reply": {
+  "transcript": "बांग्लादेश की आधिकारिक मुद्रा क्या है?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 228,
+  "output": 31
+ }
+}

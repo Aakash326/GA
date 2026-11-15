@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TA-NUM-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "01b33b4c87817df884d2d4c8",
+ "audio": "data/next/audio/NX-TA-NUM-04.wav",
+ "latency_ms": 9756,
+ "reply": {
+  "transcript": "Lenovo நிறுவனத்தின் தற்போதைய 2019 உரிமையாளர் யார்?",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 273,
+  "output": 47
+ }
+}

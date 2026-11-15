@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-EN-TRAFFIC-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "581fa357c16df5bb77360ae6",
+ "audio": "data/next/audio/NX-EN-TRAFFIC-02.wav",
+ "latency_ms": 3721,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "When did Arabic abjad develop?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The word 'the' is not spoken in the audio."
+ },
+ "tokens": {
+  "prompt": 326,
+  "output": 42
+ }
+}

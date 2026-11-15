@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-HI-CL-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "63573dd6e433fb950f033274",
+ "audio": "data/next/audio/NX-HI-CL-01.wav",
+ "latency_ms": 6445,
+ "reply": {
+  "transcript": "मुगल साम्राज्य का सिंहासन के लिए जहीरुद्दीन मोहम्मद बाबर का उत्तराधिकारी कौन था?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 289,
+  "output": 42
+ }
+}

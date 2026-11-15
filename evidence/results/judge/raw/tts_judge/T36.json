@@ -1,0 +1,30 @@
+{
+ "task": "tts_judge",
+ "id": "T36",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T36.wav",
+ "latency_ms": 8544,
+ "reply": {
+  "targets": [
+   {
+    "id": "hindi",
+    "result": "correct",
+    "heard": "आपका अभी हुआ है"
+   },
+   {
+    "id": "english",
+    "result": "correct",
+    "heard": "portfolio balance update"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The audio is clear and accurately reflects the prompt, with proper pronunciation of both Hindi terms and English loanwords."
+ },
+ "tokens": {
+  "prompt": 473,
+  "output": 146
+ }
+}

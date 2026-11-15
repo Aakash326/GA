@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-NX-TE-TRAFFIC-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "679da8b6873f28e631fbc20a",
+ "audio": "data/next/audio/NX-TE-TRAFFIC-01.wav",
+ "latency_ms": 3758,
+ "reply": {
+  "transcript": "బంగారువలస గ్రామ పిన్ కోడ్ ఏమిటి",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 222,
+  "output": 36
+ }
+}

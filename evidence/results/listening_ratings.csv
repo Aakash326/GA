@@ -1,0 +1,59 @@
+﻿case_id,listener_id,listener_languages,target_id,target_critical,target_result,adjudicated_result,adjudication_note,naturalness_1to5,prosody_1to5,content_complete,meaning_preserved,artifact_flags,comment,blind_transcription,blind_before_reveal,cannot_judge,rated_at,source
+T01,R1,,amount,,correct,correct,,,,,,,Listener confirmed the lakh amount was read correctly (expected text was visible; not a blind check).,false,,,2026-11-13,chat spot check
+T35,R1,,id,,correct,correct,,,,,,,Listener confirmed both leading zeros and all digits (expected text was visible; not a blind check).,false,,,2026-11-13,chat spot check
+T02,R1,,amount,true,correct,correct,,,,,,,,,false,false,2026-11-13T17:38:22.683Z,tts_listening_page
+T03,R1,,sip,false,correct,correct,,,,,,,,,false,false,2026-11-13T17:38:07.776Z,tts_listening_page
+T03,R1,,date,true,correct,correct,,,,,,,,,false,false,2026-11-13T17:38:07.776Z,tts_listening_page
+T03,R1,,year,true,correct,correct,,,,,,,,,false,false,2026-11-13T17:38:07.776Z,tts_listening_page
+T06,R1,,kyc,true,correct,correct,,,,,,,,,,false,2026-11-13T17:37:33.361Z,tts_listening_page
+T11,R1,,sip,true,correct,correct,,,,,,,successfully i think is not proper pronuntion but is good ,,,false,2026-11-13T17:34:55.643Z,tts_listening_page
+T11,R1,,english,true,ambiguous,ambiguous,,,,,,,successfully i think is not proper pronuntion but is good ,,,false,2026-11-13T17:34:55.643Z,tts_listening_page
+T11,R1,,hindi,true,correct,correct,,,,,,,successfully i think is not proper pronuntion but is good ,,,false,2026-11-13T17:34:55.643Z,tts_listening_page
+T12,R1,,hindi,true,correct,correct,,,,,,,balance has end with ishhh like that sound i dont know if it is right ,,,false,2026-11-13T17:35:42.149Z,tts_listening_page
+T12,R1,,english,true,correct,correct,,,,,,,balance has end with ishhh like that sound i dont know if it is right ,,,false,2026-11-13T17:35:42.149Z,tts_listening_page
+T27,R1,,not,true,correct,correct,,,,,,,,,,false,2026-11-13T17:36:55.448Z,tts_listening_page
+T27,R1,,otp,true,correct,correct,,,,,,,,,,false,2026-11-13T17:36:55.448Z,tts_listening_page
+T29,R1,,read_present,false,correct,correct,,,,,,,,,,false,2026-11-13T17:36:46.310Z,tts_listening_page
+T29,R1,,read_past,false,,unmarked,,,,,,,,,,false,2026-11-13T17:36:46.310Z,tts_listening_page
+T32,R1,,content,true,correct,correct,,,,,,,,,,false,2026-11-13T17:37:29.643Z,tts_listening_page
+T33,R1,,yes,true,,unmarked,,,,,,,it is audible but i think sound is less,,,false,2026-11-13T17:32:59.009Z,tts_listening_page
+T34,R1,,value,true,wrong,wrong,,,,,,,no negitive ,,false,false,2026-11-13T17:37:45.066Z,tts_listening_page
+T36,R1,,hindi,true,correct,correct,,4,5,,,,,,,false,2026-11-13T17:31:05.675Z,tts_listening_page
+T36,R1,,english,true,correct,correct,,4,5,,,,,,,false,2026-11-13T17:31:05.675Z,tts_listening_page
+T37,R1,,amount,true,correct,correct,,,,,,,,,false,false,2026-11-13T17:34:12.124Z,tts_listening_page
+T38,R1,,kyc,true,correct,correct,,,,,,,,,,false,2026-11-13T17:38:13.698Z,tts_listening_page
+T39,R1,,amount,true,correct,correct,,,,,,,,,false,false,2026-11-13T17:38:34.364Z,tts_listening_page
+T40,R1,,neg_amount,true,wrong,wrong,,,,,,,it didnt say negitive ,,false,false,2026-11-13T17:33:57.066Z,tts_listening_page
+T40,R1,,pos_amount,true,correct,correct,,,,,,,it didnt say negitive ,,false,false,2026-11-13T17:33:57.066Z,tts_listening_page
+T40,R1,,not,true,correct,correct,,,,,,,it didnt say negitive ,,false,false,2026-11-13T17:33:57.066Z,tts_listening_page
+T41,R1,,qty,true,,ambiguous,listener comment: 'the 15 and 50 were not so clear',,,,,,the 15 and 50 where not so clear,,false,false,2026-11-13T17:39:29.750Z,tts_listening_page
+T41,R1,,rejected,true,,ambiguous,listener comment: 'the 15 and 50 were not so clear',,,,,,the 15 and 50 where not so clear,,false,false,2026-11-13T17:39:29.750Z,tts_listening_page
+T41,R1,,not,true,,unmarked,,,,,,,the 15 and 50 where not so clear,,false,false,2026-11-13T17:39:29.750Z,tts_listening_page
+T43,R1,,amount,true,correct,correct,,4,5,,,,,,false,false,2026-11-13T17:31:24.736Z,tts_listening_page
+T44,R1,,start,true,wrong,wrong,,,,,,,it said 9 5 am,,false,false,2026-11-13T17:47:19.957Z,tts_listening_page
+T44,R1,,end,true,correct,correct,,,,,,,it said 9 5 am,,false,false,2026-11-13T17:47:19.957Z,tts_listening_page
+T45,R1,,date1,true,correct,correct,,,,,,,,,false,false,2026-11-13T17:32:15.417Z,tts_listening_page
+T45,R1,,date2,true,correct,correct,,,,,,,,,false,false,2026-11-13T17:32:15.417Z,tts_listening_page
+T45,R1,,not,true,correct,correct,,,,,,,,,false,false,2026-11-13T17:32:15.417Z,tts_listening_page
+T49,R1,,id,true,,correct,"listener comment: read 'double zero double zero 42', all digits kept; listener judged correct",5,5,,,,it told double zero double zero 42 which is also correct,,false,false,2026-11-13T17:32:04.314Z,tts_listening_page
+T51,R1,,id,true,correct,correct,,,,,,,,,false,false,2026-11-13T17:37:53.528Z,tts_listening_page
+T52,R1,,digits,true,wrong,wrong,,,,,,,it said 70 ,,false,false,2026-11-13T17:46:58.423Z,tts_listening_page
+T54,R1,,ticket,true,correct,correct,,,,,,,it was double zero again but was right,,false,false,2026-11-13T17:37:16.368Z,tts_listening_page
+T57,R1,,ref,true,correct,correct,,,,,,,,,false,false,2026-11-13T17:38:48.698Z,tts_listening_page
+T58,R1,,selected,true,correct,correct,,,,,,,,,false,false,2026-11-13T17:40:14.071Z,tts_listening_page
+T58,R1,,not_selected,true,correct,correct,,,,,,,,,false,false,2026-11-13T17:40:14.071Z,tts_listening_page
+T58,R1,,not,true,correct,correct,,,,,,,,,false,false,2026-11-13T17:40:14.071Z,tts_listening_page
+T60,R1,,amount,true,wrong,wrong,"DISPUTED: marked wrong because the amount was spoken in Hindi; frozen targets accept Hindi number words, so this is wrong only if the value itself was wrong. Re-listen needed.",,,,,,"same ishh for balance 
+and amount was said in hindi ",,,false,2026-11-13T17:36:29.176Z,tts_listening_page
+T60,R1,,english,false,correct,correct,,,,,,,"same ishh for balance 
+and amount was said in hindi ",,,false,2026-11-13T17:36:29.176Z,tts_listening_page
+T60,R1,,time,true,correct,correct,,,,,,,"same ishh for balance 
+and amount was said in hindi ",,,false,2026-11-13T17:36:29.176Z,tts_listening_page
+T61,R1,,cancel,true,correct,correct,,,,,,,,,,false,2026-11-13T17:39:49.589Z,tts_listening_page
+T61,R1,,negation,true,correct,correct,,,,,,,,,,false,2026-11-13T17:39:49.589Z,tts_listening_page
+T62,R1,,hindi,true,correct,correct,,,,,,,,,,false,2026-11-13T17:46:26.386Z,tts_listening_page
+T70,R1,,neft,true,correct,correct,,5,5,,,,,,,false,2026-11-13T17:30:44.495Z,tts_listening_page
+T70,R1,,upi,true,correct,correct,,5,5,,,,,,,false,2026-11-13T17:30:44.495Z,tts_listening_page
+T70,R1,,contrast,true,correct,correct,,5,5,,,,,,,false,2026-11-13T17:30:44.495Z,tts_listening_page
+T80,R1,,not,true,correct,correct,,,,,,,,,,false,2026-11-13T17:32:39.861Z,tts_listening_page
+T80,R1,,only,true,correct,correct,,,,,,,,,,false,2026-11-13T17:32:39.861Z,tts_listening_page

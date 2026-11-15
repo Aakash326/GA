@@ -1,0 +1,33 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T58",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "7a0aaf2547088c398141042b",
+ "audio": "results/tts_audio/T58.wav",
+ "latency_ms": 5027,
+ "reply": {
+  "heard": "The account ending in 4 8 2 1 is selected the account ending in 4 8 1 2 is not",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "selected",
+    "result": "correct",
+    "heard": "four eight two one"
+   },
+   {
+    "id": "not_selected",
+    "result": "correct",
+    "heard": "four eight one two"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "not"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 524,
+  "output": 86
+ }
+}

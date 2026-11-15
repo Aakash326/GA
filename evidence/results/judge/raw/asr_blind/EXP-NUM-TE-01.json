@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-NUM-TE-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-NUM-TE-01.wav",
+ "latency_ms": 5618,
+ "reply": {
+  "transcript": "2011 నాటికి వజ్రకూటం గ్రామంలో ఎన్ని ఇల్లులు ఉన్నాయి",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 276,
+  "output": 42
+ }
+}

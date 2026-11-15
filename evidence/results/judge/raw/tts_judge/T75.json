@@ -1,0 +1,30 @@
+{
+ "task": "tts_judge",
+ "id": "T75",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T75.wav",
+ "latency_ms": 4537,
+ "reply": {
+  "targets": [
+   {
+    "id": "name",
+    "result": "correct",
+    "heard": "Satinder Kaur"
+   },
+   {
+    "id": "city",
+    "result": "correct",
+    "heard": "Bengaluru"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "artifacts": [],
+  "comment": "The text was read accurately, clearly, and naturally with appropriate Indian English pronunciation."
+ },
+ "tokens": {
+  "prompt": 459,
+  "output": 138
+ }
+}

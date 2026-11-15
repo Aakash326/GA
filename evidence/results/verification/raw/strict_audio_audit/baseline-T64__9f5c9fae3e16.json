@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T64",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "9f5c9fae3e16eb07629651d8",
+ "audio": "results/tts_audio/T64.wav",
+ "latency_ms": 4136,
+ "reply": {
+  "heard": "KYC complete होने के बाद account activate होगा",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "kyc",
+    "result": "correct",
+    "heard": "KYC"
+   },
+   {
+    "id": "english",
+    "result": "correct",
+    "heard": "account activate"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 367,
+  "output": 50
+ }
+}

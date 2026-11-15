@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T99",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "1fee9c5a99c019a08d3e2855",
+ "audio": "results/tts_audio/T99.wav",
+ "latency_ms": 6139,
+ "reply": {
+  "heard": "ನಿಮ್ಮ KYC pending ಆಗಿದೆ ಇವತ್ತೇ complete ಮಾಡಿ",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "kyc",
+    "result": "correct",
+    "heard": "KYC"
+   },
+   {
+    "id": "english",
+    "result": "correct",
+    "heard": "pending complete"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 359,
+  "output": 52
+ }
+}

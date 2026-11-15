@@ -1,0 +1,16 @@
+{
+ "task": "asr_verify",
+ "id": "EXP-TEL-02-ALAW",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-TEL-02-ALAW.wav",
+ "latency_ms": 2960,
+ "reply": {
+  "matches": true,
+  "differences": [],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 232,
+  "output": 16
+ }
+}

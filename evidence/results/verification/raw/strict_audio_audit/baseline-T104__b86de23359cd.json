@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T104",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "b86de23359cdf47d8df73793",
+ "audio": "results/tts_audio/T104.wav",
+ "latency_ms": 7308,
+ "reply": {
+  "heard": "तुमचा संदर्भ क्रमांक शून्य शून्य चार दोन नऊ एक आहे",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "शून्य शून्य चार दोन नऊ एक"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 393,
+  "output": 45
+ }
+}

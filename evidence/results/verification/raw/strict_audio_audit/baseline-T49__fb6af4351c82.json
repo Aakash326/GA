@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T49",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "fb6af4351c82579cde768803",
+ "audio": "results/tts_audio/T49.wav",
+ "latency_ms": 4236,
+ "reply": {
+  "heard": "Your reference number is double zero double zero four two",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "double zero double zero four two"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 365,
+  "output": 41
+ }
+}

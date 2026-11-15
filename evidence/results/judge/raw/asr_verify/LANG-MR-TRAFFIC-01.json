@@ -1,0 +1,21 @@
+{
+ "task": "asr_verify",
+ "id": "LANG-MR-TRAFFIC-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-MR-TRAFFIC-01.wav",
+ "latency_ms": 7375,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "वाद्देदार",
+    "heard": "वाशेदार"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 387,
+  "output": 55
+ }
+}

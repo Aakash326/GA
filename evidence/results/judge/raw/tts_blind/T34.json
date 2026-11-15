@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T34",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T34.wav",
+ "latency_ms": 3446,
+ "reply": {
+  "heard": "the change was two point five percent",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 194,
+  "output": 18
+ }
+}

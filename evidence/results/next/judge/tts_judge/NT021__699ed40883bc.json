@@ -1,0 +1,26 @@
+{
+ "task": "tts_judge",
+ "id": "NT021",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "699ed40883bcb4ad66916c1c",
+ "audio": "results/next/audio/NT021.wav",
+ "latency_ms": 7847,
+ "reply": {
+  "targets": [
+   {
+    "id": "digits",
+    "result": "correct",
+    "heard": "double zero seven double zero"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The text was read completely and accurately with appropriate double-zero grouping and clear pronunciation."
+ },
+ "tokens": {
+  "prompt": 422,
+  "output": 110
+ }
+}

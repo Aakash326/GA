@@ -1,0 +1,26 @@
+{
+ "task": "tts_judge",
+ "id": "NT049",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5a8385382f4fcc2da338f7c1",
+ "audio": "results/next/audio/NT049.wav",
+ "latency_ms": 4464,
+ "reply": {
+  "targets": [
+   {
+    "id": "digits",
+    "result": "wrong",
+    "heard": "எழுபது"
+   }
+  ],
+  "content_complete": false,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "artifacts": [],
+  "comment": "0070 was read as the number '70' (எழுபது) instead of individual digits, dropping the leading zeros."
+ },
+ "tokens": {
+  "prompt": 377,
+  "output": 120
+ }
+}

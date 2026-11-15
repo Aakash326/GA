@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "337ab56d9477438c17f5cbe2",
+ "audio": "results/tts_audio/T04.wav",
+ "latency_ms": 3313,
+ "reply": {
+  "heard": "Your portfolio returned 12.75% this year.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "percent",
+    "result": "correct",
+    "heard": "twelve point seven five percent"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 358,
+  "output": 44
+ }
+}

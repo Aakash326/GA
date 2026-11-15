@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT054",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "01f64d5fcb735a0e489a5e4b",
+ "audio": "results/next/audio/NT054.wav",
+ "latency_ms": 5524,
+ "reply": {
+  "heard": "ಬದಲಾವಣೆ ಮೈನಸ್ ಒಂದು ಪಾಯಿಂಟ್ ಐದು ಶೇಕಡಾ",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 202,
+  "output": 29
+ }
+}

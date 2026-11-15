@@ -1,0 +1,30 @@
+{
+ "task": "tts_judge",
+ "id": "T99",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T99.wav",
+ "latency_ms": 8032,
+ "reply": {
+  "targets": [
+   {
+    "id": "kyc",
+    "result": "correct",
+    "heard": "K Y C"
+   },
+   {
+    "id": "english",
+    "result": "correct",
+    "heard": "pending ... complete"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The sentence is fully intelligible and all target words are clearly pronounced with acceptable synthetic flow."
+ },
+ "tokens": {
+  "prompt": 444,
+  "output": 121
+ }
+}

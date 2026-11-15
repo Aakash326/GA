@@ -1,0 +1,56 @@
+{
+ "ok": true,
+ "kind": "stt_stream",
+ "case_id": "CL-HI-02",
+ "run_tag": "ws",
+ "fingerprint": "79137ddf19f7ddbd74e9d6c6",
+ "connect_ms": 129.2,
+ "speech_end_s": 3.236,
+ "transcript": "महाभारत पहले किसने लिखी है?",
+ "first_final_s": 3.552,
+ "last_final_after_speech_ms": 315.7,
+ "server_latency_ms": [
+  96
+ ],
+ "segments": 1,
+ "errors": [],
+ "messages": [
+  {
+   "type": "connected",
+   "message": "STT service ready — VAD service connected",
+   "request_id": "01a1da40-eb38-728b-b565-77d9331b136c",
+   "config": {
+    "sample_rate": 16000,
+    "chunk_size": 512,
+    "partials_enabled": false,
+    "partial_interval_ms": 450,
+    "partial_max_window_s": 15.0,
+    "language_code": "hi-IN",
+    "format": "transcribe"
+   },
+   "timestamp": "2026-11-14T13:30:50.110715+00:00",
+   "t_s": 0.049196599997230805
+  },
+  {
+   "type": "speech_start",
+   "utterance_id": "u300280c2",
+   "t_ms": 436,
+   "timestamp": "2026-11-14T13:30:50.787010+00:00",
+   "t_s": 0.7260205000056885
+  },
+  {
+   "type": "transcript",
+   "text": "महाभारत पहले किसने लिखी है?",
+   "audio_duration_ms": 3348.0,
+   "segment_id": "01a1da40-eb38-728b-b565-77d9331b136c-seg-1",
+   "segment_index": 1,
+   "utterance_id": "u300280c2",
+   "is_final": true,
+   "latency": 96,
+   "prefetched": false,
+   "timestamp": "2026-11-14T13:30:53.612729+00:00",
+   "detected_language_code": "hi-IN",
+   "t_s": 3.551663699996425
+  }
+ ]
+}

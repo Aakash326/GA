@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TE-CL-05",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "77a031091bf8eee0be953620",
+ "audio": "data/next/audio/NX-TE-CL-05.wav",
+ "latency_ms": 6079,
+ "reply": {
+  "transcript": "శ్రీ విద్యా ప్రకాశానందగిరి స్వామి ఎక్కడ జన్మించారు?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 240,
+  "output": 48
+ }
+}

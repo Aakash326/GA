@@ -1,0 +1,21 @@
+{
+ "task": "asr_verify",
+ "id": "NEG-SUBTLE-CL-TE-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/CL-TE-01.wav",
+ "latency_ms": 3484,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "గడ్డం",
+    "heard": "విస్తీర్ణం"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 314,
+  "output": 34
+ }
+}

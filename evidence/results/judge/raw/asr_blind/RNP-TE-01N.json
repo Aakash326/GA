@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "RNP-TE-01N",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/RNP-TE-01N.wav",
+ "latency_ms": 4503,
+ "reply": {
+  "transcript": "ఎర్రకన్నపాలెం గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ ఏంటి?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 264,
+  "output": 46
+ }
+}

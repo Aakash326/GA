@@ -1,0 +1,15 @@
+﻿case_id,run_tag,model,voice,sample_rate_hz,first_audio_ms,complete_event_ms,total_generation_ms,audio_duration_s,extra_wait_ms,timeline_path,stalls,stall_s,stall_free_start_ms
+N8-en-IN-short,timbre-v3.0-8000,timbre-v3.0,Tarika,8000,3875.6,5316.2,5316.3,1.68,1343.9,results/next/raw/tts_stream/N8-en-IN-short/timbre-v3.0-8000.json,1,1.344,5219.5
+N8-en-IN-medium,timbre-v3.0-24000,timbre-v3.0,Tarika,24000,3196.6,6380.5,6380.7,6.64,844.8000000000002,results/next/raw/tts_stream/N8-en-IN-medium/timbre-v3.0-24000.json,1,0.845,4041.4
+N8-en-IN-medium,timbre-v3.0-8000,timbre-v3.0,Tarika,8000,1296.8999999999999,6614.8,6615.0,7.2,1409.4000000000003,results/next/raw/tts_stream/N8-en-IN-medium/timbre-v3.0-8000.json,1,1.409,2706.3
+N8-en-IN-long,timbre-v3.0-24000,timbre-v3.0,Tarika,24000,590.3000000000001,10127.0,10127.1,17.12,3912.0999999999995,results/next/raw/tts_stream/N8-en-IN-long/timbre-v3.0-24000.json,3,3.912,4502.4
+N8-en-IN-long,timbre-v3.0-8000,timbre-v3.0,Tarika,8000,1490.1,9205.1,9205.3,17.76,1372.6,results/next/raw/tts_stream/N8-en-IN-long/timbre-v3.0-8000.json,1,1.373,2862.7
+N8-hi-IN-short,timbre-v3.0-24000,timbre-v3.0,Tarika,24000,2527.4,3575.9,3576.1,2.24,860.4000000000001,results/next/raw/tts_stream/N8-hi-IN-short/timbre-v3.0-24000.json,1,0.86,3387.8
+N8-hi-IN-short,timbre-v3.0-8000,timbre-v3.0,Tarika,8000,2001.1999999999998,3123.2,3123.4,2.16,998.1000000000004,results/next/raw/tts_stream/N8-hi-IN-short/timbre-v3.0-8000.json,1,0.998,2999.3
+N8-hi-IN-medium,timbre-v3.0-24000,timbre-v3.0,Tarika,24000,2912.4,5830.3,5830.5,5.76,970.5999999999999,results/next/raw/tts_stream/N8-hi-IN-medium/timbre-v3.0-24000.json,1,0.971,3883.0
+N8-hi-IN-medium,timbre-v3.0-8000,timbre-v3.0,Tarika,8000,3056.6,6496.3,6496.5,6.16,922.3000000000002,results/next/raw/tts_stream/N8-hi-IN-medium/timbre-v3.0-8000.json,1,0.922,3978.9
+N8-hi-IN-long,timbre-v3.0-24000,timbre-v3.0,Tarika,24000,339.5,11726.2,11726.3,18.56,1276.2,results/next/raw/tts_stream/N8-hi-IN-long/timbre-v3.0-24000.json,1,1.276,1615.7
+N8-hi-IN-long,timbre-v3.0-8000,timbre-v3.0,Tarika,8000,1332.3,14918.5,14919.1,18.48,1398.0000000000002,results/next/raw/tts_stream/N8-hi-IN-long/timbre-v3.0-8000.json,1,1.398,2730.3
+N8-en-IN-short,timbre-v3.0-24000,timbre-v3.0,Tarika,24000,3296.0,4253.3,4253.5,1.84,850.0,results/next/raw/tts_stream/N8-en-IN-short/timbre-v3.0-24000.json,1,0.85,4146.0
+N8-en-IN-medium,timbre-v2.5-8000,timbre-v2.5,Kaveri,8000,295.70000000000005,925.5,925.7,5.44,-5.684341886080802e-14,results/next/raw/tts_stream/N8-en-IN-medium/timbre-v2.5-8000.json,0,0.0,295.7
+N8-hi-IN-medium,timbre-v2.5-8000,timbre-v2.5,Kaveri,8000,362.3,901.8,902.0,4.96,0.0,results/next/raw/tts_stream/N8-hi-IN-medium/timbre-v2.5-8000.json,0,0.0,362.3

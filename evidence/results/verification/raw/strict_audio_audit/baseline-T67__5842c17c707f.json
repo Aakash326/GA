@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T67",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5842c17c707f22ff3c6f0e86",
+ "audio": "results/tts_audio/T67.wav",
+ "latency_ms": 4230,
+ "reply": {
+  "heard": "నా order cancel చేయండి confirm చేయవద్దు",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "cancel",
+    "result": "correct",
+    "heard": "order cancel చేయండి"
+   },
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "confirm చేయవద్దు"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 362,
+  "output": 53
+ }
+}

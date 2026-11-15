@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-KN-MEDIA-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "4f386790de5a9c788e7c1d70",
+ "audio": "data/next/audio/NX-KN-MEDIA-02.wav",
+ "latency_ms": 4127,
+ "reply": {
+  "transcript": "ತಂಗುಟೂರಿ ಪ್ರಕಾಶಂ ಪಂತುಲು ಅವರ ಶೀರ್ಷಿಕೆ ಯಾರು?",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 254,
+  "output": 44
+ }
+}

@@ -1,0 +1,5 @@
+﻿case_id,model,speed,duration_s,neutral_duration_s,duration_ratio
+NF-V-3-0_85,timbre-v3.0,0.85,3.44,3.2,1.075
+NF-V-3-1_15,timbre-v3.0,1.15,2.96,3.2,0.9249999999999999
+NF-V-25-0_85,timbre-v2.5,0.85,3.2,2.56,1.25
+NF-V-25-1_15,timbre-v2.5,1.15,2.3652083333333334,2.56,0.9239095052083334

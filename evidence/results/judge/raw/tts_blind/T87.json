@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T87",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T87.wav",
+ "latency_ms": 5783,
+ "reply": {
+  "heard": "Your payment has been received. Please check your account details and keep the confirmation message. Our team will contact you if further information is required. Your request has been received and is now under review. Please check the details shown in your account before you confirm the next step. If any information is wrong, contact our support team so we can help you update it. We will send a message when the review is complete. You do not need to submit the same request again. Keep your reference number safe and use it when you ask us for an update.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 906,
+  "output": 120
+ }
+}

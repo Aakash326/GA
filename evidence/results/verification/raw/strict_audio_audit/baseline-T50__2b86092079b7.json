@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T50",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "2b86092079b7a82a4f13ce5a",
+ "audio": "results/tts_audio/T50.wav",
+ "latency_ms": 4192,
+ "reply": {
+  "heard": "Your verification code is double four double eight double two",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "code",
+    "result": "correct",
+    "heard": "double four double eight double two"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 374,
+  "output": 41
+ }
+}

@@ -1,0 +1,1 @@
+{"success":true,"request_id":"RT-M-T41-KAVERI-R-roundtrip-a1-0375c03c","transcript":"The quantity is 15 not 50.","model":"prisma-v3.0","processing_time":0.10310196876525879,"end_to_end_latency":0.10456132888793945,"detected_language_code":"en-IN"}

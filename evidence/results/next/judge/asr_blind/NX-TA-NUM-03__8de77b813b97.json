@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TA-NUM-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "8de77b813b97808e6328eda9",
+ "audio": "data/next/audio/NX-TA-NUM-03.wav",
+ "latency_ms": 6772,
+ "reply": {
+  "transcript": "2011ல் பெண்டபாடு கிராமத்தில் வாழ்ந்த பெண்கள் எண்ணிக்கை என்ன?",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 277,
+  "output": 39
+ }
+}

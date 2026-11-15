@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T50",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T50.wav",
+ "latency_ms": 4470,
+ "reply": {
+  "heard": "Your verification code is double four double eight double two.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 236,
+  "output": 21
+ }
+}

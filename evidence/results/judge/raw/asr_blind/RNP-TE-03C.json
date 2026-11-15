@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "RNP-TE-03C",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/RNP-TE-03C.wav",
+ "latency_ms": 3511,
+ "reply": {
+  "transcript": "మనిలాలో అధికారిక భాష ఏంటి?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 210,
+  "output": 32
+ }
+}

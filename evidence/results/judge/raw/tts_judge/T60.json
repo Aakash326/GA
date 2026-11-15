@@ -1,0 +1,35 @@
+{
+ "task": "tts_judge",
+ "id": "T60",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T60.wav",
+ "latency_ms": 4594,
+ "reply": {
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "एक हज़ार दो सौ पचास रुपए"
+   },
+   {
+    "id": "english",
+    "result": "correct",
+    "heard": "balance ... payment"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "कल"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "artifacts": [],
+  "comment": "The audio is clear, accurate, and completely aligned with the text prompt."
+ },
+ "tokens": {
+  "prompt": 568,
+  "output": 171
+ }
+}

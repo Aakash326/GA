@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T64",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T64.wav",
+ "latency_ms": 11834,
+ "reply": {
+  "heard": "K Y C complete होने के बाद account activate होगा",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 230,
+  "output": 21
+ }
+}

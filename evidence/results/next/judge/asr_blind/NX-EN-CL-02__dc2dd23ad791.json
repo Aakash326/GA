@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-EN-CL-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "dc2dd23ad7913aef0e06495f",
+ "audio": "data/next/audio/NX-EN-CL-02.wav",
+ "latency_ms": 4060,
+ "reply": {
+  "transcript": "which mammal has the shortest gestation period",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 221,
+  "output": 31
+ }
+}

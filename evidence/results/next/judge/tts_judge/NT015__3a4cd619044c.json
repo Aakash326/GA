@@ -1,0 +1,33 @@
+{
+ "task": "tts_judge",
+ "id": "NT015",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "3a4cd619044c3969f3f38d3b",
+ "audio": "results/next/audio/NT015.wav",
+ "latency_ms": 8885,
+ "reply": {
+  "targets": [
+   {
+    "id": "sign",
+    "result": "wrong",
+    "heard": ""
+   },
+   {
+    "id": "value",
+    "result": "correct",
+    "heard": "one point five percent"
+   }
+  ],
+  "content_complete": false,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [
+   "unnatural pause"
+  ],
+  "comment": "The minus sign was omitted and replaced by a pause; the numerical value was spoken clearly."
+ },
+ "tokens": {
+  "prompt": 443,
+  "output": 123
+ }
+}

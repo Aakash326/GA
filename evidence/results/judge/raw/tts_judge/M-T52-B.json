@@ -1,0 +1,25 @@
+{
+ "task": "tts_judge",
+ "id": "M-T52-B",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/M-T52-B.wav",
+ "latency_ms": 6922,
+ "reply": {
+  "targets": [
+   {
+    "id": "digits",
+    "result": "correct",
+    "heard": "zero zero seven zero"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "Clear pronunciation and pacing matching the prompt accurately."
+ },
+ "tokens": {
+  "prompt": 422,
+  "output": 72
+ }
+}

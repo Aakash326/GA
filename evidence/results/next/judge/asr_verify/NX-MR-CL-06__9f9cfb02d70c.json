@@ -1,0 +1,22 @@
+{
+ "task": "asr_verify",
+ "id": "NX-MR-CL-06",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "9f9cfb02d70cf85b051f2420",
+ "audio": "data/next/audio/NX-MR-CL-06.wav",
+ "latency_ms": 7604,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "तामिळनाडूच्या",
+    "heard": "तमिळनाडूच्या"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 266,
+  "output": 38
+ }
+}

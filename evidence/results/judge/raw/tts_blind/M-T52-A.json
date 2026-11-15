@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "M-T52-A",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/M-T52-A.wav",
+ "latency_ms": 4570,
+ "reply": {
+  "heard": "The last four digits are zero zero seven zero",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 212,
+  "output": 20
+ }
+}

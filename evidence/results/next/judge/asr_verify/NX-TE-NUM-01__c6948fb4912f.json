@@ -1,0 +1,26 @@
+{
+ "task": "asr_verify",
+ "id": "NX-TE-NUM-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c6948fb4912f2d879f244892",
+ "audio": "data/next/audio/NX-TE-NUM-01.wav",
+ "latency_ms": 6688,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "మక్తా",
+    "heard": "మక్త"
+   },
+   {
+    "reference": "గ్రామములో",
+    "heard": "గ్రామంలో"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 358,
+  "output": 80
+ }
+}

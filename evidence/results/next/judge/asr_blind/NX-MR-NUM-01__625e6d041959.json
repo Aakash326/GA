@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-MR-NUM-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "625e6d041959c60949a0346e",
+ "audio": "data/next/audio/NX-MR-NUM-01.wav",
+ "latency_ms": 6031,
+ "reply": {
+  "transcript": "जगातील 70 टक्के पाण्यापैकी मानव मूलभूत गरजांसाठी किती टक्के पाणी वापरतो?",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 279,
+  "output": 43
+ }
+}

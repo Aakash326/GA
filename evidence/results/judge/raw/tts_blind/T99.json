@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T99",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T99.wav",
+ "latency_ms": 19190,
+ "reply": {
+  "heard": "ನಿಮ್ಮ K Y C pending ಆಗಿದೆ ಇವತ್ತೇ complete ಮಾಡಿ",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 202,
+  "output": 24
+ }
+}

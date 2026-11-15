@@ -1,0 +1,33 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T41",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "1f4877eae3425929644551af",
+ "audio": "results/tts_audio/T41.wav",
+ "latency_ms": 3597,
+ "reply": {
+  "heard": "The quantity is fifteen, not fifty.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "fifteen"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "fifty"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "not"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 392,
+  "output": 59
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T12",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f02f26348f6249b391adb6ed",
+ "audio": "results/tts_audio/T12.wav",
+ "latency_ms": 3935,
+ "reply": {
+  "heard": "Aapka portfolio balance abhi update hua hai.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "hindi",
+    "result": "correct",
+    "heard": "Aapka ... abhi ... hua hai"
+   },
+   {
+    "id": "english",
+    "result": "correct",
+    "heard": "portfolio balance update"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 386,
+  "output": 59
+ }
+}

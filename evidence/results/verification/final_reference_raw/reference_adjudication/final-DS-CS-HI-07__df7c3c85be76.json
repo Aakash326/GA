@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-DS-CS-HI-07",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "df7c3c85be760eb2436e372f",
+ "audio": "data/next/dataset_replacement/DS-CS-HI-07.wav",
+ "latency_ms": 4138,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "notes text box के ऊपरीबाएँ कोने पर त्रिकोण प्रविष्ट करें त्रिकोण",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The speaker repeats 'त्रिकोण' at the end of the utterance, which is missing in the dataset candidate."
+ },
+ "tokens": {
+  "prompt": 370,
+  "output": 61
+ }
+}

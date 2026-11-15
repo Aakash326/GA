@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T101",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T101.wav",
+ "latency_ms": 4465,
+ "reply": {
+  "heard": "तुमची विनंती मिळाली आहे. आम्ही उद्या तुमच्याशी संपर्क साधू.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 223,
+  "output": 25
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T16",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T16.wav",
+ "latency_ms": 4851,
+ "reply": {
+  "heard": "Your H D F C Bank shares have been credited.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 196,
+  "output": 21
+ }
+}

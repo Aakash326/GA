@@ -1,0 +1,13 @@
+﻿case_id,model,voice,input,listener_comment,clarity_15_vs_50,prisma_transcript,latency_ms,note
+M-T41-SHIVANI-R,timbre-v3.0,Shivani,"The quantity is 15, not 50.",not sure,unclear,The quantity is 15 not 50.,1892.5,verdict read from the comment; target buttons were not used
+M-T41-SHIVANI-W,timbre-v3.0,Shivani,"The quantity is fifteen, not fifty.",,not rated,The quantity is 15 not 50.,2997.6,verdict read from the comment; target buttons were not used
+M-T41-KALPANA-R,timbre-v3.0,Kalpana,"The quantity is 15, not 50.",not sure still,unclear,The quantity is 15 not 50.,2057.2,verdict read from the comment; target buttons were not used
+M-T41-KALPANA-W,timbre-v3.0,Kalpana,"The quantity is fifteen, not fifty.",okk,clear,The quantity is 15 not 50.,1370.4,verdict read from the comment; target buttons were not used
+M-T41-AVINASH-R,timbre-v3.0,Avinash,"The quantity is 15, not 50.",,not rated,The quantity is 15 not 50.,1078.3,verdict read from the comment; target buttons were not used
+M-T41-AVINASH-W,timbre-v3.0,Avinash,"The quantity is fifteen, not fifty.",not sure,unclear,The quantity is 15 not 50.,1083.5,verdict read from the comment; target buttons were not used
+M-T41-DEVANSH-R,timbre-v3.0,Devansh,"The quantity is 15, not 50.",,not rated,The quantity is 15 not 50.,1149.6,verdict read from the comment; target buttons were not used
+M-T41-DEVANSH-W,timbre-v3.0,Devansh,"The quantity is fifteen, not fifty.",good,clear,The quantity is 15 not 50.,1214.7,verdict read from the comment; target buttons were not used
+M-T41-KAVERI-R,timbre-v2.5,Kaveri,"The quantity is 15, not 50.",this was good and clear,clear,The quantity is 15 not 50.,487.9,verdict read from the comment; target buttons were not used
+M-T41-KAVERI-W,timbre-v2.5,Kaveri,"The quantity is fifteen, not fifty.",good,clear,The quantity is 15 not 50.,592.6,verdict read from the comment; target buttons were not used
+M-T41-PRANAV-R,timbre-v2.5,Pranav,"The quantity is 15, not 50.",same,uninterpretable ('same'),The quantity is 15 not 50.,483.1,verdict read from the comment; target buttons were not used
+M-T41-PRANAV-W,timbre-v2.5,Pranav,"The quantity is fifteen, not fifty.",when i hear closly i can see change,marginal (only on close listening),The quantity is 15 not 50.,580.1,verdict read from the comment; target buttons were not used

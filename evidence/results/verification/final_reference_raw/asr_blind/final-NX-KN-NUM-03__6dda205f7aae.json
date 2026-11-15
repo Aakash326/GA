@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-NX-KN-NUM-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "6dda205f7aae10a4d1d9dba6",
+ "audio": "data/next/audio/NX-KN-NUM-03.wav",
+ "latency_ms": 2229,
+ "reply": {
+  "transcript": "2010 ರಂತೆ ಭಾರತದ ಯಾವ ಭಾಗದಲ್ಲಿ ಅತ್ಯಂತ ಹೆಚ್ಚಿನ ಸಂಖ್ಯೆಯಲ್ಲಿ ಕ್ರೈಸ್ತರಿದ್ದಾರೆ?",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 292,
+  "output": 45
+ }
+}

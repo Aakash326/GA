@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-NX-TE-CL-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "72e0d907b6e4e91f0c931d91",
+ "audio": "data/next/audio/NX-TE-CL-04.wav",
+ "latency_ms": 2328,
+ "reply": {
+  "transcript": "కొమ్మలపాడు గ్రామ వైశాల్యం ఎంత?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 229,
+  "output": 35
+ }
+}

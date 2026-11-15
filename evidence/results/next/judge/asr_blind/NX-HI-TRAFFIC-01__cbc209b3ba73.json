@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-HI-TRAFFIC-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "cbc209b3ba7342202316ebf8",
+ "audio": "data/next/audio/NX-HI-TRAFFIC-01.wav",
+ "latency_ms": 4157,
+ "reply": {
+  "transcript": "बैंड के सिद्धांत की खोज कब हुई थी?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 252,
+  "output": 32
+ }
+}

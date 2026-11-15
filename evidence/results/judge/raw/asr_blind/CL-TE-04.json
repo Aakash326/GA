@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "CL-TE-04",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/CL-TE-04.wav",
+ "latency_ms": 4173,
+ "reply": {
+  "transcript": "న్యుమోనియాను మొదట ఏ దేశంలో కనుగొన్నారు",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 243,
+  "output": 39
+ }
+}

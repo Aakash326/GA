@@ -1,0 +1,101 @@
+﻿case_id,part,label,input_or_source,method,inspect
+A01,ASR,A01 · English question,“What is my portfolio balance today?”,Native/competent Indian English speaker; close mic; save 16 kHz mono.,Baseline WER/CER
+A02,ASR,A02 · Hindi question,“मेरा अकाउंट बैलेंस कितना है?”,Natural Hindi speaker; correct Devanagari reference (or selected format).,Hindi accuracy
+A03,ASR,A03 · English statement,“I want to check my mutual fund investment returns.”,Slightly longer English sentence at normal speed.,Complete phrase
+A04,ASR,A04 · Hindi request,“मुझे पिछले महीने की ट्रांज़ैक्शन हिस्ट्री चाहिए।”,Natural Hindi speaker with typical finance loanword.,Script + entities
+A05,ASR,A05 · Negation,“I do not want to sell these shares.”,Pronounce “not” clearly; separately flag negation correctness.,Critical negation
+A06,ASR,A06 · Polite request,“Could you please explain how an SIP works?”,Neutral volume and pacing; stable reference transcript.,Acronym handling
+B01,ASR,B01 · 20 dB SNR,Reuse A01,Add traffic noise at 20 dB SNR; loudness-adjust noise relative to active speech.,WER delta vs A01
+B02,ASR,B02 · 10 dB SNR,Reuse A01,Same traffic recording at 10 dB SNR; keep all other factors fixed.,Noise curve
+B03,ASR,B03 · 0 dB SNR,Reuse A01,Same traffic recording at 0 dB SNR; save with no hard clipping.,High-noise failure
+B04,ASR,B04 · Office babble,Reuse A03,Add multi-speaker background speech; document source/mix level.,Speech interference
+B05,ASR,B05 · Fan/hum,Reuse A02,Add steady fan/AC low-frequency noise at documented SNR.,Hindi robustness
+B06,ASR,B06 · Distant mic,Reuse A06,"Prefer simultaneous near/far recordings of one utterance. If re-recording from >1 m, verify a new reference and acknowledge delivery/room differences; gain reduction alone is insufficient.",Distance/room effect; paired only if the spoken take is shared
+C01,ASR,C01 · Speaker 1,Common phrase,Record a fluent speaker from region/background 1 with consent.,WER / speaker
+C02,ASR,C02 · Speaker 2,Common phrase,Speaker from region/background 2; same microphone and script.,WER / speaker
+C03,ASR,C03 · Speaker 3,Common phrase,Speaker from region/background 3; same microphone and script.,WER / speaker
+C04,ASR,C04 · Speaker 4,Common phrase,Speaker from region/background 4; same microphone and script.,WER / speaker
+C05,ASR,C05 · Speaker 5,Common phrase,Speaker from region/background 5; same microphone and script.,WER / speaker
+C06,ASR,C06 · Speaker 6,Common phrase,Speaker from region/background 6; same microphone and script.,WER / speaker
+D01,ASR,D01 · Hinglish,“मेरा portfolio balance क्या है?”,"Record native code-switching exactly as said, using an agreed code-mix reference.",Language boundaries
+D02,ASR,D02 · Hinglish,“आज का market price बता दीजिए।”,Mix Hindi grammar and English finance words.,Keyword retention
+D03,ASR,D03 · Hinglish,“मेरी SIP कब deduct होगी?”,Test English verb embedded in Hindi request.,Verb / acronym
+D04,ASR,D04 · Telugu mix,“నా account balance ఎంత ఉంది?”,Bilingual Telugu speaker; verify output language configuration.,Script switching
+D05,ASR,D05 · Telugu mix,“ఈ రోజు stock price ఎంత?”,Natural Telugu-English speaker; record exact spoken form.,Entity retention
+D06,ASR,D06 · Hinglish,"“मुझे buy नहीं, sell करना है।”",Test code-switching plus a financially important negation.,Intent reversal
+E01,ASR,E01 · 15 vs 50,"“Buy fifteen shares, not fifty.”",Clear number contrast; flag both numbers and negation.,BUY quantity 15; 50 is rejected; preserve negation scope
+E02,ASR,E02 · Large amount,“My balance is one lakh twenty-five thousand rupees.”,Expected entity INR 125000; choose reference orthography.,Amount exact match
+E03,ASR,E03 · Decimal,“The NAV is one hundred and twelve point five.”,Expected numeric value 112.5.,Decimals
+E04,ASR,E04 · Date,“My SIP is due on the twenty-third of November.”,"Expected month/day: November 23. Do not require a year supplied only in metadata. If scoring a complete date, say the year aloud and update the reference.",Dates / ordinals
+E05,ASR,E05 · Synthetic ID,“My reference number is six eight four two nine one.”,Set expected sequence 684291; label as fictional.,Digit sequence
+E06,ASR,E06 · Trade action,“Sell fifty shares of HDFC Bank at market price.”,"Expected action SELL, qty 50, entity HDFC Bank.",Critical slots
+F01,ASR,F01 · KYC,“My KYC verification is still pending.”,Record clear phrase with KYC acronym.,Acronym correct
+F02,ASR,F02 · UCC,“Please activate my UCC today.”,Pronounce letters U-C-C.,UCC retention
+F03,ASR,F03 · ISIN,“Can you check the ISIN for this stock?”,"Pronounce ISIN naturally, document intended spoken form.",Term recognition
+F04,ASR,F04 · NAV,“The NAV of my fund decreased yesterday.”,Pronounce NAV as it would be on a real call.,Term recognition
+F05,ASR,F05 · Company,“I hold shares of Motilal Oswal and HDFC Bank.”,Ensure exact spellings in references.,Proper nouns
+F06,ASR,F06 · SIP,“I want to increase my SIP to five thousand rupees.”,Combine domain term and amount.,Acronym + amount
+G01,ASR,G01 · 2 sec,“Check balance.”,"Very short command, trim leading silence without clipping.",Short command
+G02,ASR,G02 · 3 sec,“Show my holdings.”,Simple verb + entity.,Short command
+G03,ASR,G03 · 4 sec,“I need my tax statement.”,Normal command with brief lead-in.,Short command
+G04,ASR,G04 · 15 sec,Portfolio performance explanation,Write and read ~30–40 words; store exact spoken reference.,Long-form deletions
+G05,ASR,G05 · 20 sec,Request for transaction history,Write and read ~45–55 words with dates/amounts.,Mid-sentence drift
+G06,ASR,G06 · 25 sec,Multi-topic investment question,Write and read ~55–70 words with 2–3 entities.,Tail truncation
+H01,ASR,H01 · 8 kHz,Derived from A01,"Low-pass/band-limit, convert to mono 8 kHz PCM WAV.",WER delta vs A01
+H02,ASR,H02 · G.711 A-law,Derived from A02,8 kHz A-law encode/decode to WAV for API if needed.,Combined channel delta vs A02; codec-only delta vs I13
+H03,ASR,H03 · G.711 μ-law,Derived from A03,8 kHz μ-law encode/decode; ensure file accepted.,Combined channel delta vs A03; codec-only delta vs I14
+H04,ASR,H04 · Phone + noise,Derived from A04,8 kHz plus representative moderate background noise.,Combined impact
+H05,ASR,H05 · Phone + negation,Derived from A05,8 kHz A-law; preserve “not” in reference.,Intent safety
+H06,ASR,H06 · Phone + acronym,Derived from A06,8 kHz narrowband; evaluate “SIP”.,Key-term retention
+I01,ASR,I01 · CORE · Silence,3–5 seconds of digital silence in a valid supported WAV.,Empty reference. Verify decoding/duration; distinguish valid silence from a zero-byte upload.,False-transcription flag and inserted words; WER/CER N/A.
+I02,ASR,I02 · CORE · Non-speech,3–5 seconds of fan/traffic sound with no intelligible voices.,Listen to verify no speech; record noise source/license. Empty reference.,Unexpected transcript and inserted-word count.
+I03,ASR,I03 · CORE · Spontaneous correction,"Example: “Buy fifteen—sorry, fifty shares. I changed my mind after checking the balance.”",Ask for a natural explanation; reference every actual word according to the frozen output-mode policy.,Faithful correction transcription; separately audit final quantity 50.
+I04,ASR,I04 · CORE · Pauses,Use A01 with a natural mid-sentence pause and trailing silence.,Preserve all speech; insert silence only between words if transforming. Record pause durations and shared source ID.,"Missing tail, premature stopping or invented continuation."
+I05,ASR,I05 · CORE · Leading-zero ID,“My reference number is zero zero four two nine one.”,Expected ID is the string 004291; never convert IDs to integers.,Exact sequence and every leading zero.
+I06,ASR,I06 · CORE if feasible · Fast speech,A naturally faster reading of A03.,Use the same speaker and microphone; record actual duration and verify the new reference. Do not assume a speed effect is isolated from delivery.,WER/CER and deletion/critical-word changes.
+I07,ASR,I07 · CORE · Simple English,“Please close the window before you leave the room.”,"Quiet, ordinary speech with no finance terms, numbers or acronyms.",General-language baseline WER/CER.
+I08,ASR,I08 · CORE · Simple Hindi,“कृपया जाने से पहले खिड़की बंद कर दीजिए।”,"Natural Hindi speaker, quiet setup, human-verified native-script reference.",Hindi baseline without finance vocabulary.
+I09,ASR,I09 · CONDITIONAL CORE · Telugu control,“దయచేసి రేపు ఉదయం నాకు ఫోన్ చేయండి.”,Use the same competent bilingual speaker/settings as D04/D05; verify wording with that speaker.,Separate basic Telugu difficulty from code-switching difficulty.
+I10,ASR,"I10 · CONTROL · Second source, 20 dB",A03 + the same traffic noise used for B01–B03.,Mix at 20 dB active-speech SNR with no clipping; document noise segment.,Paired WER delta vs A03.
+I11,ASR,"I11 · CONTROL · Second source, 10 dB",Same A03/noise segment as I10.,Change only SNR to 10 dB.,Second-source noise curve.
+I12,ASR,"I12 · CONTROL · Second source, 0 dB",Same A03/noise segment as I10.,Change only SNR to 0 dB; prevent hard clipping.,High-noise behavior across more than one utterance.
+I13,ASR,I13 · CONTROL · PCM for H02,A02 converted to band-limited 8 kHz PCM before G.711.,Use precisely the pre-codec source from which H02 is encoded.,H02 minus I13 isolates added A-law processing.
+I14,ASR,I14 · CONTROL · PCM for H03,A03 converted to band-limited 8 kHz PCM before G.711.,Use precisely the pre-codec source from which H03 is encoded.,H03 minus I14 isolates added μ-law processing.
+T01,TTS,T01,"“Your available balance is ₹1,25,450.”","Verify one lakh twenty-five thousand four hundred fifty, or acceptable equivalent.","Verify one lakh twenty-five thousand four hundred fifty, or acceptable equivalent."
+T02,TTS,T02,"“Your pending amount is ₹1,57,890.50.”",Verify integer and paise/decimal are spoken correctly; document convention.,Verify integer and paise/decimal are spoken correctly; document convention.
+T03,TTS,T03,“Your SIP is scheduled for 23 November 2026.”,Listen for correct date and year; no missing or swapped digit.,Listen for correct date and year; no missing or swapped digit.
+T04,TTS,T04,“Your portfolio returned 12.75% this year.”,"Check percent, decimal and implied sign.","Check percent, decimal and implied sign."
+T05,TTS,T05,"“The price moved from ₹850 to ₹1,050.”","Check both amounts and order, especially zero and thousand.","Check both amounts and order, especially zero and thousand."
+T06,TTS,T06,“Please complete your KYC verification.”,K-Y-C pronounced intelligibly; no invented expansion.,K-Y-C pronounced intelligibly; no invented expansion.
+T07,TTS,T07,“Your UCC has been activated.”,U-C-C distinct; listen for letter confusion.,U-C-C distinct; listen for letter confusion.
+T08,TTS,T08,“Share your IFSC code with support.”,I-F-S-C or accepted domain pronunciation; mark consistency.,I-F-S-C or accepted domain pronunciation; mark consistency.
+T09,TTS,T09,“The NAV of this fund is ₹112.50.”,"N-A-V / NAV according to intended voice convention, plus amount.","N-A-V / NAV according to intended voice convention, plus amount."
+T10,TTS,T10,“You can increase your SIP by ₹500.”,"SIP pronunciation and amount, no truncation.","SIP pronunciation and amount, no truncation."
+T11,TTS,T11,“आपका SIP successfully process हो गया है।”,"Check both Hindi and English articulation, no voice collapse.","Check both Hindi and English articulation, no voice collapse."
+T12,TTS,T12,“Aapka portfolio balance abhi update hua hai.”,"Pair with T36, which has identical wording in Devanagari/mixed script. Keep voice, meaning and supported language configuration comparable; record settings.","Pair with T36, which has identical wording in Devanagari/mixed script. Keep voice, meaning and supported language configuration comparable; record settings."
+T13,TTS,T13,“कृपया अपना KYC आज complete करें।”,"Check smooth switches, no skipped Hindi or acronym.","Check smooth switches, no skipped Hindi or acronym."
+T14,TTS,T14,“Your order कल सुबह execute होगा।”,Check Hindi phrase within English sentence.,Check Hindi phrase within English sentence.
+T15,TTS,T15,“मुझे account statement email पर भेज दीजिए।”,"Check clarity, boundary pauses and completeness.","Check clarity, boundary pauses and completeness."
+T16,TTS,T16,“Your HDFC Bank shares have been credited.”,Company name and acronym; avoid wrong extra syllables.,Company name and acronym; avoid wrong extra syllables.
+T17,TTS,T17,“The Motilal Oswal account is active.”,Company name stress and syllables.,Company name stress and syllables.
+T18,TTS,T18,“The Hyderabad office will contact you.”,Place-name pronunciation.,Place-name pronunciation.
+T19,TTS,T19,“Your transaction with Saraswati Finance is complete.”,"Proper name pronunciation; invented company, not a factual entity claim.","Proper name pronunciation; invented company, not a factual entity claim."
+T20,TTS,T20,“Please verify the ISIN for your holdings.”,Technical initialism and surrounding speech rhythm.,Technical initialism and surrounding speech rhythm.
+T21,TTS,T21 · ~25 words,“Your payment has been received. We will send a confirmation message shortly.”,Extend to ~25 words; inspect first/last phrase and sentence joins.,Extend to ~25 words; inspect first/last phrase and sentence joins.
+T22,TTS,T22 · ~50 words,“Your mutual fund transaction is under review. We will update you once it is approved.”,Extend to ~50 words; count exact input words.,Extend to ~50 words; count exact input words.
+T23,TTS,T23 · ~75 words,“A systematic investment plan lets you invest a fixed amount regularly.”,Extend to ~75 words; note breath/pause consistency.,Extend to ~75 words; note breath/pause consistency.
+T24,TTS,T24 · ~100 words,"“Your portfolio report includes returns, holdings and transaction history.”",Extend to ~100 words; listen for omissions/repeated phrases.,Extend to ~100 words; listen for omissions/repeated phrases.
+T25,TTS,T25 · ~150 words,"“Before placing an order, please check the quantity, price and instrument details.”","Inspect full content and endings. If unsupported as one request, mark that result; any split version is a separate chunked-pipeline experiment including total time and joins.","Inspect full content and endings. If unsupported as one request, mark that result; any split version is a separate chunked-pipeline experiment including total time and joins."
+T26,TTS,T26 · Question,“Could you please confirm your account number?”,Listen for interrogative prosody and natural ending.,Listen for interrogative prosody and natural ending.
+T27,TTS,T27 · Warning,“Do not share your OTP with anyone.”,Check emphasis on “not”; no dangerous omission.,Check emphasis on “not”; no dangerous omission.
+T28,TTS,T28 · Punctuation,"“First, check your balance. Next, review your transactions. Finally, confirm the payment.”",Check pause placement and list flow.,Check pause placement and list flow.
+T29,TTS,T29 · Ambiguity,“I will read the report now. I read it yesterday.”,Check present/future vs past “read” pronunciation.,Check present/future vs past “read” pronunciation.
+T30,TTS,T30 · Emotion,“Great news! Your application has been approved.”,OPTIONAL: appropriate upbeat delivery. Do not require exaggerated emotion or fail acceptable neutral delivery solely on preference.,OPTIONAL: appropriate upbeat delivery. Do not require exaggerated emotion or fail acceptable neutral delivery solely on preference.
+T31,TTS,T31 · CORE · Simple English,“Your request has been received. We will contact you tomorrow.”,"Baseline intelligibility, naturalness and complete content without numeric/acronym challenges.","Baseline intelligibility, naturalness and complete content without numeric/acronym challenges."
+T32,TTS,T32 · CORE · Simple Hindi,“आपका अनुरोध मिल गया है। हम कल आपसे संपर्क करेंगे।”,Use an appropriate fixed voice/language and a Hindi-competent listener; check complete ordinary speech.,Use an appropriate fixed voice/language and a Hindi-competent listener; check complete ordinary speech.
+T33,TTS,T33 · CORE · Very short response,“Yes.”,Verify audible nonempty speech and intact beginning/ending. Do not inflate duration with silence to improve RTF.,Verify audible nonempty speech and intact beginning/ending. Do not inflate duration with silence to improve RTF.
+T34,TTS,T34 · CORE · Negative value,“The change was −2.5%.”,"Require a negative value, 2.5, and percent. Predeclare acceptable “minus”/“negative” variants.","Require a negative value, 2.5, and percent. Predeclare acceptable “minus”/“negative” variants."
+T35,TTS,T35 · CORE · Leading-zero identifier,“Your reference number is 004291.”,Listener writes the heard digits before seeing expected text. Require string 004291; preserve leading zeros. Define acceptable repetition/grouping conventions.,Listener writes the heard digits before seeing expected text. Require string 004291; preserve leading zeros. Define acceptable repetition/grouping conventions.
+T36,TTS,T36 · CORE · Script control for T12,“आपका portfolio balance अभी update हुआ है।”,Same words/meaning as T12. Compare native/mixed script with Romanized Hindi; log routing/language choices and pronunciation differences.,Same words/meaning as T12. Compare native/mixed script with Romanized Hindi; log routing/language choices and pronunciation differences.
+T37,TTS,T37 · CORE PAIR · Expanded T01,“Your available balance is one lakh twenty-five thousand four hundred fifty rupees.”,"Same model, voice and settings as T01. Compare amount correctness, naturalness, latency and RTF; this measures preprocessing benefit.","Same model, voice and settings as T01. Compare amount correctness, naturalness, latency and RTF; this measures preprocessing benefit."
+T38,TTS,T38 · CORE PAIR · Expanded T06,“Please complete your K Y C verification.”,Same settings as T06; intended spoken letters K–Y–C. Evaluate intelligibility rather than raw written-token WER across variants.,Same settings as T06; intended spoken letters K–Y–C. Evaluate intelligibility rather than raw written-token WER across variants.

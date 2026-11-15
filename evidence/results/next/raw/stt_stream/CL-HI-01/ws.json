@@ -1,0 +1,56 @@
+{
+ "ok": true,
+ "kind": "stt_stream",
+ "case_id": "CL-HI-01",
+ "run_tag": "ws",
+ "fingerprint": "dec7f8b5dbc38fd36f6da58e",
+ "connect_ms": 121.7,
+ "speech_end_s": 5.636,
+ "transcript": "चित्रम film कब release हुई थी?",
+ "first_final_s": 4.173,
+ "last_final_after_speech_ms": -1463.0,
+ "server_latency_ms": [
+  110
+ ],
+ "segments": 1,
+ "errors": [],
+ "messages": [
+  {
+   "type": "connected",
+   "message": "STT service ready — VAD service connected",
+   "request_id": "01a1da40-bef1-707b-81d6-fde8bdc25cb2",
+   "config": {
+    "sample_rate": 16000,
+    "chunk_size": 512,
+    "partials_enabled": false,
+    "partial_interval_ms": 450,
+    "partial_max_window_s": 15.0,
+    "language_code": "hi-IN",
+    "format": "transcribe"
+   },
+   "timestamp": "2026-11-14T13:30:38.770293+00:00",
+   "t_s": 0.042521299998043105
+  },
+  {
+   "type": "speech_start",
+   "utterance_id": "u0b6d7d47",
+   "t_ms": 788,
+   "timestamp": "2026-11-14T13:30:39.810405+00:00",
+   "t_s": 1.0823415999911958
+  },
+  {
+   "type": "transcript",
+   "text": "चित्रम film कब release हुई थी?",
+   "audio_duration_ms": 3604.0,
+   "segment_id": "01a1da40-bef1-707b-81d6-fde8bdc25cb2-seg-1",
+   "segment_index": 1,
+   "utterance_id": "u0b6d7d47",
+   "is_final": true,
+   "latency": 110,
+   "prefetched": false,
+   "timestamp": "2026-11-14T13:30:42.900823+00:00",
+   "detected_language_code": "hi-IN",
+   "t_s": 4.172961599993869
+  }
+ ]
+}

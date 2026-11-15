@@ -1,0 +1,36 @@
+{
+  "task": "blind",
+  "id": "NF-I-3-happy",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "7edc3edffa251a44b54ce4a784c6fa8801e008c42e285b46c3c79280527d2b7d",
+  "input_sha256": [
+    "7db47625cd6f328c372d1d84db2cea9f0bcd671a78af0ea4c7201f0e5788fadf"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-I-3-happy.wav"
+  ],
+  "reply": {
+    "heard": "Your request is ready. Please continue when you are ready.",
+    "naturalness_1to5": 4,
+    "prosody_1to5": 4,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "calm",
+      "measured",
+      "polite"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "Clean onset without notable delay.",
+    "artifacts": [],
+    "confidence": "high",
+    "reason": "Clear assistant-style delivery with balanced rhythm and distinct pauses between sentences."
+  },
+  "prompt_tokens": 347,
+  "output_tokens": 198,
+  "thought_tokens": 186,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

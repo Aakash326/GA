@@ -1,0 +1,16 @@
+{
+ "task": "asr_verify",
+ "id": "EXP-TEL-05-ALAW",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-TEL-05-ALAW.wav",
+ "latency_ms": 3380,
+ "reply": {
+  "matches": true,
+  "differences": [],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 314,
+  "output": 16
+ }
+}

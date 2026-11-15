@@ -1,0 +1,30 @@
+{
+ "task": "tts_judge",
+ "id": "T63",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T63.wav",
+ "latency_ms": 7875,
+ "reply": {
+  "targets": [
+   {
+    "id": "english",
+    "result": "correct",
+    "heard": "refund pending check"
+   },
+   {
+    "id": "hindi",
+    "result": "correct",
+    "heard": "abhi kal phir"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "artifacts": [],
+  "comment": "The code-switched sentence is rendered clearly with accurate Hindi and English pronunciation and natural phrasing."
+ },
+ "tokens": {
+  "prompt": 452,
+  "output": 122
+ }
+}

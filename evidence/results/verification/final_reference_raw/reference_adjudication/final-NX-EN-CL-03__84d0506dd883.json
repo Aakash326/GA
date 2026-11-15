@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-EN-CL-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "84d0506dd8836e53d2473211",
+ "audio": "data/next/audio/NX-EN-CL-03.wav",
+ "latency_ms": 7514,
+ "reply": {
+  "dataset_matches": true,
+  "selected_reference": "Are Anatolian shepherds considered rare?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": ""
+ },
+ "tokens": {
+  "prompt": 326,
+  "output": 31
+ }
+}

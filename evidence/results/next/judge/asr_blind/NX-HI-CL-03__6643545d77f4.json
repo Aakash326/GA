@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-HI-CL-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "6643545d77f4712f27d9ca06",
+ "audio": "data/next/audio/NX-HI-CL-03.wav",
+ "latency_ms": 4092,
+ "reply": {
+  "transcript": "बांग्लादेश का महास्थानगढ़ किस उपजिले में स्थित है?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 310,
+  "output": 37
+ }
+}

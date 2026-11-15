@@ -1,0 +1,25 @@
+{
+ "task": "tts_judge",
+ "id": "T46",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T46.wav",
+ "latency_ms": 8390,
+ "reply": {
+  "targets": [
+   {
+    "id": "range",
+    "result": "correct",
+    "heard": "three to five"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The text was read accurately with clear Indian English pronunciation, though pacing remains somewhat synthetic."
+ },
+ "tokens": {
+  "prompt": 407,
+  "output": 108
+ }
+}

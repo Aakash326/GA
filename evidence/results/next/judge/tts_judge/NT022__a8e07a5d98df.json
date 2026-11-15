@@ -1,0 +1,26 @@
+{
+ "task": "tts_judge",
+ "id": "NT022",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "a8e07a5d98df272bb89f74d6",
+ "audio": "results/next/audio/NT022.wav",
+ "latency_ms": 8806,
+ "reply": {
+  "targets": [
+   {
+    "id": "digits",
+    "result": "correct",
+    "heard": "zero zero seven zero zero"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "All digits are read distinctly with proper sequence and leading zeros intact."
+ },
+ "tokens": {
+  "prompt": 410,
+  "output": 106
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T84",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "69836518bf212800d8ae1ce0",
+ "audio": "results/tts_audio/T84.wav",
+ "latency_ms": 6955,
+ "reply": {
+  "heard": "Your request is saved. Check the name, amount, and date before you continue. If anything is wrong, go back and edit the details.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "start",
+    "result": "correct",
+    "heard": "Your request is saved"
+   },
+   {
+    "id": "end",
+    "result": "correct",
+    "heard": "go back and edit the details"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 521,
+  "output": 75
+ }
+}

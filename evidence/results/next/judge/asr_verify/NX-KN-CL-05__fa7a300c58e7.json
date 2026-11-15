@@ -1,0 +1,22 @@
+{
+ "task": "asr_verify",
+ "id": "NX-KN-CL-05",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "fa7a300c58e73dc7624af011",
+ "audio": "data/next/audio/NX-KN-CL-05.wav",
+ "latency_ms": 6056,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "ನಿಖಟವಾದ",
+    "heard": "ನಿಕಟವಾದ"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 291,
+  "output": 56
+ }
+}

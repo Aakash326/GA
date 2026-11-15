@@ -1,0 +1,38 @@
+{
+  "task": "blind",
+  "id": "NF-T-3-hi-excited",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "a61fef0bc60fbfe6f7860ea9f6dbdd20bbf4fd3fe4266f4612cb48b840ee8478",
+  "input_sha256": [
+    "26689287c5d46cae1fac66d042ac7f9e08345c6dfc822747184250f8172e68a8"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-T-3-hi-excited.wav"
+  ],
+  "reply": {
+    "heard": "आपका अनुरोध तैयार है जब आप तैयार हों तो कृपया आगे बढ़ें",
+    "naturalness_1to5": 3,
+    "prosody_1to5": 3,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "clear",
+      "calm",
+      "steady pace"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "none",
+    "artifacts": [
+      "minor synthetic quality"
+    ],
+    "confidence": "high",
+    "reason": "The Hindi speech is clearly pronounced and easy to understand with standard synthetic prosody."
+  },
+  "prompt_tokens": 349,
+  "output_tokens": 192,
+  "thought_tokens": 170,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "NUM-EN-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/NUM-EN-01.wav",
+ "latency_ms": 4690,
+ "reply": {
+  "transcript": "Who was the leader of Switzerland in 1499?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 238,
+  "output": 36
+ }
+}

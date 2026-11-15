@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-DS-FIN-TE-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "9f44b649bd7b332afe49336f",
+ "audio": "data/next/dataset_replacement/DS-FIN-TE-01.wav",
+ "latency_ms": 4792,
+ "reply": {
+  "transcript": "భారతదేశంలో 2000 రూపాయల నోటుని ఎప్పుడు ప్రవేశపెట్టారు",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 372,
+  "output": 45
+ }
+}

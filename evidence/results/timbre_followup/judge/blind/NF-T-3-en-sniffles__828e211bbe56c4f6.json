@@ -1,0 +1,37 @@
+{
+  "task": "blind",
+  "id": "NF-T-3-en-sniffles",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "828e211bbe56c4f65c30c4214be44154539e56d887b172c35e367540599af922",
+  "input_sha256": [
+    "bfbd760c8e1117180546e6a20bea309940340c1c429a49e1c4c44a6e546625da"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-T-3-en-sniffles.wav"
+  ],
+  "reply": {
+    "heard": "Your request is ready. Please continue when you are ready.",
+    "naturalness_1to5": 3,
+    "prosody_1to5": 3,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "whispered",
+      "breathy"
+    ],
+    "nonverbal_events": [
+      "audible breath"
+    ],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "none",
+    "artifacts": [],
+    "confidence": "high",
+    "reason": "The utterance is delivered in an intimate whisper with an audible inhalation between sentences, remaining clear throughout."
+  },
+  "prompt_tokens": 350,
+  "output_tokens": 205,
+  "thought_tokens": 131,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

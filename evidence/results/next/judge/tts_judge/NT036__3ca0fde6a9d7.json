@@ -1,0 +1,26 @@
+{
+ "task": "tts_judge",
+ "id": "NT036",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "3ca0fde6a9d70c68ad98d7b0",
+ "audio": "results/next/audio/NT036.wav",
+ "latency_ms": 4329,
+ "reply": {
+  "targets": [
+   {
+    "id": "digits",
+    "result": "correct",
+    "heard": "शून्य शून्य सात शून्य"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "artifacts": [],
+  "comment": "The text was read completely and accurately with clear Hindi pronunciation."
+ },
+ "tokens": {
+  "prompt": 413,
+  "output": 105
+ }
+}

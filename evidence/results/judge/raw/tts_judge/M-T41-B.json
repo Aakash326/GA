@@ -1,0 +1,35 @@
+{
+ "task": "tts_judge",
+ "id": "M-T41-B",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/M-T41-B.wav",
+ "latency_ms": 10341,
+ "reply": {
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "fifteen"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "fifty"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "not"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The text was read accurately with clear distinction between fifteen and fifty. Cadence is slightly deliberate but intelligible."
+ },
+ "tokens": {
+  "prompt": 534,
+  "output": 141
+ }
+}

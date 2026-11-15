@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TA-MEDIA-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "02960ad6813c77a336f65a96",
+ "audio": "data/next/audio/NX-TA-MEDIA-02.wav",
+ "latency_ms": 5728,
+ "reply": {
+  "transcript": "அமீர் அப்துல்லா கான் நாஜி எத்தனை ஆண்டுகள் தற்காப்பு கலையின் நிர்வாகியாக இருந்தார்?",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 385,
+  "output": 45
+ }
+}

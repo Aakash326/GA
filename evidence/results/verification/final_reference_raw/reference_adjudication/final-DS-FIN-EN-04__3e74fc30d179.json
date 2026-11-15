@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-DS-FIN-EN-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "3e74fc30d17998ba95fe6937",
+ "audio": "data/next/dataset_replacement/DS-FIN-EN-04.wav",
+ "latency_ms": 3001,
+ "reply": {
+  "dataset_matches": true,
+  "selected_reference": "How much money did The Secret of Monkey Island make?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": ""
+ },
+ "tokens": {
+  "prompt": 314,
+  "output": 35
+ }
+}

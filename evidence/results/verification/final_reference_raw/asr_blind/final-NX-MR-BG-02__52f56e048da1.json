@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-NX-MR-BG-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "52f56e048da1b5e00dd6c414",
+ "audio": "data/next/audio/NX-MR-BG-02.wav",
+ "latency_ms": 4960,
+ "reply": {
+  "transcript": "फखरुल इस्लाम आलमगीर यांना बांगलादेश राष्ट्रीय पक्षाचे अध्यक्ष बनवण्याची प्रक्रिया कोणी केली?",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 349,
+  "output": 45
+ }
+}

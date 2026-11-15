@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-NX-MR-TRAFFIC-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "22fbf4d35a9d5f313e5e7aac",
+ "audio": "data/next/audio/NX-MR-TRAFFIC-02.wav",
+ "latency_ms": 3476,
+ "reply": {
+  "transcript": "हुसेन बिन अली यांनी आपण मक्केच्या राजा असल्याची घोषणा केव्हा केली",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 300,
+  "output": 39
+ }
+}

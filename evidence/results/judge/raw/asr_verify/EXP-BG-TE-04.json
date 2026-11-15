@@ -1,0 +1,25 @@
+{
+ "task": "asr_verify",
+ "id": "EXP-BG-TE-04",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-BG-TE-04.wav",
+ "latency_ms": 6345,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "",
+    "heard": "పోనీ ముస్లిం"
+   },
+   {
+    "reference": "",
+    "heard": "వాళ్ళు వీటి నుంచి దండయాత్ర"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 384,
+  "output": 80
+ }
+}

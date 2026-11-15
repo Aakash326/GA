@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT024",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c32851c23c88479358e5d896",
+ "audio": "results/next/audio/NT024.wav",
+ "latency_ms": 4334,
+ "reply": {
+  "heard": "The pin ends in zero zero nine one.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 186,
+  "output": 19
+ }
+}

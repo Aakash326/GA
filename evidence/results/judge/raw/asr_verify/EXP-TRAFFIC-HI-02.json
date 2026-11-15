@@ -1,0 +1,16 @@
+{
+ "task": "asr_verify",
+ "id": "EXP-TRAFFIC-HI-02",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-TRAFFIC-HI-02.wav",
+ "latency_ms": 3503,
+ "reply": {
+  "matches": true,
+  "differences": [],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 315,
+  "output": 16
+ }
+}

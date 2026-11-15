@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT039",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5ca503b7bd77e47af5ab9303",
+ "audio": "results/next/audio/NT039.wav",
+ "latency_ms": 3867,
+ "reply": {
+  "heard": "పరిమాణం పదిహేను యాభై కాదు",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 187,
+  "output": 23
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "task": "tts_judge",
+ "id": "NT031",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "d95f82a1266aab0f82c02973",
+ "audio": "results/next/audio/NT031.wav",
+ "latency_ms": 7837,
+ "reply": {
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "पंद्रह"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "पचास"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "नहीं"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The text was read accurately with clear distinction between numbers and appropriate pacing."
+ },
+ "tokens": {
+  "prompt": 462,
+  "output": 137
+ }
+}

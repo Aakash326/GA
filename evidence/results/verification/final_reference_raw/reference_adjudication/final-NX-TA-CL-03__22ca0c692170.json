@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-TA-CL-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "22ca0c6921708a3a6504ea48",
+ "audio": "data/next/audio/NX-TA-CL-03.wav",
+ "latency_ms": 5099,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "ஆங்கிலேயர்கள் தங்கள் முதல் தளத்தை இந்தியாவில் எங்கு நிறுவினார்கள்?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The speaker says 'எங்கு' rather than 'எங்க'."
+ },
+ "tokens": {
+  "prompt": 346,
+  "output": 51
+ }
+}

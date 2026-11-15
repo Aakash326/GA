@@ -1,0 +1,30 @@
+{
+ "task": "tts_judge",
+ "id": "T44",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T44.wav",
+ "latency_ms": 10362,
+ "reply": {
+  "targets": [
+   {
+    "id": "start",
+    "result": "wrong",
+    "heard": "nine five a m"
+   },
+   {
+    "id": "end",
+    "result": "correct",
+    "heard": "twelve thirty p m"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The speaker omitted 'oh' or 'zero' for 9:05, reading it as 'nine five'. Pronunciation and pacing are otherwise clear."
+ },
+ "tokens": {
+  "prompt": 558,
+  "output": 158
+ }
+}

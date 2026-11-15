@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-TE-MEDIA-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "e56eda89f6d2c9472ffe4a5b",
+ "audio": "data/next/audio/NX-TE-MEDIA-02.wav",
+ "latency_ms": 10141,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "Android Play Store లో మొదటగా ప్రవేశపెట్టిన web browser పేరేమిటి?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The audio says 'browser' (బ్రౌజర్) rather than 'బ్రౌజరు', and English loanwords are written in Latin script per instructions."
+ },
+ "tokens": {
+  "prompt": 388,
+  "output": 72
+ }
+}

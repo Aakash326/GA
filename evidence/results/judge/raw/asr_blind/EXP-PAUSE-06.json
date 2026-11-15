@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-PAUSE-06",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-PAUSE-06.wav",
+ "latency_ms": 6033,
+ "reply": {
+  "transcript": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 336,
+  "output": 46
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-MR-MEDIA-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-MR-MEDIA-01.wav",
+ "latency_ms": 3874,
+ "reply": {
+  "transcript": "हिंदू धर्मात कोणत्या शाखा आहेत?",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 211,
+  "output": 31
+ }
+}

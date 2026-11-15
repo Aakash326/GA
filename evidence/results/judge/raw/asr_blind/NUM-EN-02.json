@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "NUM-EN-02",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/NUM-EN-02.wav",
+ "latency_ms": 4701,
+ "reply": {
+  "transcript": "Who won the most medals in the 2008 games?",
+  "language": "English",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 239,
+  "output": 43
+ }
+}

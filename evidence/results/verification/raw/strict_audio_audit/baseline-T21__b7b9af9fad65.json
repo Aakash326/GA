@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T21",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "b7b9af9fad65eb50b538042a",
+ "audio": "results/tts_audio/T21.wav",
+ "latency_ms": 4549,
+ "reply": {
+  "heard": "Your payment has been received. Please check your account details and keep the confirmation message. Our team will contact you if further information is required.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "start",
+    "result": "correct",
+    "heard": "Your payment has been received"
+   },
+   {
+    "id": "end",
+    "result": "correct",
+    "heard": "if further information is required"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 529,
+  "output": 74
+ }
+}

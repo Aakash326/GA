@@ -1,0 +1,26 @@
+{
+ "task": "tts_judge",
+ "id": "NT024",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "6056ca5fb233895afc7e1c0c",
+ "audio": "results/next/audio/NT024.wav",
+ "latency_ms": 7463,
+ "reply": {
+  "targets": [
+   {
+    "id": "digits",
+    "result": "correct",
+    "heard": "zero zero nine one"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "artifacts": [],
+  "comment": "The text was read accurately with clear digit pronunciation and appropriate pacing."
+ },
+ "tokens": {
+  "prompt": 395,
+  "output": 76
+ }
+}

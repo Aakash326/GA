@@ -1,0 +1,21 @@
+{
+ "task": "asr_verify",
+ "id": "EXP-TEL-03-ULAW",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-TEL-03-ULAW.wav",
+ "latency_ms": 5538,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "कॉन्स",
+    "heard": "कौन से"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 295,
+  "output": 52
+ }
+}

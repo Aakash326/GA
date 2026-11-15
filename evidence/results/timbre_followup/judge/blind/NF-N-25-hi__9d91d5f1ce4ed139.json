@@ -1,0 +1,36 @@
+{
+  "task": "blind",
+  "id": "NF-N-25-hi",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "9d91d5f1ce4ed13968e807d1a91a7a3c85cdf86870c9a305108520fa3270cdca",
+  "input_sha256": [
+    "29b9143dfcf882bd4f91aca023dbe0178b706218172e9bc09a058bae757f6cd9"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-N-25-hi.wav"
+  ],
+  "reply": {
+    "heard": "आपका अनुरोध तैयार है। जब आप तैयार हों तो कृपया आगे बढ़ें।",
+    "naturalness_1to5": 4,
+    "prosody_1to5": 4,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "clear",
+      "polite",
+      "fluid"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "none",
+    "artifacts": [],
+    "confidence": "high",
+    "reason": "Speech is cleanly articulated with natural prosodic cadence in Hindi."
+  },
+  "prompt_tokens": 345,
+  "output_tokens": 132,
+  "thought_tokens": 178,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

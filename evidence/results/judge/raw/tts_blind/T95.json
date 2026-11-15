@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T95",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T95.wav",
+ "latency_ms": 4544,
+ "reply": {
+  "heard": "ನಿಮ್ಮ ವಿನಂತಿಯನ್ನು ಸ್ವೀಕರಿಸಲಾಗಿದೆ ನಾಳೆ ನಿಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸುತ್ತೇವೆ",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 242,
+  "output": 31
+ }
+}

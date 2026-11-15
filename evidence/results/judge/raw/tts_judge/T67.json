@@ -1,0 +1,30 @@
+{
+ "task": "tts_judge",
+ "id": "T67",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T67.wav",
+ "latency_ms": 9086,
+ "reply": {
+  "targets": [
+   {
+    "id": "cancel",
+    "result": "correct",
+    "heard": "order cancel cheyandi"
+   },
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "confirm cheyavaddu"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The text was read accurately with acceptable phrasing and clear pronunciation."
+ },
+ "tokens": {
+  "prompt": 459,
+  "output": 140
+ }
+}

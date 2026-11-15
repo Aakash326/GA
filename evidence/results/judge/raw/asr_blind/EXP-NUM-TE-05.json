@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-NUM-TE-05",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-NUM-TE-05.wav",
+ "latency_ms": 4211,
+ "reply": {
+  "transcript": "2001 నాటికి తిరువూరు పట్టణ జనాభా ఎంత",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 285,
+  "output": 40
+ }
+}

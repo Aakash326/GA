@@ -1,0 +1,56 @@
+{
+ "ok": true,
+ "kind": "stt_stream",
+ "case_id": "NX-EN-CL-01",
+ "run_tag": "ws",
+ "fingerprint": "d5b6d48f1d7a29284196d654",
+ "connect_ms": 157.7,
+ "speech_end_s": 4.548,
+ "transcript": "How many episodes does the Red Green show have?",
+ "first_final_s": 4.846,
+ "last_final_after_speech_ms": 298.1,
+ "server_latency_ms": [
+  116
+ ],
+ "segments": 1,
+ "errors": [],
+ "messages": [
+  {
+   "type": "connected",
+   "message": "STT service ready — VAD service connected",
+   "request_id": "01a1da14-bcc4-7388-aa98-540cfa11eb18",
+   "config": {
+    "sample_rate": 16000,
+    "chunk_size": 512,
+    "partials_enabled": false,
+    "partial_interval_ms": 450,
+    "partial_max_window_s": 15.0,
+    "language_code": "en-IN",
+    "format": "transcribe"
+   },
+   "timestamp": "2026-11-14T12:42:34.628059+00:00",
+   "t_s": 0.04597190000640694
+  },
+  {
+   "type": "speech_start",
+   "utterance_id": "ua8ae38b5",
+   "t_ms": 756,
+   "timestamp": "2026-11-14T12:42:35.637544+00:00",
+   "t_s": 1.0541548000037437
+  },
+  {
+   "type": "transcript",
+   "text": "How many episodes does the Red Green show have?",
+   "audio_duration_ms": 4308.0,
+   "segment_id": "01a1da14-bcc4-7388-aa98-540cfa11eb18-seg-1",
+   "segment_index": 1,
+   "utterance_id": "ua8ae38b5",
+   "is_final": true,
+   "latency": 116,
+   "prefetched": false,
+   "timestamp": "2026-11-14T12:42:39.429625+00:00",
+   "detected_language_code": "en-IN",
+   "t_s": 4.846139800007222
+  }
+ ]
+}

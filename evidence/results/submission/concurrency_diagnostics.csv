@@ -1,0 +1,9 @@
+﻿kind,requested_parallelism,max_http_attempts_inflight,attempt_rows,http_429_attempts,completed_requests,successful_requests,retried_requests,definition
+asr,1,1,1,0,1,1,0,first experiment round only; client dispatch-to-full-body intervals; excludes backoff; no provider queue visibility
+asr,2,2,2,0,2,2,0,first experiment round only; client dispatch-to-full-body intervals; excludes backoff; no provider queue visibility
+asr,4,4,6,2,4,4,2,first experiment round only; client dispatch-to-full-body intervals; excludes backoff; no provider queue visibility
+asr,8,8,20,12,8,8,6,first experiment round only; client dispatch-to-full-body intervals; excludes backoff; no provider queue visibility
+tts,1,1,1,0,1,1,0,first experiment round only; client dispatch-to-full-body intervals; excludes backoff; no provider queue visibility
+tts,2,2,4,2,2,2,1,first experiment round only; client dispatch-to-full-body intervals; excludes backoff; no provider queue visibility
+tts,4,4,10,6,4,4,3,first experiment round only; client dispatch-to-full-body intervals; excludes backoff; no provider queue visibility
+tts,8,8,29,27,8,2,7,first experiment round only; client dispatch-to-full-body intervals; excludes backoff; no provider queue visibility

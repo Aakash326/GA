@@ -1,0 +1,36 @@
+{
+ "task": "tts_judge",
+ "id": "NT032",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "0531b0eebfb227189c14f1b2",
+ "audio": "results/next/audio/NT032.wav",
+ "latency_ms": 9064,
+ "reply": {
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "पंद्रह"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "पचास"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "नहीं"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "All words were pronounced clearly and matched the reference text accurately."
+ },
+ "tokens": {
+  "prompt": 448,
+  "output": 135
+ }
+}

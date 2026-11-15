@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-HI-04",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-CL-HI-04.wav",
+ "latency_ms": 5019,
+ "reply": {
+  "transcript": "नेपच्यून को सूर्य के चारों ओर चक्कर लगाने में कितना समय लगता है?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 331,
+  "output": 40
+ }
+}

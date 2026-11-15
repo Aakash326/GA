@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-TA-TRAFFIC-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-TA-TRAFFIC-01.wav",
+ "latency_ms": 14532,
+ "reply": {
+  "transcript": "இந்தியா வானிலாய பணியகம் எப்போது துவங்கப்பட்டது",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 318,
+  "output": 36
+ }
+}

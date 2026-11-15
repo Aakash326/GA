@@ -1,0 +1,25 @@
+{
+ "task": "tts_judge",
+ "id": "T98",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T98.wav",
+ "latency_ms": 7847,
+ "reply": {
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "ಸೊನ್ನೆ ಸೊನ್ನೆ ನಾಲ್ಕು ಎರಡು ಒಂಬತ್ತು ಒಂದು"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The text was read completely and accurately with leading zeros included digit by digit. Delivery sounds slightly synthetic but clear."
+ },
+ "tokens": {
+  "prompt": 480,
+  "output": 122
+ }
+}

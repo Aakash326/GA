@@ -1,0 +1,21 @@
+{
+ "task": "asr_verify",
+ "id": "NEG-SWAP-CL-TE-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/CL-TE-01.wav",
+ "latency_ms": 4302,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "2001నాటికి తిరువూరు పట్టణ జనాభా",
+    "heard": "కృష్ణా జిల్లా యొక్క విస్తీర్ణం"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 322,
+  "output": 50
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-DS-FIN-TE-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "3c3dcbda87f715109553ca7c",
+ "audio": "data/next/dataset_replacement/DS-FIN-TE-04.wav",
+ "latency_ms": 8174,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "హిందూ మహాసముద్రం 2015లో భారతదేశ ఆర్థిక శాఖ మంత్రి ఎవరు?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "At the very beginning of the audio, a prompt/speaker clearly says 'హిందూ మహాసముద్రం' before the speaker reads '2015లో భారతదేశ ఆర్థిక శాఖ మంత్రి ఎవరు?'."
+ },
+ "tokens": {
+  "prompt": 354,
+  "output": 82
+ }
+}

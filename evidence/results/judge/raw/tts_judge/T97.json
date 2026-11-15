@@ -1,0 +1,25 @@
+{
+ "task": "tts_judge",
+ "id": "T97",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T97.wav",
+ "latency_ms": 7470,
+ "reply": {
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "ನವೆಂಬರ್ ಇಪ್ಪತ್ತ ಮೂರು ರಂದು"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The sentence is fully intelligible and the date is read correctly in Kannada with slightly synthetic prosody."
+ },
+ "tokens": {
+  "prompt": 443,
+  "output": 118
+ }
+}

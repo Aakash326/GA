@@ -1,0 +1,25 @@
+{
+ "task": "tts_judge",
+ "id": "T49",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T49.wav",
+ "latency_ms": 7175,
+ "reply": {
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "double zero double zero four two"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "artifacts": [],
+  "comment": "Clear pronunciation and correct reading of the reference number."
+ },
+ "tokens": {
+  "prompt": 456,
+  "output": 75
+ }
+}

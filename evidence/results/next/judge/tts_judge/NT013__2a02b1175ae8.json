@@ -1,0 +1,36 @@
+{
+ "task": "tts_judge",
+ "id": "NT013",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "2a02b1175ae8a3a93aa8f357",
+ "audio": "results/next/audio/NT013.wav",
+ "latency_ms": 5647,
+ "reply": {
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "nineteen"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "ninety"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "not"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "artifacts": [],
+  "comment": "The distinction between nineteen and ninety is very clearly articulated."
+ },
+ "tokens": {
+  "prompt": 482,
+  "output": 162
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-TA-CL-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-TA-CL-01.wav",
+ "latency_ms": 6008,
+ "reply": {
+  "transcript": "ரிட்டர் போரில் எத்தனை படைவீரர்கள் பங்கேற்றனர்",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 247,
+  "output": 36
+ }
+}

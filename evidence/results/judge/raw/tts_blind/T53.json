@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T53",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T53.wav",
+ "latency_ms": 5774,
+ "reply": {
+  "heard": "Please use reference Z X two zero four double zero nine",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 226,
+  "output": 22
+ }
+}

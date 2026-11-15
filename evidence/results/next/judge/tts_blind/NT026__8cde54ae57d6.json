@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT026",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "8cde54ae57d6f34cd2a933e1",
+ "audio": "results/next/audio/NT026.wav",
+ "latency_ms": 5793,
+ "reply": {
+  "heard": "Your I D is zero zero zero one two three",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 226,
+  "output": 21
+ }
+}

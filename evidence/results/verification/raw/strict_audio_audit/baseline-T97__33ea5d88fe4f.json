@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T97",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "33ea5d88fe4ffbe1ccd96a5e",
+ "audio": "results/tts_audio/T97.wav",
+ "latency_ms": 5402,
+ "reply": {
+  "heard": "ನಿಮ್ಮ ಪಾವತಿ ನವೆಂಬರ್ ಇಪ್ಪತ್ತ ಮೂರ ರಂದು ಬಾಕಿ ಇದೆ",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "ನವೆಂಬರ್ ಇಪ್ಪತ್ತ ಮೂರ ರಂದು"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 345,
+  "output": 55
+ }
+}

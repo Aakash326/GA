@@ -1,0 +1,4 @@
+﻿cohort_a,cohort_b,clip_id,input_sha256,source_ref,speaker_id
+baseline,followup,0,0,0,43
+baseline,public24,0,0,0,10
+followup,public24,0,0,0,9

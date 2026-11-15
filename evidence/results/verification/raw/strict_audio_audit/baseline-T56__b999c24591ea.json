@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T56",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "b999c24591eaeb09330356a6",
+ "audio": "results/tts_audio/T56.wav",
+ "latency_ms": 4196,
+ "reply": {
+  "heard": "Please read the digits separately. zero zero four two nine one",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "digits",
+    "result": "correct",
+    "heard": "zero zero four two nine one"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 371,
+  "output": 43
+ }
+}

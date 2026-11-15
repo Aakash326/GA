@@ -1,0 +1,30 @@
+{
+ "task": "tts_judge",
+ "id": "T83",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T83.wav",
+ "latency_ms": 8226,
+ "reply": {
+  "targets": [
+   {
+    "id": "condition",
+    "result": "correct",
+    "heard": "confirm only if both are correct"
+   },
+   {
+    "id": "list",
+    "result": "correct",
+    "heard": "First, verify the name. Second, check the amount. Finally,"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "All steps and conditional phrases were spoken clearly with appropriate separation."
+ },
+ "tokens": {
+  "prompt": 575,
+  "output": 148
+ }
+}

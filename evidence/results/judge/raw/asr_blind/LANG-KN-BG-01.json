@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-KN-BG-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-KN-BG-01.wav",
+ "latency_ms": 5799,
+ "reply": {
+  "transcript": "ವಿಶಾಖಪಟ್ಟಣಂ ಅವರ ಇನ್ನೊಂದು ಹೆಸರು ಏನು?",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 358,
+  "output": 35
+ }
+}

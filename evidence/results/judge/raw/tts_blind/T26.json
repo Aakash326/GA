@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T26",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T26.wav",
+ "latency_ms": 3703,
+ "reply": {
+  "heard": "Could you please confirm your account number?",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 174,
+  "output": 18
+ }
+}

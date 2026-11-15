@@ -1,0 +1,22 @@
+# Setup ranges. Freeze the successfully resolved environment before submission.
+jupyterlab>=4,<5
+ipykernel>=6,<8
+requests>=2.31,<3
+python-dotenv>=1,<2
+numpy>=1.26,<3
+pandas>=2,<4
+soundfile>=0.12,<1
+matplotlib>=3.8,<4
+# Data preparation (scripts/prepare_asr_data.py): remote parquet reads from Hugging Face.
+pyarrow>=17,<30
+fsspec[http]>=2024.6
+websocket-client>=1.7,<2
+# Judge model (optional listening assistant)
+google-genai>=1.0
+# Report generation (scripts/build_report.py) and page-render checks
+reportlab>=4,<6
+pypdf>=4,<8
+pillow>=10,<14
+pypdfium2>=4,<6
+# Notebook execution from the command line (README replay step)
+nbconvert>=7,<8

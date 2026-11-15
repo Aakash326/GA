@@ -1,0 +1,36 @@
+{
+ "task": "tts_judge",
+ "id": "NT046",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "836261e11a3cdcc5654d36be",
+ "audio": "results/next/audio/NT046.wav",
+ "latency_ms": 10812,
+ "reply": {
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "பதினைந்து"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "ஐம்பது"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "அல்ல"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "All words were spoken clearly and accurately with acceptable pacing."
+ },
+ "tokens": {
+  "prompt": 464,
+  "output": 135
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-NUM-HI-02",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-NUM-HI-02.wav",
+ "latency_ms": 4435,
+ "reply": {
+  "transcript": "1971 में बांग्लादेश के राष्ट्रपति कौन थे?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 298,
+  "output": 34
+ }
+}

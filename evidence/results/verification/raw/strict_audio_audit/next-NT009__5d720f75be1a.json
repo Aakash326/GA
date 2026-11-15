@@ -1,0 +1,33 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT009",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5d720f75be1abbb9d3f13afa",
+ "audio": "results/next/audio/NT009.wav",
+ "latency_ms": 3559,
+ "reply": {
+  "heard": "Please send 17 units, not 70.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "17"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "70"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "not"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 405,
+  "output": 64
+ }
+}

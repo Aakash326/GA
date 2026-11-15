@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TA-BG-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "580a41e017b9e1b393074b44",
+ "audio": "data/next/audio/NX-TA-BG-03.wav",
+ "latency_ms": 4053,
+ "reply": {
+  "transcript": "தனிம அட்டவணையின் முதல் தனிமம் எது?",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 279,
+  "output": 34
+ }
+}

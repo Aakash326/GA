@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-MR-CL-04",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-MR-CL-04.wav",
+ "latency_ms": 31432,
+ "reply": {
+  "transcript": "वयाच्या कोणत्या वर्षी जॉर्ज वॉशिंग्टनने लग्न केले",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 223,
+  "output": 36
+ }
+}

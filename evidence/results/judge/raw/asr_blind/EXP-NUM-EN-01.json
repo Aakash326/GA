@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-NUM-EN-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-NUM-EN-01.wav",
+ "latency_ms": 63609,
+ "reply": {
+  "transcript": "Who won the 85th 24 hours of Le Mans?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 247,
+  "output": 38
+ }
+}

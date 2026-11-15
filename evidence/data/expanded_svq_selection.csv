@@ -1,0 +1,91 @@
+﻿utt_id,locale,speaker_id,speaker_age,speaker_gender,environment,text,file,row,clip_id,category
+utt_17554039245325036556,en_in,speaker_9498065097818851968,31,female,clean,How many home games does Dodger Stadium see a season?,utts_en_in_clean.parquet,569,EXP-CL-EN-01,clean_en
+utt_18129439707179221326,en_in,speaker_15117425685521502135,23,female,clean,What is the population of Tokyo?,utts_en_in_clean.parquet,100,EXP-CL-EN-02,clean_en
+utt_1612322761135931268,en_in,speaker_7113944816261864857,25,male,clean,When was Last Exile released?,utts_en_in_clean.parquet,165,EXP-CL-EN-03,clean_en
+utt_16016152542931809592,en_in,speaker_15117425685521502135,23,female,clean,Who is head of the Senate in Australia?,utts_en_in_clean.parquet,1318,EXP-CL-EN-04,clean_en
+utt_9767538344041540226,en_in,speaker_9498065097818851968,31,female,clean,How tall is Johnny Cueto Ortiz?,utts_en_in_clean.parquet,681,EXP-CL-EN-05,clean_en
+utt_14782424667959694049,en_in,speaker_8706784997864741703,25,male,clean,How many Sherlock Holmes stories did Conan Doyle write?,utts_en_in_clean.parquet,1117,EXP-CL-EN-06,clean_en
+utt_17351615907514393758,en_in,speaker_7113944816261864857,25,male,clean,What are the major schools of therapy?,utts_en_in_clean.parquet,1147,EXP-CL-EN-07,clean_en
+utt_1816940603876716481,en_in,speaker_15117425685521502135,23,female,clean,What's the biggest theater in the United States?,utts_en_in_clean.parquet,1180,EXP-CL-EN-08,clean_en
+utt_5999435502497600478,en_in,speaker_9498065097818851968,31,female,clean,When did Facebook acquire Whatsapp?,utts_en_in_clean.parquet,1071,EXP-CL-EN-09,clean_en
+utt_8952942125327200253,en_in,speaker_13289036129798759378,24,female,clean,When did the Japanese Empire end?,utts_en_in_clean.parquet,502,EXP-CL-EN-10,clean_en
+utt_16517416069898692734,en_in,speaker_8706784997864741703,25,male,clean,How many channels are part of the prime-time timeslot?,utts_en_in_clean.parquet,826,EXP-CL-EN-11,clean_en
+utt_2832346292924753351,en_in,speaker_11298494297948342752,21,male,clean,What is the ethnicity of Bolivia?,utts_en_in_clean.parquet,862,EXP-CL-EN-12,clean_en
+utt_14621029219869335890,en_in,speaker_7113944816261864857,25,male,clean,Who won the 85th 24 Hours of Le Mans?,utts_en_in_clean.parquet,147,EXP-NUM-EN-01,numbers
+utt_17962649353829903907,en_in,speaker_8706784997864741703,25,male,clean,What was the deadliest war in the 20th century?,utts_en_in_clean.parquet,1245,EXP-NUM-EN-02,numbers
+utt_9721492774016703864,en_in,speaker_9498065097818851968,31,female,clean,Who won the Survivor Series in 1993?,utts_en_in_clean.parquet,864,EXP-NUM-EN-03,numbers
+utt_17198669483986419317,en_in,speaker_15117425685521502135,23,female,clean,How many Americans declared bankruptcy in 2017?,utts_en_in_clean.parquet,907,EXP-NUM-EN-04,numbers
+utt_3613809581491749860,en_in,speaker_13289036129798759378,24,female,clean,How much did House of a 1000 Corpses gross?,utts_en_in_clean.parquet,142,EXP-NUM-EN-05,numbers
+utt_5646080442042604990,en_in,speaker_7113944816261864857,25,male,clean,How many playable roles are there in Persona 4?,utts_en_in_clean.parquet,179,EXP-NUM-EN-06,numbers
+utt_6208647514404316271,en_in,speaker_3087858467746677436,28,male,background_speech,How long did the Troubles last?,utts_en_in_background_speech.parquet,1371,EXP-BG-EN-01,real_noise
+utt_10880596538136928254,en_in,speaker_2456720228988695169,36,female,background_speech,When were solar panels invented?,utts_en_in_background_speech.parquet,717,EXP-BG-EN-02,real_noise
+utt_11827231781183227853,en_in,speaker_12135303747068793161,32,no_answer,background_speech,Were the Tudor family descended from the Edwards?,utts_en_in_background_speech.parquet,606,EXP-BG-EN-03,real_noise
+utt_1234015243263480488,en_in,speaker_4688373333392727743,27,female,background_speech,When was The Keys to the Kingdom series first introduced?,utts_en_in_background_speech.parquet,1395,EXP-BG-EN-04,real_noise
+utt_14074023176053955248,en_in,speaker_6652750512192559190,26,no_answer,media_noise,When was the last plane hijacking?,utts_en_in_media_noise.parquet,613,EXP-MEDIA-EN-01,real_noise
+utt_4404547922324298700,en_in,speaker_10343775177657338962,32,female,media_noise,What is the population of Honolulu?,utts_en_in_media_noise.parquet,1382,EXP-MEDIA-EN-02,real_noise
+utt_1399255465908234146,en_in,speaker_6950809736947523782,27,female,media_noise,Is The walking dead cancelled?,utts_en_in_media_noise.parquet,1261,EXP-MEDIA-EN-03,real_noise
+utt_5880135031612800587,en_in,speaker_12684540668492327637,40,male,media_noise,What is the largest rail yard in the New York City Subway system?,utts_en_in_media_noise.parquet,880,EXP-MEDIA-EN-04,real_noise
+utt_15170616368441063678,en_in,speaker_3576474674925296689,33,female,traffic_noise,What percent of Denmark is Catholic?,utts_en_in_traffic_noise.parquet,1245,EXP-TRAFFIC-EN-01,real_noise
+utt_17340812741931541942,en_in,speaker_13043609642011609224,29,female,traffic_noise,How large was Gallimimus?,utts_en_in_traffic_noise.parquet,51,EXP-TRAFFIC-EN-02,real_noise
+utt_12867326947744363964,en_in,speaker_9707210203152407137,27,no_answer,traffic_noise,How much marine salvage is there in the ocean?,utts_en_in_traffic_noise.parquet,73,EXP-TRAFFIC-EN-03,real_noise
+utt_16080414672236103416,en_in,speaker_2392900421266703666,23,male,traffic_noise,What was the first Mickey Mouse film?,utts_en_in_traffic_noise.parquet,940,EXP-TRAFFIC-EN-04,real_noise
+utt_2106385774204163904,hi_in,speaker_2006892072279700611,24,male,clean,समर्टफोंस के कैमरा कॉन्स वर्ष से प्रयोग में शुरू हुआ?,utts_hi_in_clean.parquet,621,EXP-CL-HI-01,clean_hi
+utt_12073805882918992625,hi_in,speaker_2006892072279700611,24,male,clean,गर्ज वॉशिंगटन के समय न्यूयॉर्क किस देश की राजधानी थी?,utts_hi_in_clean.parquet,769,EXP-CL-HI-02,clean_hi
+utt_16156665805774833234,hi_in,speaker_11298494297948342752,21,male,clean,इंग्लैंड किस महाद्वीप में स्थित है?,utts_hi_in_clean.parquet,768,EXP-CL-HI-03,clean_hi
+utt_13605270563478965699,hi_in,speaker_13289036129798759378,24,female,clean,नेपच्यून को सूर्य के चारों ओर चक्कर लगाने में कितना समय लगता है?,utts_hi_in_clean.parquet,473,EXP-CL-HI-04,clean_hi
+utt_17720713176009286778,hi_in,speaker_2006892072279700611,24,male,clean,मोहनदास करमचंद गांधी के माता पिता कौन है ?,utts_hi_in_clean.parquet,145,EXP-CL-HI-05,clean_hi
+utt_1872816106420219469,hi_in,speaker_11298494297948342752,21,male,clean,रिद्दर युद्ध में कितने सैनिकों ने हिस्सा लिया था?,utts_hi_in_clean.parquet,751,EXP-CL-HI-06,clean_hi
+utt_8423717167340834647,hi_in,speaker_7113944816261864857,25,male,clean,अंजेलिना जोली को किस अमेरिकी फिल्म में अभिनय करने के लिए गोल्डन ग्लोब पुरस्कार से सम्मानित किया गया?,utts_hi_in_clean.parquet,677,EXP-CL-HI-07,clean_hi
+utt_10221093319351967235,hi_in,speaker_13289036129798759378,24,female,clean,कीव की कुल जनसंख्या कितनी है?,utts_hi_in_clean.parquet,578,EXP-CL-HI-08,clean_hi
+utt_14096818394384607074,hi_in,speaker_2006892072279700611,24,male,clean,पोर्न स्टार \\\सनी लियोनेल\\\ का वास्तविक नाम क्या है?,utts_hi_in_clean.parquet,595,EXP-CL-HI-09,clean_hi
+utt_9739560937374897243,hi_in,speaker_7113944816261864857,25,male,clean,भारतीय भौतिक विज्ञानिक देवेंद्र मोहन बोस की मृत्यु किस वर्ष हुई थी ?,utts_hi_in_clean.parquet,85,EXP-CL-HI-10,clean_hi
+utt_7133599564152519116,hi_in,speaker_11298494297948342752,21,male,clean,पानी कितने तापमान में भाप में बदल जाता है? ,utts_hi_in_clean.parquet,89,EXP-CL-HI-11,clean_hi
+utt_14637542537436576104,hi_in,speaker_13289036129798759378,24,female,clean,सत्यजीत रे द्वारा निर्देशित फिल्म 'नायक' कब मुक्त हुई?,utts_hi_in_clean.parquet,35,EXP-CL-HI-12,clean_hi
+utt_1707112668201257394,hi_in,speaker_2006892072279700611,24,male,clean,2019 तक बाइबल का कितनी भाषाओं में अनुवाद किया गया था?,utts_hi_in_clean.parquet,829,EXP-NUM-HI-01,numbers
+utt_1640238288105490375,hi_in,speaker_13289036129798759378,24,female,clean,1971 में बांग्लादेश के राष्ट्रपति कोन थे?,utts_hi_in_clean.parquet,744,EXP-NUM-HI-02,numbers
+utt_16202729718258581854,hi_in,speaker_11298494297948342752,21,male,clean,2011 के जनगणना के अनुसार उत्तराखंड राज्य की जनसंख्या कितनी है?,utts_hi_in_clean.parquet,63,EXP-NUM-HI-03,numbers
+utt_13457543982691359564,hi_in,speaker_2006892072279700611,24,male,clean,कॉन्स राज्य में सबसे ज्यादा जनसंख्या थी 1990 तक अफ्रीका?,utts_hi_in_clean.parquet,359,EXP-NUM-HI-04,numbers
+utt_6342692839220956632,hi_in,speaker_7113944816261864857,25,male,clean,रसिया के पहले 2011 के प्रधान मंत्री कोन थे?,utts_hi_in_clean.parquet,363,EXP-NUM-HI-05,numbers
+utt_8291197200162146770,hi_in,speaker_13289036129798759378,24,female,clean,1977 में कोसने टीम ने सीरीज कप जीता था?,utts_hi_in_clean.parquet,143,EXP-NUM-HI-06,numbers
+utt_8701490772387761889,hi_in,speaker_14464896667842414653,46,female,background_speech,राजा जनक की पुत्री कौन है?,utts_hi_in_background_speech.parquet,594,EXP-BG-HI-01,real_noise
+utt_8383677358338776317,hi_in,speaker_4688373333392727743,19,female,background_speech,ए पैसेज भारत पुस्तक पहली बार कब प्रकाशित हुए थी ?,utts_hi_in_background_speech.parquet,72,EXP-BG-HI-02,real_noise
+utt_4380396227363973231,hi_in,speaker_17207316316850642369,21,female,background_speech,"""सेना द्वारा संचालित \""""कैडेट कॉलेज\"""" की स्थापना किस वर्ष की गई थी?""",utts_hi_in_background_speech.parquet,68,EXP-BG-HI-03,real_noise
+utt_2671654702942318252,hi_in,speaker_12135303747068793161,32,no_answer,background_speech,लक्ष्मी फिल्म के निर्मित कौन है ?,utts_hi_in_background_speech.parquet,628,EXP-BG-HI-04,real_noise
+utt_16346961968136435017,hi_in,speaker_18245107804874268173,47,male,media_noise,देविका रानी चौधरी अभिनिति पहली फिल्म के नर्मिता कौन थे ?,utts_hi_in_media_noise.parquet,255,EXP-MEDIA-HI-01,real_noise
+utt_6549338790685871917,hi_in,speaker_6950809736947523782,27,female,media_noise,थर्मोस्टेट का अविष्कार किसने किया था?,utts_hi_in_media_noise.parquet,772,EXP-MEDIA-HI-02,real_noise
+utt_12464761490467597382,hi_in,speaker_10343775177657338962,32,female,media_noise,पश्चिम बंगाल की वर्तमान सत्तारूढ़ पार्टी कौन-सी है,utts_hi_in_media_noise.parquet,447,EXP-MEDIA-HI-03,real_noise
+utt_17779030024676580641,hi_in,speaker_5672429683018016775,30,male,media_noise,हिन्दू धर्म के अनुसार नर्क कितने प्रकार के होते है?,utts_hi_in_media_noise.parquet,433,EXP-MEDIA-HI-04,real_noise
+utt_15260961071382431415,hi_in,speaker_17818465976145169385,42,female,traffic_noise,भारतीय आयकर अधिनियम कब लागू हुआ था?,utts_hi_in_traffic_noise.parquet,24,EXP-TRAFFIC-HI-01,real_noise
+utt_10539611139117477324,hi_in,speaker_4150047757584473229,22,male,traffic_noise,2015 में आंध्र प्रदेश में कितने विश्वविद्यालय हैं?,utts_hi_in_traffic_noise.parquet,9,EXP-TRAFFIC-HI-02,real_noise
+utt_172519976084802704,hi_in,speaker_6366511948972959724,44,female,traffic_noise,नवग्रहों में से कौन सा ग्रह सूर्य के सबसे पास का ग्रह है?,utts_hi_in_traffic_noise.parquet,915,EXP-TRAFFIC-HI-03,real_noise
+utt_2917144830763345022,hi_in,speaker_3756797797184447763,35,male,traffic_noise,2018 में भारतीय फुटबॉल टीम का रैंक क्या है?,utts_hi_in_traffic_noise.parquet,237,EXP-TRAFFIC-HI-04,real_noise
+utt_246145419119813995,te_in,speaker_727358077665093591,24,female,clean,ప్రపంచంలో అతి పొడవైన రహదారి పొడవు ఎంత ?,utts_te_in_clean.parquet,1633,EXP-CL-TE-01,clean_te
+utt_9645830789480682542,te_in,speaker_4174705306114824872,23,female,clean,గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?,utts_te_in_clean.parquet,149,EXP-CL-TE-02,clean_te
+utt_7487947519976600774,te_in,speaker_2004311463541949096,26,male,clean,ఒక సాధారణ సంవత్సరంలో ఎన్ని రోజులు ఉంటాయి?,utts_te_in_clean.parquet,1198,EXP-CL-TE-03,clean_te
+utt_13644539438632484824,te_in,speaker_12529729428456691263,28,female,clean,పృథ్వీరాజ్ చౌహాన్ తండ్రి పేరేమిటి?,utts_te_in_clean.parquet,1805,EXP-CL-TE-04,clean_te
+utt_2285704955383980389,te_in,speaker_17572878667234029310,26,male,clean,మానవుడు నిమిషానికి ఎన్ని సార్లు శ్వాస తీసుకుంటాడు?,utts_te_in_clean.parquet,1723,EXP-CL-TE-05,clean_te
+utt_14006650971552175417,te_in,speaker_2615598524886965845,28,male,clean,జుడాస్ ఇస్కారియట్ ఎప్పుడు మరణించాడు?,utts_te_in_clean.parquet,1054,EXP-CL-TE-06,clean_te
+utt_17604518121131284939,te_in,speaker_6528612848665869358,29,male,clean,హైదరాబాద్ మెట్రో ని ఏ సంవత్సరంలో ప్రారంభించారు?,utts_te_in_clean.parquet,1337,EXP-CL-TE-07,clean_te
+utt_8191607964379564558,te_in,speaker_727358077665093591,24,female,clean,శోభారాజు తల్లిదండ్రుల పేర్లేమిటి?,utts_te_in_clean.parquet,2087,EXP-CL-TE-08,clean_te
+utt_4825795207544232957,te_in,speaker_2538550451240111693,24,male,clean,వీరభద్రపురం గ్రామ విస్తీర్ణత ఎంత?,utts_te_in_clean.parquet,1527,EXP-CL-TE-09,clean_te
+utt_8134144083535337815,te_in,speaker_3854355324943366928,26,female,clean,చందర్లపాడు మండలంలో అతిపెద్ద గ్రామం ఏది?,utts_te_in_clean.parquet,1398,EXP-CL-TE-10,clean_te
+utt_12252255344730241072,te_in,speaker_4174705306114824872,23,female,clean,చెన్నభూపాలపట్నం గ్రామ పిన్ కోడ్ ఏంటి?,utts_te_in_clean.parquet,1909,EXP-CL-TE-11,clean_te
+utt_5999000241135422263,te_in,speaker_16144998757673708117,21,male,clean,జిల్లెడిపూడి గ్రామ విస్తీర్ణం ఎంత?,utts_te_in_clean.parquet,1094,EXP-CL-TE-12,clean_te
+utt_5530582567853363880,te_in,speaker_2004311463541949096,26,male,clean,2011 నాటికి వజ్రకూటం గ్రామంలో ఎన్ని ఇళ్లులు ఉన్నాయి?,utts_te_in_clean.parquet,1296,EXP-NUM-TE-01,numbers
+utt_2109839129464810954,te_in,speaker_17572878667234029310,26,male,clean,2011 నాటికి దొండపూడి గ్రామ జనాభా ఎంత?,utts_te_in_clean.parquet,2450,EXP-NUM-TE-02,numbers
+utt_4375953810752274501,te_in,speaker_12529729428456691263,28,female,clean,2011లో కారని గ్రామ జనాభా ఎంత?,utts_te_in_clean.parquet,2421,EXP-NUM-TE-03,numbers
+utt_14311175813923948314,te_in,speaker_2615598524886965845,28,male,clean,2016 నాటికి ఎస్.కొటూరూ గ్రామ సర్పంచ్ ఎవరు?,utts_te_in_clean.parquet,2059,EXP-NUM-TE-04,numbers
+utt_5167690419715759156,te_in,speaker_3854355324943366928,26,female,clean,2001నాటికి తిరువూరు పట్టణ జనాభా ఎంత?,utts_te_in_clean.parquet,572,EXP-NUM-TE-05,numbers
+utt_11437494737791048783,te_in,speaker_4174705306114824872,23,female,clean,2011 జనగణన ప్రకారం వలివేరు గ్రామములో మహిళల సంఖ్య ఎంత?,utts_te_in_clean.parquet,2041,EXP-NUM-TE-06,numbers
+utt_2691605394747048814,te_in,speaker_4432520108242099463,42,male,background_speech,హ్యారీ పోట్టర్ భాగాలలో మొదటి చిత్రం ఎప్పుడు విడుదలైంది?,utts_te_in_background_speech.parquet,1267,EXP-BG-TE-01,real_noise
+utt_8100083515741921430,te_in,speaker_14054744438973721549,25,female,background_speech,బ్రిటీష్ వారు మొదటగా భారతదేశంలో ఏ ప్రాంతాన్ని ఆక్రమించారు?,utts_te_in_background_speech.parquet,2575,EXP-BG-TE-02,real_noise
+utt_12669684205878277187,te_in,speaker_1797632986264976541,32,male,background_speech,2011 నాటికి బిజ్జపల్లి గ్రామంలో ఎన్ని ఇళ్లులు ఉన్నాయి?,utts_te_in_background_speech.parquet,1000,EXP-BG-TE-03,real_noise
+utt_592195783471652676,te_in,speaker_2953922672094343813,28,female,background_speech,అంతరిక్షంలోకి వెళ్లిన మొదటి స్త్రీ ఎవరు?,utts_te_in_background_speech.parquet,1959,EXP-BG-TE-04,real_noise
+utt_11452506984612947075,te_in,speaker_9059394462829581493,22,male,media_noise,ఆంధ్ర విశ్వవిద్యాలయం మొట్టమొదటి ఉప కులపతి ఎవరు?,utts_te_in_media_noise.parquet,1993,EXP-MEDIA-TE-01,real_noise
+utt_18367314378279134770,te_in,speaker_1919427460781882881,24,female,media_noise,మానవుడి జీవితకాలం ఎంత?,utts_te_in_media_noise.parquet,1564,EXP-MEDIA-TE-02,real_noise
+utt_8083243227330887753,te_in,speaker_17532883811112731779,35,female,media_noise,షారుక్ ఖాన్ ఎక్కడ జన్మించాడు?,utts_te_in_media_noise.parquet,540,EXP-MEDIA-TE-03,real_noise
+utt_15340893827491434619,te_in,speaker_17496496033108866118,24,male,media_noise,గుదిమెల్లంక గ్రామ విస్తీర్ణం ఎంత ?,utts_te_in_media_noise.parquet,799,EXP-MEDIA-TE-04,real_noise
+utt_18347107356765172826,te_in,speaker_16460675462959100374,26,male,traffic_noise,నవీపేట్ గ్రామ విస్తీర్ణం ఎంత ?,utts_te_in_traffic_noise.parquet,1863,EXP-TRAFFIC-TE-01,real_noise
+utt_15731715055295267537,te_in,speaker_16515505228581561537,26,male,traffic_noise,బ్రిటిషు వారు శ్రీకాకుళం పేరును ఏమని పలికేవారు?,utts_te_in_traffic_noise.parquet,1308,EXP-TRAFFIC-TE-02,real_noise
+utt_3422591213800710779,te_in,speaker_18308487429644034183,27,male,traffic_noise,భారతదేశంలో ముఖ్యమంత్రి పదవీ కాల పరిమితి ఎంత?,utts_te_in_traffic_noise.parquet,241,EXP-TRAFFIC-TE-03,real_noise
+utt_13182979801402599103,te_in,speaker_7104856578915911096,28,male,traffic_noise,కాల్సియం హైడ్రాక్సైడ్ యొక్క రసాయన ఫార్ములా ఏమిటి ?,utts_te_in_traffic_noise.parquet,483,EXP-TRAFFIC-TE-04,real_noise

@@ -1,0 +1,25 @@
+{
+ "task": "tts_judge",
+ "id": "T26",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T26.wav",
+ "latency_ms": 7800,
+ "reply": {
+  "targets": [
+   {
+    "id": "question",
+    "result": "correct",
+    "heard": "clear rising question intonation"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "artifacts": [],
+  "comment": "The sentence is spoken clearly with appropriate Indian English accentuation and rising question intonation."
+ },
+ "tokens": {
+  "prompt": 363,
+  "output": 109
+ }
+}

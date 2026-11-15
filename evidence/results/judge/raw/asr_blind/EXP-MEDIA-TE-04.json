@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-MEDIA-TE-04",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-MEDIA-TE-04.wav",
+ "latency_ms": 5808,
+ "reply": {
+  "transcript": "బుదిమిలంక గ్రామ విస్తీర్ణమెంత",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 307,
+  "output": 35
+ }
+}

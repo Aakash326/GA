@@ -1,0 +1,69 @@
+﻿case_id,target_id,human,judge,judge_heard,blind_heard,agree
+M-T34-A,value,wrong,wrong,two point five percent,The change was two point five percent.,True
+M-T34-B,value,correct,correct,minus two point five percent,The change was minus two point five percent,True
+M-T40-A,neg_amount,correct,correct,negative two hundred fifty rupees and fifty paise,The adjustment is negative two hundred fifty rupees and fifty paise not two hundred fifty rupees and fifty paise.,True
+M-T40-A,pos_amount,correct,correct,two hundred fifty rupees and fifty paise,The adjustment is negative two hundred fifty rupees and fifty paise not two hundred fifty rupees and fifty paise.,True
+M-T40-A,not,correct,correct,not,The adjustment is negative two hundred fifty rupees and fifty paise not two hundred fifty rupees and fifty paise.,True
+M-T40-B,neg_amount,correct,correct,minus two hundred fifty rupees fifty paise,the adjustment is minus two hundred fifty rupees fifty paise not two hundred fifty rupees fifty paise,True
+M-T40-B,pos_amount,correct,correct,two hundred fifty rupees fifty paise,the adjustment is minus two hundred fifty rupees fifty paise not two hundred fifty rupees fifty paise,True
+M-T40-B,not,correct,correct,not,the adjustment is minus two hundred fifty rupees fifty paise not two hundred fifty rupees fifty paise,True
+M-T41-A,qty,ambiguous,correct,fifteen,"The quantity is fifteen, not fifty.",False
+M-T41-B,qty,correct,correct,fifteen,The quantity is one five fifteen not five zero fifty,True
+M-T41-B,rejected,correct,correct,fifty,The quantity is one five fifteen not five zero fifty,True
+M-T41-B,not,correct,correct,not,The quantity is one five fifteen not five zero fifty,True
+M-T44-A,start,correct,correct,nine oh five A M,The meeting starts at nine o five A M and ends at twelve thirty P M.,True
+M-T44-A,end,correct,correct,twelve thirty P M,The meeting starts at nine o five A M and ends at twelve thirty P M.,True
+M-T52-A,digits,correct,correct,zero zero seven zero,The last four digits are zero zero seven zero,True
+M-T52-B,digits,correct,correct,zero zero seven zero,The last four digits are zero zero seven zero,True
+T01,amount,correct,correct,one lakh twenty five thousand four hundred fifty rupees,Your available balance is one lakh twenty five thousand four hundred fifty rupees,True
+T02,amount,correct,correct,one lakh fifty-seven thousand eight hundred ninety rupees and fifty paise,Your pending amount is one lakh fifty seven thousand eight hundred ninety rupees and fifty paise.,True
+T03,sip,correct,correct,S I P,Your S I P is scheduled for twenty third November twenty twenty six,True
+T03,date,correct,correct,twenty third November,Your S I P is scheduled for twenty third November twenty twenty six,True
+T03,year,correct,correct,twenty twenty six,Your S I P is scheduled for twenty third November twenty twenty six,True
+T06,kyc,correct,correct,K Y C,Please complete your K Y C verification.,True
+T11,sip,correct,correct,S I P,आपका S I P successfully process हो गया है,True
+T11,english,ambiguous,correct,successfully process,आपका S I P successfully process हो गया है,False
+T11,hindi,correct,correct,हो गया है,आपका S I P successfully process हो गया है,True
+T12,hindi,correct,correct,Aapka ... abhi ... hua hai,आपका पोर्टफोलियो बैलेंस अभी अपडेट हुआ है,True
+T12,english,correct,correct,portfolio balance update,आपका पोर्टफोलियो बैलेंस अभी अपडेट हुआ है,True
+T27,not,correct,correct,Do not,Do not share your O T P with anyone.,True
+T27,otp,correct,correct,OTP,Do not share your O T P with anyone.,True
+T29,read_present,correct,correct,reed,"I will read the report now, I read it yesterday.",True
+T32,content,correct,wrong,आपका अनुरोध मिल गया है। हम कल आपसे संपर्क क करेंगे।,आपका अनुरोध मिल गया है हम कल आपसे संपर्क करेंगे,False
+T34,value,wrong,wrong,two point five percent,the change was two point five percent,True
+T35,id,correct,correct,double zero four two nine one,Your reference number is double zero four two nine one,True
+T36,hindi,correct,correct,आपका अभी हुआ है,आपका पोर्टफोलियो बैलेंस अभी अपडेट हुआ है,True
+T36,english,correct,correct,portfolio balance update,आपका पोर्टफोलियो बैलेंस अभी अपडेट हुआ है,True
+T37,amount,correct,correct,one lakh twenty-five thousand four hundred fifty rupees,Your available balance is one lakh twenty five thousand four hundred fifty rupees.,True
+T38,kyc,correct,correct,K Y C,Please complete your K Y C verification.,True
+T39,amount,correct,correct,zero rupees and five paise,Your available balance is zero rupees and five paise,True
+T40,neg_amount,wrong,wrong,two hundred fifty rupees and fifty paise,"The adjustment is two hundred fifty rupees and fifty paise, not two hundred fifty rupees and fifty paise.",True
+T40,pos_amount,correct,correct,two hundred fifty rupees and fifty paise,"The adjustment is two hundred fifty rupees and fifty paise, not two hundred fifty rupees and fifty paise.",True
+T40,not,correct,correct,not,"The adjustment is two hundred fifty rupees and fifty paise, not two hundred fifty rupees and fifty paise.",True
+T41,qty,ambiguous,correct,fifteen,"The quantity is fifteen, not fifty.",False
+T41,rejected,ambiguous,correct,fifty,"The quantity is fifteen, not fifty.",False
+T43,amount,correct,correct,ten lakh rupees,Please pay ten lakh rupees before the due date.,True
+T44,start,wrong,wrong,nine five a m,"The meeting starts at nine five a m, and ends at twelve thirty p m.",True
+T44,end,correct,correct,twelve thirty p m,"The meeting starts at nine five a m, and ends at twelve thirty p m.",True
+T45,date1,correct,correct,third November twenty twenty-six,The payment date is third November twenty twenty six not thirtieth November twenty twenty six.,True
+T45,date2,correct,correct,thirtieth November twenty twenty-six,The payment date is third November twenty twenty six not thirtieth November twenty twenty six.,True
+T45,not,correct,correct,not,The payment date is third November twenty twenty six not thirtieth November twenty twenty six.,True
+T49,id,correct,correct,double zero double zero four two,Your reference number is double zero double zero four two.,True
+T51,id,correct,correct,A B one zero O zero,Your reference number is A B one zero O zero.,True
+T52,digits,wrong,wrong,seventy,The last four digits are seventy,True
+T54,ticket,correct,correct,one double zero one double zero,Your ticket number is one double zero one double zero,True
+T57,ref,correct,correct,one two three four five six seven eight nine zero one two three four five six,Your reference is one two three four five six seven eight nine zero one two three four five six.,True
+T58,selected,correct,correct,four eight two one,The account ending in four eight two one is selected. The account ending in four eight one two is not.,True
+T58,not_selected,correct,correct,four eight one two,The account ending in four eight two one is selected. The account ending in four eight one two is not.,True
+T58,not,correct,correct,not,The account ending in four eight two one is selected. The account ending in four eight one two is not.,True
+T60,amount,wrong,correct,एक हज़ार दो सौ पचास रुपए,आपका बैलेंस एक हज़ार दो सौ पचास रुपए है और अगली पेमेंट कल होगी,False
+T60,english,correct,correct,balance ... payment,आपका बैलेंस एक हज़ार दो सौ पचास रुपए है और अगली पेमेंट कल होगी,True
+T60,time,correct,correct,कल,आपका बैलेंस एक हज़ार दो सौ पचास रुपए है और अगली पेमेंट कल होगी,True
+T61,cancel,correct,correct,order cancel karein,कृपया ऑर्डर कैंसिल करें कन्फर्म नहीं,True
+T61,negation,correct,correct,confirm nahin,कृपया ऑर्डर कैंसिल करें कन्फर्म नहीं,True
+T62,hindi,correct,correct,Aapka payment mil gaya hai. Kripya receipt sambhal kar rakhen.,आपका पेमेंट मिल गया है। कृपया रसीद संभाल कर रखें।,True
+T70,neft,correct,correct,N E F T,"Your N E F T transfer is pending, but your U P I payment is complete.",True
+T70,upi,correct,correct,U P I,"Your N E F T transfer is pending, but your U P I payment is complete.",True
+T70,contrast,correct,correct,pending then complete,"Your N E F T transfer is pending, but your U P I payment is complete.",True
+T80,not,correct,correct,Do not cancel,Do not cancel the payment cancel only the duplicate request,True
+T80,only,correct,correct,Cancel only the duplicate,Do not cancel the payment cancel only the duplicate request,True

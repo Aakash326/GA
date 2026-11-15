@@ -1,0 +1,26 @@
+{
+  "controlled_models": 2,
+  "controlled_distinct_texts": 3,
+  "texts_per_length": 1,
+  "successful_repeats_per_model_text": 5,
+  "controlled_measured_requests": 30,
+  "controlled_excluded_warmups": 2,
+  "controlled_rest_requests_total": 32,
+  "earlier_waveform_rest_files": 60,
+  "earlier_waveform_sections": {
+    "rest_latency": 18,
+    "neutral_style": 3,
+    "tag": 20,
+    "invalid_tag": 4,
+    "speed": 4,
+    "sample_rate": 2,
+    "normalization": 3,
+    "empty_audio_recheck": 6
+  },
+  "earlier_timing_subset": 18,
+  "earlier_other_functionality_files": 42,
+  "earlier_sse_files": 6,
+  "shared_case_ids_between_30_and_60": 0,
+  "pooled_into_controlled_timing": false,
+  "explanation": "30 = 2 models × 3 distinct texts (one per length) × 5 successful repeats. Two warm-ups excluded. The earlier 60-file REST waveform set comprises 18 earlier timing runs (three repeats/model/length) + 42 functionality/configuration outputs. Earlier files are not pooled into the controlled medians."
+}

@@ -1,0 +1,17 @@
+{
+ "task": "asr_verify",
+ "id": "NX-KN-TRAFFIC-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "bbbbc5a2dd1c096d35efb244",
+ "audio": "data/next/audio/NX-KN-TRAFFIC-02.wav",
+ "latency_ms": 3539,
+ "reply": {
+  "matches": true,
+  "differences": [],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 263,
+  "output": 16
+ }
+}

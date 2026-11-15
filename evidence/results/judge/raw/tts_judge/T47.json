@@ -1,0 +1,25 @@
+{
+ "task": "tts_judge",
+ "id": "T47",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T47.wav",
+ "latency_ms": 8917,
+ "reply": {
+  "targets": [
+   {
+    "id": "decimal",
+    "result": "correct",
+    "heard": "zero point one two five"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The text was read accurately, including the decimal value. The delivery is clear but sounds moderately synthetic with minor pauses."
+ },
+ "tokens": {
+  "prompt": 462,
+  "output": 116
+ }
+}

@@ -1,0 +1,16 @@
+{
+  "clips": 50,
+  "targets": 89,
+  "critical_targets": 87,
+  "export_filename": "n1_tts_filled.csv",
+  "human_verification": "partial: 74 marked targets, 15 unmarked",
+  "full_bank_clips": 164,
+  "flagged_clips_included": 24,
+  "selection": "targeted diagnostic sample, not a representative accuracy estimate",
+  "page_blind_first_enabled": true,
+  "observed_blind_first_marked_targets": 0,
+  "selected_targets": 89,
+  "human_marked_targets": 74,
+  "pending_targets": 15,
+  "note": "Page configuration is distinct from exported listener behavior; no independent or blind listening is inferred."
+}

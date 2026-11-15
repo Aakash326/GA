@@ -1,0 +1,56 @@
+{
+ "ok": true,
+ "kind": "stt_stream",
+ "case_id": "CL-EN-04",
+ "run_tag": "ws",
+ "fingerprint": "a34574b639deab6d1edccb0d",
+ "connect_ms": 127.2,
+ "speech_end_s": 3.236,
+ "transcript": "How tall is Cathie Beale?",
+ "first_final_s": 3.528,
+ "last_final_after_speech_ms": 291.9,
+ "server_latency_ms": [
+  81
+ ],
+ "segments": 1,
+ "errors": [],
+ "messages": [
+  {
+   "type": "connected",
+   "message": "STT service ready — VAD service connected",
+   "request_id": "01a1da40-9c1c-70fc-8057-39af74686917",
+   "config": {
+    "sample_rate": 16000,
+    "chunk_size": 512,
+    "partials_enabled": false,
+    "partial_interval_ms": 450,
+    "partial_max_window_s": 15.0,
+    "language_code": "en-IN",
+    "format": "transcribe"
+   },
+   "timestamp": "2026-11-14T13:30:29.857729+00:00",
+   "t_s": 0.04354340001009405
+  },
+  {
+   "type": "speech_start",
+   "utterance_id": "u9b248f53",
+   "t_ms": 660,
+   "timestamp": "2026-11-14T13:30:30.765990+00:00",
+   "t_s": 0.9513712000043597
+  },
+  {
+   "type": "transcript",
+   "text": "How tall is Cathie Beale?",
+   "audio_duration_ms": 3124.0,
+   "segment_id": "01a1da40-9c1c-70fc-8057-39af74686917-seg-1",
+   "segment_index": 1,
+   "utterance_id": "u9b248f53",
+   "is_final": true,
+   "latency": 81,
+   "prefetched": false,
+   "timestamp": "2026-11-14T13:30:33.342534+00:00",
+   "detected_language_code": "en-IN",
+   "t_s": 3.5278854000061983
+  }
+ ]
+}

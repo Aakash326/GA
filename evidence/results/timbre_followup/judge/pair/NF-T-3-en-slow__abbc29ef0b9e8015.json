@@ -1,0 +1,31 @@
+{
+  "task": "pair",
+  "id": "NF-T-3-en-slow",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "abbc29ef0b9e8015c3bfbb87d6b3b8b1bd0e64a35e153752a9a847e32a3472d8",
+  "input_sha256": [
+    "be3246ca88f4d480c6907ea4f95cd93f3d83f45b064198adaa50e72362868971",
+    "d7cfb60caf0eaa67241cab4151d0464892ea0fbfd7956e5e7f1bfffbfb5c7590"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-T-3-en-slow.wav",
+    "results/timbre_followup/listen/NF-N-3-en.wav"
+  ],
+  "reply": {
+    "more_cue": "A",
+    "cue_audible_A": true,
+    "cue_audible_B": false,
+    "content_preserved_A": true,
+    "content_preserved_B": true,
+    "literal_tag_spoken_A": false,
+    "literal_tag_spoken_B": false,
+    "confidence": "medium",
+    "reason": "Clip A is delivered at a slightly slower pace with slightly more stretched phrasing compared to Clip B."
+  },
+  "prompt_tokens": 360,
+  "output_tokens": 118,
+  "thought_tokens": 331,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

@@ -1,0 +1,36 @@
+{
+  "task": "blind",
+  "id": "NF-T-25-en-pauses",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "621aa9e0769c5acc01a0a3092d6e133b4261328e1cb5a035dbc73003797887bd",
+  "input_sha256": [
+    "1bc5bc9b690089dad5e969a821421ee2ce9f67eb96a27d09275a59233f00d46f"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-T-25-en-pauses.wav"
+  ],
+  "reply": {
+    "heard": "Your request is ready. Please continue when you are ready.",
+    "naturalness_1to5": 4,
+    "prosody_1to5": 4,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "polite",
+      "neutral",
+      "clear"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "normal brief pause",
+    "artifacts": [],
+    "confidence": "high",
+    "reason": "Speech is clear, intelligible, and delivered in a natural, neutral assistant-like cadence."
+  },
+  "prompt_tokens": 325,
+  "output_tokens": 137,
+  "thought_tokens": 184,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

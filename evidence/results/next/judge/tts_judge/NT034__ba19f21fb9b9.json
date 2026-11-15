@@ -1,0 +1,31 @@
+{
+ "task": "tts_judge",
+ "id": "NT034",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ba19f21fb9b9a5c56b9aafd8",
+ "audio": "results/next/audio/NT034.wav",
+ "latency_ms": 5685,
+ "reply": {
+  "targets": [
+   {
+    "id": "sign",
+    "result": "correct",
+    "heard": "माइनस"
+   },
+   {
+    "id": "value",
+    "result": "correct",
+    "heard": "एक दशमलव पांच प्रतिशत"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "artifacts": [],
+  "comment": "The sentence was pronounced clearly and accurately with natural intonation."
+ },
+ "tokens": {
+  "prompt": 460,
+  "output": 135
+ }
+}

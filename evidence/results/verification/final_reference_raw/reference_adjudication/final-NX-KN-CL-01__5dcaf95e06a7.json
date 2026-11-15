@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-KN-CL-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5dcaf95e06a710a604c406eb",
+ "audio": "data/next/audio/NX-KN-CL-01.wav",
+ "latency_ms": 6319,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "ಸೋವಿಯತ್ ಒಕ್ಕೂಟದಲ್ಲಿ ಒಟ್ಟು ಎಷ್ಟು ದೇಶಗಳಿದ್ದವು?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The speaker clearly pronounces 'ಸೋವಿಯತ್' (with a long vowel 'ಸೋ' and dental 'ತ್'), not 'ಸೊವಿಯಟ್'."
+ },
+ "tokens": {
+  "prompt": 336,
+  "output": 74
+ }
+}

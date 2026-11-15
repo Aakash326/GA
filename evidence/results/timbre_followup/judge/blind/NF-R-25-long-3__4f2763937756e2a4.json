@@ -1,0 +1,38 @@
+{
+  "task": "blind",
+  "id": "NF-R-25-long-3",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "4f2763937756e2a4d4c16dc142ef613e62a68539ac7cbbcbb7aa4074b2ed3f9c",
+  "input_sha256": [
+    "cdbaea4b37d3235f43ecae958fe131d3dfeff78509984b150727ee9ea15906cd"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-R-25-long-3.wav"
+  ],
+  "reply": {
+    "heard": "Your request has been received and is now under review. Please check the details shown in your account before you confirm the next step. If any information is wrong, contact our support team so we can help you update it. We will send a message when the review is complete. You do not need to submit the same request again. Keep your reference number safe, and use it when you ask us for an update. Before placing an order review the company name, quantity, and price carefully. The amount shown on the confirmation screen may include charges that were not included in an earlier estimate. If you decide to change the order return to the details page, and check the updated information before confirming. Do not share your password or verification code with anyone who contacts you unexpectedly. You can find the official support contact details inside your account. Once the request is complete, save the receipt for your records.",
+    "naturalness_1to5": 4,
+    "prosody_1to5": 3,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "clear",
+      "measured pace",
+      "neutral"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "short leading pause",
+    "artifacts": [
+      "synthetic cadence"
+    ],
+    "confidence": "high",
+    "reason": "Clear synthesized speech with standard instructional prosody and minimal artifacts."
+  },
+  "prompt_tokens": 1349,
+  "output_tokens": 368,
+  "thought_tokens": 360,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

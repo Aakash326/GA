@@ -1,0 +1,31 @@
+{
+  "task": "pair",
+  "id": "NF-T-3-en-whispers",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "1b376fbb02f33a44a4709d35b8b1f29ed267ecc4800729fe9e4a397fe6cd347d",
+  "input_sha256": [
+    "d7cfb60caf0eaa67241cab4151d0464892ea0fbfd7956e5e7f1bfffbfb5c7590",
+    "15d1c30bad59dda7c7a9d03c8d2c5c2925f5bcfbc8d4ef97ee10a704344c55a9"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-N-3-en.wav",
+    "results/timbre_followup/listen/NF-T-3-en-whispers.wav"
+  ],
+  "reply": {
+    "more_cue": "B",
+    "cue_audible_A": false,
+    "cue_audible_B": true,
+    "content_preserved_A": true,
+    "content_preserved_B": true,
+    "literal_tag_spoken_A": false,
+    "literal_tag_spoken_B": false,
+    "confidence": "high",
+    "reason": "Clip B clearly whispers the second sentence, whereas Clip A maintains a normal speaking voice throughout."
+  },
+  "prompt_tokens": 344,
+  "output_tokens": 117,
+  "thought_tokens": 84,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

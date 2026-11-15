@@ -1,0 +1,56 @@
+{
+ "ok": true,
+ "kind": "stt_stream",
+ "case_id": "CALLER-L3",
+ "run_tag": "auto",
+ "fingerprint": "cd96e6f1d47c7e2f33a27634",
+ "connect_ms": 132.0,
+ "speech_end_s": 2.244,
+ "transcript": "No I said 15 not 50",
+ "first_final_s": 2.723,
+ "last_final_after_speech_ms": 478.5,
+ "server_latency_ms": [
+  92
+ ],
+ "segments": 1,
+ "errors": [],
+ "messages": [
+  {
+   "type": "connected",
+   "message": "STT service ready — VAD service connected",
+   "request_id": "01a1da1b-3c0a-7557-b018-68d4c13f2512",
+   "config": {
+    "sample_rate": 16000,
+    "chunk_size": 512,
+    "partials_enabled": false,
+    "partial_interval_ms": 450,
+    "partial_max_window_s": 15.0,
+    "language_code": "indic-auto",
+    "format": "transcribe"
+   },
+   "timestamp": "2026-11-14T12:49:40.428371+00:00",
+   "t_s": 0.04678419999254402
+  },
+  {
+   "type": "speech_start",
+   "utterance_id": "u4fa907f1",
+   "t_ms": 0,
+   "timestamp": "2026-11-14T12:49:40.624469+00:00",
+   "t_s": 0.24177559999225195
+  },
+  {
+   "type": "transcript",
+   "text": "No I said 15 not 50",
+   "audio_duration_ms": 2624.0,
+   "segment_id": "01a1da1b-3c0a-7557-b018-68d4c13f2512-seg-1",
+   "segment_index": 1,
+   "utterance_id": "u4fa907f1",
+   "is_final": true,
+   "latency": 92,
+   "prefetched": false,
+   "timestamp": "2026-11-14T12:49:43.105654+00:00",
+   "detected_language_code": "en-IN",
+   "t_s": 2.722511599989957
+  }
+ ]
+}

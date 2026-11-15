@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TE-MEDIA-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "2bc96a913c681c2662a53d13",
+ "audio": "data/next/audio/NX-TE-MEDIA-02.wav",
+ "latency_ms": 4676,
+ "reply": {
+  "transcript": "ఆండ్రాయిడ్ ప్లే స్టోర్ లో మొదటగా ప్రవేశపెట్టిన వెబ్ బ్రౌజర్ పేరు ఏమిటి?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 273,
+  "output": 51
+ }
+}

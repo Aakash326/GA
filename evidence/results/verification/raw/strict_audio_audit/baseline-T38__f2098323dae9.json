@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T38",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f2098323dae9a5ec08f965ba",
+ "audio": "results/tts_audio/T38.wav",
+ "latency_ms": 3991,
+ "reply": {
+  "heard": "Please complete your KYC verification.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "kyc",
+    "result": "correct",
+    "heard": "KYC"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 290,
+  "output": 34
+ }
+}

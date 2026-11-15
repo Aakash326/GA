@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-DS-FIN-EN-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "19d4279c534b0500cdc3de3e",
+ "audio": "data/next/dataset_replacement/DS-FIN-EN-01.wav",
+ "latency_ms": 5282,
+ "reply": {
+  "transcript": "What currency is used in Chicago?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 230,
+  "output": 30
+ }
+}

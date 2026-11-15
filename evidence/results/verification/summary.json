@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "model": "gemini-3.8-flash",
+  "tts_prompts_expected": 164,
+  "tts_targets_assessed": 303,
+  "verdict_counts": {
+    "baseline:correct": 162,
+    "baseline:wrong": 5,
+    "next:correct": 119,
+    "next:wrong": 17
+  },
+  "asr_cached_audio_transcriptions_reviewed": 120,
+  "human_verification": "pending",
+  "limitations": "Same model family as earlier judge; second automated pass, not independent human validation.",
+  "errors": [],
+  "gnani_calls": 0
+}

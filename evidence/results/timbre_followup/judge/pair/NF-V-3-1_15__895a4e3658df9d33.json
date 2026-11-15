@@ -1,0 +1,31 @@
+{
+  "task": "pair",
+  "id": "NF-V-3-1_15",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "895a4e3658df9d33e89f6c65709a38dc4137bb3296d7b742fd506060a0220189",
+  "input_sha256": [
+    "d7cfb60caf0eaa67241cab4151d0464892ea0fbfd7956e5e7f1bfffbfb5c7590",
+    "c02b0713008e0806838a0effab3624d1238d783958a2ee4bcf598676836c6a92"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-N-3-en.wav",
+    "results/timbre_followup/listen/NF-V-3-1_15.wav"
+  ],
+  "reply": {
+    "more_cue": "indistinguishable",
+    "cue_audible_A": false,
+    "cue_audible_B": false,
+    "content_preserved_A": true,
+    "content_preserved_B": true,
+    "literal_tag_spoken_A": false,
+    "literal_tag_spoken_B": false,
+    "confidence": "medium",
+    "reason": "Both samples share nearly the exact same speech rate and duration, showing no noticeable difference in speed control."
+  },
+  "prompt_tokens": 339,
+  "output_tokens": 121,
+  "thought_tokens": 118,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

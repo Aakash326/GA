@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT034",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f990b5d1036fbfb52bd2c428",
+ "audio": "results/next/audio/NT034.wav",
+ "latency_ms": 5219,
+ "reply": {
+  "heard": "बदलाव माइनस एक दशमलव पाँच प्रतिशत रहा",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "sign",
+    "result": "correct",
+    "heard": "माइनस"
+   },
+   {
+    "id": "value",
+    "result": "correct",
+    "heard": "एक दशमलव पाँच प्रतिशत"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 380,
+  "output": 51
+ }
+}

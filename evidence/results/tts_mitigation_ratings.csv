@@ -1,0 +1,19 @@
+﻿case_id,baseline_case,input_text,change,target_id,target_result,adjudicated_result,adjudication_note,comment,listener_id,rated_at
+M-T34-A,T34,The change was -2.5%.,typographic minus U+2212 replaced by ASCII hyphen-minus,value,wrong,wrong,,it is still 2.5 percent,R1,2026-11-13T17:53:52.658Z
+M-T34-B,T34,The change was minus 2.5 percent.,sign and percent written as words,value,correct,correct,,,R1,2026-11-13T17:54:49.771Z
+M-T40-A,T40,"The adjustment is -₹250.50, not ₹250.50.",typographic minus replaced by ASCII hyphen-minus,neg_amount,correct,correct,,,R1,2026-11-13T17:55:18.586Z
+M-T40-A,T40,"The adjustment is -₹250.50, not ₹250.50.",typographic minus replaced by ASCII hyphen-minus,pos_amount,correct,correct,,,R1,2026-11-13T17:55:18.586Z
+M-T40-A,T40,"The adjustment is -₹250.50, not ₹250.50.",typographic minus replaced by ASCII hyphen-minus,not,correct,correct,,,R1,2026-11-13T17:55:18.586Z
+M-T40-B,T40,"The adjustment is minus 250 rupees 50 paise, not 250 rupees 50 paise.",sign and currency written as words,neg_amount,correct,correct,,,R1,2026-11-13T17:55:02.580Z
+M-T40-B,T40,"The adjustment is minus 250 rupees 50 paise, not 250 rupees 50 paise.",sign and currency written as words,pos_amount,correct,correct,,,R1,2026-11-13T17:55:02.580Z
+M-T40-B,T40,"The adjustment is minus 250 rupees 50 paise, not 250 rupees 50 paise.",sign and currency written as words,not,correct,correct,,,R1,2026-11-13T17:55:02.580Z
+M-T52-A,T52,The last four digits are 0 0 7 0.,digits separated by spaces,digits,correct,correct,,,R1,2026-11-13T17:55:26.412Z
+M-T52-B,T52,The last four digits are zero zero seven zero.,digits written as words,digits,correct,correct,,,R1,2026-11-13T17:57:10.611Z
+M-T44-A,T44,The meeting starts at nine oh five A M and ends at twelve thirty P M.,times written as spoken words,start,correct,correct,,,R1,2026-11-13T17:56:08.434Z
+M-T44-A,T44,The meeting starts at nine oh five A M and ends at twelve thirty P M.,times written as spoken words,end,correct,correct,,,R1,2026-11-13T17:56:08.434Z
+M-T41-A,T41,"The quantity is fifteen, not fifty.",numbers written as words,qty,,ambiguous,listener comment: 'still not clearly fifteen',still i think it is not clearly fifteen,R1,2026-11-13T17:55:57.983Z
+M-T41-A,T41,"The quantity is fifteen, not fifty.",numbers written as words,rejected,,unmarked,,still i think it is not clearly fifteen,R1,2026-11-13T17:55:57.983Z
+M-T41-A,T41,"The quantity is fifteen, not fifty.",numbers written as words,not,,unmarked,,still i think it is not clearly fifteen,R1,2026-11-13T17:55:57.983Z
+M-T41-B,T41,"The quantity is one five, fifteen, not five zero, fifty.",numbers written as words and read digit by digit as well,qty,correct,correct,,the fifteen i still think we can you test it any way with other models and see,R1,2026-11-13T17:57:02.613Z
+M-T41-B,T41,"The quantity is one five, fifteen, not five zero, fifty.",numbers written as words and read digit by digit as well,rejected,correct,correct,,the fifteen i still think we can you test it any way with other models and see,R1,2026-11-13T17:57:02.613Z
+M-T41-B,T41,"The quantity is one five, fifteen, not five zero, fifty.",numbers written as words and read digit by digit as well,not,correct,correct,,the fifteen i still think we can you test it any way with other models and see,R1,2026-11-13T17:57:02.613Z

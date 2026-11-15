@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT048",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "efc398046cfc39a37b186b36",
+ "audio": "results/next/audio/NT048.wav",
+ "latency_ms": 4901,
+ "reply": {
+  "heard": "மாற்றம் மைனஸ் ஒன்று புள்ளி ஐந்து சதவீதம்",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 233,
+  "output": 21
+ }
+}

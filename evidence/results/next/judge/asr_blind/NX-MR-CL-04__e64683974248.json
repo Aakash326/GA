@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-MR-CL-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "e64683974248741ca78fbd52",
+ "audio": "data/next/audio/NX-MR-CL-04.wav",
+ "latency_ms": 4418,
+ "reply": {
+  "transcript": "कोणत्या देशाने प्रथम अंतर्गत महसूल प्रणाली लागू केली",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 255,
+  "output": 42
+ }
+}

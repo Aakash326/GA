@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T55",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T55.wav",
+ "latency_ms": 7187,
+ "reply": {
+  "heard": "Your order code is A one B two C three.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 202,
+  "output": 21
+ }
+}

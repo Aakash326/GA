@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-MEDIA-TE-03",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-MEDIA-TE-03.wav",
+ "latency_ms": 4881,
+ "reply": {
+  "transcript": "షారుక్ ఖాన్ ఎక్కడ జన్మించాడు",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 219,
+  "output": 34
+ }
+}

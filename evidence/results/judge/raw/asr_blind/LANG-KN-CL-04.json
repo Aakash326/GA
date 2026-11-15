@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-KN-CL-04",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-KN-CL-04.wav",
+ "latency_ms": 4086,
+ "reply": {
+  "transcript": "ಯಾವ ಸಂಸ್ಥೆಯು ಚಂದ್ರನ ಮೇಲೆ ನೀರಿರುವುದನ್ನು ಕಂಡುಹಿಡಿದಿದೆ?",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 244,
+  "output": 41
+ }
+}

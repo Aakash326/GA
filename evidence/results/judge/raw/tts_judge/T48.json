@@ -1,0 +1,30 @@
+{
+ "task": "tts_judge",
+ "id": "T48",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T48.wav",
+ "latency_ms": 7652,
+ "reply": {
+  "targets": [
+   {
+    "id": "held",
+    "result": "correct",
+    "heard": "one hundred one"
+   },
+   {
+    "id": "pending",
+    "result": "correct",
+    "heard": "eleven"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "All numbers read accurately with acceptable pacing and standard Indian English delivery."
+ },
+ "tokens": {
+  "prompt": 475,
+  "output": 135
+ }
+}

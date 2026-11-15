@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "CL-HI-03",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/CL-HI-03.wav",
+ "latency_ms": 5740,
+ "reply": {
+  "transcript": "तमिलनाडु राज्य का सबसे बड़ा ज़िला कौन सा है?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 231,
+  "output": 36
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-DS-CS-HI-11",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "22122e7ca0ebf00e021e413f",
+ "audio": "data/next/dataset_replacement/DS-CS-HI-11.wav",
+ "latency_ms": 3745,
+ "reply": {
+  "dataset_matches": true,
+  "selected_reference": "नीचे बाएँ कोने से account actions पर क्लिक करें और फिर remove account पर क्लिक करें",
+  "confidence": "high",
+  "unclear": [],
+  "reason": ""
+ },
+ "tokens": {
+  "prompt": 423,
+  "output": 42
+ }
+}

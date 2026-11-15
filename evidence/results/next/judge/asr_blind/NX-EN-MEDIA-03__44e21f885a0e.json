@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-EN-MEDIA-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "44e21f885a0efd129f4dbc5b",
+ "audio": "data/next/audio/NX-EN-MEDIA-03.wav",
+ "latency_ms": 9313,
+ "reply": {
+  "transcript": "What English word has the most syllables? That's it, yeah.",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 243,
+  "output": 38
+ }
+}

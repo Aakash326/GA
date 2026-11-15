@@ -1,0 +1,10 @@
+﻿pair_id,raw_case_id,rewritten_case_id,raw_correct,rewritten_correct,outcome
+en-sign-inr,NT018,NT020,False,True,fixed
+en-sign-pct,NT015,NT017,False,True,fixed
+en-time-905,NT027,NT028,False,True,fixed
+hi-ident,NT035,NT036,False,True,fixed
+hi-signed,NT033,NT034,False,True,fixed
+mix-close,NT065,NT066,False,False,both_failed
+mix-sign,NT063,NT064,False,True,fixed
+te-ident,NT043,NT044,False,True,fixed
+te-signed,NT041,NT042,False,True,fixed

@@ -1,0 +1,36 @@
+{
+ "task": "tts_judge",
+ "id": "NT051",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ade85c57f1d37af74be6fc5c",
+ "audio": "results/next/audio/NT051.wav",
+ "latency_ms": 9142,
+ "reply": {
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "ಹದಿನೈದು"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "ಐವತ್ತು"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "ಅಲ್ಲ"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "All numbers and words were pronounced clearly with acceptable pacing."
+ },
+ "tokens": {
+  "prompt": 465,
+  "output": 137
+ }
+}

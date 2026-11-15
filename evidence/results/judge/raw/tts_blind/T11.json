@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T11",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T11.wav",
+ "latency_ms": 7871,
+ "reply": {
+  "heard": "आपका S I P successfully process हो गया है",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 194,
+  "output": 20
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T69",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "8c64aab460d6b2f36fb082b2",
+ "audio": "results/tts_audio/T69.wav",
+ "latency_ms": 4550,
+ "reply": {
+  "heard": "Please ask Doctor Meera Rao to review the request.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "dr",
+    "result": "correct",
+    "heard": "Doctor"
+   },
+   {
+    "id": "name",
+    "result": "correct",
+    "heard": "Meera Rao"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 348,
+  "output": 51
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "task": "asr_verify",
+ "id": "EXP-NUM-HI-06",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-NUM-HI-06.wav",
+ "latency_ms": 5615,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "कप",
+    "heard": "कब"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 373,
+  "output": 28
+ }
+}

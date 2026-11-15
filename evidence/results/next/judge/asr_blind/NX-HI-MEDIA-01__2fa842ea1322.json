@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-HI-MEDIA-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "2fa842ea13229b0053b70142",
+ "audio": "data/next/audio/NX-HI-MEDIA-01.wav",
+ "latency_ms": 5435,
+ "reply": {
+  "transcript": "भारतीय राज्य में आंध्र प्रदेश के प्रकाशम जिले का मुख्य शहर कौन सा है?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 375,
+  "output": 39
+ }
+}

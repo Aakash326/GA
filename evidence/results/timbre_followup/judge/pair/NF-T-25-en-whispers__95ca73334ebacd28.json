@@ -1,0 +1,31 @@
+{
+  "task": "pair",
+  "id": "NF-T-25-en-whispers",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "95ca73334ebacd28b2f6c68777e1c971dc002344a5ced6b06a160b3ecd2e14f8",
+  "input_sha256": [
+    "d3f5bc0bbc4389ddf959a491d6f296c17f639a53b236c203088041f2d58c1802",
+    "af1a1d01352b622b8fd271fdb6884839fe84e7f71f5b608465368c8d054908b0"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-N-25-en.wav",
+    "results/timbre_followup/listen/NF-T-25-en-whispers.wav"
+  ],
+  "reply": {
+    "more_cue": "indistinguishable",
+    "cue_audible_A": false,
+    "cue_audible_B": false,
+    "content_preserved_A": true,
+    "content_preserved_B": true,
+    "literal_tag_spoken_A": false,
+    "literal_tag_spoken_B": false,
+    "confidence": "medium",
+    "reason": "Both clips present the exact same message in a standard speaking voice without any audible whispering effect."
+  },
+  "prompt_tokens": 315,
+  "output_tokens": 119,
+  "thought_tokens": 259,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

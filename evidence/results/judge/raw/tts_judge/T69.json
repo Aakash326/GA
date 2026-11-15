@@ -1,0 +1,30 @@
+{
+ "task": "tts_judge",
+ "id": "T69",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T69.wav",
+ "latency_ms": 7096,
+ "reply": {
+  "targets": [
+   {
+    "id": "dr",
+    "result": "correct",
+    "heard": "Doctor"
+   },
+   {
+    "id": "name",
+    "result": "correct",
+    "heard": "Meera Rao"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "All words were articulated clearly with appropriate Indian English pronunciation."
+ },
+ "tokens": {
+  "prompt": 433,
+  "output": 112
+ }
+}

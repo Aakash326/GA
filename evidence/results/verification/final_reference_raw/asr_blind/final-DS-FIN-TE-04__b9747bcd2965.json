@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-DS-FIN-TE-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "b9747bcd2965f78ca4ea207a",
+ "audio": "data/next/dataset_replacement/DS-FIN-TE-04.wav",
+ "latency_ms": 6926,
+ "reply": {
+  "transcript": "హిందూ మహాసముద్రం 2015 లో భారతదేశ ఆర్థిక శాఖ మంత్రి ఎవరు?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 256,
+  "output": 42
+ }
+}

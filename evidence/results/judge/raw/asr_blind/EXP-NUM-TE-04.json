@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-NUM-TE-04",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-NUM-TE-04.wav",
+ "latency_ms": 3917,
+ "reply": {
+  "transcript": "2016 నాటికి యస్. కోటూరు గ్రామ సర్పంచ్ ఎవరు?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 328,
+  "output": 41
+ }
+}

@@ -1,0 +1,7 @@
+﻿model,voice,length,n,text_characters,median_ms,min_ms,max_ms,median_audio_s
+timbre-v3.0,Tarika,short,3,61,5043.1,4195.2,5279.2,3.92
+timbre-v3.0,Tarika,medium,3,396,7811.3,5325.2,8385.5,15.04
+timbre-v3.0,Tarika,long,3,930,17199.7,14634.5,21424.9,51.76
+timbre-v2.5,Kaveri,short,3,61,541.6,512.5,713.7,2.88
+timbre-v2.5,Kaveri,medium,3,396,1073.6,1037.1,1088.8,17.6
+timbre-v2.5,Kaveri,long,3,930,2749.6,2515.0,3345.8,43.2

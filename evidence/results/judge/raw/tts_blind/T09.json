@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T09",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T09.wav",
+ "latency_ms": 5824,
+ "reply": {
+  "heard": "The N A V of this fund is one hundred twelve rupees and fifty paise.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 240,
+  "output": 26
+ }
+}

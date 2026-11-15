@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TE-CL-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "929d24d7a270e689d7042502",
+ "audio": "data/next/audio/NX-TE-CL-03.wav",
+ "latency_ms": 4718,
+ "reply": {
+  "transcript": "మఖన్పురా నుండి నిజాంపుర గ్రామానికి ఎంత దూరం",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 297,
+  "output": 40
+ }
+}

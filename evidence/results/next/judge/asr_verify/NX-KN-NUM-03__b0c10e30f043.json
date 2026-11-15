@@ -1,0 +1,22 @@
+{
+ "task": "asr_verify",
+ "id": "NX-KN-NUM-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "b0c10e30f043d358ca3aff1d",
+ "audio": "data/next/audio/NX-KN-NUM-03.wav",
+ "latency_ms": 8650,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "ಕ್ರೈಸ್ಥರಿದ್ದಾರೆ",
+    "heard": "ಕ್ರೈಸ್ತರಿದ್ದಾರೆ"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 357,
+  "output": 36
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T85",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f7722fff2f14fe8ca5654d7f",
+ "audio": "results/tts_audio/T85.wav",
+ "latency_ms": 8610,
+ "reply": {
+  "heard": "We have received your application. Our team will review the details and contact you if more information is needed. Please keep your reference number available. You do not need to create another application while this review is in progress.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "start",
+    "result": "correct",
+    "heard": "We have received your application"
+   },
+   {
+    "id": "end",
+    "result": "correct",
+    "heard": "while this review is in progress"
+   },
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "You do not need to create another application"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 735,
+  "output": 178
+ }
+}

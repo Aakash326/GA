@@ -1,0 +1,21 @@
+{
+ "task": "asr_verify",
+ "id": "RNP-TE-02N",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/RNP-TE-02N.wav",
+ "latency_ms": 7045,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "రొసాయిగుడ",
+    "heard": "కసాయిగూడ"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 247,
+  "output": 38
+ }
+}

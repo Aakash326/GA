@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-TRAFFIC-EN-04",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-TRAFFIC-EN-04.wav",
+ "latency_ms": 4416,
+ "reply": {
+  "transcript": "What was the first Mickey Mouse film?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 200,
+  "output": 37
+ }
+}

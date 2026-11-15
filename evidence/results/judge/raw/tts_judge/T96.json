@@ -1,0 +1,25 @@
+{
+ "task": "tts_judge",
+ "id": "T96",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T96.wav",
+ "latency_ms": 6549,
+ "reply": {
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "ಒಂದು ಲಕ್ಷ ಇಪ್ಪತ್ತೈದು ಸಾವಿರದ ನಾನೂರ ಐವತ್ತು ರೂಪಾಯಿ"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "artifacts": [],
+  "comment": "The text was read completely and accurately with appropriate Kannada number formatting."
+ },
+ "tokens": {
+  "prompt": 467,
+  "output": 119
+ }
+}

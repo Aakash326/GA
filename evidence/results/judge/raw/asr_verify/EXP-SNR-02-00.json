@@ -1,0 +1,16 @@
+{
+ "task": "asr_verify",
+ "id": "EXP-SNR-02-00",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-SNR-02-00.wav",
+ "latency_ms": 3479,
+ "reply": {
+  "matches": true,
+  "differences": [],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 232,
+  "output": 16
+ }
+}

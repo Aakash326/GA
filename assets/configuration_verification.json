@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "root_gitignore": true,
+  "root_env_example": true,
+  "supporting_repository_copies_retained": true,
+  "real_credentials_in_template": false,
+  "default_live_mode": false,
+  "dotenv_load_path": "evidence/.env",
+  "ignored_paths_checked": 10,
+  "public_paths_not_ignored_checked": 9,
+  "actual_env_file_created": false,
+  "new_api_calls": 0
+}

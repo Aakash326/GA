@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T05",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T05.wav",
+ "latency_ms": 4357,
+ "reply": {
+  "heard": "The price moved from eight hundred fifty rupees to one thousand fifty rupees.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 242,
+  "output": 24
+ }
+}

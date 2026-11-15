@@ -1,0 +1,25 @@
+{
+ "task": "tts_judge",
+ "id": "T38",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T38.wav",
+ "latency_ms": 8749,
+ "reply": {
+  "targets": [
+   {
+    "id": "kyc",
+    "result": "correct",
+    "heard": "K Y C"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The acronym KYC was clearly pronounced as individual letters with appropriate Indian English phrasing."
+ },
+ "tokens": {
+  "prompt": 377,
+  "output": 97
+ }
+}

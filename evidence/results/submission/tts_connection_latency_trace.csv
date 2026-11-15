@@ -1,0 +1,31 @@
+﻿case_id,model,voice,transport,connection,run_tag,request_id,connect_ms,smooth_start_ms,smooth_total_ms,timeline_path
+T31,v2.5,Kaveri,SSE,new request,cmp_sse_kaveri_T31_r1,T31-cmp_sse_kaveri_T31_r1-sse-3bec7a23,0.0,752.4,752.4,results/raw/tts_stream/T31/cmp_sse_kaveri_T31_r1.json
+T31,v3.0,Tarika,SSE,new request,cmp_sse_tarika_T31_r1,T31-cmp_sse_tarika_T31_r1-sse-6a672c68,0.0,1736.1,1736.1,results/raw/tts_stream/T31/cmp_sse_tarika_T31_r1.json
+T31,v3.0,Tarika,SSE,new request,cmp_sse_tarika_T31_r2,T31-cmp_sse_tarika_T31_r2-sse-5212f3f0,0.0,1711.4,1711.4,results/raw/tts_stream/T31/cmp_sse_tarika_T31_r2.json
+T31,v2.5,Kaveri,SSE,new request,cmp_sse_kaveri_T31_r2,T31-cmp_sse_kaveri_T31_r2-sse-96ebf41a,0.0,204.3,204.3,results/raw/tts_stream/T31/cmp_sse_kaveri_T31_r2.json
+T31,v2.5,Kaveri,SSE,new request,cmp_sse_kaveri_T31_r3,T31-cmp_sse_kaveri_T31_r3-sse-aa82b4aa,0.0,244.5,244.5,results/raw/tts_stream/T31/cmp_sse_kaveri_T31_r3.json
+T31,v3.0,Tarika,SSE,new request,cmp_sse_tarika_T31_r3,T31-cmp_sse_tarika_T31_r3-sse-f9707538,0.0,2616.2,2616.2,results/raw/tts_stream/T31/cmp_sse_tarika_T31_r3.json
+T31,v3.0,Tarika,SSE,new request,cmp_sse_tarika_T31_r4,T31-cmp_sse_tarika_T31_r4-sse-30c6ec91,0.0,3008.2,3008.2,results/raw/tts_stream/T31/cmp_sse_tarika_T31_r4.json
+T31,v2.5,Kaveri,SSE,new request,cmp_sse_kaveri_T31_r4,T31-cmp_sse_kaveri_T31_r4-sse-8c4d70ba,0.0,189.2,189.2,results/raw/tts_stream/T31/cmp_sse_kaveri_T31_r4.json
+T31,v3.0,Tarika,SSE,new request,cmp_sse_tarika_T31_r5,T31-cmp_sse_tarika_T31_r5-sse-9f9346f6,0.0,2014.3,2014.3,results/raw/tts_stream/T31/cmp_sse_tarika_T31_r5.json
+T31,v2.5,Kaveri,SSE,new request,cmp_sse_kaveri_T31_r5,T31-cmp_sse_kaveri_T31_r5-sse-f1afd6b4,0.0,205.6,205.6,results/raw/tts_stream/T31/cmp_sse_kaveri_T31_r5.json
+T31,v3.0,Tarika,WebSocket,cold,cmp_ws_tarika_T31_r1_cold,,244.7,3616.3,3861.0,results/raw/tts_ws/T31/cmp_ws_tarika_T31_r1_cold.json
+T31,v3.0,Tarika,WebSocket,warm,cmp_ws_tarika_T31_r1_warm,,0.0,1924.7,1924.7,results/raw/tts_ws/T31/cmp_ws_tarika_T31_r1_warm.json
+T31,v2.5,Kaveri,WebSocket,cold,cmp_ws_kaveri_T31_r1_cold,,376.4,178.5,554.9,results/raw/tts_ws/T31/cmp_ws_kaveri_T31_r1_cold.json
+T31,v2.5,Kaveri,WebSocket,warm,cmp_ws_kaveri_T31_r1_warm,,0.0,231.3,231.3,results/raw/tts_ws/T31/cmp_ws_kaveri_T31_r1_warm.json
+T31,v2.5,Kaveri,WebSocket,cold,cmp_ws_kaveri_T31_r2_cold,,376.7,172.8,549.5,results/raw/tts_ws/T31/cmp_ws_kaveri_T31_r2_cold.json
+T31,v2.5,Kaveri,WebSocket,warm,cmp_ws_kaveri_T31_r2_warm,,0.0,176.4,176.4,results/raw/tts_ws/T31/cmp_ws_kaveri_T31_r2_warm.json
+T31,v3.0,Tarika,WebSocket,cold,cmp_ws_tarika_T31_r2_cold,,241.8,2373.6,2615.4,results/raw/tts_ws/T31/cmp_ws_tarika_T31_r2_cold.json
+T31,v3.0,Tarika,WebSocket,warm,cmp_ws_tarika_T31_r2_warm,,0.0,2254.1,2254.1,results/raw/tts_ws/T31/cmp_ws_tarika_T31_r2_warm.json
+T31,v3.0,Tarika,WebSocket,cold,cmp_ws_tarika_T31_r3_cold,,344.2,1514.4,1858.6000000000001,results/raw/tts_ws/T31/cmp_ws_tarika_T31_r3_cold.json
+T31,v3.0,Tarika,WebSocket,warm,cmp_ws_tarika_T31_r3_warm,,0.0,1311.8,1311.8,results/raw/tts_ws/T31/cmp_ws_tarika_T31_r3_warm.json
+T31,v2.5,Kaveri,WebSocket,cold,cmp_ws_kaveri_T31_r3_cold,,305.8,181.3,487.1,results/raw/tts_ws/T31/cmp_ws_kaveri_T31_r3_cold.json
+T31,v2.5,Kaveri,WebSocket,warm,cmp_ws_kaveri_T31_r3_warm,,0.0,185.1,185.1,results/raw/tts_ws/T31/cmp_ws_kaveri_T31_r3_warm.json
+T31,v2.5,Kaveri,WebSocket,cold,cmp_ws_kaveri_T31_r4_cold,,261.9,181.5,443.4,results/raw/tts_ws/T31/cmp_ws_kaveri_T31_r4_cold.json
+T31,v2.5,Kaveri,WebSocket,warm,cmp_ws_kaveri_T31_r4_warm,,0.0,178.5,178.5,results/raw/tts_ws/T31/cmp_ws_kaveri_T31_r4_warm.json
+T31,v3.0,Tarika,WebSocket,cold,cmp_ws_tarika_T31_r4_cold,,264.1,2694.6,2958.7,results/raw/tts_ws/T31/cmp_ws_tarika_T31_r4_cold.json
+T31,v3.0,Tarika,WebSocket,warm,cmp_ws_tarika_T31_r4_warm,,0.0,2885.3,2885.3,results/raw/tts_ws/T31/cmp_ws_tarika_T31_r4_warm.json
+T31,v2.5,Kaveri,WebSocket,cold,cmp_ws_kaveri_T31_r5_cold,,325.3,247.2,572.5,results/raw/tts_ws/T31/cmp_ws_kaveri_T31_r5_cold.json
+T31,v2.5,Kaveri,WebSocket,warm,cmp_ws_kaveri_T31_r5_warm,,0.0,177.2,177.2,results/raw/tts_ws/T31/cmp_ws_kaveri_T31_r5_warm.json
+T31,v3.0,Tarika,WebSocket,cold,cmp_ws_tarika_T31_r5_cold,,350.6,1986.7,2337.3,results/raw/tts_ws/T31/cmp_ws_tarika_T31_r5_cold.json
+T31,v3.0,Tarika,WebSocket,warm,cmp_ws_tarika_T31_r5_warm,,0.0,1763.1,1763.1,results/raw/tts_ws/T31/cmp_ws_tarika_T31_r5_warm.json

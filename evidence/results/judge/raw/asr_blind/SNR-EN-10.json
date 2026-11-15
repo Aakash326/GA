@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "SNR-EN-10",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/SNR-EN-10.wav",
+ "latency_ms": 4048,
+ "reply": {
+  "transcript": "Who first identified blood types?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 221,
+  "output": 35
+ }
+}

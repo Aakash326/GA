@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-DS-FIN-HI-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "b6f6e391eb29a821dcc1c644",
+ "audio": "data/next/dataset_replacement/DS-FIN-HI-04.wav",
+ "latency_ms": 2499,
+ "reply": {
+  "dataset_matches": true,
+  "selected_reference": "भारतीय स्टेट बैंक का मुख्यालय कहां स्थित है?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": ""
+ },
+ "tokens": {
+  "prompt": 328,
+  "output": 33
+ }
+}

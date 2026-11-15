@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T62",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T62.wav",
+ "latency_ms": 6439,
+ "reply": {
+  "heard": "आपका पेमेंट मिल गया है। कृपया रसीद संभाल कर रखें।",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 200,
+  "output": 25
+ }
+}

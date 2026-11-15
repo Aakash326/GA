@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-DS-FIN-EN-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "dcdeb5ba91d0ac96b046f1dc",
+ "audio": "data/next/dataset_replacement/DS-FIN-EN-04.wav",
+ "latency_ms": 3397,
+ "reply": {
+  "transcript": "How much money did The Secret of Monkey Island make",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 227,
+  "output": 44
+ }
+}

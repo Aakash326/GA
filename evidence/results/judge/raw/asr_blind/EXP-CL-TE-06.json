@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-TE-06",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-CL-TE-06.wav",
+ "latency_ms": 5821,
+ "reply": {
+  "transcript": "జుడాస్ ఇస్కారియట్ ఎప్పుడు మరణించాడు",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 271,
+  "output": 36
+ }
+}

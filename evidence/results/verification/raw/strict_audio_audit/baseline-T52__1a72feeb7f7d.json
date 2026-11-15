@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T52",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "1a72feeb7f7d759b2b452b40",
+ "audio": "results/tts_audio/T52.wav",
+ "latency_ms": 4683,
+ "reply": {
+  "heard": "The last four digits are seventy.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "digits",
+    "result": "wrong",
+    "heard": "seventy"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 308,
+  "output": 34
+ }
+}

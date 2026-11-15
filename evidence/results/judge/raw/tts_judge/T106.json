@@ -1,0 +1,30 @@
+{
+ "task": "tts_judge",
+ "id": "T106",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T106.wav",
+ "latency_ms": 5160,
+ "reply": {
+  "targets": [
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "नका"
+   },
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "ओ टी पी"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "artifacts": [],
+  "comment": "The audio is clear, accurate, and naturally spoken with proper intonation."
+ },
+ "tokens": {
+  "prompt": 445,
+  "output": 138
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "task": "tts_judge",
+ "id": "NT061",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "69f81df50c86103b401220ec",
+ "audio": "results/next/audio/NT061.wav",
+ "latency_ms": 8105,
+ "reply": {
+  "targets": [
+   {
+    "id": "digits",
+    "result": "wrong",
+    "heard": "सत्तर"
+   }
+  ],
+  "content_complete": false,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The sequence '0070' was pronounced as the whole number 70 ('सत्तर') rather than individual digits with leading zeros."
+ },
+ "tokens": {
+  "prompt": 362,
+  "output": 119
+ }
+}

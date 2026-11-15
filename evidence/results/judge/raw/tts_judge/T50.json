@@ -1,0 +1,25 @@
+{
+ "task": "tts_judge",
+ "id": "T50",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T50.wav",
+ "latency_ms": 7693,
+ "reply": {
+  "targets": [
+   {
+    "id": "code",
+    "result": "correct",
+    "heard": "double four double eight double two"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The text was read accurately using the accepted grouping format. Prosody and pacing sound clear and standard."
+ },
+ "tokens": {
+  "prompt": 465,
+  "output": 114
+ }
+}

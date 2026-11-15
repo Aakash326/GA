@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T21",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T21.wav",
+ "latency_ms": 4896,
+ "reply": {
+  "heard": "Your payment has been received. Please check your account details and keep the confirmation message. Our team will contact you if further information is required.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 341,
+  "output": 38
+ }
+}

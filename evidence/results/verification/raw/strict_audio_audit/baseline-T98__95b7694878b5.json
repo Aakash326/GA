@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T98",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "95b7694878b50c9195a8b8bb",
+ "audio": "results/tts_audio/T98.wav",
+ "latency_ms": 4314,
+ "reply": {
+  "heard": "ನಿಮ್ಮ ಉಲ್ಲೇಖ ಸಂಖ್ಯೆ ಸೊನ್ನೆ ಸೊನ್ನೆ ನಾಲ್ಕು ಎರಡು ಒಂಬತ್ತು ಒಂದು",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "ಸೊನ್ನೆ ಸೊನ್ನೆ ನಾಲ್ಕು ಎರಡು ಒಂಬತ್ತು ಒಂದು"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 383,
+  "output": 55
+ }
+}

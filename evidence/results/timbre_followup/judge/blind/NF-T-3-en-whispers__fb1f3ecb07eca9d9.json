@@ -1,0 +1,35 @@
+{
+  "task": "blind",
+  "id": "NF-T-3-en-whispers",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "fb1f3ecb07eca9d94c50ad80891ef296b8f95aa72d72282abec4462a3aaa93ff",
+  "input_sha256": [
+    "15d1c30bad59dda7c7a9d03c8d2c5c2925f5bcfbc8d4ef97ee10a704344c55a9"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-T-3-en-whispers.wav"
+  ],
+  "reply": {
+    "heard": "Your request is ready. Please continue when you are ready.",
+    "naturalness_1to5": 3,
+    "prosody_1to5": 3,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "whispering",
+      "soft-spoken"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "none",
+    "artifacts": [],
+    "confidence": "high",
+    "reason": "The speaker transitions into a deliberate whisper for the second sentence; delivery is clear and intelligible."
+  },
+  "prompt_tokens": 334,
+  "output_tokens": 195,
+  "thought_tokens": 179,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

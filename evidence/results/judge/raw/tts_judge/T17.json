@@ -1,0 +1,25 @@
+{
+ "task": "tts_judge",
+ "id": "T17",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T17.wav",
+ "latency_ms": 6250,
+ "reply": {
+  "targets": [
+   {
+    "id": "name",
+    "result": "correct",
+    "heard": "Motilal Oswal"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The target name is pronounced accurately with appropriate Indian English inflection, and delivery is clear."
+ },
+ "tokens": {
+  "prompt": 407,
+  "output": 110
+ }
+}

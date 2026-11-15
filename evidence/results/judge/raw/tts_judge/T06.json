@@ -1,0 +1,25 @@
+{
+ "task": "tts_judge",
+ "id": "T06",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T06.wav",
+ "latency_ms": 7780,
+ "reply": {
+  "targets": [
+   {
+    "id": "kyc",
+    "result": "correct",
+    "heard": "K Y C"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The text was read accurately, with the acronym KYC spelled out properly and acceptable overall flow."
+ },
+ "tokens": {
+  "prompt": 384,
+  "output": 110
+ }
+}

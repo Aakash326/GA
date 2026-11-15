@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-EN-NUM-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "9435d48fbadeb22275b9f386",
+ "audio": "data/next/audio/NX-EN-NUM-01.wav",
+ "latency_ms": 3458,
+ "reply": {
+  "transcript": "What kind of jazz was played in the 1930s?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 239,
+  "output": 38
+ }
+}

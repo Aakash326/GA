@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T08",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T08.wav",
+ "latency_ms": 4151,
+ "reply": {
+  "heard": "Share your I F S C code with support",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 216,
+  "output": 20
+ }
+}

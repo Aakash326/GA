@@ -1,0 +1,36 @@
+{
+  "task": "blind",
+  "id": "NF-R-3-short-1",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "c96a19206240dee83f2eaac17604423bdc4b15a4cfffc0f8fc7215dde56bee1a",
+  "input_sha256": [
+    "6424148389f407ac696a218402ac5552593e34c8ccf190fc1d718ae439079eb8"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-R-3-short-1.wav"
+  ],
+  "reply": {
+    "heard": "Your request has been received. We will contact you tomorrow.",
+    "naturalness_1to5": 4,
+    "prosody_1to5": 4,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "calm",
+      "professional",
+      "clear"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "minimal",
+    "artifacts": [],
+    "confidence": "high",
+    "reason": "Clear professional delivery with natural cadence and no notable artifacts."
+  },
+  "prompt_tokens": 351,
+  "output_tokens": 190,
+  "thought_tokens": 119,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

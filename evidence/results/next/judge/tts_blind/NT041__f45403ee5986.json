@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT041",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f45403ee59869289af2f38fc",
+ "audio": "results/next/audio/NT041.wav",
+ "latency_ms": 3782,
+ "reply": {
+  "heard": "మార్పు పాయింట్ ఐదు పర్సెంట్ ఉంది",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 191,
+  "output": 23
+ }
+}

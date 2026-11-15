@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-BG-TE-04",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-BG-TE-04.wav",
+ "latency_ms": 20039,
+ "reply": {
+  "transcript": "పోనీ ముస్లిం అంతరిక్షంలోకి వెళ్లిన మొదటి స్త్రీ ఎవరు వాళ్ళు వీటి నుంచి దండయాత్ర",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 325,
+  "output": 51
+ }
+}

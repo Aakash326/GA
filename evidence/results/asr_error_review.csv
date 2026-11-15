@@ -1,0 +1,19 @@
+﻿clip_id,category,lang,reference_status,wer,cer,edits_word,edits_cross_script,edits_number,edits_deletion,edits_insertion,reference_transcript,hypothesis_raw
+CL-EN-05,clean_en,en-IN,judge_verified,1.0,0.625,4,0,0,0,1,Where are avalanches most common?,What are available in this newscom?
+EXP-SNR-06-00,synthetic_noise,te-IN,judge_verified,1.0,0.32432432432432434,3,0,0,0,1,గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?,"రాజా, రామ్ తల్లిదండ్రుల పేర్లు ఏమిటి?"
+EXP-CL-TE-11,clean_te,te-IN,judge_verified,0.8,0.2777777777777778,1,2,0,0,1,చెన్నభూపాలపట్నం గ్రామ పిన్ కోడ్ ఏంటి?,చిన్న భూపాలపట్నం గ్రామ pin code ఏంటి?
+EXP-PAUSE-06,pause,te-IN,judge_verified,0.75,0.13513513513513514,2,0,0,0,1,గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?,గడ్డం రాజారామ్ తల్లిదండ్రుల పేర్లు ఏమిటి?
+EXP-SNR-06-10,synthetic_noise,te-IN,judge_verified,0.75,0.13513513513513514,2,0,0,0,1,గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?,గడ్డం రాజారామ్ తల్లిదండ్రుల పేర్లు ఏమిటి?
+EXP-SNR-06-20,synthetic_noise,te-IN,judge_verified,0.75,0.13513513513513514,2,0,0,0,1,గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?,గడ్డం రాజారామ్ తల్లిదండ్రుల పేర్లు ఏమిటి?
+CL-TE-02,clean_te,te-IN,verified,0.6666666666666666,0.20454545454545456,1,1,0,2,0,హైదరాబాద్ లో మెట్రో ని ఎప్పుడు ప్రారంభించారు?,హైదరాబాదులో Metroని ఎప్పుడు ప్రారంభించారు?
+EXP-CL-TE-08,clean_te,te-IN,judge_verified,0.6666666666666666,0.09375,1,0,0,0,1,శోభారాజు తల్లిదండ్రుల పేర్లేమిటి?,శోభారాజు తల్లిదండ్రుల పేర్లు ఏమిటి?
+EXP-TRAFFIC-TE-04,real_noise,te-IN,judge_accepted,0.6666666666666666,0.7021276595744681,1,3,0,0,0,కాల్షియం హైడ్రాక్సైడ్ యొక్క రసాయన ఫార్ములా ఏంటి,Calcium hydroxide యొక్క కారణం form ఏంటి?
+EXP-NUM-TE-03,numbers,te-IN,judge_verified,0.6,0.07142857142857142,1,0,2,0,0,2011లో కారని గ్రామ జనాభా ఎంత?,2011 లో కారనే గ్రామ జనాభా ఎంత?
+LANG-TA-CL-01,clean_ta,ta-IN,judge_verified,0.6,0.17777777777777778,1,1,0,0,1,ரிட்டர் போரில் எத்தனை படைவீரர்கள் பங்கேற்றனர்?,Ritter போரில் எத்தனை படை வீரர்கள் பங்கேற்றனர்?
+RNP-TE-02C,real_noise_pair,te-IN,judge_accepted,0.6,0.3448275862068966,1,2,0,0,0,రొసాయిగూడ గ్రామ పిన్ కోడ్ ఎంత,రసాయ్గూడ గ్రామ pin code ఎంత?
+RNP-TE-02N,real_noise_pair,te-IN,judge_accepted,0.6,0.41379310344827586,1,2,0,0,0,రొసాయిగూడ గ్రామ పిన్ కోడ్ ఎంత,ప్రసాయ్గూడ గ్రామ pin code ఎంత?
+RNP-TE-01C,real_noise_pair,te-IN,judge_verified,0.5714285714285714,0.32653061224489793,1,2,0,0,1,యెరకన్నపాలెం గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ ఏంటి?,ఎర్ర కన్నపాలెం గ్రామం యొక్క జనగణన location code ఏంటి?
+EXP-BG-TE-04,real_noise,te-IN,judge_accepted,0.5454545454545454,0.5063291139240507,0,0,0,6,0,పోనీ ముస్లిం అంతరిక్షంలోకి వెళ్లిన మొదటి స్త్రీ ఎవరు వాళ్ళు వీటి నుంచి దండయాత్ర,అంతరిక్షంలోకి వెళ్లిన మొదటి స్త్రీ ఎవరు?
+EXP-CL-TE-02,clean_te,te-IN,judge_verified,0.5,0.08108108108108109,1,0,0,0,1,గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?,గడ్డం రాజారాం తల్లిదండ్రుల పేర్లు ఏమిటి?
+EXP-CL-TE-06,clean_te,te-IN,judge_verified,0.5,0.45714285714285713,0,2,0,0,0,జుడాస్ ఇస్కారియట్ ఎప్పుడు మరణించాడు?,Judas Iscariot ఎప్పుడు మరణించాడు?
+NUM-EN-01,numbers,en-IN,verified,0.125,0.024390243902439025,0,0,1,0,0,Who was the leader of Switzerland in 1499?,Who was the leader of Switzerland in 1999?

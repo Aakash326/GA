@@ -1,0 +1,21 @@
+{
+ "task": "asr_verify",
+ "id": "EXP-TRAFFIC-TE-04",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-TRAFFIC-TE-04.wav",
+ "latency_ms": 4664,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "ఏమిటి",
+    "heard": "ఏంటి"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 316,
+  "output": 31
+ }
+}

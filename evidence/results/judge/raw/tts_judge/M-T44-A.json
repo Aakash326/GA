@@ -1,0 +1,30 @@
+{
+ "task": "tts_judge",
+ "id": "M-T44-A",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/M-T44-A.wav",
+ "latency_ms": 9332,
+ "reply": {
+  "targets": [
+   {
+    "id": "start",
+    "result": "correct",
+    "heard": "nine oh five A M"
+   },
+   {
+    "id": "end",
+    "result": "correct",
+    "heard": "twelve thirty P M"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The text was read accurately with clear Indian English pronunciation and steady pacing."
+ },
+ "tokens": {
+  "prompt": 548,
+  "output": 141
+ }
+}

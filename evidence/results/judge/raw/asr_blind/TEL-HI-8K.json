@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "TEL-HI-8K",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/TEL-HI-8K.wav",
+ "latency_ms": 5052,
+ "reply": {
+  "transcript": "महाभारत पहले किसने लिखी है",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 211,
+  "output": 30
+ }
+}

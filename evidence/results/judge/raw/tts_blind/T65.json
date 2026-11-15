@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T65",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T65.wav",
+ "latency_ms": 3724,
+ "reply": {
+  "heard": "దయచేసి మీ ఖాతా వివరాలను మరోసారి తనిఖీ చేయండి",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 230,
+  "output": 27
+ }
+}

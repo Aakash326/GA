@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T47",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T47.wav",
+ "latency_ms": 3429,
+ "reply": {
+  "heard": "The exchange value is zero point one two five units per point",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 233,
+  "output": 23
+ }
+}

@@ -1,0 +1,1 @@
+{"success":true,"request_id":"EXP-TEL-02-ULAW-v25-a1-bfb91fd7","transcript":"what is the population of tokyo","model":"prisma-v2.5","processing_time":0.10805869102478027,"end_to_end_latency":0.11355090141296387,"output":{"literal":"what is the population of tokyo"}}

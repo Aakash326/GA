@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T91",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "6f5f5a33dcf3b8e13d970c13",
+ "audio": "results/tts_audio/T91.wav",
+ "latency_ms": 4596,
+ "reply": {
+  "heard": "உங்கள் கட்டணத்தை நவம்பர் இருபத்து மூன்று அன்று செலுத்த வேண்டும்",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "நவம்பர் இருபத்து மூன்று"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 349,
+  "output": 45
+ }
+}

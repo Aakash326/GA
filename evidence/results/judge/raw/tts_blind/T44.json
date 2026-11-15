@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T44",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T44.wav",
+ "latency_ms": 4079,
+ "reply": {
+  "heard": "The meeting starts at nine five a m, and ends at twelve thirty p m.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 248,
+  "output": 27
+ }
+}

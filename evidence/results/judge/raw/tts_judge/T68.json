@@ -1,0 +1,30 @@
+{
+ "task": "tts_judge",
+ "id": "T68",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T68.wav",
+ "latency_ms": 4466,
+ "reply": {
+  "targets": [
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "कल सुबह नौ बजे"
+   },
+   {
+    "id": "english",
+    "result": "correct",
+    "heard": "support team आपको call"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "artifacts": [],
+  "comment": "The sentence is spoken clearly and accurately with natural Hindi pronunciation and smooth English loanwords."
+ },
+ "tokens": {
+  "prompt": 453,
+  "output": 122
+ }
+}

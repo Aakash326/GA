@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-TA-CL-03",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-TA-CL-03.wav",
+ "latency_ms": 5133,
+ "reply": {
+  "transcript": "கலீபா அபூபக்கர் எந்த வம்சத்தின் அரசர்",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 249,
+  "output": 38
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-KN-BG-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "7e134cb5626d0183cdb5e6a2",
+ "audio": "data/next/audio/NX-KN-BG-01.wav",
+ "latency_ms": 6351,
+ "reply": {
+  "transcript": "ತೆಲುಗು ಪಂಚಾಂಗದ ಪ್ರಕಾರ ಆಂಗ್ಲ ಕ್ಯಾಲೆಂಡರಿನ ಯಾವ ತಿಂಗಳಲ್ಲಿ ಹೊಸ ವರ್ಷ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 383,
+  "output": 49
+ }
+}

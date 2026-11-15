@@ -1,0 +1,16 @@
+{
+ "task": "asr_verify",
+ "id": "SNR-EN-20",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/SNR-EN-20.wav",
+ "latency_ms": 3786,
+ "reply": {
+  "matches": true,
+  "differences": [],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 251,
+  "output": 16
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-TA-BG-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-TA-BG-01.wav",
+ "latency_ms": 7404,
+ "reply": {
+  "transcript": "அஸ்ஸாமில் உள்ள மிகப்பெரிய பாடு எது?",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 216,
+  "output": 34
+ }
+}

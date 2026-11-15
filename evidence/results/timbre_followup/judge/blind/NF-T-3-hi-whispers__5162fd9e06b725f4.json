@@ -1,0 +1,38 @@
+{
+  "task": "blind",
+  "id": "NF-T-3-hi-whispers",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "5162fd9e06b725f48649e5c5ed7eaa219f0f839742ab3bb6e0448cceb4686ed5",
+  "input_sha256": [
+    "1a566666388e9ad7341c61d6ebbe1291640bf7bc65344fe33250e15506ef6295"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-T-3-hi-whispers.wav"
+  ],
+  "reply": {
+    "heard": "आपका अनुरोध तैयार है। जब आप तैयार हों, तो कृपया आगे बढ़ें।",
+    "naturalness_1to5": 3,
+    "prosody_1to5": 3,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "whispering",
+      "soft tone",
+      "slow pace"
+    ],
+    "nonverbal_events": [
+      "breath"
+    ],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "none",
+    "artifacts": [],
+    "confidence": "high",
+    "reason": "The delivery switches from a soft spoken voice to an audible whisper in the second clause, affecting naturalness but maintaining intelligibility."
+  },
+  "prompt_tokens": 358,
+  "output_tokens": 219,
+  "thought_tokens": 193,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

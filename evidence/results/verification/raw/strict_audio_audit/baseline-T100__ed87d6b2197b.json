@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T100",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ed87d6b2197b915104eda857",
+ "audio": "results/tts_audio/T100.wav",
+ "latency_ms": 4075,
+ "reply": {
+  "heard": "ನಿಮ್ಮ OTP ಅನ್ನು ಯಾರೊಂದಿಗೂ ಹಂಚಿಕೊಳ್ಳಬೇಡಿ",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "ಹಂಚಿಕೊಳ್ಳಬೇಡಿ"
+   },
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "OTP"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 366,
+  "output": 56
+ }
+}

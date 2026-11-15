@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-MR-BG-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "99e77de77e1745d330b5895b",
+ "audio": "data/next/audio/NX-MR-BG-02.wav",
+ "latency_ms": 8022,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "फरुकुल इस्लाम आलमगीर यांना बांगलादेश राष्ट्रीय पक्षाचे अध्यक्ष बनवण्याची प्रक्रिया कोणी केली?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The dataset candidate misspells 'प्रक्रिया' as 'प्रकिया'."
+ },
+ "tokens": {
+  "prompt": 461,
+  "output": 72
+ }
+}

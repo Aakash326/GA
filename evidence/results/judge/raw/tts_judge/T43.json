@@ -1,0 +1,25 @@
+{
+ "task": "tts_judge",
+ "id": "T43",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T43.wav",
+ "latency_ms": 7427,
+ "reply": {
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "ten lakh rupees"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The target currency amount is clearly audible and matches the accepted reading with appropriate Indian English phrasing."
+ },
+ "tokens": {
+  "prompt": 425,
+  "output": 109
+ }
+}

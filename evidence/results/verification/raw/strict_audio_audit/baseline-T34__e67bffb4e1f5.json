@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T34",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "e67bffb4e1f5088c1323a542",
+ "audio": "results/tts_audio/T34.wav",
+ "latency_ms": 3460,
+ "reply": {
+  "heard": "The change was 2.5%",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "value",
+    "result": "wrong",
+    "heard": "two point five percent"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 318,
+  "output": 36
+ }
+}

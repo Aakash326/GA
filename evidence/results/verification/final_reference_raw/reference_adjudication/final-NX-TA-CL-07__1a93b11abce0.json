@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-TA-CL-07",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "1a93b11abce0a1cb5598114a",
+ "audio": "data/next/audio/NX-TA-CL-07.wav",
+ "latency_ms": 6637,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "டாக்கா பல்கலைக்கழகத்தின் தலைமையகம் எங்குள்ளது?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The dataset candidate has a typo in 'பல்கலைக்கழக்கத்தின்' which should be 'பல்கலைக்கழகத்தின்'."
+ },
+ "tokens": {
+  "prompt": 304,
+  "output": 59
+ }
+}

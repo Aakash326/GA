@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-EN-MEDIA-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c3d9513b09e6f14b7776f10a",
+ "audio": "data/next/audio/NX-EN-MEDIA-01.wav",
+ "latency_ms": 21041,
+ "reply": {
+  "transcript": "How cold does it get in winter in Milwaukee?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 239,
+  "output": 33
+ }
+}

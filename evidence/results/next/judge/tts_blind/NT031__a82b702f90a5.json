@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT031",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "a82b702f90a54ebb138fd3d6",
+ "audio": "results/next/audio/NT031.wav",
+ "latency_ms": 4775,
+ "reply": {
+  "heard": "मात्रा पंद्रह है पचास नहीं",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 185,
+  "output": 25
+ }
+}

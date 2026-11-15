@@ -1,0 +1,30 @@
+{
+ "task": "tts_judge",
+ "id": "T61",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T61.wav",
+ "latency_ms": 8775,
+ "reply": {
+  "targets": [
+   {
+    "id": "cancel",
+    "result": "correct",
+    "heard": "order cancel karein"
+   },
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "confirm nahin"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The sentence is spoken clearly with appropriate pausing and correct pronunciation of English loanwords."
+ },
+ "tokens": {
+  "prompt": 420,
+  "output": 140
+ }
+}

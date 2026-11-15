@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T60",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T60.wav",
+ "latency_ms": 5226,
+ "reply": {
+  "heard": "आपका बैलेंस एक हज़ार दो सौ पचास रुपए है और अगली पेमेंट कल होगी",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 240,
+  "output": 25
+ }
+}

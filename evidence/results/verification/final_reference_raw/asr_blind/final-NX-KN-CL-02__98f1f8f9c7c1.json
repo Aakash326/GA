@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-NX-KN-CL-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "98f1f8f9c7c1cc85854c68ce",
+ "audio": "data/next/audio/NX-KN-CL-02.wav",
+ "latency_ms": 3965,
+ "reply": {
+  "transcript": "ಬರ್ಮಾ ಜನರ ಮಾತೃಭಾಷೆ ಯಾವುದು",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 206,
+  "output": 35
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T44",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "59bb63597a25b674ae18fdf5",
+ "audio": "results/tts_audio/T44.wav",
+ "latency_ms": 7075,
+ "reply": {
+  "heard": "The meeting starts at nine five a m and ends at twelve thirty p m",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "start",
+    "result": "wrong",
+    "heard": "nine five a m"
+   },
+   {
+    "id": "end",
+    "result": "correct",
+    "heard": "twelve thirty p m"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 467,
+  "output": 111
+ }
+}

@@ -1,0 +1,31 @@
+{
+  "task": "pair",
+  "id": "NF-T-3-en-coughs",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "f3f875117397e1198d1985d7fccfbcec8b69296abffdea6b442100e0762d0dbf",
+  "input_sha256": [
+    "d7cfb60caf0eaa67241cab4151d0464892ea0fbfd7956e5e7f1bfffbfb5c7590",
+    "31c580a3919f6cd51c55329b89b1218713f6305a7c4993435e7600eeb9f0ca4e"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-N-3-en.wav",
+    "results/timbre_followup/listen/NF-T-3-en-coughs.wav"
+  ],
+  "reply": {
+    "more_cue": "B",
+    "cue_audible_A": false,
+    "cue_audible_B": true,
+    "content_preserved_A": true,
+    "content_preserved_B": true,
+    "literal_tag_spoken_A": false,
+    "literal_tag_spoken_B": false,
+    "confidence": "medium",
+    "reason": "Clip B clearly includes audible coughing sounds between the sentences, whereas Clip A features standard speech without any cough."
+  },
+  "prompt_tokens": 370,
+  "output_tokens": 120,
+  "thought_tokens": 148,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

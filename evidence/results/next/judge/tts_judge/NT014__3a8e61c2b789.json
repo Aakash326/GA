@@ -1,0 +1,36 @@
+{
+ "task": "tts_judge",
+ "id": "NT014",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "3a8e61c2b78981e8e1b2ea5f",
+ "audio": "results/next/audio/NT014.wav",
+ "latency_ms": 7287,
+ "reply": {
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "nineteen"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "ninety"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "not"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The audio is clear and accurate with decent Indian English pacing and distinction between nineteen and ninety."
+ },
+ "tokens": {
+  "prompt": 466,
+  "output": 139
+ }
+}

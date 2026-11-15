@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-MR-BG-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "e18440ed204e91c9dac9c35b",
+ "audio": "data/next/audio/NX-MR-BG-03.wav",
+ "latency_ms": 5768,
+ "reply": {
+  "transcript": "अटलांटिक महासागर पृथ्वीच्या कोणत्या खंडात आहे",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 310,
+  "output": 36
+ }
+}

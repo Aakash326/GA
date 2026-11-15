@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T106",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T106.wav",
+ "latency_ms": 4965,
+ "reply": {
+  "heard": "तुमचा ओ टी पी कोणालाही सांगू नका",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 203,
+  "output": 22
+ }
+}

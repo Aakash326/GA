@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT035",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "aba07ebcd23a3f4978d5d6c8",
+ "audio": "results/next/audio/NT035.wav",
+ "latency_ms": 4087,
+ "reply": {
+  "heard": "आपका कोड सत्तर है",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "digits",
+    "result": "wrong",
+    "heard": "सत्तर"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 276,
+  "output": 32
+ }
+}

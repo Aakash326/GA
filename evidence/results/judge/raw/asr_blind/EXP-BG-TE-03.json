@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-BG-TE-03",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-BG-TE-03.wav",
+ "latency_ms": 5016,
+ "reply": {
+  "transcript": "2011 నాటికి బిచ్చపల్లి గ్రామంలో ఎన్ని ఇల్లులు ఉన్నాయి?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 264,
+  "output": 41
+ }
+}

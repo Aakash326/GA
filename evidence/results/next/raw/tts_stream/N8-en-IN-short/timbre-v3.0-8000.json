@@ -1,0 +1,124 @@
+{
+ "events": [
+  {
+   "event": "start",
+   "t_s": 0.062
+  },
+  {
+   "event": "chunk",
+   "t_s": 3.8756
+  },
+  {
+   "event": "chunk",
+   "t_s": 5.2807
+  },
+  {
+   "event": "chunk",
+   "t_s": 5.2853
+  },
+  {
+   "event": "chunk",
+   "t_s": 5.2854
+  },
+  {
+   "event": "chunk",
+   "t_s": 5.3073
+  },
+  {
+   "event": "chunk",
+   "t_s": 5.3076
+  },
+  {
+   "event": "chunk",
+   "t_s": 5.3077
+  },
+  {
+   "event": "chunk",
+   "t_s": 5.3152
+  },
+  {
+   "event": "chunk",
+   "t_s": 5.3156
+  },
+  {
+   "event": "chunk",
+   "t_s": 5.3158
+  },
+  {
+   "event": "chunk",
+   "t_s": 5.316
+  },
+  {
+   "event": "complete",
+   "t_s": 5.3162
+  }
+ ],
+ "chunks": [
+  {
+   "index": 1,
+   "t_s": 3.8756,
+   "bytes": 980,
+   "dur_s": 0.0612
+  },
+  {
+   "index": 2,
+   "t_s": 5.2807,
+   "bytes": 2790,
+   "dur_s": 0.1744
+  },
+  {
+   "index": 3,
+   "t_s": 5.2853,
+   "bytes": 4096,
+   "dur_s": 0.256
+  },
+  {
+   "index": 4,
+   "t_s": 5.2854,
+   "bytes": 122,
+   "dur_s": 0.0076
+  },
+  {
+   "index": 5,
+   "t_s": 5.3073,
+   "bytes": 3756,
+   "dur_s": 0.2347
+  },
+  {
+   "index": 6,
+   "t_s": 5.3076,
+   "bytes": 1402,
+   "dur_s": 0.0876
+  },
+  {
+   "index": 7,
+   "t_s": 5.3077,
+   "bytes": 1388,
+   "dur_s": 0.0867
+  },
+  {
+   "index": 8,
+   "t_s": 5.3152,
+   "bytes": 4096,
+   "dur_s": 0.256
+  },
+  {
+   "index": 9,
+   "t_s": 5.3156,
+   "bytes": 4096,
+   "dur_s": 0.256
+  },
+  {
+   "index": 10,
+   "t_s": 5.3158,
+   "bytes": 1658,
+   "dur_s": 0.1036
+  },
+  {
+   "index": 11,
+   "t_s": 5.316,
+   "bytes": 2496,
+   "dur_s": 0.156
+  }
+ ]
+}

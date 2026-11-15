@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-NX-TE-BG-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f488c161a2fbbfafca0ac838",
+ "audio": "data/next/audio/NX-TE-BG-01.wav",
+ "latency_ms": 3945,
+ "reply": {
+  "transcript": "పస్నూరి రవీందర్ యువ పురస్కారం ఏ సంవత్సరంలో అందుకున్నాడు?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 247,
+  "output": 43
+ }
+}

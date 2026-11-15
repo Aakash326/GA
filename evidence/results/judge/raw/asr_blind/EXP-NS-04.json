@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-NS-04",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-NS-04.wav",
+ "latency_ms": 4375,
+ "reply": {
+  "transcript": "",
+  "language": "en",
+  "no_speech": true,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 335,
+  "output": 29
+ }
+}

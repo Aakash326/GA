@@ -1,0 +1,35 @@
+{
+ "task": "tts_judge",
+ "id": "T11",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T11.wav",
+ "latency_ms": 10120,
+ "reply": {
+  "targets": [
+   {
+    "id": "sip",
+    "result": "correct",
+    "heard": "S I P"
+   },
+   {
+    "id": "english",
+    "result": "correct",
+    "heard": "successfully process"
+   },
+   {
+    "id": "hindi",
+    "result": "correct",
+    "heard": "हो गया है"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The prompt was read accurately with clear English code-switching and acceptable prosody."
+ },
+ "tokens": {
+  "prompt": 472,
+  "output": 140
+ }
+}

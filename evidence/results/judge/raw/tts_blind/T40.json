@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T40",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T40.wav",
+ "latency_ms": 19462,
+ "reply": {
+  "heard": "The adjustment is two hundred fifty rupees and fifty paise, not two hundred fifty rupees and fifty paise.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 302,
+  "output": 30
+ }
+}

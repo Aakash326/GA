@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-KN-CL-07",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "6dba89942c4ccdad230f9f7f",
+ "audio": "data/next/audio/NX-KN-CL-07.wav",
+ "latency_ms": 3863,
+ "reply": {
+  "transcript": "ತೆಂಗಿನ ಮರದ ಆಯುಷ್ಯವೆಷ್ಟು?",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 235,
+  "output": 34
+ }
+}

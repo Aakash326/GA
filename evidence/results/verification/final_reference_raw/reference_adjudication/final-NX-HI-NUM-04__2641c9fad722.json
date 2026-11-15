@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-HI-NUM-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "2641c9fad722388683952766",
+ "audio": "data/next/audio/NX-HI-NUM-04.wav",
+ "latency_ms": 3768,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "भारत में 2004 में सुनामी में कितने लोगों की मृत्यु हुई थी?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The speaker says 'सुनामी में' rather than 'सुनामी से'."
+ },
+ "tokens": {
+  "prompt": 370,
+  "output": 56
+ }
+}

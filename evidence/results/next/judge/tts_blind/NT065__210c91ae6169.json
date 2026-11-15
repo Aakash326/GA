@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT065",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "210c91ae61694cc154b0f7bf",
+ "audio": "results/next/audio/NT065.wav",
+ "latency_ms": 16582,
+ "reply": {
+  "heard": "order quantity एक पांच है, पचास नहीं",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 194,
+  "output": 19
+ }
+}

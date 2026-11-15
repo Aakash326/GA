@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T71",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T71.wav",
+ "latency_ms": 5723,
+ "reply": {
+  "heard": "The R T G S and I M P S services have different limits.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 242,
+  "output": 25
+ }
+}

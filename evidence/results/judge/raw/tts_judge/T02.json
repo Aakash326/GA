@@ -1,0 +1,25 @@
+{
+ "task": "tts_judge",
+ "id": "T02",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T02.wav",
+ "latency_ms": 4327,
+ "reply": {
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "one lakh fifty-seven thousand eight hundred ninety rupees and fifty paise"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "artifacts": [],
+  "comment": "The amount and currency were correctly read with the Indian numbering format and subunit (paise)."
+ },
+ "tokens": {
+  "prompt": 556,
+  "output": 119
+ }
+}

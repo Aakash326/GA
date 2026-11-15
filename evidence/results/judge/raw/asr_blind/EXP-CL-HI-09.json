@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-HI-09",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-CL-HI-09.wav",
+ "latency_ms": 11207,
+ "reply": {
+  "transcript": "Porn star Sunny Leonel का वास्तविक नाम क्या है?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 244,
+  "output": 35
+ }
+}

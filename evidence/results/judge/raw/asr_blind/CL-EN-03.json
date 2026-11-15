@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "CL-EN-03",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/CL-EN-03.wav",
+ "latency_ms": 3928,
+ "reply": {
+  "transcript": "Who founded the Pearl Brewing Company",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 245,
+  "output": 30
+ }
+}

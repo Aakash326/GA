@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TA-NUM-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "d3b20a5aa446e38ff601483b",
+ "audio": "data/next/audio/NX-TA-NUM-02.wav",
+ "latency_ms": 5217,
+ "reply": {
+  "transcript": "2018ல் எந்த நாடு சர்க்கரையை அதிகமாக உற்பத்தி செய்தது",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 237,
+  "output": 38
+ }
+}

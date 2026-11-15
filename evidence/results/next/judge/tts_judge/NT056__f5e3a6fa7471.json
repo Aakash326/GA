@@ -1,0 +1,26 @@
+{
+ "task": "tts_judge",
+ "id": "NT056",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f5e3a6fa74716bef6088e02c",
+ "audio": "results/next/audio/NT056.wav",
+ "latency_ms": 9931,
+ "reply": {
+  "targets": [
+   {
+    "id": "digits",
+    "result": "correct",
+    "heard": "ಸೊನ್ನೆ ಸೊನ್ನೆ ಏಳು ಸೊನ್ನೆ"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "artifacts": [],
+  "comment": "The text was read accurately, with all digits pronounced in sequence with appropriate pauses."
+ },
+ "tokens": {
+  "prompt": 422,
+  "output": 113
+ }
+}

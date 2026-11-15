@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "CL-TE-02",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/CL-TE-02.wav",
+ "latency_ms": 4838,
+ "reply": {
+  "transcript": "హైదరాబాద్ లో మెట్రోని ఎప్పుడు ప్రారంభించారు?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 235,
+  "output": 43
+ }
+}

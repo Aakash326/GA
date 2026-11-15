@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-MR-BG-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "418c4f2d5c549697521b854c",
+ "audio": "data/next/audio/NX-MR-BG-01.wav",
+ "latency_ms": 5183,
+ "reply": {
+  "transcript": "दक्षिण कोरियाची अधिकृत भाषा काय आहे?",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 249,
+  "output": 32
+ }
+}

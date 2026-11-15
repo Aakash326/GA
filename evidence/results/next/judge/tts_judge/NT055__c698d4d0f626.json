@@ -1,0 +1,26 @@
+{
+ "task": "tts_judge",
+ "id": "NT055",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c698d4d0f62690422a7e49b1",
+ "audio": "results/next/audio/NT055.wav",
+ "latency_ms": 4909,
+ "reply": {
+  "targets": [
+   {
+    "id": "digits",
+    "result": "wrong",
+    "heard": "ಎಪ್ಪತ್ತು"
+   }
+  ],
+  "content_complete": false,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "artifacts": [],
+  "comment": "The leading zeros were dropped and the code was read as the number 70 (ಎಪ್ಪತ್ತು) instead of reading each digit (ಸೊನ್ನೆ ಸೊನ್ನೆ ಏಳು ಸೊನ್ನೆ)."
+ },
+ "tokens": {
+  "prompt": 383,
+  "output": 98
+ }
+}

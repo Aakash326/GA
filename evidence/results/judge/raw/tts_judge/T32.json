@@ -1,0 +1,27 @@
+{
+ "task": "tts_judge",
+ "id": "T32",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T32.wav",
+ "latency_ms": 10306,
+ "reply": {
+  "targets": [
+   {
+    "id": "content",
+    "result": "wrong",
+    "heard": "आपका अनुरोध मिल गया है। हम कल आपसे संपर्क क करेंगे।"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [
+   "syllable repetition"
+  ],
+  "comment": "All words delivered clearly, but there is an audible stutter/repetition on 'क' before 'करेंगे'."
+ },
+ "tokens": {
+  "prompt": 421,
+  "output": 134
+ }
+}

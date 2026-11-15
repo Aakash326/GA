@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-NX-KN-CL-08",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ed03784ff64cfd845ce28498",
+ "audio": "data/next/audio/NX-KN-CL-08.wav",
+ "latency_ms": 27617,
+ "reply": {
+  "transcript": "ಯಾವ ವರ್ಷದಲ್ಲಿ Dell ಕಂಪೆನಿಯವರು ಭಾರತದಲ್ಲಿ ಮೊದಲ laptop ಅನ್ನು ಬಿಡುಗಡೆ ಮಾಡಿದರು",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 310,
+  "output": 54
+ }
+}

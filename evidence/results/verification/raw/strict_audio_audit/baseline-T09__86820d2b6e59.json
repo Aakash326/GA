@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T09",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "86820d2b6e59da8456f49198",
+ "audio": "results/tts_audio/T09.wav",
+ "latency_ms": 8395,
+ "reply": {
+  "heard": "The NAV of this fund is 112 rupees and 50 paise",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "nav",
+    "result": "correct",
+    "heard": "NAV"
+   },
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "112 rupees and 50 paise"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 432,
+  "output": 62
+ }
+}

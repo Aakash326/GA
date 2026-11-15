@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT020",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5258d78afe0adf9d64b29e9c",
+ "audio": "results/next/audio/NT020.wav",
+ "latency_ms": 3739,
+ "reply": {
+  "heard": "Your balance is minus three thousand two hundred rupees.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "sign",
+    "result": "correct",
+    "heard": "minus"
+   },
+   {
+    "id": "value",
+    "result": "correct",
+    "heard": "three thousand two hundred rupees"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 371,
+  "output": 52
+ }
+}

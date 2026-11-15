@@ -1,0 +1,30 @@
+{
+ "task": "tts_judge",
+ "id": "T71",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T71.wav",
+ "latency_ms": 8262,
+ "reply": {
+  "targets": [
+   {
+    "id": "rtgs",
+    "result": "correct",
+    "heard": "R T G S"
+   },
+   {
+    "id": "imps",
+    "result": "correct",
+    "heard": "I M P S"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The abbreviations are correctly spelled out and speech is clear with intelligible Indian English prosody."
+ },
+ "tokens": {
+  "prompt": 502,
+  "output": 143
+ }
+}

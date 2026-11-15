@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-TA-CL-08",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "3173c66b503ecaffd8730f1e",
+ "audio": "data/next/audio/NX-TA-CL-08.wav",
+ "latency_ms": 4861,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "இஸ்லாமிய மதத்தின் மூன்றாவது கலிப்பாக இருந்தவர் யார்?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The speaker says 'மதத்தின்' ending with an 'ன்' sound, not 'மதத்தில்' with an 'ல்'."
+ },
+ "tokens": {
+  "prompt": 349,
+  "output": 64
+ }
+}

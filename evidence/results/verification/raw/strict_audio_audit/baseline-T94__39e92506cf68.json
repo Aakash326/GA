@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T94",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "39e92506cf6864a43015fe66",
+ "audio": "results/tts_audio/T94.wav",
+ "latency_ms": 8962,
+ "reply": {
+  "heard": "உங்கள் OTP ஐ யாருடனும் பகிர வேண்டாம்",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "வேண்டாம்"
+   },
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "OTP"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 368,
+  "output": 50
+ }
+}

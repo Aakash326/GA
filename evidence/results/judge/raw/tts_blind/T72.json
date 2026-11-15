@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T72",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T72.wav",
+ "latency_ms": 9701,
+ "reply": {
+  "heard": "Please check the pan and G S T details on the form.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 198,
+  "output": 23
+ }
+}

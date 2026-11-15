@@ -1,0 +1,22 @@
+{
+ "task": "asr_verify",
+ "id": "NX-MR-CL-05",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "569c4f81c33d9fb0efc6d581",
+ "audio": "data/next/audio/NX-MR-CL-05.wav",
+ "latency_ms": 9363,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "शेत्रफल चा",
+    "heard": "क्षेत्रफळच्या"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 329,
+  "output": 56
+ }
+}

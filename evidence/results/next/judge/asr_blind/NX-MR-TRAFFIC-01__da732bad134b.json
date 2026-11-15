@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-MR-TRAFFIC-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "da732bad134b114784cfabc6",
+ "audio": "data/next/audio/NX-MR-TRAFFIC-01.wav",
+ "latency_ms": 4712,
+ "reply": {
+  "transcript": "अनिल कुंबळेने कोणत्या वर्षी आंतरराष्ट्रीय कसोटी पदार्पण केले",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 321,
+  "output": 48
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-MR-NUM-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "4980487f646bc43077b077b6",
+ "audio": "data/next/audio/NX-MR-NUM-03.wav",
+ "latency_ms": 6305,
+ "reply": {
+  "transcript": "इस्राईलचे सध्याचे 2019 पंतप्रधान कसे आहेत",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 261,
+  "output": 38
+ }
+}

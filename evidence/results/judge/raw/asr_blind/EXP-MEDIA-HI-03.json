@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-MEDIA-HI-03",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-MEDIA-HI-03.wav",
+ "latency_ms": 4287,
+ "reply": {
+  "transcript": "पश्चिम बंगाल की वर्तमान सत्तारूढ़ पार्टी कौन सी है?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 294,
+  "output": 35
+ }
+}

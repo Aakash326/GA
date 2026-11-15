@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-NX-TE-MEDIA-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "2bc96a913c681c2662a53d13",
+ "audio": "data/next/audio/NX-TE-MEDIA-02.wav",
+ "latency_ms": 5179,
+ "reply": {
+  "transcript": "Android Play Store లో మొదటగా ప్రవేశపెట్టిన web browser పేరు ఏమిటి?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 273,
+  "output": 40
+ }
+}

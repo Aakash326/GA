@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T96",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "774aee42e0c5cbb22d212e4b",
+ "audio": "results/tts_audio/T96.wav",
+ "latency_ms": 4675,
+ "reply": {
+  "heard": "ನಿಮ್ಮ ಬ್ಯಾಲೆನ್ಸ್ ಒಂದು ಲಕ್ಷ ಇಪ್ಪತ್ತೈದು ಸಾವಿರದ ನಾನೂರ ಐವತ್ತು ರೂಪಾಯಿ ಆಗಿದೆ",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "ಒಂದು ಲಕ್ಷ ಇಪ್ಪತ್ತೈದು ಸಾವಿರದ ನಾನೂರ ಐವತ್ತು ರೂಪಾಯಿ"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 364,
+  "output": 66
+ }
+}

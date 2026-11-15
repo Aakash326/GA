@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "SNR-EN-00",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/SNR-EN-00.wav",
+ "latency_ms": 4675,
+ "reply": {
+  "transcript": "We first identified blood types",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 221,
+  "output": 29
+ }
+}

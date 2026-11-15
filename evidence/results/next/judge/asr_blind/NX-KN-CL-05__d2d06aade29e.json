@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-KN-CL-05",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "d2d06aade29e2a8d6f269378",
+ "audio": "data/next/audio/NX-KN-CL-05.wav",
+ "latency_ms": 5411,
+ "reply": {
+  "transcript": "ಸಲಾಂ ಪದವು ಯಾವ ಧರ್ಮ ನಿಕಟವಾದ ಸಂಬಂಧವನ್ನು ಹೊಂದಿದೆ?",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 241,
+  "output": 39
+ }
+}

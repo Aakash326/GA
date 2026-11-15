@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-TA-NUM-02",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-TA-NUM-02.wav",
+ "latency_ms": 4719,
+ "reply": {
+  "transcript": "1977 இல் செரிஸ் கோப்பையை வென்ற அணி எது?",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 261,
+  "output": 39
+ }
+}

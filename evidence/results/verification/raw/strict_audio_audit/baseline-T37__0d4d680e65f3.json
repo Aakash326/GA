@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T37",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "0d4d680e65f3bab55bd583fe",
+ "audio": "results/tts_audio/T37.wav",
+ "latency_ms": 3893,
+ "reply": {
+  "heard": "Your available balance is one lakh twenty-five thousand four hundred fifty rupees.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "one lakh twenty-five thousand four hundred fifty rupees"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 370,
+  "output": 82
+ }
+}

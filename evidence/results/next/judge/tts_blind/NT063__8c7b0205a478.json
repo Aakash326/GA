@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT063",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "8c7b0205a478e52f745bcec2",
+ "audio": "results/next/audio/NT063.wav",
+ "latency_ms": 5377,
+ "reply": {
+  "heard": "आपका बैलेंस तीन हज़ार दो सौ रुपए है",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 208,
+  "output": 19
+ }
+}

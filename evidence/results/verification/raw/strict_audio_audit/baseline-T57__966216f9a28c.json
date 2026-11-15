@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T57",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "966216f9a28c5d2c5ff3c398",
+ "audio": "results/tts_audio/T57.wav",
+ "latency_ms": 5633,
+ "reply": {
+  "heard": "Your reference is one two three four five six seven eight nine zero one two three four five six",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "ref",
+    "result": "correct",
+    "heard": "one two three four five six seven eight nine zero one two three four five six"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 469,
+  "output": 60
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TE-NUM-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "438e7eb71f7e82c3185cf9cf",
+ "audio": "data/next/audio/NX-TE-NUM-04.wav",
+ "latency_ms": 4934,
+ "reply": {
+  "transcript": "2011 నాటికి కే జీ మడుగుల గ్రామ జనాభా ఎంత?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 315,
+  "output": 40
+ }
+}

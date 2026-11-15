@@ -1,0 +1,31 @@
+{
+  "task": "pair",
+  "id": "NF-T-3-en-clears_throat",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "d22624fc7034af2156af277b4fb730eb5309b2abe2d0a1fd6d1894b81f269533",
+  "input_sha256": [
+    "2c3361efb575b158411ac7d0a65dc127eb6383f3d8acc2c849ce4ff5346d1b42",
+    "d7cfb60caf0eaa67241cab4151d0464892ea0fbfd7956e5e7f1bfffbfb5c7590"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-T-3-en-clears_throat.wav",
+    "results/timbre_followup/listen/NF-N-3-en.wav"
+  ],
+  "reply": {
+    "more_cue": "A",
+    "cue_audible_A": true,
+    "cue_audible_B": false,
+    "content_preserved_A": true,
+    "content_preserved_B": true,
+    "literal_tag_spoken_A": false,
+    "literal_tag_spoken_B": false,
+    "confidence": "high",
+    "reason": "Clip A includes a clear audible throat-clearing sound between sentences, whereas Clip B delivers the text cleanly without it."
+  },
+  "prompt_tokens": 362,
+  "output_tokens": 123,
+  "thought_tokens": 135,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

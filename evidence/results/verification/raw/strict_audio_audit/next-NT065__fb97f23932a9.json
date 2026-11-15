@@ -1,0 +1,35 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT065",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "fb97f23932a92a90640afbda",
+ "audio": "results/next/audio/NT065.wav",
+ "latency_ms": 10952,
+ "reply": {
+  "heard": "Order quantity ek paanch hai, pachaas nahi",
+  "target_spec_issues": [
+   "Target specification lists English 'fifteen'/'fifty' for Hindi audio; speaker said digit-by-digit 'ek paanch' (one five) for 15 and Hindi 'pachaas' for 50"
+  ],
+  "targets": [
+   {
+    "id": "qty",
+    "result": "wrong",
+    "heard": "ek paanch"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "pachaas"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "nahi"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 391,
+  "output": 187
+ }
+}

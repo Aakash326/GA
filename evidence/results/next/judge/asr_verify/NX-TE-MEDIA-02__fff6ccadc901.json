@@ -1,0 +1,22 @@
+{
+ "task": "asr_verify",
+ "id": "NX-TE-MEDIA-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "fff6ccadc901a996b501e136",
+ "audio": "data/next/audio/NX-TE-MEDIA-02.wav",
+ "latency_ms": 11581,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "బ్రౌజరు",
+    "heard": "బ్రౌజర్"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 350,
+  "output": 55
+ }
+}

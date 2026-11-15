@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-DS-FIN-TE-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "a393ef9f7ca5304d07423cd6",
+ "audio": "data/next/dataset_replacement/DS-FIN-TE-03.wav",
+ "latency_ms": 4739,
+ "reply": {
+  "dataset_matches": true,
+  "selected_reference": "డ్యుయిష్ బ్యాంక్ ను ఎప్పుడు స్థాపించారు?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": ""
+ },
+ "tokens": {
+  "prompt": 313,
+  "output": 37
+ }
+}

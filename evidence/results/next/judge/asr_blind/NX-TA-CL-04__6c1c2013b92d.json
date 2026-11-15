@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TA-CL-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "6c1c2013b92df7ea5113bd4b",
+ "audio": "data/next/audio/NX-TA-CL-04.wav",
+ "latency_ms": 4484,
+ "reply": {
+  "transcript": "இந்தியாவின் முதல் காமிக்ஸ் இதழை எந்த நிறுவனம் வெளியிட்டது?",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 249,
+  "output": 38
+ }
+}

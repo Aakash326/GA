@@ -1,0 +1,25 @@
+{
+ "task": "tts_judge",
+ "id": "T04",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T04.wav",
+ "latency_ms": 3513,
+ "reply": {
+  "targets": [
+   {
+    "id": "percent",
+    "result": "correct",
+    "heard": "twelve point seven five percent"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "artifacts": [],
+  "comment": "Clear pronunciation and natural Indian English cadence."
+ },
+ "tokens": {
+  "prompt": 449,
+  "output": 73
+ }
+}

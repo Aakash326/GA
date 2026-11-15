@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-HI-TRAFFIC-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "bf4d07bd66137b6070ae28c9",
+ "audio": "data/next/audio/NX-HI-TRAFFIC-02.wav",
+ "latency_ms": 5808,
+ "reply": {
+  "transcript": "अंडमान द्वीप समूह के किस शहर में हवाई अड्डा है",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 250,
+  "output": 36
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T73",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "a8e8a6d95b79d3eb38a8afaf",
+ "audio": "results/tts_audio/T73.wav",
+ "latency_ms": 5439,
+ "reply": {
+  "heard": "Your EMI is due, and your SIP will continue unchanged.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "emi",
+    "result": "correct",
+    "heard": "EMI"
+   },
+   {
+    "id": "sip",
+    "result": "correct",
+    "heard": "SIP"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 381,
+  "output": 50
+ }
+}

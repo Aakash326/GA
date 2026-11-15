@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT059",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "03a9a9b2d42fd5c7676ff792",
+ "audio": "results/next/audio/NT059.wav",
+ "latency_ms": 5336,
+ "reply": {
+  "heard": "बदल एक पॉइंट पाच पर्सेंट आहे",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "sign",
+    "result": "wrong",
+    "heard": ""
+   },
+   {
+    "id": "value",
+    "result": "correct",
+    "heard": "एक पॉइंट पाच पर्सेंट"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 360,
+  "output": 50
+ }
+}

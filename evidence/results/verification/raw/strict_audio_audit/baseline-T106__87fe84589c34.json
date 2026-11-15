@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T106",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "87fe84589c34a8b926947193",
+ "audio": "results/tts_audio/T106.wav",
+ "latency_ms": 5209,
+ "reply": {
+  "heard": "तुमचा OTP कोणालाही सांगू नका",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "नका"
+   },
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "OTP"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 363,
+  "output": 49
+ }
+}

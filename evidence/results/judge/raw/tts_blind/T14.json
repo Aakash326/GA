@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T14",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T14.wav",
+ "latency_ms": 5881,
+ "reply": {
+  "heard": "Your order कल सुबह execute होगा",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 184,
+  "output": 17
+ }
+}

@@ -1,0 +1,36 @@
+{
+  "task": "blind",
+  "id": "NF-R-3-long-2",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "b386c50d0e25e667a6f7dada9b76ac005ff3c2289d99ed4c39f782c7e26101ca",
+  "input_sha256": [
+    "d1699a0166c1f4696131f9ff09d1e66f79a10da1e2b864ab3c8edf882e5cac4a"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-R-3-long-2.wav"
+  ],
+  "reply": {
+    "heard": "Your request has been received and is now under review. Please check the details shown in your account before you confirm the next step. If any information is wrong, contact our support team so we can help you update it. We will send a message when the review is complete. You do not need to submit the same request again. Keep your reference number safe and use it when you ask us for an update. Before placing an order review the company name, quantity, and price carefully. The amount shown on the confirmation screen may include charges that were not included in an earlier estimate. If you decide to change the order, return to the details page and check the updated information before confirming. Do not share your password or verification code with anyone who contacts you unexpectedly. You can find the official support contact details inside your account. Once the request is complete, save the receipt for your records.",
+    "naturalness_1to5": 3,
+    "prosody_1to5": 3,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "clear",
+      "calm",
+      "steady pace"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "normal brief pause before speaking",
+    "artifacts": [],
+    "confidence": "high",
+    "reason": "Clear, professional delivery with consistent cadence and no prominent audio artifacts."
+  },
+  "prompt_tokens": 1547,
+  "output_tokens": 352,
+  "thought_tokens": 316,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

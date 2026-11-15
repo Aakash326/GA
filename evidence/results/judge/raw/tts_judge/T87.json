@@ -1,0 +1,35 @@
+{
+ "task": "tts_judge",
+ "id": "T87",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T87.wav",
+ "latency_ms": 8028,
+ "reply": {
+  "targets": [
+   {
+    "id": "start",
+    "result": "correct",
+    "heard": "Your payment has been received"
+   },
+   {
+    "id": "end",
+    "result": "correct",
+    "heard": "when you ask us for an update"
+   },
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "do not"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The speech is intelligible and clear with accurate pronunciation, though pacing sounds slightly deliberate."
+ },
+ "tokens": {
+  "prompt": 1420,
+  "output": 177
+ }
+}

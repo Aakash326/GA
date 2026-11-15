@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T94",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T94.wav",
+ "latency_ms": 15553,
+ "reply": {
+  "heard": "உங்கள் O T P ஐ யாருடனும் பகிர வேண்டாம்",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 203,
+  "output": 22
+ }
+}

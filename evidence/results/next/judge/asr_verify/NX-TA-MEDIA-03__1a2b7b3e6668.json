@@ -1,0 +1,22 @@
+{
+ "task": "asr_verify",
+ "id": "NX-TA-MEDIA-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "1a2b7b3e6668d0d4119146d0",
+ "audio": "data/next/audio/NX-TA-MEDIA-03.wav",
+ "latency_ms": 7873,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "சகோதரர்கலால்",
+    "heard": "சகோதரர்களால்"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 322,
+  "output": 36
+ }
+}

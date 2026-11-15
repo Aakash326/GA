@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT050",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5cc94338b4fca9e947f80bc4",
+ "audio": "results/next/audio/NT050.wav",
+ "latency_ms": 6050,
+ "reply": {
+  "heard": "உங்கள் குறியீடு பூஜ்ஜியம் பூஜ்ஜியம் ஏழு பூஜ்ஜியம்",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 213,
+  "output": 28
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TE-BG-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "37e216fd1b4a3944ae905a9e",
+ "audio": "data/next/audio/NX-TE-BG-02.wav",
+ "latency_ms": 5069,
+ "reply": {
+  "transcript": "ఐక్యరాజ్య సమితి ఎక్కడ ఉంది",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 204,
+  "output": 34
+ }
+}

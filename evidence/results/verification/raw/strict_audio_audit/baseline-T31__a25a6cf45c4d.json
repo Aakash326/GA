@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T31",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "a25a6cf45c4d340933fcc9c4",
+ "audio": "results/tts_audio/T31.wav",
+ "latency_ms": 4032,
+ "reply": {
+  "heard": "Your request has been received. We will contact you tomorrow.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "content",
+    "result": "correct",
+    "heard": "Your request has been received. We will contact you tomorrow."
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 324,
+  "output": 48
+ }
+}

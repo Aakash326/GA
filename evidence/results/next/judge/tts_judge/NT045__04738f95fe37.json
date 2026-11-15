@@ -1,0 +1,36 @@
+{
+ "task": "tts_judge",
+ "id": "NT045",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "04738f95fe376685999323d2",
+ "audio": "results/next/audio/NT045.wav",
+ "latency_ms": 10068,
+ "reply": {
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "பதினைந்து"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "ஐம்பது"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "அல்ல"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "All targeted numbers and the negation were clearly articulated with decent synthetic prosody."
+ },
+ "tokens": {
+  "prompt": 460,
+  "output": 139
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-DS-FIN-EN-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "7abae04339a6583500f2a4e6",
+ "audio": "data/next/dataset_replacement/DS-FIN-EN-03.wav",
+ "latency_ms": 3481,
+ "reply": {
+  "dataset_matches": true,
+  "selected_reference": "When did the yen become the official currency of Japan?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": ""
+ },
+ "tokens": {
+  "prompt": 327,
+  "output": 35
+ }
+}

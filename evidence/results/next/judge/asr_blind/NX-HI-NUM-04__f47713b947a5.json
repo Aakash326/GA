@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-HI-NUM-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f47713b947a5327086147dc7",
+ "audio": "data/next/audio/NX-HI-NUM-04.wav",
+ "latency_ms": 3887,
+ "reply": {
+  "transcript": "भारत में 2004 में सुनामी में कितने लोगों की मृत्यु हुई थी?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 268,
+  "output": 40
+ }
+}

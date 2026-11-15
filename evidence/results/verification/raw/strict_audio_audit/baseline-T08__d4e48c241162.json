@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T08",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "d4e48c241162c35404c2be5c",
+ "audio": "results/tts_audio/T08.wav",
+ "latency_ms": 3697,
+ "reply": {
+  "heard": "Share your IFSC code with support.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "ifsc",
+    "result": "correct",
+    "heard": "I F S C"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 327,
+  "output": 37
+ }
+}

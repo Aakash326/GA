@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-MR-CL-07",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "4d238cc6c9c3a860f39d13c8",
+ "audio": "data/next/audio/NX-MR-CL-07.wav",
+ "latency_ms": 5524,
+ "reply": {
+  "transcript": "मॅनहॅटन मधील सर्वात उंच इमारत कोणती आहे",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 242,
+  "output": 37
+ }
+}

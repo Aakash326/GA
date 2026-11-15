@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-MR-CL-08",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-MR-CL-08.wav",
+ "latency_ms": 3823,
+ "reply": {
+  "transcript": "बाहेमियन धर्माची सुरुवात कोणत्या देशात झाली",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 225,
+  "output": 35
+ }
+}

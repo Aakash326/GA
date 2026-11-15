@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-TE-NUM-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c945d514d80c36e177a995f7",
+ "audio": "data/next/audio/NX-TE-NUM-01.wav",
+ "latency_ms": 4998,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "2018 జనగణన ప్రకారం మక్త కౌసరాలి గ్రామంలో ఎన్ని ఇల్లులు ఉన్నాయి",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The audio says 'మక్త' rather than 'మక్తా', and 'గ్రామంలో' rather than 'గ్రామములో'."
+ },
+ "tokens": {
+  "prompt": 407,
+  "output": 73
+ }
+}

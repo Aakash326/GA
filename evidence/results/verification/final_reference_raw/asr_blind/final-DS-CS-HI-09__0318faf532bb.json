@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-DS-CS-HI-09",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "0318faf532bb7e2451c1d7c5",
+ "audio": "data/next/dataset_replacement/DS-CS-HI-09.wav",
+ "latency_ms": 5011,
+ "reply": {
+  "transcript": "Slide Show button पर क्लिक करें, फिर animation को देखने के लिए screen पर कहीं भी क्लिक करें। Animation प्रस्तुति की निर",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 425,
+  "output": 49
+ }
+}

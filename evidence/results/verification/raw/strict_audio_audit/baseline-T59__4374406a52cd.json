@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T59",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "4374406a52cd4f0fdbf2fdb1",
+ "audio": "results/tts_audio/T59.wav",
+ "latency_ms": 5493,
+ "reply": {
+  "heard": "आपका भुगतान पूरा हो गया है। कृपया रसीद सुरक्षित रखें।",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "content",
+    "result": "correct",
+    "heard": "आपका भुगतान पूरा हो गया है। कृपया रसीद सुरक्षित रखें।"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 341,
+  "output": 52
+ }
+}

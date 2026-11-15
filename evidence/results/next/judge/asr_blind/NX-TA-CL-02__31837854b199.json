@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TA-CL-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "31837854b19941d5898d96da",
+ "audio": "data/next/audio/NX-TA-CL-02.wav",
+ "latency_ms": 7056,
+ "reply": {
+  "transcript": "பீர் ஸ்ரேஷ்ட்ர லெப்டினன்ட் மதியூர் ரஹ்மானுடைய தாயார் பெயர் என்ன?",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 294,
+  "output": 49
+ }
+}

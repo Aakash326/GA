@@ -1,0 +1,31 @@
+{
+ "task": "tts_judge",
+ "id": "NT017",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5c48bb5b5586ba346225aec9",
+ "audio": "results/next/audio/NT017.wav",
+ "latency_ms": 9357,
+ "reply": {
+  "targets": [
+   {
+    "id": "sign",
+    "result": "correct",
+    "heard": "minus"
+   },
+   {
+    "id": "value",
+    "result": "correct",
+    "heard": "one point five percent"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The audio is clear and fully intelligible, accurately rendering the negative percentage with appropriate pacing."
+ },
+ "tokens": {
+  "prompt": 440,
+  "output": 139
+ }
+}

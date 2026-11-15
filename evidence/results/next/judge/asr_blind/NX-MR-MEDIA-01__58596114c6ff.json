@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-MR-MEDIA-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "58596114c6ffd7776c39e5ca",
+ "audio": "data/next/audio/NX-MR-MEDIA-01.wav",
+ "latency_ms": 6852,
+ "reply": {
+  "transcript": "हजार चौरस डोळे या चित्रपटाचे निर्माते कोण होते?",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 243,
+  "output": 38
+ }
+}

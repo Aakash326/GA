@@ -1,0 +1,35 @@
+{
+  "task": "blind",
+  "id": "NF-V-3-1_15",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "630b8e4b840aa7e7e62602ca3f9d88d707e0d51fb4d7aa7feba14d7c6b99847c",
+  "input_sha256": [
+    "c02b0713008e0806838a0effab3624d1238d783958a2ee4bcf598676836c6a92"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-V-3-1_15.wav"
+  ],
+  "reply": {
+    "heard": "Your request is ready. Please continue when you are ready.",
+    "naturalness_1to5": 3,
+    "prosody_1to5": 3,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "calm",
+      "soft tone"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "brief lead-in",
+    "artifacts": [],
+    "confidence": "high",
+    "reason": "Speech is clear, calm, and easily understood with synthetic-leaning inflection."
+  },
+  "prompt_tokens": 327,
+  "output_tokens": 134,
+  "thought_tokens": 222,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

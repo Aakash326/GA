@@ -1,0 +1,31 @@
+{
+  "task": "pair",
+  "id": "NF-T-3-en-excited",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "c3aa167a190eb7e9554f32ceb8d2e2d782f691fe9686d344294a577c5fcc893c",
+  "input_sha256": [
+    "afbdf0f292f4bc356fb19901cdc3757e45d68808e95f83907e11f848f03d20a9",
+    "d7cfb60caf0eaa67241cab4151d0464892ea0fbfd7956e5e7f1bfffbfb5c7590"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-T-3-en-excited.wav",
+    "results/timbre_followup/listen/NF-N-3-en.wav"
+  ],
+  "reply": {
+    "more_cue": "A",
+    "cue_audible_A": true,
+    "cue_audible_B": false,
+    "content_preserved_A": true,
+    "content_preserved_B": true,
+    "literal_tag_spoken_A": false,
+    "literal_tag_spoken_B": false,
+    "confidence": "high",
+    "reason": "Clip A conveys noticeably more enthusiasm and vocal energy, matching the excited prompt better than the flatter delivery in Clip B."
+  },
+  "prompt_tokens": 349,
+  "output_tokens": 122,
+  "thought_tokens": 131,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

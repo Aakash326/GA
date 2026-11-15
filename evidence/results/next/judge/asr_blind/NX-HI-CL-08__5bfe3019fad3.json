@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-HI-CL-08",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5bfe3019fad3a88291e64ee2",
+ "audio": "data/next/audio/NX-HI-CL-08.wav",
+ "latency_ms": 4651,
+ "reply": {
+  "transcript": "सऊदी अरब के एकीकरण के बाद सऊदी अरब की राजधानी कहाँ स्थापित की गई?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 282,
+  "output": 46
+ }
+}

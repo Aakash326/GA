@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT042",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "d123561d3f42356d87cc1173",
+ "audio": "results/next/audio/NT042.wav",
+ "latency_ms": 4392,
+ "reply": {
+  "heard": "మార్పు మైనస్ ఒకటి పాయింట్ ఐదు శాతం ఉంది",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "sign",
+    "result": "correct",
+    "heard": "మైనస్"
+   },
+   {
+    "id": "value",
+    "result": "correct",
+    "heard": "ఒకటి పాయింట్ ఐదు శాతం"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 368,
+  "output": 60
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-EN-BG-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "57350ffa10f8e83ecf8291ca",
+ "audio": "data/next/audio/NX-EN-BG-03.wav",
+ "latency_ms": 3781,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "When did electrodynamic tether get invented",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The speaker says the singular 'tether', not the plural 'tethers'."
+ },
+ "tokens": {
+  "prompt": 375,
+  "output": 46
+ }
+}

@@ -1,0 +1,7 @@
+﻿case_id,model,buffer_ms,underflows,starvation_ms,path
+NF-S-3-short,timbre-v3.0,0,2,1686.2916666666667,playback/NF-S-3-short__buffer_0.wav
+NF-S-3-short,timbre-v3.0,500,2,1186.2916666666667,playback/NF-S-3-short__buffer_500.wav
+NF-S-3-short,timbre-v3.0,1000,2,686.2916666666666,playback/NF-S-3-short__buffer_1000.wav
+NF-S-25-short,timbre-v2.5,0,0,0,playback/NF-S-25-short__buffer_0.wav
+NF-S-25-short,timbre-v2.5,500,0,0,playback/NF-S-25-short__buffer_500.wav
+NF-S-25-short,timbre-v2.5,1000,0,0,playback/NF-S-25-short__buffer_1000.wav

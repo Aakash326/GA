@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TE-CL-06",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "d37dd130d3c8a14430dd248f",
+ "audio": "data/next/audio/NX-TE-CL-06.wav",
+ "latency_ms": 5834,
+ "reply": {
+  "transcript": "గుంజుగూడెం గ్రామంలో ప్రధాన పంట ఏంటి",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 295,
+  "output": 37
+ }
+}

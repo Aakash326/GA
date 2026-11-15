@@ -1,0 +1,28 @@
+# Local credentials; keep the blank configuration templates visible.
+.env
+.env.*
+!.env.example
+
+# Python environments and generated caches.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local editor / operating-system files and temporary logs.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.log
+
+# Download cache and locally created submission archives.
+evidence/data/sources/cache/
+GA_Submission.zip
+GA_Submission_before_*.zip
+
+# Public evidence, retained notebook outputs and media remain versionable.

@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T51",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "741e3a7982cd9705c6a5a93e",
+ "audio": "results/tts_audio/T51.wav",
+ "latency_ms": 4786,
+ "reply": {
+  "heard": "Your reference number is A B one zero O zero",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "A B one zero O zero"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 376,
+  "output": 41
+ }
+}

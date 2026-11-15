@@ -1,0 +1,25 @@
+{
+ "task": "asr_verify",
+ "id": "EXP-PAUSE-03",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-PAUSE-03.wav",
+ "latency_ms": 5935,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "समर्टफोंस",
+    "heard": "स्मार्टफोंस"
+   },
+   {
+    "reference": "कॉन्स",
+    "heard": "कौन से"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 383,
+  "output": 50
+ }
+}

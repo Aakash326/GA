@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-EN-CL-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "b5b965dd631992218027fd5e",
+ "audio": "data/next/audio/NX-EN-CL-04.wav",
+ "latency_ms": 3987,
+ "reply": {
+  "transcript": "What home world did the Autobots come from?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 235,
+  "output": 39
+ }
+}

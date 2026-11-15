@@ -1,0 +1,19 @@
+{
+  "expected": 59,
+  "assessed": 59,
+  "resolved_provisionally": 59,
+  "unresolved": 0,
+  "errors": [],
+  "cohorts": {
+    "dataset_replacement": {
+      "assessed": 24,
+      "resolved": 24
+    },
+    "original_dispute": {
+      "assessed": 35,
+      "resolved": 35
+    }
+  },
+  "human_verification": false,
+  "independence_limit": "Same Gemini model family as earlier judge; provisional audio adjudication, not independent human truth."
+}

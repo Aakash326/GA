@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT018",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "b410bfe05c7c6c867a762fe8",
+ "audio": "results/next/audio/NT018.wav",
+ "latency_ms": 3984,
+ "reply": {
+  "heard": "Your balance is 3,200 rupees",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "sign",
+    "result": "wrong",
+    "heard": ""
+   },
+   {
+    "id": "value",
+    "result": "correct",
+    "heard": "three thousand two hundred rupees"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 376,
+  "output": 52
+ }
+}

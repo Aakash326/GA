@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-HI-CL-07",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "07fbda4ac2e559359c3d742c",
+ "audio": "data/next/audio/NX-HI-CL-07.wav",
+ "latency_ms": 4501,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "अब्दुर रहमान खान कितने साल तक जीवित रहे?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The audio clearly says 'तक' (tak) rather than 'थक' (thak)."
+ },
+ "tokens": {
+  "prompt": 362,
+  "output": 54
+ }
+}

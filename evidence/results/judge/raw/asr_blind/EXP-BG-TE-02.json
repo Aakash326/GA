@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-BG-TE-02",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-BG-TE-02.wav",
+ "latency_ms": 4629,
+ "reply": {
+  "transcript": "బ్రిటీష్ వారు మొదటగా భారతదేశంలో ఏ ప్రాంతాన్ని ఆక్రమించారు?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 294,
+  "output": 41
+ }
+}

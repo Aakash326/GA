@@ -1,0 +1,36 @@
+{
+ "task": "tts_judge",
+ "id": "NT057",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c21418dcb2835ff231c249a6",
+ "audio": "results/next/audio/NT057.wav",
+ "latency_ms": 8534,
+ "reply": {
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "पंधरा"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "पन्नास"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "नाही"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The audio correctly pronounces both numbers and the negation with clear synthetic delivery."
+ },
+ "tokens": {
+  "prompt": 465,
+  "output": 138
+ }
+}

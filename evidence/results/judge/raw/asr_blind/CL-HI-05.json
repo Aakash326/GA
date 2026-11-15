@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "CL-HI-05",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/CL-HI-05.wav",
+ "latency_ms": 4667,
+ "reply": {
+  "transcript": "क्या इस्लाम में दहेज हराम है?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 220,
+  "output": 31
+ }
+}

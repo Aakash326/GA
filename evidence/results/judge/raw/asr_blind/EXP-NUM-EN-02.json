@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-NUM-EN-02",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-NUM-EN-02.wav",
+ "latency_ms": 4849,
+ "reply": {
+  "transcript": "What was the deadliest war in the 20th century?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 235,
+  "output": 36
+ }
+}

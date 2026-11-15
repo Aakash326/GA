@@ -1,0 +1,39 @@
+{
+  "task": "playback",
+  "id": "NF-S-25-short-playback",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "e7f2d2ac94624492100bfa31217b8b5a2bbc0a3e5cf010055cf261097e6436f7",
+  "prompt": "Listen to the AUDIO without a reference transcript, model name, or requested delivery label. Assess only what is audible. Return compact JSON:\n{\"heard\":str,\"naturalness_1to5\":int,\"prosody_1to5\":int,\"intelligibility_1to5\":int,\"observed_delivery\":[str],\"nonverbal_events\":[str],\"tag_words_spoken\":bool,\"initial_sound_then_unexpected_silence\":bool,\"gap_start_s\":number|null,\"gap_duration_s\":number|null,\"leading_silence_description\":str,\"artifacts\":[str],\"confidence\":\"high|medium|low\",\"reason\":str}.\nUse 1=severe/robotic/inappropriate or unintelligible, 3=understandable with noticeable issues, 5=natural/appropriate/clear. Prosody means rhythm, stress and phrase timing. Describe whispering, shouting, excitement, slow pace, laughter, breathing or deliberate pauses ONLY when audible. Distinguish an initial click/noise from actual words; don't call ordinary sentence pauses a delivery stall. Times are approximate listening judgments. If unsure say so; these are provisional model ratings, not human MOS. Keep reasons brief.",
+  "input_sha256": [
+    "f54786cc79ead118eecdce6b64303c394a6f6699abe4daeb9be47a3635ea2bb4"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/playback/NF-S-25-short__immediate.wav"
+  ],
+  "reply": {
+    "heard": "Your request has been received. We will contact you tomorrow.",
+    "naturalness_1to5": 3,
+    "prosody_1to5": 3,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "neutral",
+      "formal",
+      "monotone"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "normal brief lead-in",
+    "artifacts": [
+      "mild synthetic timbre"
+    ],
+    "confidence": "high",
+    "reason": "Clear delivery with slight synthetic cadence and flat intonation."
+  },
+  "prompt_tokens": 334,
+  "output_tokens": 188,
+  "thought_tokens": 137,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

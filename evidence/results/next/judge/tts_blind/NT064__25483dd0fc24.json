@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT064",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "25483dd0fc24fa11cf82d00e",
+ "audio": "results/next/audio/NT064.wav",
+ "latency_ms": 6141,
+ "reply": {
+  "heard": "आपका बैलेंस माइनस तीन हज़ार दो सौ रुपए है।",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 210,
+  "output": 21
+ }
+}

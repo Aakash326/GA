@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-MR-NUM-02",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-MR-NUM-02.wav",
+ "latency_ms": 4702,
+ "reply": {
+  "transcript": "2011 च्या जनगणनेनुसार उत्तराखंड राज्याची लोकसंख्या किती आहे?",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 276,
+  "output": 40
+ }
+}

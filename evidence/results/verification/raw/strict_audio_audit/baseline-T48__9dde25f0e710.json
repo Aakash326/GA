@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T48",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "9dde25f0e710c68b83be876f",
+ "audio": "results/tts_audio/T48.wav",
+ "latency_ms": 5115,
+ "reply": {
+  "heard": "You hold one hundred one shares, and eleven shares are pending.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "held",
+    "result": "correct",
+    "heard": "one hundred one"
+   },
+   {
+    "id": "pending",
+    "result": "correct",
+    "heard": "eleven"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 389,
+  "output": 54
+ }
+}

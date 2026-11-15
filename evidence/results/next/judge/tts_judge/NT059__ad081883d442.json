@@ -1,0 +1,31 @@
+{
+ "task": "tts_judge",
+ "id": "NT059",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ad081883d442166b5697bccb",
+ "audio": "results/next/audio/NT059.wav",
+ "latency_ms": 5306,
+ "reply": {
+  "targets": [
+   {
+    "id": "sign",
+    "result": "wrong",
+    "heard": ""
+   },
+   {
+    "id": "value",
+    "result": "correct",
+    "heard": "एक पॉइंट पाच परसेंट"
+   }
+  ],
+  "content_complete": false,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "artifacts": [],
+  "comment": "The minus sign was omitted completely."
+ },
+ "tokens": {
+  "prompt": 439,
+  "output": 127
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T80",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T80.wav",
+ "latency_ms": 4511,
+ "reply": {
+  "heard": "Do not cancel the payment cancel only the duplicate request",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 233,
+  "output": 21
+ }
+}

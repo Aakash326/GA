@@ -1,0 +1,59 @@
+{
+  "scope": "all 303 baseline and follow-up targets; final assessor counts",
+  "cohorts": [
+    {
+      "cohort": "baseline",
+      "prompts": 98,
+      "scored_targets": 167,
+      "human_scored_targets": 62,
+      "automated_scored_targets": 105,
+      "correct_targets": 162,
+      "wrong_targets": 4,
+      "ambiguous_targets": 1,
+      "selected_listening_targets": 29,
+      "selected_human_marked_targets": 26,
+      "selected_unmarked_targets": 3,
+      "by_assessor": {
+        "human": {
+          "scored_targets": 62,
+          "correct_targets": 57,
+          "wrong_targets": 4,
+          "ambiguous_targets": 1
+        },
+        "automated_provisional": {
+          "scored_targets": 105,
+          "correct_targets": 105,
+          "wrong_targets": 0,
+          "ambiguous_targets": 0
+        }
+      }
+    },
+    {
+      "cohort": "next",
+      "prompts": 66,
+      "scored_targets": 136,
+      "human_scored_targets": 48,
+      "automated_scored_targets": 88,
+      "correct_targets": 118,
+      "wrong_targets": 17,
+      "ambiguous_targets": 1,
+      "selected_listening_targets": 60,
+      "selected_human_marked_targets": 48,
+      "selected_unmarked_targets": 12,
+      "by_assessor": {
+        "human": {
+          "scored_targets": 48,
+          "correct_targets": 35,
+          "wrong_targets": 12,
+          "ambiguous_targets": 1
+        },
+        "automated_provisional": {
+          "scored_targets": 88,
+          "correct_targets": 83,
+          "wrong_targets": 5,
+          "ambiguous_targets": 0
+        }
+      }
+    }
+  ]
+}

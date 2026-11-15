@@ -1,0 +1,4 @@
+report.pdf: 2 pages; public ASR, human TTS scores and separate provisional audio-model follow-up
+next_stages_report.pdf: 2 pages; public ASR, human TTS scores and separate provisional audio-model follow-up
+Created C:\Users\saiaakash\Desktop\api_testing\GA_Submission\evidence\timbre_comparison.html: 18 embedded clips, 9 comparisons, 17.9 MB; no API calls
+Public-dataset ASR / human-reviewed TTS all replay passed: results\submission

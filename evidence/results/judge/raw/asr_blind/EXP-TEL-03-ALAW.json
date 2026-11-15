@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-TEL-03-ALAW",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-TEL-03-ALAW.wav",
+ "latency_ms": 4475,
+ "reply": {
+  "transcript": "स्मार्टफोन्स के कैमरा कौन से वर्ष से प्रयोग में शुरू हुआ",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 250,
+  "output": 38
+ }
+}

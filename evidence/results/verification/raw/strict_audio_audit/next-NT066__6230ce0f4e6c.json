@@ -1,0 +1,33 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT066",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "6230ce0f4e6c885cf2c9e2a1",
+ "audio": "results/next/audio/NT066.wav",
+ "latency_ms": 5392,
+ "reply": {
+  "heard": "Order quantity fifteen hai, fifty nahi",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "fifteen"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "fifty"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "nahi"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 385,
+  "output": 58
+ }
+}

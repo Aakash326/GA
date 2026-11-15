@@ -1,0 +1,137 @@
+case_id,pair_id,form,category,language,target,result,heard,blind,assessor
+NT001,en-close-13,raw,close_numbers,en-IN,qty,correct,thirteen,"Please send thirteen units, not thirty.",audio_llm_provisional
+NT001,en-close-13,raw,close_numbers,en-IN,rejected,correct,thirty,"Please send thirteen units, not thirty.",audio_llm_provisional
+NT001,en-close-13,raw,close_numbers,en-IN,not,correct,not,"Please send thirteen units, not thirty.",audio_llm_provisional
+NT002,en-close-13,rewritten,close_numbers,en-IN,qty,correct,thirteen,"Please send thirteen units, not thirty.",audio_llm_provisional
+NT002,en-close-13,rewritten,close_numbers,en-IN,rejected,correct,thirty,"Please send thirteen units, not thirty.",audio_llm_provisional
+NT002,en-close-13,rewritten,close_numbers,en-IN,not,correct,not,"Please send thirteen units, not thirty.",audio_llm_provisional
+NT003,en-close-14,raw,close_numbers,en-IN,qty,correct,fourteen,please send fourteen units not forty,audio_llm_provisional
+NT003,en-close-14,raw,close_numbers,en-IN,rejected,correct,forty,please send fourteen units not forty,audio_llm_provisional
+NT003,en-close-14,raw,close_numbers,en-IN,not,correct,not,please send fourteen units not forty,audio_llm_provisional
+NT004,en-close-14,rewritten,close_numbers,en-IN,qty,correct,fourteen,"Please send fourteen units, not forty.",audio_llm_provisional
+NT004,en-close-14,rewritten,close_numbers,en-IN,rejected,correct,forty,"Please send fourteen units, not forty.",audio_llm_provisional
+NT004,en-close-14,rewritten,close_numbers,en-IN,not,correct,not,"Please send fourteen units, not forty.",audio_llm_provisional
+NT005,en-close-15,raw,close_numbers,en-IN,qty,correct,fifteen,"Please send fifteen units, not fifty.",audio_llm_provisional
+NT005,en-close-15,raw,close_numbers,en-IN,rejected,correct,fifty,"Please send fifteen units, not fifty.",audio_llm_provisional
+NT005,en-close-15,raw,close_numbers,en-IN,not,correct,not,"Please send fifteen units, not fifty.",audio_llm_provisional
+NT006,en-close-15,rewritten,close_numbers,en-IN,qty,correct,fifteen,"Please send fifteen units, not fifty.",audio_llm_provisional
+NT006,en-close-15,rewritten,close_numbers,en-IN,rejected,correct,fifty,"Please send fifteen units, not fifty.",audio_llm_provisional
+NT006,en-close-15,rewritten,close_numbers,en-IN,not,correct,not,"Please send fifteen units, not fifty.",audio_llm_provisional
+NT007,en-close-16,raw,close_numbers,en-IN,qty,correct,sixteen,"Please send sixteen units, not sixty.",audio_llm_provisional
+NT007,en-close-16,raw,close_numbers,en-IN,rejected,correct,sixty,"Please send sixteen units, not sixty.",audio_llm_provisional
+NT007,en-close-16,raw,close_numbers,en-IN,not,correct,not,"Please send sixteen units, not sixty.",audio_llm_provisional
+NT008,en-close-16,rewritten,close_numbers,en-IN,qty,correct,sixteen,"Please send sixteen units, not sixty.",audio_llm_provisional
+NT008,en-close-16,rewritten,close_numbers,en-IN,rejected,correct,sixty,"Please send sixteen units, not sixty.",audio_llm_provisional
+NT008,en-close-16,rewritten,close_numbers,en-IN,not,correct,not,"Please send sixteen units, not sixty.",audio_llm_provisional
+NT009,en-close-17,raw,close_numbers,en-IN,qty,correct,seventeen,"Please send seventeen units, not seventy.",audio_llm_provisional
+NT009,en-close-17,raw,close_numbers,en-IN,rejected,correct,seventy,"Please send seventeen units, not seventy.",audio_llm_provisional
+NT009,en-close-17,raw,close_numbers,en-IN,not,correct,not,"Please send seventeen units, not seventy.",audio_llm_provisional
+NT010,en-close-17,rewritten,close_numbers,en-IN,qty,correct,seventeen,Please send seventeen units not seventy.,audio_llm_provisional
+NT010,en-close-17,rewritten,close_numbers,en-IN,rejected,correct,seventy,Please send seventeen units not seventy.,audio_llm_provisional
+NT010,en-close-17,rewritten,close_numbers,en-IN,not,correct,not,Please send seventeen units not seventy.,audio_llm_provisional
+NT011,en-close-18,raw,close_numbers,en-IN,qty,correct,eighteen,"Please send eighteen units, not eighty.",audio_llm_provisional
+NT011,en-close-18,raw,close_numbers,en-IN,rejected,correct,eighty,"Please send eighteen units, not eighty.",audio_llm_provisional
+NT011,en-close-18,raw,close_numbers,en-IN,not,correct,not,"Please send eighteen units, not eighty.",audio_llm_provisional
+NT012,en-close-18,rewritten,close_numbers,en-IN,qty,correct,eighteen,Please send eighteen units not eighty.,audio_llm_provisional
+NT012,en-close-18,rewritten,close_numbers,en-IN,rejected,correct,eighty,Please send eighteen units not eighty.,audio_llm_provisional
+NT012,en-close-18,rewritten,close_numbers,en-IN,not,correct,not,Please send eighteen units not eighty.,audio_llm_provisional
+NT013,en-close-19,raw,close_numbers,en-IN,qty,correct,nineteen,"Please send nineteen units, not ninety.",audio_llm_provisional
+NT013,en-close-19,raw,close_numbers,en-IN,rejected,correct,ninety,"Please send nineteen units, not ninety.",audio_llm_provisional
+NT013,en-close-19,raw,close_numbers,en-IN,not,correct,not,"Please send nineteen units, not ninety.",audio_llm_provisional
+NT014,en-close-19,rewritten,close_numbers,en-IN,qty,correct,nineteen,"Please send nineteen units, not ninety.",audio_llm_provisional
+NT014,en-close-19,rewritten,close_numbers,en-IN,rejected,correct,ninety,"Please send nineteen units, not ninety.",audio_llm_provisional
+NT014,en-close-19,rewritten,close_numbers,en-IN,not,correct,not,"Please send nineteen units, not ninety.",audio_llm_provisional
+NT015,en-sign-pct,raw,signed,en-IN,sign,wrong,,The change was one point five percent,human
+NT015,en-sign-pct,raw,signed,en-IN,value,correct,one point five percent,The change was one point five percent,human
+NT016,en-sign-pct,ascii_minus,signed,en-IN,sign,wrong,,The change was one point five percent.,human
+NT016,en-sign-pct,ascii_minus,signed,en-IN,value,correct,one point five percent,The change was one point five percent.,human
+NT017,en-sign-pct,rewritten,signed,en-IN,sign,correct,minus,the change was minus one point five percent,human
+NT017,en-sign-pct,rewritten,signed,en-IN,value,correct,one point five percent,the change was minus one point five percent,human
+NT018,en-sign-inr,raw,signed,en-IN,sign,wrong,,Your balance is three thousand two hundred rupees.,human
+NT018,en-sign-inr,raw,signed,en-IN,value,correct,three thousand two hundred rupees,Your balance is three thousand two hundred rupees.,human
+NT019,en-sign-inr,ascii_minus,signed,en-IN,sign,correct,negative,Your balance is negative three thousand two hundred rupees,human
+NT019,en-sign-inr,ascii_minus,signed,en-IN,value,correct,three thousand two hundred rupees,Your balance is negative three thousand two hundred rupees,human
+NT020,en-sign-inr,rewritten,signed,en-IN,sign,correct,minus,Your balance is minus three thousand two hundred rupees,human
+NT020,en-sign-inr,rewritten,signed,en-IN,value,correct,three thousand two hundred rupees,Your balance is minus three thousand two hundred rupees,human
+NT021,en-id-00700,raw,identifiers,en-IN,digits,correct,double zero seven double zero,The code is double zero seven double zero,audio_llm_provisional
+NT022,en-id-00700,rewritten,identifiers,en-IN,digits,correct,zero zero seven zero zero,The code is zero zero seven zero zero,audio_llm_provisional
+NT023,en-id-0091,raw,identifiers,en-IN,digits,correct,double zero nine one,The pin ends in double zero nine one,audio_llm_provisional
+NT024,en-id-0091,rewritten,identifiers,en-IN,digits,correct,zero zero nine one,The pin ends in zero zero nine one.,audio_llm_provisional
+NT025,en-id-000123,raw,identifiers,en-IN,digits,correct,triple zero one two three,Your I D is triple zero one two three,audio_llm_provisional
+NT026,en-id-000123,rewritten,identifiers,en-IN,digits,correct,zero zero zero one two three,Your I D is zero zero zero one two three,audio_llm_provisional
+NT027,en-time-905,raw,times,en-IN,time,wrong,nine five,The call is at nine five A M.,human
+NT028,en-time-905,rewritten,times,en-IN,time,correct,nine oh five,the call is at nine o five a m,human
+NT029,en-time-330,raw,times,en-IN,time,correct,three thirty,Cut off time is three thirty P M,audio_llm_provisional
+NT030,en-time-330,rewritten,times,en-IN,time,correct,three thirty,Cut off time is three thirty P M.,audio_llm_provisional
+NT031,hi-close,raw,close_numbers,hi-IN,qty,correct,पंद्रह,मात्रा पंद्रह है पचास नहीं,human
+NT031,hi-close,raw,close_numbers,hi-IN,rejected,correct,पचास,मात्रा पंद्रह है पचास नहीं,human
+NT031,hi-close,raw,close_numbers,hi-IN,not,correct,नहीं,मात्रा पंद्रह है पचास नहीं,human
+NT032,hi-close,rewritten,close_numbers,hi-IN,qty,correct,पंद्रह,मात्रा पंद्रह है पचास नहीं,audio_llm_provisional
+NT032,hi-close,rewritten,close_numbers,hi-IN,rejected,correct,पचास,मात्रा पंद्रह है पचास नहीं,audio_llm_provisional
+NT032,hi-close,rewritten,close_numbers,hi-IN,not,correct,नहीं,मात्रा पंद्रह है पचास नहीं,audio_llm_provisional
+NT033,hi-signed,raw,signed,hi-IN,sign,wrong,,बदलाव एक दशमलव पांच प्रतिशत रहा,human
+NT033,hi-signed,raw,signed,hi-IN,value,correct,एक दशमलव पांच प्रतिशत,बदलाव एक दशमलव पांच प्रतिशत रहा,human
+NT034,hi-signed,rewritten,signed,hi-IN,sign,correct,माइनस,बदलाव माइनस एक दशमलव पांच प्रतिशत रहा,human
+NT034,hi-signed,rewritten,signed,hi-IN,value,correct,एक दशमलव पांच प्रतिशत,बदलाव माइनस एक दशमलव पांच प्रतिशत रहा,human
+NT035,hi-ident,raw,identifiers,hi-IN,digits,wrong,सत्तर,आपका कोड सत्तर है,human
+NT036,hi-ident,rewritten,identifiers,hi-IN,digits,correct,शून्य शून्य सात शून्य,आपका कोड शून्य शून्य सात शून्य है,human
+NT037,hi-time,raw,times,hi-IN,time,correct,नौ बजकर पाँच मिनट,कॉल सुबह नौ बजकर पाँच मिनट है,audio_llm_provisional
+NT038,hi-time,rewritten,times,hi-IN,time,correct,नौ बजकर पाँच मिनट,कल सुबह नौ बजकर पांच मिनट पर है,audio_llm_provisional
+NT039,te-close,raw,close_numbers,te-IN,qty,correct,పదిహేను,పరిమాణం పదిహేను యాభై కాదు,human
+NT039,te-close,raw,close_numbers,te-IN,rejected,correct,యాభై,పరిమాణం పదిహేను యాభై కాదు,audio_llm_provisional
+NT039,te-close,raw,close_numbers,te-IN,not,correct,కాదు,పరిమాణం పదిహేను యాభై కాదు,human
+NT040,te-close,rewritten,close_numbers,te-IN,qty,correct,పదిహేను,పరిమాణం పదిహేను యాభై కాదు,audio_llm_provisional
+NT040,te-close,rewritten,close_numbers,te-IN,rejected,correct,యాభై,పరిమాణం పదిహేను యాభై కాదు,audio_llm_provisional
+NT040,te-close,rewritten,close_numbers,te-IN,not,correct,కాదు,పరిమాణం పదిహేను యాభై కాదు,audio_llm_provisional
+NT041,te-signed,raw,signed,te-IN,sign,wrong,,మార్పు పాయింట్ ఐదు పర్సెంట్ ఉంది,human
+NT041,te-signed,raw,signed,te-IN,value,wrong,పాయింట్ ఐదు పర్సెంట్,మార్పు పాయింట్ ఐదు పర్సెంట్ ఉంది,human
+NT042,te-signed,rewritten,signed,te-IN,sign,correct,మైనస్,మార్పు మైనస్ ఒకటి పాయింట్ ఐదు శాతం ఉంది,human
+NT042,te-signed,rewritten,signed,te-IN,value,correct,ఒకటి పాయింట్ ఐదు శాతం,మార్పు మైనస్ ఒకటి పాయింట్ ఐదు శాతం ఉంది,human
+NT043,te-ident,raw,identifiers,te-IN,digits,wrong,డెబ్బై,మీ కోడ్ డెబ్బై,human
+NT044,te-ident,rewritten,identifiers,te-IN,digits,correct,సున్నా సున్నా ఏడు సున్నా,మీ కోడ్ సున్నా సున్నా ఏడు సున్నా,human
+NT045,ta-close,raw,close_numbers,ta-IN,qty,correct,பதினைந்து,அளவு பதினைந்து ஐம்பதல்ல,audio_llm_provisional
+NT045,ta-close,raw,close_numbers,ta-IN,rejected,correct,ஐம்பது,அளவு பதினைந்து ஐம்பதல்ல,audio_llm_provisional
+NT045,ta-close,raw,close_numbers,ta-IN,not,correct,அல்ல,அளவு பதினைந்து ஐம்பதல்ல,audio_llm_provisional
+NT046,ta-close,rewritten,close_numbers,ta-IN,qty,correct,பதினைந்து,அளவு பதினைந்து ஐம்பது அல்ல,audio_llm_provisional
+NT046,ta-close,rewritten,close_numbers,ta-IN,rejected,correct,ஐம்பது,அளவு பதினைந்து ஐம்பது அல்ல,audio_llm_provisional
+NT046,ta-close,rewritten,close_numbers,ta-IN,not,correct,அல்ல,அளவு பதினைந்து ஐம்பது அல்ல,audio_llm_provisional
+NT047,ta-signed,raw,signed,ta-IN,sign,wrong,,மாற்றம் ஒன்று பாயிண்ட் ஐந்து பர்சன்ட்,audio_llm_provisional
+NT047,ta-signed,raw,signed,ta-IN,value,correct,ஒன்று பாயிண்ட் ஐந்து பர்சன்ட்,மாற்றம் ஒன்று பாயிண்ட் ஐந்து பர்சன்ட்,audio_llm_provisional
+NT048,ta-signed,rewritten,signed,ta-IN,sign,correct,மைனஸ்,மாற்றம் மைனஸ் ஒன்று புள்ளி ஐந்து சதவீதம்,human
+NT048,ta-signed,rewritten,signed,ta-IN,value,correct,ஒன்று புள்ளி ஐந்து சதவீதம்,மாற்றம் மைனஸ் ஒன்று புள்ளி ஐந்து சதவீதம்,audio_llm_provisional
+NT049,ta-ident,raw,identifiers,ta-IN,digits,wrong,எழுபது,உங்கள் குறியீடு எழுபது,audio_llm_provisional
+NT050,ta-ident,rewritten,identifiers,ta-IN,digits,correct,பூஜ்யம் பூஜ்யம் ஏழு பூஜ்யம்,உங்கள் குறியீடு பூஜ்ஜியம் பூஜ்ஜியம் ஏழு பூஜ்ஜியம்,human
+NT051,kn-close,raw,close_numbers,kn-IN,qty,correct,ಹದಿನೈದು,ಪ್ರಮಾಣ ಹದಿನೈದು ಐವತ್ತು ಅಲ್ಲ,audio_llm_provisional
+NT051,kn-close,raw,close_numbers,kn-IN,rejected,correct,ಐವತ್ತು,ಪ್ರಮಾಣ ಹದಿನೈದು ಐವತ್ತು ಅಲ್ಲ,audio_llm_provisional
+NT051,kn-close,raw,close_numbers,kn-IN,not,correct,ಅಲ್ಲ,ಪ್ರಮಾಣ ಹದಿನೈದು ಐವತ್ತು ಅಲ್ಲ,audio_llm_provisional
+NT052,kn-close,rewritten,close_numbers,kn-IN,qty,correct,ಹದಿನೈದು,"ಪ್ರಮಾಣ ಹದಿನೈದು, ಐವತ್ತು ಅಲ್ಲ.",audio_llm_provisional
+NT052,kn-close,rewritten,close_numbers,kn-IN,rejected,correct,ಐವತ್ತು,"ಪ್ರಮಾಣ ಹದಿನೈದು, ಐವತ್ತು ಅಲ್ಲ.",audio_llm_provisional
+NT052,kn-close,rewritten,close_numbers,kn-IN,not,correct,ಅಲ್ಲ,"ಪ್ರಮಾಣ ಹದಿನೈದು, ಐವತ್ತು ಅಲ್ಲ.",audio_llm_provisional
+NT053,kn-signed,raw,signed,kn-IN,sign,wrong,,ಬದಲಾವಣೆ ಒಂದು ಪಾಯಿಂಟ್ ಐದು ಪರ್ಸೆಂಟ್,human
+NT053,kn-signed,raw,signed,kn-IN,value,correct,ಒಂದು ಪಾಯಿಂಟ್ ಐದು ಪರ್ಸೆಂಟ್,ಬದಲಾವಣೆ ಒಂದು ಪಾಯಿಂಟ್ ಐದು ಪರ್ಸೆಂಟ್,human
+NT054,kn-signed,rewritten,signed,kn-IN,sign,correct,ಮೈನಸ್,ಬದಲಾವಣೆ ಮೈನಸ್ ಒಂದು ಪಾಯಿಂಟ್ ಐದು ಶೇಕಡಾ,human
+NT054,kn-signed,rewritten,signed,kn-IN,value,correct,ಒಂದು ಪಾಯಿಂಟ್ ಐದು ಶೇಕಡಾ,ಬದಲಾವಣೆ ಮೈನಸ್ ಒಂದು ಪಾಯಿಂಟ್ ಐದು ಶೇಕಡಾ,audio_llm_provisional
+NT055,kn-ident,raw,identifiers,kn-IN,digits,wrong,ಎಪ್ಪತ್ತು,ನಿಮ್ಮ ಕೋಡ್ ಎಪ್ಪತ್ತು,audio_llm_provisional
+NT056,kn-ident,rewritten,identifiers,kn-IN,digits,correct,ಸೊನ್ನೆ ಸೊನ್ನೆ ಏಳು ಸೊನ್ನೆ,ನಿಮ್ಮ ಕೋಡ್ ಸೊನ್ನೆ ಸೊನ್ನೆ ಏಳು ಸೊನ್ನೆ,human
+NT057,mr-close,raw,close_numbers,mr-IN,qty,correct,पंधरा,प्रमाण पंधरा आहे पन्नास नाही,audio_llm_provisional
+NT057,mr-close,raw,close_numbers,mr-IN,rejected,correct,पन्नास,प्रमाण पंधरा आहे पन्नास नाही,audio_llm_provisional
+NT057,mr-close,raw,close_numbers,mr-IN,not,correct,नाही,प्रमाण पंधरा आहे पन्नास नाही,audio_llm_provisional
+NT058,mr-close,rewritten,close_numbers,mr-IN,qty,correct,पंधरा,प्रमाण पंधरा आहे पन्नास नाही,audio_llm_provisional
+NT058,mr-close,rewritten,close_numbers,mr-IN,rejected,correct,पन्नास,प्रमाण पंधरा आहे पन्नास नाही,audio_llm_provisional
+NT058,mr-close,rewritten,close_numbers,mr-IN,not,correct,नाही,प्रमाण पंधरा आहे पन्नास नाही,audio_llm_provisional
+NT059,mr-signed,raw,signed,mr-IN,sign,wrong,,बदल एक पॉइंट पाच परसेंट आहे,audio_llm_provisional
+NT059,mr-signed,raw,signed,mr-IN,value,correct,एक पॉइंट पाच परसेंट,बदल एक पॉइंट पाच परसेंट आहे,audio_llm_provisional
+NT060,mr-signed,rewritten,signed,mr-IN,sign,correct,उणे,बदलून हे एक पूर्णांक पाच टक्के आहे,audio_llm_provisional
+NT060,mr-signed,rewritten,signed,mr-IN,value,correct,एक पूर्णांक पाच टक्के,बदलून हे एक पूर्णांक पाच टक्के आहे,audio_llm_provisional
+NT061,mr-ident,raw,identifiers,mr-IN,digits,wrong,सत्तर,तुमचा कोड सत्तर आहे,audio_llm_provisional
+NT062,mr-ident,rewritten,identifiers,mr-IN,digits,correct,शून्य शून्य सात शून्य,तुमचा कोड शून्य शून्य सात शून्य आहे,human
+NT063,mix-sign,raw,code_switching,auto,sign,wrong,,आपका बैलेंस तीन हज़ार दो सौ रुपए है,human
+NT063,mix-sign,raw,code_switching,auto,value,correct,तीन हज़ार दो सौ रुपए,आपका बैलेंस तीन हज़ार दो सौ रुपए है,human
+NT064,mix-sign,rewritten,code_switching,auto,sign,correct,माइनस,आपका बैलेंस माइनस तीन हज़ार दो सौ रुपए है।,human
+NT064,mix-sign,rewritten,code_switching,auto,value,correct,तीन हज़ार दो सौ रुपए,आपका बैलेंस माइनस तीन हज़ार दो सौ रुपए है।,human
+NT065,mix-close,raw,code_switching,auto,qty,wrong,ek paanch,"order quantity एक पांच है, पचास नहीं",human
+NT065,mix-close,raw,code_switching,auto,rejected,correct,pachaas,"order quantity एक पांच है, पचास नहीं",human
+NT065,mix-close,raw,code_switching,auto,not,correct,nahi,"order quantity एक पांच है, पचास नहीं",human
+NT066,mix-close,rewritten,code_switching,auto,qty,correct,fifteen,order quantity fifteen है fifty नहीं,human
+NT066,mix-close,rewritten,code_switching,auto,rejected,correct,fifty,order quantity fifteen है fifty नहीं,human
+NT066,mix-close,rewritten,code_switching,auto,not,ambiguous,नहीं,order quantity fifteen है fifty नहीं,human

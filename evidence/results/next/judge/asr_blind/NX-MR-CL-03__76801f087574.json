@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-MR-CL-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "76801f087574065382642d40",
+ "audio": "data/next/audio/NX-MR-CL-03.wav",
+ "latency_ms": 4825,
+ "reply": {
+  "transcript": "मिस्टर अब्राहम बेंजामिन डी विलियर्सने त्याच्या पहिल्या कसोटी सामन्यात पदार्पण केले तेव्हा विरोधी संघ कोणत्या देशाचा होता?",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 366,
+  "output": 52
+ }
+}

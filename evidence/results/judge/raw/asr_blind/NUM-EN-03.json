@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "NUM-EN-03",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/NUM-EN-03.wav",
+ "latency_ms": 3703,
+ "reply": {
+  "transcript": "What battle took place at Hill 60?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 259,
+  "output": 33
+ }
+}

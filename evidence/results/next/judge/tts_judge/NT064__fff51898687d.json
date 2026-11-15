@@ -1,0 +1,31 @@
+{
+ "task": "tts_judge",
+ "id": "NT064",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "fff51898687ddca021961fba",
+ "audio": "results/next/audio/NT064.wav",
+ "latency_ms": 7985,
+ "reply": {
+  "targets": [
+   {
+    "id": "sign",
+    "result": "correct",
+    "heard": "माइनस"
+   },
+   {
+    "id": "value",
+    "result": "correct",
+    "heard": "तीन हज़ार दो सौ रुपए"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "All targeted phrases were accurately synthesized with clear pronunciation and moderate naturalness."
+ },
+ "tokens": {
+  "prompt": 458,
+  "output": 138
+ }
+}

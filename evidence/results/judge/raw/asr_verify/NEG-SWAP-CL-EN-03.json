@@ -1,0 +1,21 @@
+{
+ "task": "asr_verify",
+ "id": "NEG-SWAP-CL-EN-03",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/CL-EN-03.wav",
+ "latency_ms": 4090,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "How many home games does Dodger Stadium see a season",
+    "heard": "Who founded the Pearl Brewing Company"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 280,
+  "output": 42
+ }
+}

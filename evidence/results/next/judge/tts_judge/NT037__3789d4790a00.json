@@ -1,0 +1,26 @@
+{
+ "task": "tts_judge",
+ "id": "NT037",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "3789d4790a00b6d5f9206102",
+ "audio": "results/next/audio/NT037.wav",
+ "latency_ms": 10899,
+ "reply": {
+  "targets": [
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "नौ बजकर पाँच मिनट"
+   }
+  ],
+  "content_complete": false,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The time expression was expanded to include 'मिनट' while 'बजे' was omitted."
+ },
+ "tokens": {
+  "prompt": 395,
+  "output": 82
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T45",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "48853c2ead2cf104101baab4",
+ "audio": "results/tts_audio/T45.wav",
+ "latency_ms": 4223,
+ "reply": {
+  "heard": "The payment date is third November twenty twenty-six not thirtieth November twenty twenty-six",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "date1",
+    "result": "correct",
+    "heard": "third November twenty twenty-six"
+   },
+   {
+    "id": "date2",
+    "result": "correct",
+    "heard": "thirtieth November twenty twenty-six"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "not"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 559,
+  "output": 83
+ }
+}

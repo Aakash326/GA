@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T85",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T85.wav",
+ "latency_ms": 4245,
+ "reply": {
+  "heard": "We have received your application. Our team will review the details and contact you if more information is needed. Please keep your reference number available. You do not need to create another application while this review is in progress.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 470,
+  "output": 53
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-KN-MEDIA-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "7a5471200e93b303397ed42d",
+ "audio": "data/next/audio/NX-KN-MEDIA-02.wav",
+ "latency_ms": 6437,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "ಟಂಗುಟೂರಿ ಪ್ರಕಾಶಂ ಪಂತುಲು ಅವರ ಶೀರ್ಷಿಕೆ ಯಾರು?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The speaker clearly says 'ಪಂತುಲು' rather than 'ಪಂಟುಳು', and 'ಶೀರ್ಷಿಕೆ' rather than 'ಶೀರ್ಷಕೆ'."
+ },
+ "tokens": {
+  "prompt": 361,
+  "output": 94
+ }
+}

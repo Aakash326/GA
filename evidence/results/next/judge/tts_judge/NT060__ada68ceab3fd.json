@@ -1,0 +1,31 @@
+{
+ "task": "tts_judge",
+ "id": "NT060",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ada68ceab3fdf35cb9c87e4f",
+ "audio": "results/next/audio/NT060.wav",
+ "latency_ms": 10594,
+ "reply": {
+  "targets": [
+   {
+    "id": "sign",
+    "result": "correct",
+    "heard": "उणे"
+   },
+   {
+    "id": "value",
+    "result": "correct",
+    "heard": "एक पूर्णांक पाच टक्के"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The text was read accurately, including the negative term 'उणे' and the percentage value, with intelligible synthetic prosody."
+ },
+ "tokens": {
+  "prompt": 436,
+  "output": 149
+ }
+}

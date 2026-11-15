@@ -1,0 +1,35 @@
+{
+ "task": "tts_judge",
+ "id": "M-T41-SHIVANI-W",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/M-T41-SHIVANI-W.wav",
+ "latency_ms": 7502,
+ "reply": {
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "fifteen"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "fifty"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "not"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "Clear pronunciation with proper distinction between fifteen and fifty, though delivery is slightly mechanical."
+ },
+ "tokens": {
+  "prompt": 458,
+  "output": 166
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "task": "tts_judge",
+ "id": "T101",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T101.wav",
+ "latency_ms": 5969,
+ "reply": {
+  "targets": [
+   {
+    "id": "content",
+    "result": "correct",
+    "heard": "तुमची विनंती मिळाली आहे. आम्ही उद्या तुमच्याशी संपर्क साधू."
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "artifacts": [],
+  "comment": "The Marathi sentence is rendered clearly with accurate pronunciation and natural pacing."
+ },
+ "tokens": {
+  "prompt": 435,
+  "output": 86
+ }
+}

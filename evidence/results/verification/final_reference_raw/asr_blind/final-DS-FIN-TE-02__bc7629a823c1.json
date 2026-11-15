@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-DS-FIN-TE-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "bc7629a823c18d0f08bce159",
+ "audio": "data/next/dataset_replacement/DS-FIN-TE-02.wav",
+ "latency_ms": 3425,
+ "reply": {
+  "transcript": "2010 నాటికి గుంటూరు జిల్లాలో ఉన్న మొత్తం బ్యాంకుల సంఖ్య ఎంత?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 297,
+  "output": 42
+ }
+}

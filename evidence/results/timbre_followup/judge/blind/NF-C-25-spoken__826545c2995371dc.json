@@ -1,0 +1,36 @@
+{
+  "task": "blind",
+  "id": "NF-C-25-spoken",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "826545c2995371dcacfc1311478fcdb824a5ab3ff2d6c17258c7e76aa41a6e5b",
+  "input_sha256": [
+    "bb2b7350019cb206f59dd94cde3b6fee39cf650ba91effc14286bcc700deab63"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-C-25-spoken.wav"
+  ],
+  "reply": {
+    "heard": "The change was minus 2.5%. The PIN is 0070. The call starts at 9:05 AM.",
+    "naturalness_1to5": 3,
+    "prosody_1to5": 3,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "neutral",
+      "measured pace",
+      "clear enunciation"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "normal brief pause",
+    "artifacts": [],
+    "confidence": "high",
+    "reason": "Speech is clear and fully intelligible, with slightly robotic TTS prosody and pacing."
+  },
+  "prompt_tokens": 413,
+  "output_tokens": 154,
+  "thought_tokens": 240,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

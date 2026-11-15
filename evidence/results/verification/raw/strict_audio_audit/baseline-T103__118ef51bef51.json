@@ -1,0 +1,25 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T103",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "118ef51bef518eb745c61144",
+ "audio": "results/tts_audio/T103.wav",
+ "latency_ms": 5141,
+ "reply": {
+  "heard": "तुमचे पेमेंट तेवीस नोव्हेंबरला देय आहे",
+  "target_spec_issues": [
+   "must_hear specifies English words ('twenty-third (of) November') for a Marathi (mr-IN) task"
+  ],
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "तेवीस नोव्हेंबरला"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 327,
+  "output": 67
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-MR-CL-05",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-MR-CL-05.wav",
+ "latency_ms": 6238,
+ "reply": {
+  "transcript": "घुरी साम्राज्याचा संस्थापक कोण आहे?",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 213,
+  "output": 32
+ }
+}

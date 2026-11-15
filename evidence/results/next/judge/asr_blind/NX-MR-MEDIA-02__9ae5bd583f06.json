@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-MR-MEDIA-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "9ae5bd583f069d5a89347523",
+ "audio": "data/next/audio/NX-MR-MEDIA-02.wav",
+ "latency_ms": 4974,
+ "reply": {
+  "transcript": "नवग्रहापैकी सूर्याचा सर्वात जवळचा ग्रह कोणता आहे?",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 292,
+  "output": 36
+ }
+}

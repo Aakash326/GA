@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T06",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T06.wav",
+ "latency_ms": 3421,
+ "reply": {
+  "heard": "Please complete your K Y C verification.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 184,
+  "output": 18
+ }
+}

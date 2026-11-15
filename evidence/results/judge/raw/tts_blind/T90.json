@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T90",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T90.wav",
+ "latency_ms": 5666,
+ "reply": {
+  "heard": "உங்கள் இருப்பு ஒரு லட்சம் இருபத்தைந்து ஆயிரத்து நானூற்று ஐம்பது ரூபாய்",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 233,
+  "output": 35
+ }
+}

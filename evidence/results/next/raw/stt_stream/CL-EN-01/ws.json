@@ -1,0 +1,56 @@
+{
+ "ok": true,
+ "kind": "stt_stream",
+ "case_id": "CL-EN-01",
+ "run_tag": "ws",
+ "fingerprint": "5ffa13900278fd89d1f8fc4c",
+ "connect_ms": 227.1,
+ "speech_end_s": 3.588,
+ "transcript": "Who first identified blood types?",
+ "first_final_s": 3.436,
+ "last_final_after_speech_ms": -152.4,
+ "server_latency_ms": [
+  76
+ ],
+ "segments": 1,
+ "errors": [],
+ "messages": [
+  {
+   "type": "connected",
+   "message": "STT service ready — VAD service connected",
+   "request_id": "01a1da40-291e-7854-b257-f084dd6bbbc5",
+   "config": {
+    "sample_rate": 16000,
+    "chunk_size": 512,
+    "partials_enabled": false,
+    "partial_interval_ms": 450,
+    "partial_max_window_s": 15.0,
+    "language_code": "en-IN",
+    "format": "transcribe"
+   },
+   "timestamp": "2026-11-14T13:30:00.467270+00:00",
+   "t_s": 0.05067719999351539
+  },
+  {
+   "type": "speech_start",
+   "utterance_id": "u0390cb45",
+   "t_ms": 628,
+   "timestamp": "2026-11-14T13:30:01.335873+00:00",
+   "t_s": 0.9203159000026062
+  },
+  {
+   "type": "transcript",
+   "text": "Who first identified blood types?",
+   "audio_duration_ms": 3060.0,
+   "segment_id": "01a1da40-291e-7854-b257-f084dd6bbbc5-seg-1",
+   "segment_index": 1,
+   "utterance_id": "u0390cb45",
+   "is_final": true,
+   "latency": 76,
+   "prefetched": false,
+   "timestamp": "2026-11-14T13:30:03.854085+00:00",
+   "detected_language_code": "en-IN",
+   "t_s": 3.4355740000028163
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-KN-CL-08",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-KN-CL-08.wav",
+ "latency_ms": 5578,
+ "reply": {
+  "transcript": "ಬಂಗಾಳದಲ್ಲಿ ಎಷ್ಟು ಮರಾಠ ದಾಳಿಗಳು ನಡೆದಿವೆ",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 259,
+  "output": 39
+ }
+}

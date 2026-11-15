@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-TRAFFIC-HI-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-TRAFFIC-HI-01.wav",
+ "latency_ms": 3976,
+ "reply": {
+  "transcript": "भारतीय आयकर अधिनियम कब लागू किया गया था",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 228,
+  "output": 32
+ }
+}

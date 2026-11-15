@@ -1,0 +1,30 @@
+{
+ "task": "tts_judge",
+ "id": "T73",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T73.wav",
+ "latency_ms": 5083,
+ "reply": {
+  "targets": [
+   {
+    "id": "emi",
+    "result": "correct",
+    "heard": "E M I"
+   },
+   {
+    "id": "sip",
+    "result": "correct",
+    "heard": "S I P"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "artifacts": [],
+  "comment": "Accurate pronunciation of both acronyms with clear Indian English accent and natural prosody."
+ },
+ "tokens": {
+  "prompt": 470,
+  "output": 140
+ }
+}

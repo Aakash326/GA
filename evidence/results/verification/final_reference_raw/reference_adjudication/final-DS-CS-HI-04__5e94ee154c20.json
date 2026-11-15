@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-DS-CS-HI-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5e94ee154c207da4239222df",
+ "audio": "data/next/dataset_replacement/DS-CS-HI-04.wav",
+ "latency_ms": 3769,
+ "reply": {
+  "dataset_matches": true,
+  "selected_reference": "निम्न link पर उपलब्ध video देखें यह spoken tutorial project को सारांशित करता है",
+  "confidence": "high",
+  "unclear": [],
+  "reason": ""
+ },
+ "tokens": {
+  "prompt": 398,
+  "output": 41
+ }
+}

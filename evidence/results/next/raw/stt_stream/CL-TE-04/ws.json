@@ -1,0 +1,56 @@
+{
+ "ok": true,
+ "kind": "stt_stream",
+ "case_id": "CL-TE-04",
+ "run_tag": "ws",
+ "fingerprint": "be40e1ac6fdcb5074c72bbfb",
+ "connect_ms": 135.1,
+ "speech_end_s": 4.484,
+ "transcript": "న్యూమోనియాను మొదట ఏ దేశంలో కనుగొన్నారు?",
+ "first_final_s": 4.279,
+ "last_final_after_speech_ms": -204.7,
+ "server_latency_ms": [
+  127
+ ],
+ "segments": 1,
+ "errors": [],
+ "messages": [
+  {
+   "type": "connected",
+   "message": "STT service ready — VAD service connected",
+   "request_id": "01a1da41-e2f6-73ba-b8f8-9f6c0aeb6262",
+   "config": {
+    "sample_rate": 16000,
+    "chunk_size": 512,
+    "partials_enabled": false,
+    "partial_interval_ms": 450,
+    "partial_max_window_s": 15.0,
+    "language_code": "te-IN",
+    "format": "transcribe"
+   },
+   "timestamp": "2026-11-14T13:31:53.537644+00:00",
+   "t_s": 0.0544205000041984
+  },
+  {
+   "type": "speech_start",
+   "utterance_id": "u0aa5c11b",
+   "t_ms": 564,
+   "timestamp": "2026-11-14T13:31:54.343509+00:00",
+   "t_s": 0.8593668999965303
+  },
+  {
+   "type": "transcript",
+   "text": "న్యూమోనియాను మొదట ఏ దేశంలో కనుగొన్నారు?",
+   "audio_duration_ms": 3924.0,
+   "segment_id": "01a1da41-e2f6-73ba-b8f8-9f6c0aeb6262-seg-1",
+   "segment_index": 1,
+   "utterance_id": "u0aa5c11b",
+   "is_final": true,
+   "latency": 127,
+   "prefetched": false,
+   "timestamp": "2026-11-14T13:31:57.762636+00:00",
+   "detected_language_code": "te-IN",
+   "t_s": 4.279306600001291
+  }
+ ]
+}

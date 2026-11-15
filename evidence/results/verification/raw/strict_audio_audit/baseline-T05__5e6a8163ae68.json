@@ -1,0 +1,33 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T05",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5e6a8163ae688e0a64167c15",
+ "audio": "results/tts_audio/T05.wav",
+ "latency_ms": 6951,
+ "reply": {
+  "heard": "The price moved from eight hundred fifty rupees to one thousand fifty rupees.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "from",
+    "result": "correct",
+    "heard": "eight hundred fifty rupees"
+   },
+   {
+    "id": "to",
+    "result": "correct",
+    "heard": "one thousand fifty rupees"
+   },
+   {
+    "id": "order",
+    "result": "correct",
+    "heard": "from eight hundred fifty rupees to one thousand fifty rupees"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 521,
+  "output": 79
+ }
+}

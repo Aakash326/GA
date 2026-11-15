@@ -1,0 +1,36 @@
+{
+ "task": "tts_judge",
+ "id": "NT065",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "67a7b5d133876d00f118a4b0",
+ "audio": "results/next/audio/NT065.wav",
+ "latency_ms": 10440,
+ "reply": {
+  "targets": [
+   {
+    "id": "qty",
+    "result": "wrong",
+    "heard": "ek paanch"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "pachaas"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "nahi"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The number 15 was read digit-by-digit as 'ek paanch' rather than as a complete numeral, while 50 was read normally."
+ },
+ "tokens": {
+  "prompt": 473,
+  "output": 156
+ }
+}

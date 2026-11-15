@@ -1,0 +1,16 @@
+﻿case_id,listener_id,listener_languages,target_id,target_critical,target_result,naturalness_1to5,prosody_1to5,content_complete,meaning_preserved,artifact_flags,comment,blind_transcription,blind_before_reveal,cannot_judge,rated_at,result,heard,model,fingerprint
+T94,,,negation,True,,,,,,,,,False,False,2026-11-14T17:14:47.741Z,correct,வேண்டாம்,gemini-3.8-flash,39e92506cf6864a43015fe66
+T100,,,negation,True,,,,,,,,,False,False,2026-11-14T17:15:04.590Z,correct,ಹಂಚಿಕೊಳ್ಳಬೇಡಿ,gemini-3.8-flash,ed87d6b2197b915104eda857
+T101,,,content,True,,,,,,,,,False,False,2026-11-14T17:03:16.058Z,correct,तुमची विनंती मिळाली आहे. आम्ही उद्या तुमच्याशी संपर्क साधू.,gemini-3.8-flash,759c1829275888d8b4350259
+NT039,,,rejected,True,,,,,,,,,False,False,2026-11-14T17:17:01.253Z,correct,యాభై,gemini-3.8-flash,5130240134110ab73d7b221c
+NT047,,,sign,True,,,,,,,,,False,False,2026-11-14T17:02:58.020Z,wrong,,gemini-3.8-flash,7a4e8e39fe2b9c7b1dde147e
+NT047,,,value,True,,,,,,,,,False,False,2026-11-14T17:02:58.020Z,correct,ஒன்று பாயிண்ட் ஐந்து பர்சன்ட்,gemini-3.8-flash,7a4e8e39fe2b9c7b1dde147e
+NT048,,,value,True,,,,,,,,,False,False,2026-11-14T17:16:51.988Z,correct,ஒன்று புள்ளி ஐந்து சதவீதம்,gemini-3.8-flash,a212b12e67913f7d110f3cdb
+NT049,,,digits,True,,,,,,,dont know,,False,False,2026-11-14T17:11:41.794Z,wrong,எழுபது,gemini-3.8-flash,89002a6ddc2a86fe125d35eb
+NT054,,,value,True,,,,,,,i dont know tamil,,False,False,2026-11-14T17:10:02.324Z,correct,ಒಂದು ಪಾಯಿಂಟ್ ಐದು ಶೇಕಡಾ,gemini-3.8-flash,6baeb5d87795e3e0bf209421
+NT055,,,digits,True,,,,,,,i think it was 70 ,,False,False,2026-11-14T17:11:33.324Z,wrong,ಎಪ್ಪತ್ತು,gemini-3.8-flash,d68b12fc6212bf69e574f6a3
+NT059,,,sign,True,,,,,,,,,False,False,2026-11-14T17:03:51.637Z,wrong,,gemini-3.8-flash,03a9a9b2d42fd5c7676ff792
+NT059,,,value,True,,,,,,,,,False,False,2026-11-14T17:03:51.637Z,correct,एक पॉइंट पाच पर्सेंट,gemini-3.8-flash,03a9a9b2d42fd5c7676ff792
+NT060,,,sign,True,,,,,,,,,False,False,2026-11-14T17:03:56.362Z,correct,उणे,gemini-3.8-flash,91c01389975272c7f1f9bd01
+NT060,,,value,True,,,,,,,,,False,False,2026-11-14T17:03:56.362Z,correct,एक पूर्णांक पाच टक्के,gemini-3.8-flash,91c01389975272c7f1f9bd01
+NT061,,,digits,True,,,,,,,it said 70 only ,,False,False,2026-11-14T17:10:27.883Z,wrong,सत्तर,gemini-3.8-flash,e61adcc0cb757049e7aea37e

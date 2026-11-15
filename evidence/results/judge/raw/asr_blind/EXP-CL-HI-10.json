@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-HI-10",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-CL-HI-10.wav",
+ "latency_ms": 4517,
+ "reply": {
+  "transcript": "भारतीय भौतिक विज्ञानी देवेंद्र मोहन बोस की मृत्यु किस वर्ष हुई थी?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 319,
+  "output": 43
+ }
+}

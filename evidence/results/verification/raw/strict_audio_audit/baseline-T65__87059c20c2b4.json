@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T65",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "87059c20c2b44df08657d9ce",
+ "audio": "results/tts_audio/T65.wav",
+ "latency_ms": 5868,
+ "reply": {
+  "heard": "దయచేసి మీ ఖాతా వివరాలను మరోసారి తనిఖీ చేయండి.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "content",
+    "result": "correct",
+    "heard": "దయచేసి మీ ఖాతా వివరాలను మరోసారి తనిఖీ చేయండి."
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 375,
+  "output": 58
+ }
+}

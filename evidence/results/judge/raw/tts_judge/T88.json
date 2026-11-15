@@ -1,0 +1,40 @@
+{
+ "task": "tts_judge",
+ "id": "T88",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T88.wav",
+ "latency_ms": 6458,
+ "reply": {
+  "targets": [
+   {
+    "id": "start",
+    "result": "correct",
+    "heard": "Your request has been received"
+   },
+   {
+    "id": "end",
+    "result": "correct",
+    "heard": "Contact support if the status remains unclear"
+   },
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "Do not share your password or verification code"
+   },
+   {
+    "id": "negation2",
+    "result": "correct",
+    "heard": "It does not guarantee that a pending request will succeed"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "artifacts": [],
+  "comment": "The text was read completely and accurately with clear Indian English pronunciation, natural prosody, and appropriate pacing."
+ },
+ "tokens": {
+  "prompt": 2823,
+  "output": 229
+ }
+}

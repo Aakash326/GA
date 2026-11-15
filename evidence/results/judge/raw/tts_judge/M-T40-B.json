@@ -1,0 +1,35 @@
+{
+ "task": "tts_judge",
+ "id": "M-T40-B",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/M-T40-B.wav",
+ "latency_ms": 7275,
+ "reply": {
+  "targets": [
+   {
+    "id": "neg_amount",
+    "result": "correct",
+    "heard": "minus two hundred fifty rupees fifty paise"
+   },
+   {
+    "id": "pos_amount",
+    "result": "correct",
+    "heard": "two hundred fifty rupees fifty paise"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "not"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "artifacts": [],
+  "comment": "All phrases and numerical values were read accurately with clear distinction between negative and positive amounts."
+ },
+ "tokens": {
+  "prompt": 689,
+  "output": 181
+ }
+}

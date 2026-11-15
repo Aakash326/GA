@@ -1,0 +1,27 @@
+{
+ "task": "tts_judge",
+ "id": "M-T34-A",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/M-T34-A.wav",
+ "latency_ms": 8477,
+ "reply": {
+  "targets": [
+   {
+    "id": "value",
+    "result": "wrong",
+    "heard": "two point five percent"
+   }
+  ],
+  "content_complete": false,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [
+   "unnatural pause"
+  ],
+  "comment": "The minus sign was omitted and replaced by an unnatural pause."
+ },
+ "tokens": {
+  "prompt": 415,
+  "output": 114
+ }
+}

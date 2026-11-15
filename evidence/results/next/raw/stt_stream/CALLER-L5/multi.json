@@ -1,0 +1,56 @@
+{
+ "ok": true,
+ "kind": "stt_stream",
+ "case_id": "CALLER-L5",
+ "run_tag": "multi",
+ "fingerprint": "0e1e77036452da31a1683d50",
+ "connect_ms": 125.3,
+ "speech_end_s": 1.924,
+ "transcript": "मुझे 500 रुपये ट्रांसफर करने हैं।",
+ "first_final_s": 2.42,
+ "last_final_after_speech_ms": 496.5,
+ "server_latency_ms": [
+  86
+ ],
+ "segments": 1,
+ "errors": [],
+ "messages": [
+  {
+   "type": "connected",
+   "message": "STT service ready — VAD service connected",
+   "request_id": "01a1da1b-97df-71d6-8e9f-62e892aed090",
+   "config": {
+    "sample_rate": 16000,
+    "chunk_size": 512,
+    "partials_enabled": false,
+    "partial_interval_ms": 450,
+    "partial_max_window_s": 15.0,
+    "language_code": "hi-IN",
+    "format": "transcribe"
+   },
+   "timestamp": "2026-11-14T12:50:03.935366+00:00",
+   "t_s": 0.04589690000284463
+  },
+  {
+   "type": "speech_start",
+   "utterance_id": "uda096b44",
+   "t_ms": 0,
+   "timestamp": "2026-11-14T12:50:04.181630+00:00",
+   "t_s": 0.2972239999944577
+  },
+  {
+   "type": "transcript",
+   "text": "मुझे 500 रुपये ट्रांसफर करने हैं।",
+   "audio_duration_ms": 2336.0,
+   "segment_id": "01a1da1b-97df-71d6-8e9f-62e892aed090-seg-1",
+   "segment_index": 1,
+   "utterance_id": "uda096b44",
+   "is_final": true,
+   "latency": 86,
+   "prefetched": false,
+   "timestamp": "2026-11-14T12:50:06.308761+00:00",
+   "detected_language_code": "hi-IN",
+   "t_s": 2.4204908999963664
+  }
+ ]
+}

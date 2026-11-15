@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-EN-CL-05",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "fb6e838723f59c96aeb1fabd",
+ "audio": "data/next/audio/NX-EN-CL-05.wav",
+ "latency_ms": 3563,
+ "reply": {
+  "transcript": "What has fancy beer done",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 254,
+  "output": 29
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T77",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "b738bb98bd331a73c63dc433",
+ "audio": "results/tts_audio/T77.wav",
+ "latency_ms": 4469,
+ "reply": {
+  "heard": "Please download the PDF and scan the QR code.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "pdf",
+    "result": "correct",
+    "heard": "PDF"
+   },
+   {
+    "id": "qr",
+    "result": "correct",
+    "heard": "QR"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 347,
+  "output": 48
+ }
+}

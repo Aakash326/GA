@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "NS-02",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/NS-02.wav",
+ "latency_ms": 4600,
+ "reply": {
+  "transcript": "39",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 235,
+  "output": 32
+ }
+}

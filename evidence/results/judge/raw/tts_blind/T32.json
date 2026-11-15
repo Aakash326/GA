@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T32",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T32.wav",
+ "latency_ms": 4069,
+ "reply": {
+  "heard": "आपका अनुरोध मिल गया है हम कल आपसे संपर्क करेंगे",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 209,
+  "output": 21
+ }
+}

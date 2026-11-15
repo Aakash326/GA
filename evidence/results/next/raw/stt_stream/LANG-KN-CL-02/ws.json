@@ -1,0 +1,56 @@
+{
+ "ok": true,
+ "kind": "stt_stream",
+ "case_id": "LANG-KN-CL-02",
+ "run_tag": "ws",
+ "fingerprint": "82c31794776efc2f279a47cb",
+ "connect_ms": 114.5,
+ "speech_end_s": 3.588,
+ "transcript": "ಅಭಿನೇತ್ರಿ ವಿದ್ಯಾ ಬಾಲನ್ ಎಂದು ಜನಿಸಿದರು.",
+ "first_final_s": 4.079,
+ "last_final_after_speech_ms": 491.0,
+ "server_latency_ms": [
+  124
+ ],
+ "segments": 1,
+ "errors": [],
+ "messages": [
+  {
+   "type": "connected",
+   "message": "STT service ready — VAD service connected",
+   "request_id": "01a1da42-7c5c-706a-815c-80de7d2c5027",
+   "config": {
+    "sample_rate": 16000,
+    "chunk_size": 512,
+    "partials_enabled": false,
+    "partial_interval_ms": 450,
+    "partial_max_window_s": 15.0,
+    "language_code": "kn-IN",
+    "format": "transcribe"
+   },
+   "timestamp": "2026-11-14T13:32:32.800508+00:00",
+   "t_s": 0.04607589999795891
+  },
+  {
+   "type": "speech_start",
+   "utterance_id": "u9831ab3e",
+   "t_ms": 468,
+   "timestamp": "2026-11-14T13:32:33.515786+00:00",
+   "t_s": 0.7609039999952074
+  },
+  {
+   "type": "transcript",
+   "text": "ಅಭಿನೇತ್ರಿ ವಿದ್ಯಾ ಬಾಲನ್ ಎಂದು ಜನಿಸಿದರು.",
+   "audio_duration_ms": 3828.0,
+   "segment_id": "01a1da42-7c5c-706a-815c-80de7d2c5027-seg-1",
+   "segment_index": 1,
+   "utterance_id": "u9831ab3e",
+   "is_final": true,
+   "latency": 124,
+   "prefetched": false,
+   "timestamp": "2026-11-14T13:32:36.834768+00:00",
+   "detected_language_code": "kn-IN",
+   "t_s": 4.07899969999562
+  }
+ ]
+}

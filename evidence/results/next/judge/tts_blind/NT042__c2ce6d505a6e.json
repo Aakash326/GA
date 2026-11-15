@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT042",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c2ce6d505a6e28337c5d6f63",
+ "audio": "results/next/audio/NT042.wav",
+ "latency_ms": 5130,
+ "reply": {
+  "heard": "మార్పు మైనస్ ఒకటి పాయింట్ ఐదు శాతం ఉంది",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 203,
+  "output": 24
+ }
+}

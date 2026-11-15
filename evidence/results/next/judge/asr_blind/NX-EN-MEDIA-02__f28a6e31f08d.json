@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-EN-MEDIA-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f28a6e31f08df72e81c951f0",
+ "audio": "data/next/audio/NX-EN-MEDIA-02.wav",
+ "latency_ms": 6160,
+ "reply": {
+  "transcript": "Who is considered the father of Eastern philosophy?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 287,
+  "output": 32
+ }
+}

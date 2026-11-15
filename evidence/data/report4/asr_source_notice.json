@@ -1,0 +1,11 @@
+{
+  "dataset": "PolyAI/minds14",
+  "revision": "40ce77cb32a384e4d50a568e1ec39ac804019d33",
+  "source_url": "https://huggingface.co/datasets/PolyAI/minds14",
+  "license": "CC-BY-4.0",
+  "source_locale": "en-US",
+  "api_language_hint": "en-IN",
+  "speaker_identity": "Not provided; distinct speakers cannot be established",
+  "reason": "The existing SVQ inventory had fewer than 15 unused clean domain utterances under the frozen vocabulary. Vocabulary unchanged; no new predictions seen before selection.",
+  "scope": "15 targeted public banking-intent recordings, no private calls; separate held-out cohort."
+}

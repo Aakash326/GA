@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT053",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5603724a722d4ac8ff568f9b",
+ "audio": "results/next/audio/NT053.wav",
+ "latency_ms": 4147,
+ "reply": {
+  "heard": "ಬದಲಾವಣೆ ಒಂದು ಪಾಯಿಂಟ್ ಐದು ಪರ್ಸೆಂಟ್",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 190,
+  "output": 26
+ }
+}

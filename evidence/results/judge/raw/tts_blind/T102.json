@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T102",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T102.wav",
+ "latency_ms": 5731,
+ "reply": {
+  "heard": "तुमची शिल्लक एक लाख पंचवीस हजार चारशे पन्नास रुपये आहे",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 223,
+  "output": 27
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T78",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "4690f53a7a5c0885457caf0d",
+ "audio": "results/tts_audio/T78.wav",
+ "latency_ms": 5138,
+ "reply": {
+  "heard": "The report includes N A V, eye-sin, and K Y C information.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "nav",
+    "result": "correct",
+    "heard": "N A V"
+   },
+   {
+    "id": "isin",
+    "result": "correct",
+    "heard": "eye-sin"
+   },
+   {
+    "id": "kyc",
+    "result": "correct",
+    "heard": "K Y C"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 458,
+  "output": 74
+ }
+}

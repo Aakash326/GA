@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T82",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c7a1c62c02db46e254ff5498",
+ "audio": "results/tts_audio/T82.wav",
+ "latency_ms": 4283,
+ "reply": {
+  "heard": "Your request is approved. However, the transfer is still pending.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "contrast",
+    "result": "correct",
+    "heard": "approved; however, the transfer is still pending"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 357,
+  "output": 47
+ }
+}

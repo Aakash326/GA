@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-MR-CL-03",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-MR-CL-03.wav",
+ "latency_ms": 4120,
+ "reply": {
+  "language": "mr",
+  "no_speech": false,
+  "transcript": "मेजर चंद्रकांत चित्रपटाचा दिग्दर्शक कोण आहे",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 256,
+  "output": 40
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-EN-TRAFFIC-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "7f397c234d9c7ad1843bf5e8",
+ "audio": "data/next/audio/NX-EN-TRAFFIC-01.wav",
+ "latency_ms": 3480,
+ "reply": {
+  "transcript": "When was Nike founded?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 243,
+  "output": 28
+ }
+}

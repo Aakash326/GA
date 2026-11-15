@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TA-BG-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "4ff8825dd52ce79fea3c403c",
+ "audio": "data/next/audio/NX-TA-BG-02.wav",
+ "latency_ms": 6023,
+ "reply": {
+  "transcript": "மேஜர் சந்திரகாந்த் படத்தின் இயக்குநர் யார்?",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 225,
+  "output": 33
+ }
+}

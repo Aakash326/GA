@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T28",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f7df3de7110c14b878246b61",
+ "audio": "results/tts_audio/T28.wav",
+ "latency_ms": 5216,
+ "reply": {
+  "heard": "First, check your balance. Next, review your transactions. Finally, confirm the payment.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "list",
+    "result": "correct",
+    "heard": "First, check your balance. Next, review your transactions. Finally, confirm the payment."
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 418,
+  "output": 60
+ }
+}

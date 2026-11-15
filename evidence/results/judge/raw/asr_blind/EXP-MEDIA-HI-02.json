@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-MEDIA-HI-02",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-MEDIA-HI-02.wav",
+ "latency_ms": 3787,
+ "reply": {
+  "transcript": "थर्मोस्टेट का आविष्कार किसने किया था",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 228,
+  "output": 33
+ }
+}

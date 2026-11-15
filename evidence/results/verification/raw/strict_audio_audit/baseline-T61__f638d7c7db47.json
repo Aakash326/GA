@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T61",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f638d7c7db476e5ed6c2fa5c",
+ "audio": "results/tts_audio/T61.wav",
+ "latency_ms": 5224,
+ "reply": {
+  "heard": "कृपया order cancel करें confirm नहीं",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "cancel",
+    "result": "correct",
+    "heard": "order cancel करें"
+   },
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "confirm नहीं"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 334,
+  "output": 48
+ }
+}

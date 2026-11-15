@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-EN-NUM-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "b2b57d032ec1683c7ee7b24a",
+ "audio": "data/next/audio/NX-EN-NUM-02.wav",
+ "latency_ms": 5116,
+ "reply": {
+  "transcript": "How long did Joel appear on Mystery Science Theater 3000?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 295,
+  "output": 38
+ }
+}

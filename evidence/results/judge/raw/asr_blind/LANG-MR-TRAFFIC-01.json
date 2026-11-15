@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-MR-TRAFFIC-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-MR-TRAFFIC-01.wav",
+ "latency_ms": 7044,
+ "reply": {
+  "transcript": "ब्रिटिश विरोधी स्वातंत्र्य चळवळीतील प्रितीलाता वाशेदार यांचा जन्म कधी झाला?",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 327,
+  "output": 43
+ }
+}

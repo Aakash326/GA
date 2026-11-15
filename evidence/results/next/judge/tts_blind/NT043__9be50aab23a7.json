@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT043",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "9be50aab23a7c0d52fb5b676",
+ "audio": "results/next/audio/NT043.wav",
+ "latency_ms": 3675,
+ "reply": {
+  "heard": "మీ కోడ్ డెబ్బై",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 155,
+  "output": 18
+ }
+}

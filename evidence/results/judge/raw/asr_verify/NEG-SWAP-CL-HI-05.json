@@ -1,0 +1,21 @@
+{
+ "task": "asr_verify",
+ "id": "NEG-SWAP-CL-HI-05",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/CL-HI-05.wav",
+ "latency_ms": 2842,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "महाभारत पहले किसने लिखी है",
+    "heard": "क्या इस्लाम में दहेज हराम है"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 252,
+  "output": 39
+ }
+}

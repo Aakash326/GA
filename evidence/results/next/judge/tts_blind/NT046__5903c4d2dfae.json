@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT046",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5903c4d2dfae5c99b43aeee4",
+ "audio": "results/next/audio/NT046.wav",
+ "latency_ms": 3936,
+ "reply": {
+  "heard": "அளவு பதினைந்து ஐம்பது அல்ல",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 187,
+  "output": 20
+ }
+}

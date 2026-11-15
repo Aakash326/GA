@@ -1,0 +1,30 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT054",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "6baeb5d87795e3e0bf209421",
+ "audio": "results/next/audio/NT054.wav",
+ "latency_ms": 5161,
+ "reply": {
+  "heard": "ಬದಲಾವಣೆ ಮೈನಸ್ ಒಂದು ಪಾಯಿಂಟ್ ಐದು ಶೇಕಡಾ",
+  "target_spec_issues": [
+   "Target written/must_hear specified in English ('one point five percent') rather than Kannada ('ಒಂದು ಪಾಯಿಂಟ್ ಐದು ಶೇಕಡಾ')"
+  ],
+  "targets": [
+   {
+    "id": "sign",
+    "result": "correct",
+    "heard": "ಮೈನಸ್"
+   },
+   {
+    "id": "value",
+    "result": "correct",
+    "heard": "ಒಂದು ಪಾಯಿಂಟ್ ಐದು ಶೇಕಡಾ"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 370,
+  "output": 101
+ }
+}

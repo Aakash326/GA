@@ -1,0 +1,33 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT052",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "856a44d6e3908f33125d3b0d",
+ "audio": "results/next/audio/NT052.wav",
+ "latency_ms": 5424,
+ "reply": {
+  "heard": "ಪ್ರಮಾಣ ಹದಿನೈದು ಐವತ್ತು ಅಲ್ಲ",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "ಹದಿನೈದು"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "ಐವತ್ತು"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "ಅಲ್ಲ"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 389,
+  "output": 68
+ }
+}

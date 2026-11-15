@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T89",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "829f0b4b5683bbf87bc729a0",
+ "audio": "results/tts_audio/T89.wav",
+ "latency_ms": 5068,
+ "reply": {
+  "heard": "உங்கள் கோரிக்கை பெறப்பட்டது. நாளை உங்களைத் தொடர்பு கொள்வோம்.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "content",
+    "result": "correct",
+    "heard": "உங்கள் கோரிக்கை பெறப்பட்டது. நாளை உங்களைத் தொடர்பு கொள்வோம்."
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 327,
+  "output": 50
+ }
+}

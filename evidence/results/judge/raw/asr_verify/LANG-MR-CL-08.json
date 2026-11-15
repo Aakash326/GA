@@ -1,0 +1,21 @@
+{
+ "task": "asr_verify",
+ "id": "LANG-MR-CL-08",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-MR-CL-08.wav",
+ "latency_ms": 4358,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "बोहेमियन",
+    "heard": "बाहेमियन"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 266,
+  "output": 34
+ }
+}

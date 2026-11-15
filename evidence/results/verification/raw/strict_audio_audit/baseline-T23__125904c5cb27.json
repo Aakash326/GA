@@ -1,0 +1,33 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T23",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "125904c5cb2782f92300c2b7",
+ "audio": "results/tts_audio/T23.wav",
+ "latency_ms": 5090,
+ "reply": {
+  "heard": "Your request has been received and is now under review. Please check the details shown in your account before you confirm the next step. If any information is wrong, contact our support team so we can help you update it. We will send a message when the review is complete. You do not need to submit the same request again. Keep your reference number safe and use it when you ask us for an update.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "start",
+    "result": "correct",
+    "heard": "Your request has been received"
+   },
+   {
+    "id": "end",
+    "result": "correct",
+    "heard": "when you ask us for an update"
+   },
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "do not"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 1011,
+  "output": 144
+ }
+}

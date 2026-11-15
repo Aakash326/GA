@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-DS-CS-HI-08",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f51950205f78f8d6ff656359",
+ "audio": "data/next/dataset_replacement/DS-CS-HI-08.wav",
+ "latency_ms": 5307,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "pane पर click करें यह या तो task pane को दिखाए",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The audio starts with 'pane पर click करें' and cuts off after 'दिखाए', missing 'गा या छिपायेगा' from the candidate."
+ },
+ "tokens": {
+  "prompt": 340,
+  "output": 67
+ }
+}

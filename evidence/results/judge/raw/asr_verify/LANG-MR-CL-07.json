@@ -1,0 +1,16 @@
+{
+ "task": "asr_verify",
+ "id": "LANG-MR-CL-07",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-MR-CL-07.wav",
+ "latency_ms": 7222,
+ "reply": {
+  "matches": true,
+  "differences": [],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 292,
+  "output": 16
+ }
+}

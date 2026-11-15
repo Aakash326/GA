@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-MR-CL-05",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "2e51db4654ef84d8b246b33a",
+ "audio": "data/next/audio/NX-MR-CL-05.wav",
+ "latency_ms": 3820,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "कॅलिफोर्निया मधील क्षेत्रफळाच्या दृष्टीने राज्यातील सर्वात मोठे शहर कोणते आहे?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The audio clearly says 'क्षेत्रफळाच्या दृष्टीने', not 'शेत्रफल चा दृष्टी ने'."
+ },
+ "tokens": {
+  "prompt": 379,
+  "output": 65
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "task": "tts_judge",
+ "id": "T12",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T12.wav",
+ "latency_ms": 8707,
+ "reply": {
+  "targets": [
+   {
+    "id": "hindi",
+    "result": "correct",
+    "heard": "Aapka ... abhi ... hua hai"
+   },
+   {
+    "id": "english",
+    "result": "correct",
+    "heard": "portfolio balance update"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "All Hindi words and English loanwords were pronounced clearly and accurately with natural intonation."
+ },
+ "tokens": {
+  "prompt": 475,
+  "output": 126
+ }
+}

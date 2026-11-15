@@ -1,0 +1,5 @@
+﻿case_id,listener_id,rated_at_utc,naturalness_1to5,prosody_1to5,repeated_target_rows,source,blind_before_reveal,listener_language_qualification
+T36,R1,2026-11-13T17:31:05.675Z,4,5,2,results/listening_ratings.csv,not_recorded,not_recorded
+T43,R1,2026-11-13T17:31:24.736Z,4,5,1,results/listening_ratings.csv,false,not_recorded
+T49,R1,2026-11-13T17:32:04.314Z,5,5,1,results/listening_ratings.csv,false,not_recorded
+T70,R1,2026-11-13T17:30:44.495Z,5,5,3,results/listening_ratings.csv,not_recorded,not_recorded

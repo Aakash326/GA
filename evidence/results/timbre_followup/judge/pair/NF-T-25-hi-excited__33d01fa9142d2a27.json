@@ -1,0 +1,31 @@
+{
+  "task": "pair",
+  "id": "NF-T-25-hi-excited",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "33d01fa9142d2a2726730644d8b2f3494d927d9c7da51006988c7662573747f1",
+  "input_sha256": [
+    "79ab39e6493b2a2af59b184bbd77d92e351cc5b64400833b1ae303aff1fec925",
+    "29b9143dfcf882bd4f91aca023dbe0178b706218172e9bc09a058bae757f6cd9"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-T-25-hi-excited.wav",
+    "results/timbre_followup/listen/NF-N-25-hi.wav"
+  ],
+  "reply": {
+    "more_cue": "indistinguishable",
+    "cue_audible_A": false,
+    "cue_audible_B": false,
+    "content_preserved_A": true,
+    "content_preserved_B": true,
+    "literal_tag_spoken_A": false,
+    "literal_tag_spoken_B": false,
+    "confidence": "high",
+    "reason": "Both clips feature a calm, neutral assistant delivery with no notable excitement."
+  },
+  "prompt_tokens": 371,
+  "output_tokens": 95,
+  "thought_tokens": 169,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

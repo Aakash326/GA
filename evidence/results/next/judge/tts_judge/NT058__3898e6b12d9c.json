@@ -1,0 +1,36 @@
+{
+ "task": "tts_judge",
+ "id": "NT058",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "3898e6b12d9ce90808eb717c",
+ "audio": "results/next/audio/NT058.wav",
+ "latency_ms": 9519,
+ "reply": {
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "पंधरा"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "पन्नास"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "नाही"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "All requested words were pronounced clearly and accurately with acceptable pacing."
+ },
+ "tokens": {
+  "prompt": 450,
+  "output": 135
+ }
+}

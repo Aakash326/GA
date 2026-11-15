@@ -1,0 +1,22 @@
+{
+ "task": "asr_verify",
+ "id": "NX-TE-BG-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "37dd87c51a0995b66b5de112",
+ "audio": "data/next/audio/NX-TE-BG-01.wav",
+ "latency_ms": 8636,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "పసునూరి",
+    "heard": "పస్నూరి"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 305,
+  "output": 34
+ }
+}

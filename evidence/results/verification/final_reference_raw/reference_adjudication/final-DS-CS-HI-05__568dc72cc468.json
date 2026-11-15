@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-DS-CS-HI-05",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "568dc72cc4682b6a34f8fa7d",
+ "audio": "data/next/dataset_replacement/DS-CS-HI-05.wav",
+ "latency_ms": 3564,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "इस tutorial में हम एक उदाहरण से arguments के साथ main function के बारे में सीखेंगे इस",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "At the end of the recording, the speaker begins the next sentence with 'इस', which was omitted from the candidate."
+ },
+ "tokens": {
+  "prompt": 449,
+  "output": 64
+ }
+}

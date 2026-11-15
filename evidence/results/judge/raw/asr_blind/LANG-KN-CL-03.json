@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-KN-CL-03",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-KN-CL-03.wav",
+ "latency_ms": 5534,
+ "reply": {
+  "transcript": "ಮಾಯಾ ಜನರ ಅತ್ಯಂತ ಪ್ರಖ್ಯಾತ ಬರಹಗಾರನ ಹೆಸರೇನು?",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 290,
+  "output": 41
+ }
+}

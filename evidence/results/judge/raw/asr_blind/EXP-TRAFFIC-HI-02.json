@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-TRAFFIC-HI-02",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-TRAFFIC-HI-02.wav",
+ "latency_ms": 4080,
+ "reply": {
+  "transcript": "2015 में आंध्र प्रदेश में कितने विश्वविद्यालय हैं?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 271,
+  "output": 35
+ }
+}

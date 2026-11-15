@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-EN-CL-07",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "a267eecd89eb664406b67f1c",
+ "audio": "data/next/audio/NX-EN-CL-07.wav",
+ "latency_ms": 4537,
+ "reply": {
+  "transcript": "How far is the constellation Corvus from Earth?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 236,
+  "output": 33
+ }
+}

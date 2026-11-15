@@ -1,0 +1,35 @@
+{
+ "task": "tts_judge",
+ "id": "T79",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T79.wav",
+ "latency_ms": 4918,
+ "reply": {
+  "targets": [
+   {
+    "id": "question",
+    "result": "correct",
+    "heard": "audibly a question"
+   },
+   {
+    "id": "fifteen",
+    "result": "correct",
+    "heard": "fifteen"
+   },
+   {
+    "id": "fifty",
+    "result": "correct",
+    "heard": "fifty"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "artifacts": [],
+  "comment": "Clear pronunciation with appropriate contrastive stress and question intonation."
+ },
+ "tokens": {
+  "prompt": 445,
+  "output": 166
+ }
+}

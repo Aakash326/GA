@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-MR-CL-08",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "cbe3b0f77a4fb7aebe03307e",
+ "audio": "data/next/audio/NX-MR-CL-08.wav",
+ "latency_ms": 4557,
+ "reply": {
+  "transcript": "ब्रह्मदेव कुठे राहतात?",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 201,
+  "output": 30
+ }
+}

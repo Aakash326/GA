@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T17",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "2f49546702e6a2de3ce0c690",
+ "audio": "results/tts_audio/T17.wav",
+ "latency_ms": 4503,
+ "reply": {
+  "heard": "The Motilal Oswal account is active.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "name",
+    "result": "correct",
+    "heard": "Motilal Oswal"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 318,
+  "output": 40
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "task": "tts_judge",
+ "id": "T77",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T77.wav",
+ "latency_ms": 4449,
+ "reply": {
+  "targets": [
+   {
+    "id": "pdf",
+    "result": "correct",
+    "heard": "P D F"
+   },
+   {
+    "id": "qr",
+    "result": "correct",
+    "heard": "Q R"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "artifacts": [],
+  "comment": "The audio is very clear and natural with correct letter-by-letter pronunciations of both acronyms."
+ },
+ "tokens": {
+  "prompt": 433,
+  "output": 143
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TE-NUM-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "8f686e23804700483c78b33f",
+ "audio": "data/next/audio/NX-TE-NUM-03.wav",
+ "latency_ms": 5303,
+ "reply": {
+  "transcript": "2001 నాటికి మైపాడు గ్రామములోని స్త్రీల సంఖ్య ఎంత?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 310,
+  "output": 43
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-DS-CS-HI-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "9c3537da0c3ba0ae5fab7615",
+ "audio": "data/next/dataset_replacement/DS-CS-HI-03.wav",
+ "latency_ms": 10306,
+ "reply": {
+  "transcript": "ते हैं कि else if के लिए syntax प्रविष्ट हो गया है। यहाँ दिखाया गया prog-",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 275,
+  "output": 43
+ }
+}

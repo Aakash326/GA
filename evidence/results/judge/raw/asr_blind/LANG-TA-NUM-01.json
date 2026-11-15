@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-TA-NUM-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-TA-NUM-01.wav",
+ "latency_ms": 5240,
+ "reply": {
+  "transcript": "2017ல் வேங்கடகிரி மண்டலத்தில் எத்தனை அரசு பள்ளிகள் இருந்தன",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 252,
+  "output": 41
+ }
+}

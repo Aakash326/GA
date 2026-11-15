@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T39",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T39.wav",
+ "latency_ms": 4934,
+ "reply": {
+  "heard": "Your available balance is zero rupees and five paise",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 202,
+  "output": 20
+ }
+}

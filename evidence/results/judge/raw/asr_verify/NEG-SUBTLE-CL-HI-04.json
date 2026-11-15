@@ -1,0 +1,21 @@
+{
+ "task": "asr_verify",
+ "id": "NEG-SUBTLE-CL-HI-04",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/CL-HI-04.wav",
+ "latency_ms": 3829,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "नवग्रहों",
+    "heard": "राष्ट्रपति"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 283,
+  "output": 30
+ }
+}

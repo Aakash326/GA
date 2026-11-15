@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LONG-HI-02",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LONG-HI-02.wav",
+ "latency_ms": 10583,
+ "reply": {
+  "transcript": "अहमद वर्सस ने कहा मैंने अपनी बहन और उनकी दोस्त को खो दिया और रास्ते में व्हीलचेयर में दो दिव्यांग लोग थे और लोग उन पर उछल रहे थे और उन्हें धक्का दे रहे थे।",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 664,
+  "output": 67
+ }
+}

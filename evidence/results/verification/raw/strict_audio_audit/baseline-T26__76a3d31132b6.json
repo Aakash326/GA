@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T26",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "76a3d31132b62033f3c65da9",
+ "audio": "results/tts_audio/T26.wav",
+ "latency_ms": 4092,
+ "reply": {
+  "heard": "Could you please confirm your account number?",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "question",
+    "result": "correct",
+    "heard": "?"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 275,
+  "output": 33
+ }
+}

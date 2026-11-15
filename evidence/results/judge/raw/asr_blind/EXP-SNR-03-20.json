@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-SNR-03-20",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-SNR-03-20.wav",
+ "latency_ms": 4357,
+ "reply": {
+  "transcript": "स्मार्टफोंस के कैमरा कौन से वर्ष से प्रयोग में शुरू हुआ?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 250,
+  "output": 39
+ }
+}

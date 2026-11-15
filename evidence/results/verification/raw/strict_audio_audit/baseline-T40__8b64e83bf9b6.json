@@ -1,0 +1,33 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T40",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "8b64e83bf9b61104d1b8f274",
+ "audio": "results/tts_audio/T40.wav",
+ "latency_ms": 5715,
+ "reply": {
+  "heard": "The adjustment is 250 rupees and 50 paise, not 250 rupees and 50 paise.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "neg_amount",
+    "result": "wrong",
+    "heard": "250 rupees and 50 paise"
+   },
+   {
+    "id": "pos_amount",
+    "result": "correct",
+    "heard": "250 rupees and 50 paise"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "not"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 606,
+  "output": 96
+ }
+}

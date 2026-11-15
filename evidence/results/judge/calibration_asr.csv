@@ -1,0 +1,58 @@
+﻿item,clip_id,language,kind,planted,reference_given,blind_transcript,judge_matches,judge_confidence,differences,judge_correct
+CL-EN-01,CL-EN-01,en-IN,positive,,Who first identified blood types?,Who first identified blood types?,True,high,[],True
+CL-EN-02,CL-EN-02,en-IN,positive,,What is the NBC-affiliated station in Tulsa?,What is the NBC affiliated station in Tulsa?,True,high,[],True
+CL-EN-03,CL-EN-03,en-IN,positive,,Who founded the Pearl Brewing Company?,Who founded the Pearl Brewing Company,True,high,[],True
+CL-EN-04,CL-EN-04,en-IN,positive,,How tall is Kathy Beale?,How tall is Kathy Beale?,True,high,[],True
+CL-EN-06,CL-EN-06,en-IN,positive,,When did WWE wrestling start?,When did WWE wrestling start?,True,high,[],True
+CL-HI-01,CL-HI-01,hi-IN,positive,,चित्रम फिल्म कब रिलीज हुई थी ?,चित्रम film कब release हुई थी?,True,high,[],True
+CL-HI-02,CL-HI-02,hi-IN,positive,,महाभारत पहले किसने लिखी है?,महाभारत पहले किसने लिखी है,True,high,[],True
+CL-HI-04,CL-HI-04,hi-IN,positive,,स्वतंत्र पाकिस्तान के पहले राष्ट्रपति कौन थे?,स्वतंत्र पाकिस्तान के पहले राष्ट्रपति कौन थे?,True,high,[],True
+CL-HI-05,CL-HI-05,hi-IN,positive,,क्या इस्लाम में दहेज हराम है?,क्या इस्लाम में दहेज हराम है?,True,high,[],True
+CL-TE-01,CL-TE-01,te-IN,positive,,కృష్ణా జిల్లా యొక్క  విస్తీర్ణం ఎంత ?,కృష్ణా జిల్లా యొక్క విస్తీర్ణం ఎంత,True,high,[],True
+CL-TE-02,CL-TE-02,te-IN,positive,,హైదరాబాద్ లో మెట్రో ని ఎప్పుడు ప్రారంభించారు?,హైదరాబాద్ లో మెట్రోని ఎప్పుడు ప్రారంభించారు?,True,high,[],True
+CL-TE-03,CL-TE-03,te-IN,positive,,నీరు యొక్క రసాయన నిర్మాణం ఏంటి?,నీరు యొక్క రసాయన నిర్మాణం ఏంటి,True,high,[],True
+CL-TE-04,CL-TE-04,te-IN,positive,,న్యూమొనియాను మొదట ఏ దేశంలో కనుగొన్నారు?,న్యుమోనియాను మొదట ఏ దేశంలో కనుగొన్నారు,True,high,[],True
+NUM-EN-01,NUM-EN-01,en-IN,positive,,Who was the leader of Switzerland in 1499?,Who was the leader of Switzerland in 1499?,True,high,[],True
+NUM-EN-02,NUM-EN-02,en-IN,positive,,Who won the most medals in the 2008 games?,Who won the most medals in the 2008 games?,True,high,[],True
+NUM-EN-03,NUM-EN-03,en-IN,positive,,What battle took place at Hill 60?,What battle took place at Hill 60?,True,high,[],True
+NUM-HI-01,NUM-HI-01,hi-IN,positive,,2015 क्रिकेट विश्व कप के दौरान भारतीय टीम के सह- कप्तान कौन थे?,2015 क्रिकेट विश्व कप के दौरान भारतीय टीम के सह कप्तान कौन थे?,True,high,[],True
+SNR-EN-20,SNR-EN-20,en-IN,positive,,Who first identified blood types?,Who first identified blood types?,True,high,[],True
+SNR-EN-10,SNR-EN-10,en-IN,positive,,Who first identified blood types?,Who first identified blood types?,True,high,[],True
+SNR-EN-00,SNR-EN-00,en-IN,positive,,Who first identified blood types?,We first identified blood types,True,high,[],True
+SNR-HI-20,SNR-HI-20,hi-IN,positive,,चित्रम फिल्म कब रिलीज हुई थी ?,चित्रम फिल्म कब रिलीज हुई थी?,True,high,[],True
+SNR-HI-10,SNR-HI-10,hi-IN,positive,,चित्रम फिल्म कब रिलीज हुई थी ?,विक्रम फिल्म कब रिलीज हुई थी?,True,high,[],True
+SNR-HI-00,SNR-HI-00,hi-IN,positive,,चित्रम फिल्म कब रिलीज हुई थी ?,विक्रम फिल्म कब रिलीज हुई थी?,False,high,"[{""reference"": ""चित्रम"", ""heard"": ""विक्रम""}]",False
+TEL-EN-8K,TEL-EN-8K,en-IN,positive,,What is the NBC-affiliated station in Tulsa?,What is the NBC affiliated station in Tulsa?,True,high,[],True
+TEL-EN-ALAW,TEL-EN-ALAW,en-IN,positive,,What is the NBC-affiliated station in Tulsa?,What is the NBC affiliated station in Tulsa?,True,high,[],True
+TEL-EN-ULAW,TEL-EN-ULAW,en-IN,positive,,What is the NBC-affiliated station in Tulsa?,What is the NBC affiliated station in Tulsa?,True,high,[],True
+TEL-HI-8K,TEL-HI-8K,hi-IN,positive,,महाभारत पहले किसने लिखी है?,महाभारत पहले किसने लिखी है,True,high,[],True
+TEL-HI-ALAW,TEL-HI-ALAW,hi-IN,positive,,महाभारत पहले किसने लिखी है?,महाभारत पहले किसने लिखी है?,True,high,[],True
+TEL-HI-ULAW,TEL-HI-ULAW,hi-IN,positive,,महाभारत पहले किसने लिखी है?,महाभारत पहले किसने लिखी है?,True,high,[],True
+PAUSE-EN-01,PAUSE-EN-01,en-IN,positive,,Who founded the Pearl Brewing Company?,Who founded the Pearl Brewing Company?,True,high,[],True
+NEG-SWAP-CL-EN-03,CL-EN-03,en-IN,negative_swap,text of EXP-TEL-01-ALAW,How many home games does Dodger Stadium see a season?,Who founded the Pearl Brewing Company,False,high,"[{""reference"": ""How many home games does Dodger Stadium see a season"", ""heard"": ""Who founded the Pearl Brewing Company""}]",True
+NEG-SWAP-CL-HI-04,CL-HI-04,hi-IN,negative_swap,text of EXP-SNR-04-10,गर्ज वॉशिंगटन के समय न्यूयॉर्क किस देश की राजधानी थी?,स्वतंत्र पाकिस्तान के पहले राष्ट्रपति कौन थे?,False,high,"[{""reference"": ""गर्ज वॉशिंगटन के समय न्यूयॉर्क किस देश की राजधानी थी"", ""heard"": ""स्वतंत्र पाकिस्तान के पहले राष्ट्रपति कौन थे""}]",True
+NEG-SWAP-CL-HI-05,CL-HI-05,hi-IN,negative_swap,text of TEL-HI-ULAW,महाभारत पहले किसने लिखी है?,क्या इस्लाम में दहेज हराम है?,False,high,"[{""reference"": ""महाभारत पहले किसने लिखी है"", ""heard"": ""क्या इस्लाम में दहेज हराम है""}]",True
+NEG-SWAP-CL-TE-01,CL-TE-01,te-IN,negative_swap,text of EXP-NUM-TE-05,2001నాటికి తిరువూరు పట్టణ జనాభా ఎంత?,కృష్ణా జిల్లా యొక్క విస్తీర్ణం ఎంత,False,high,"[{""reference"": ""2001నాటికి తిరువూరు పట్టణ జనాభా"", ""heard"": ""కృష్ణా జిల్లా యొక్క విస్తీర్ణం""}]",True
+NEG-SWAP-NUM-EN-03,NUM-EN-03,en-IN,negative_swap,text of EXP-SNR-01-20,How many home games does Dodger Stadium see a season?,What battle took place at Hill 60?,False,high,"[{""reference"": ""How many home games does Dodger Stadium see a season?"", ""heard"": ""What battle took place at Hill 60?""}]",True
+NEG-SWAP-NUM-EN-02,NUM-EN-02,en-IN,negative_swap,text of RN-EN-02,What year was the Revolution of Roses?,Who won the most medals in the 2008 games?,False,high,"[{""reference"": ""What year was the Revolution of Roses?"", ""heard"": ""Who won the most medals in the 2008 games?""}]",True
+NEG-SWAP-NUM-HI-01,NUM-HI-01,hi-IN,negative_swap,text of CL-HI-02,महाभारत पहले किसने लिखी है?,2015 क्रिकेट विश्व कप के दौरान भारतीय टीम के सह कप्तान कौन थे?,False,high,"[{""reference"": ""महाभारत पहले किसने लिखी है?"", ""heard"": ""2015 क्रिकेट विश्व कप के दौरान भारतीय टीम के सह कप्तान कौन थे?""}]",True
+NEG-SWAP-CL-TE-04,CL-TE-04,te-IN,negative_swap,text of EXP-PAUSE-06,గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?,న్యుమోనియాను మొదట ఏ దేశంలో కనుగొన్నారు,False,high,"[{""reference"": ""గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి"", ""heard"": ""న్యుమోనియాను మొదట ఏ దేశంలో కనుగొన్నారు""}]",True
+NEG-SWAP-CL-EN-01,CL-EN-01,en-IN,negative_swap,text of EXP-NUM-EN-01,Who won the 85th 24 Hours of Le Mans?,Who first identified blood types?,False,high,"[{""reference"": ""won the 85th 24 Hours of Le Mans"", ""heard"": ""first identified blood types""}]",True
+NEG-SWAP-NUM-EN-01,NUM-EN-01,en-IN,negative_swap,text of EXP-PAUSE-01,How many home games does Dodger Stadium see a season?,Who was the leader of Switzerland in 1499?,False,high,"[{""reference"": ""How many home games does Dodger Stadium see a season?"", ""heard"": ""Who was the leader of Switzerland in 1499?""}]",True
+NEG-SUBTLE-CL-EN-01,CL-EN-01,en-IN,negative_subtle,word -> population,Who first population blood types?,Who first identified blood types?,False,high,"[{""reference"": ""population"", ""heard"": ""identified""}]",True
+NEG-SUBTLE-CL-EN-02,CL-EN-02,en-IN,negative_subtle,word -> much,What is the much station in Tulsa?,What is the NBC affiliated station in Tulsa?,False,high,"[{""reference"": ""much"", ""heard"": ""NBC affiliated""}]",True
+NEG-SUBTLE-CL-EN-03,CL-EN-03,en-IN,negative_subtle,word -> film?,Who founded the Pearl Brewing film?,Who founded the Pearl Brewing Company,False,high,"[{""reference"": ""film"", ""heard"": ""Company""}]",True
+NEG-SUBTLE-CL-EN-04,CL-EN-04,en-IN,negative_subtle,word -> Dodger,How tall is Kathy Dodger,How tall is Kathy Beale?,False,high,"[{""reference"": ""Dodger"", ""heard"": ""Beale""}]",True
+NEG-SUBTLE-CL-EN-06,CL-EN-06,en-IN,negative_subtle,word -> many,When did WWE many start?,When did WWE wrestling start?,False,high,"[{""reference"": ""many"", ""heard"": ""wrestling""}]",True
+NEG-SUBTLE-CL-HI-01,CL-HI-01,hi-IN,negative_subtle,word -> अभिनय,अभिनय फिल्म कब रिलीज हुई थी ?,चित्रम film कब release हुई थी?,False,high,"[{""reference"": ""अभिनय"", ""heard"": ""चित्रम""}]",True
+NEG-SUBTLE-CL-HI-02,CL-HI-02,hi-IN,negative_subtle,word -> वास्तविक,वास्तविक पहले किसने लिखी है?,महाभारत पहले किसने लिखी है,False,high,"[{""reference"": ""वास्तविक"", ""heard"": ""महाभारत""}]",True
+NEG-SUBTLE-CL-HI-04,CL-HI-04,hi-IN,negative_subtle,word -> नवग्रहों,स्वतंत्र पाकिस्तान के पहले नवग्रहों कौन थे?,स्वतंत्र पाकिस्तान के पहले राष्ट्रपति कौन थे?,False,high,"[{""reference"": ""नवग्रहों"", ""heard"": ""राष्ट्रपति""}]",True
+NEG-SUBTLE-CL-HI-05,CL-HI-05,hi-IN,negative_subtle,word -> महाभारत,क्या महाभारत में दहेज हराम है?,क्या इस्लाम में दहेज हराम है?,False,high,"[{""reference"": ""महाभारत"", ""heard"": ""इस्लाम""}]",True
+NEG-SUBTLE-CL-TE-01,CL-TE-01,te-IN,negative_subtle,word -> గడ్డం,కృష్ణా జిల్లా యొక్క గడ్డం ఎంత ?,కృష్ణా జిల్లా యొక్క విస్తీర్ణం ఎంత,False,high,"[{""reference"": ""గడ్డం"", ""heard"": ""విస్తీర్ణం""}]",True
+NEG-SUBTLE-CL-TE-02,CL-TE-02,te-IN,negative_subtle,word -> గ్రామ,హైదరాబాద్ లో మెట్రో ని ఎప్పుడు గ్రామ,హైదరాబాద్ లో మెట్రోని ఎప్పుడు ప్రారంభించారు?,False,high,"[{""reference"": ""గ్రామ"", ""heard"": ""ప్రారంభించారు""}]",True
+NEG-SUBTLE-CL-TE-03,CL-TE-03,te-IN,negative_subtle,word -> జీవితకాలం,నీరు యొక్క రసాయన జీవితకాలం ఏంటి?,నీరు యొక్క రసాయన నిర్మాణం ఏంటి,False,high,"[{""reference"": ""జీవితకాలం"", ""heard"": ""నిర్మాణం""}]",True
+NEG-SUBTLE-CL-TE-04,CL-TE-04,te-IN,negative_subtle,word -> శ్వాస,శ్వాస మొదట ఏ దేశంలో కనుగొన్నారు?,న్యుమోనియాను మొదట ఏ దేశంలో కనుగొన్నారు,False,high,"[{""reference"": ""శ్వాస"", ""heard"": ""న్యుమోనియాను""}]",True
+NEG-SUBTLE-NUM-EN-01,NUM-EN-01,en-IN,negative_subtle,digit 9->7,Who was the leader of Switzerland in 1497?,Who was the leader of Switzerland in 1499?,False,high,"[{""reference"": ""1497"", ""heard"": ""1499""}]",True
+NEG-SUBTLE-NUM-EN-02,NUM-EN-02,en-IN,negative_subtle,digit 0->2,Who won the most medals in the 2028 games?,Who won the most medals in the 2008 games?,False,high,"[{""reference"": ""2028"", ""heard"": ""2008""}]",True
+NEG-SUBTLE-NUM-EN-03,NUM-EN-03,en-IN,negative_subtle,digit 6->2,What battle took place at Hill 20?,What battle took place at Hill 60?,False,high,"[{""reference"": ""20"", ""heard"": ""60""}]",True
+NEG-SUBTLE-NUM-HI-01,NUM-HI-01,hi-IN,negative_subtle,digit 0->8,2815 क्रिकेट विश्व कप के दौरान भारतीय टीम के सह- कप्तान कौन थे?,2015 क्रिकेट विश्व कप के दौरान भारतीय टीम के सह कप्तान कौन थे?,False,high,"[{""reference"": ""2815"", ""heard"": ""2015""}]",True

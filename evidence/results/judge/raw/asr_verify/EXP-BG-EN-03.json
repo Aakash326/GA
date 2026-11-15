@@ -1,0 +1,16 @@
+{
+ "task": "asr_verify",
+ "id": "EXP-BG-EN-03",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-BG-EN-03.wav",
+ "latency_ms": 3994,
+ "reply": {
+  "matches": true,
+  "differences": [],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 296,
+  "output": 16
+ }
+}

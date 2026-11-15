@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T76",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T76.wav",
+ "latency_ms": 4532,
+ "reply": {
+  "heard": "The appointment is at Saint John's Road near the main branch",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 212,
+  "output": 24
+ }
+}

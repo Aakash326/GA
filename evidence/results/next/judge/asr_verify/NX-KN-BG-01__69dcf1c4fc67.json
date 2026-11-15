@@ -1,0 +1,22 @@
+{
+ "task": "asr_verify",
+ "id": "NX-KN-BG-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "69dcf1c4fc678d7c4b2cd04f",
+ "audio": "data/next/audio/NX-KN-BG-01.wav",
+ "latency_ms": 6721,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "ತಿಂಗಳಳ್ಳಿ",
+    "heard": "ತಿಂಗಳಲ್ಲಿ"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 456,
+  "output": 54
+ }
+}

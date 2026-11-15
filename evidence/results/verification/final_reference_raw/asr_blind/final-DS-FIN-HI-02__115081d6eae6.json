@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-DS-FIN-HI-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "115081d6eae6e233aad0ccbc",
+ "audio": "data/next/dataset_replacement/DS-FIN-HI-02.wav",
+ "latency_ms": 3679,
+ "reply": {
+  "transcript": "भारत में सर्वप्रथम मुद्रा किसने जारी की",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 253,
+  "output": 31
+ }
+}

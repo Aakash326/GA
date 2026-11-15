@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-HI-BG-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "6442212feef06add4f68cf07",
+ "audio": "data/next/audio/NX-HI-BG-03.wav",
+ "latency_ms": 3134,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "फिल्म रक्षा का निर्माण किस कंपनी ने किया था?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The audio clearly says 'रक्षा' rather than 'रक्षणा'."
+ },
+ "tokens": {
+  "prompt": 352,
+  "output": 48
+ }
+}

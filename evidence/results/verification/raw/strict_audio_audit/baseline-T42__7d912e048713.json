@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T42",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "7d912e0487133679d3dc40da",
+ "audio": "results/tts_audio/T42.wav",
+ "latency_ms": 5228,
+ "reply": {
+  "heard": "The interest rate changed from seven point zero five percent to seven point five zero percent.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "old",
+    "result": "correct",
+    "heard": "seven point zero five percent"
+   },
+   {
+    "id": "new",
+    "result": "correct",
+    "heard": "seven point five zero percent"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 465,
+  "output": 63
+ }
+}

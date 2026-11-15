@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T80",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "41bd963ef656ccb91d5b1222",
+ "audio": "results/tts_audio/T80.wav",
+ "latency_ms": 4541,
+ "reply": {
+  "heard": "Do not cancel the payment. Cancel only the duplicate request.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "Do not cancel"
+   },
+   {
+    "id": "only",
+    "result": "correct",
+    "heard": "Cancel only the duplicate"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 387,
+  "output": 55
+ }
+}

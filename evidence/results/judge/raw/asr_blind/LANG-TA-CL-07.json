@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-TA-CL-07",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-TA-CL-07.wav",
+ "latency_ms": 6149,
+ "reply": {
+  "transcript": "அட்லோஃப் ஹிட்லரின் அசல் சிற்பம் மவுட் துசாட்ஸ் அருங்காட்சியத்தில் ஒரு மாய மாளிகையில் திறக்கப்பட்ட ஆண்டு எது?",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 376,
+  "output": 56
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-DS-CS-HI-06",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "0e67e005d6b5b7c044e547c8",
+ "audio": "data/next/dataset_replacement/DS-CS-HI-06.wav",
+ "latency_ms": 7213,
+ "reply": {
+  "transcript": "structures बनाने के लिए SMILES और InChIKeys को सम्मिलित करना, इस ट्यूटो-",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 275,
+  "output": 44
+ }
+}

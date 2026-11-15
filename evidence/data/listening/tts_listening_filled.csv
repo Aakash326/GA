@@ -1,0 +1,57 @@
+﻿case_id,listener_id,listener_languages,target_id,target_critical,target_result,naturalness_1to5,prosody_1to5,content_complete,meaning_preserved,artifact_flags,comment,blind_transcription,blind_before_reveal,cannot_judge,rated_at
+T02,,,amount,true,correct,,,,,,,,false,false,2026-11-13T17:38:22.683Z
+T03,,,sip,false,correct,,,,,,,,false,false,2026-11-13T17:38:07.776Z
+T03,,,date,true,correct,,,,,,,,false,false,2026-11-13T17:38:07.776Z
+T03,,,year,true,correct,,,,,,,,false,false,2026-11-13T17:38:07.776Z
+T06,,,kyc,true,correct,,,,,,,,,false,2026-11-13T17:37:33.361Z
+T11,,,sip,true,correct,,,,,,successfully i think is not proper pronuntion but is good ,,,false,2026-11-13T17:34:55.643Z
+T11,,,english,true,ambiguous,,,,,,successfully i think is not proper pronuntion but is good ,,,false,2026-11-13T17:34:55.643Z
+T11,,,hindi,true,correct,,,,,,successfully i think is not proper pronuntion but is good ,,,false,2026-11-13T17:34:55.643Z
+T12,,,hindi,true,correct,,,,,,balance has end with ishhh like that sound i dont know if it is right ,,,false,2026-11-13T17:35:42.149Z
+T12,,,english,true,correct,,,,,,balance has end with ishhh like that sound i dont know if it is right ,,,false,2026-11-13T17:35:42.149Z
+T27,,,not,true,correct,,,,,,,,,false,2026-11-13T17:36:55.448Z
+T27,,,otp,true,correct,,,,,,,,,false,2026-11-13T17:36:55.448Z
+T29,,,read_present,false,correct,,,,,,,,,false,2026-11-13T17:36:46.310Z
+T29,,,read_past,false,,,,,,,,,,false,2026-11-13T17:36:46.310Z
+T32,,,content,true,correct,,,,,,,,,false,2026-11-13T17:37:29.643Z
+T33,,,yes,true,,,,,,,it is audible but i think sound is less,,,false,2026-11-13T17:32:59.009Z
+T34,,,value,true,wrong,,,,,,no negitive ,,false,false,2026-11-13T17:37:45.066Z
+T36,,,hindi,true,correct,4,5,,,,,,,false,2026-11-13T17:31:05.675Z
+T36,,,english,true,correct,4,5,,,,,,,false,2026-11-13T17:31:05.675Z
+T37,,,amount,true,correct,,,,,,,,false,false,2026-11-13T17:34:12.124Z
+T38,,,kyc,true,correct,,,,,,,,,false,2026-11-13T17:38:13.698Z
+T39,,,amount,true,correct,,,,,,,,false,false,2026-11-13T17:38:34.364Z
+T40,,,neg_amount,true,wrong,,,,,,it didnt say negitive ,,false,false,2026-11-13T17:33:57.066Z
+T40,,,pos_amount,true,correct,,,,,,it didnt say negitive ,,false,false,2026-11-13T17:33:57.066Z
+T40,,,not,true,correct,,,,,,it didnt say negitive ,,false,false,2026-11-13T17:33:57.066Z
+T41,,,qty,true,,,,,,,the 15 and 50 where not so clear,,false,false,2026-11-13T17:39:29.750Z
+T41,,,rejected,true,,,,,,,the 15 and 50 where not so clear,,false,false,2026-11-13T17:39:29.750Z
+T41,,,not,true,,,,,,,the 15 and 50 where not so clear,,false,false,2026-11-13T17:39:29.750Z
+T43,,,amount,true,correct,4,5,,,,,,false,false,2026-11-13T17:31:24.736Z
+T44,,,start,true,wrong,,,,,,it said 9 5 am,,false,false,2026-11-13T17:47:19.957Z
+T44,,,end,true,correct,,,,,,it said 9 5 am,,false,false,2026-11-13T17:47:19.957Z
+T45,,,date1,true,correct,,,,,,,,false,false,2026-11-13T17:32:15.417Z
+T45,,,date2,true,correct,,,,,,,,false,false,2026-11-13T17:32:15.417Z
+T45,,,not,true,correct,,,,,,,,false,false,2026-11-13T17:32:15.417Z
+T49,,,id,true,,5,5,,,,it told double zero double zero 42 which is also correct,,false,false,2026-11-13T17:32:04.314Z
+T51,,,id,true,correct,,,,,,,,false,false,2026-11-13T17:37:53.528Z
+T52,,,digits,true,wrong,,,,,,it said 70 ,,false,false,2026-11-13T17:46:58.423Z
+T54,,,ticket,true,correct,,,,,,it was double zero again but was right,,false,false,2026-11-13T17:37:16.368Z
+T57,,,ref,true,correct,,,,,,,,false,false,2026-11-13T17:38:48.698Z
+T58,,,selected,true,correct,,,,,,,,false,false,2026-11-13T17:40:14.071Z
+T58,,,not_selected,true,correct,,,,,,,,false,false,2026-11-13T17:40:14.071Z
+T58,,,not,true,correct,,,,,,,,false,false,2026-11-13T17:40:14.071Z
+T60,,,amount,true,wrong,,,,,,"same ishh for balance 
+and amount was said in hindi ",,,false,2026-11-13T17:36:29.176Z
+T60,,,english,false,correct,,,,,,"same ishh for balance 
+and amount was said in hindi ",,,false,2026-11-13T17:36:29.176Z
+T60,,,time,true,correct,,,,,,"same ishh for balance 
+and amount was said in hindi ",,,false,2026-11-13T17:36:29.176Z
+T61,,,cancel,true,correct,,,,,,,,,false,2026-11-13T17:39:49.589Z
+T61,,,negation,true,correct,,,,,,,,,false,2026-11-13T17:39:49.589Z
+T62,,,hindi,true,correct,,,,,,,,,false,2026-11-13T17:46:26.386Z
+T70,,,neft,true,correct,5,5,,,,,,,false,2026-11-13T17:30:44.495Z
+T70,,,upi,true,correct,5,5,,,,,,,false,2026-11-13T17:30:44.495Z
+T70,,,contrast,true,correct,5,5,,,,,,,false,2026-11-13T17:30:44.495Z
+T80,,,not,true,correct,,,,,,,,,false,2026-11-13T17:32:39.861Z
+T80,,,only,true,correct,,,,,,,,,false,2026-11-13T17:32:39.861Z

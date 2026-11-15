@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-BG-HI-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-BG-HI-01.wav",
+ "latency_ms": 3972,
+ "reply": {
+  "transcript": "राजा जनक की पुत्री कौन है?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 265,
+  "output": 36
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "task": "asr_verify",
+ "id": "NX-KN-MEDIA-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "e00828497292adc8c29b67a1",
+ "audio": "data/next/audio/NX-KN-MEDIA-03.wav",
+ "latency_ms": 15755,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "ಕುರೊಸಾವಾ",
+    "heard": "ಕುರೊಸವ"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 365,
+  "output": 59
+ }
+}

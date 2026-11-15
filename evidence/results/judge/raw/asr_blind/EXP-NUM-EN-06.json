@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-NUM-EN-06",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-NUM-EN-06.wav",
+ "latency_ms": 3454,
+ "reply": {
+  "transcript": "How many playable roles are there in Persona 4?",
+  "language": "English",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 259,
+  "output": 34
+ }
+}

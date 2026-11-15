@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-DS-CS-HI-10",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "dcc4e65b0b75b5681ede7a9f",
+ "audio": "data/next/dataset_replacement/DS-CS-HI-10.wav",
+ "latency_ms": 4440,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "click करने की आवश्यकता है और फिर manual break option पर click करें dialog",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The audio contains speech before and after the candidate transcript: 'click करने की आवश्यकता है' at the beginning and 'dialog' at the end."
+ },
+ "tokens": {
+  "prompt": 337,
+  "output": 66
+ }
+}

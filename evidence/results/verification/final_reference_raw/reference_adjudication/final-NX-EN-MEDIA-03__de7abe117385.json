@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-EN-MEDIA-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "de7abe117385c24c0ddcbd15",
+ "audio": "data/next/audio/NX-EN-MEDIA-03.wav",
+ "latency_ms": 8927,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "What English word has the most syllables? accent challenge",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "At the end of the recording, the speaker clearly adds 'accent challenge', which was omitted from the candidate transcript."
+ },
+ "tokens": {
+  "prompt": 325,
+  "output": 56
+ }
+}

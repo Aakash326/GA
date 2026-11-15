@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T17",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T17.wav",
+ "latency_ms": 4088,
+ "reply": {
+  "heard": "The Motilal Oswal account is active",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 182,
+  "output": 20
+ }
+}

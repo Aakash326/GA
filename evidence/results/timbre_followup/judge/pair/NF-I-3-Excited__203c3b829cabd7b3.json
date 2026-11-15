@@ -1,0 +1,31 @@
+{
+  "task": "pair",
+  "id": "NF-I-3-Excited",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "203c3b829cabd7b3680b773cc6e4217b167fc959eb39cf8b013802bd18c70fdf",
+  "input_sha256": [
+    "540390eda89c1ee9fb8a9cbfde4016e9ff304733e04251377a905e9389dafc2d",
+    "d7cfb60caf0eaa67241cab4151d0464892ea0fbfd7956e5e7f1bfffbfb5c7590"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-I-3-Excited.wav",
+    "results/timbre_followup/listen/NF-N-3-en.wav"
+  ],
+  "reply": {
+    "more_cue": "A",
+    "cue_audible_A": true,
+    "cue_audible_B": false,
+    "content_preserved_A": true,
+    "content_preserved_B": true,
+    "literal_tag_spoken_A": false,
+    "literal_tag_spoken_B": false,
+    "confidence": "medium",
+    "reason": "Clip A displays significantly higher pitch variation, energy, and enthusiasm, fitting an excited tone better than Clip B's calm delivery."
+  },
+  "prompt_tokens": 396,
+  "output_tokens": 125,
+  "thought_tokens": 168,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

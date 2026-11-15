@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-TA-CL-05",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-TA-CL-05.wav",
+ "latency_ms": 4877,
+ "reply": {
+  "transcript": "முதல் எமோஜி உருவாக்கப்பட்ட ஆண்டு எது?",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 222,
+  "output": 32
+ }
+}

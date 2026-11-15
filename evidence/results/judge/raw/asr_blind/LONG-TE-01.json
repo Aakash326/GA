@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LONG-TE-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LONG-TE-01.wav",
+ "latency_ms": 5407,
+ "reply": {
+  "transcript": "విద్యార్థులు తరచుగా అత్యంత విమర్శనాత్మక ప్రేక్షకులు కాబట్టి విమర్శను నివారించడానికి బ్లాగు రచయిత రచనను మెరుగుపరచడానికి కృషి చేయడం మొదలుపెడతాడు.",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 439,
+  "output": 68
+ }
+}

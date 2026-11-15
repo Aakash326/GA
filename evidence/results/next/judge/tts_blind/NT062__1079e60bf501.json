@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT062",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "1079e60bf501667cc6d4c9b2",
+ "audio": "results/next/audio/NT062.wav",
+ "latency_ms": 4749,
+ "reply": {
+  "heard": "तुमचा कोड शून्य शून्य सात शून्य आहे",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 223,
+  "output": 19
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T102",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "59d9a7e6bf631f63e597f9a9",
+ "audio": "results/tts_audio/T102.wav",
+ "latency_ms": 5403,
+ "reply": {
+  "heard": "तुमची शिल्लक एक लाख पंचवीस हजार चारशे पन्नास रुपये आहे",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "एक लाख पंचवीस हजार चारशे पन्नास रुपये"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 364,
+  "output": 52
+ }
+}

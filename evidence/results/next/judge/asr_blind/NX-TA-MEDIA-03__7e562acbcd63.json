@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TA-MEDIA-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "7e562acbcd63b1acbd1b286c",
+ "audio": "data/next/audio/NX-TA-MEDIA-03.wav",
+ "latency_ms": 4911,
+ "reply": {
+  "transcript": "ரைட் சகோதரர்களால் எந்த போக்குவரத்து உருவாக்கப்பட்டது?",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 277,
+  "output": 33
+ }
+}

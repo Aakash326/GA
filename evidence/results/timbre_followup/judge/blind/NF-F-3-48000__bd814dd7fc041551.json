@@ -1,0 +1,36 @@
+{
+  "task": "blind",
+  "id": "NF-F-3-48000",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "bd814dd7fc041551ea87df193cc4aff627274ca995489115d5c9193ffd64d09c",
+  "input_sha256": [
+    "865dd5f5ab8b565d468fd843ff6c9fce0d2773487e54d49b4b870e7f87243148"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-F-3-48000.wav"
+  ],
+  "reply": {
+    "heard": "Your request has been received and is now under review. Please check the details shown in your account before you confirm the next step. If any information is wrong, contact our support team so we can help you update it. We will send a message when the review is complete. You do not need to submit the same request again. Keep your reference number safe and use it when you ask us for an update.",
+    "naturalness_1to5": 3,
+    "prosody_1to5": 3,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "clear",
+      "formal",
+      "moderate pace"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "none",
+    "artifacts": [],
+    "confidence": "high",
+    "reason": "The delivery is clear and intelligible with slightly synthesized prosody and an Indian English accent."
+  },
+  "prompt_tokens": 805,
+  "output_tokens": 266,
+  "thought_tokens": 282,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

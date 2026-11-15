@@ -1,0 +1,780 @@
+{
+  "status": "controlled_collection_complete",
+  "new_api_calls_in_replay": 0,
+  "controlled_rest": [
+    {
+      "model": "timbre-v3.0",
+      "voice": "Tarika",
+      "length": "short",
+      "input_chars": 61,
+      "input_words": 10,
+      "successful_trials": 5,
+      "attempts": 5,
+      "case_trials": 5,
+      "attempt_success_rate": 1.0,
+      "eventual_case_success_rate": 1.0,
+      "request_total_ms_median": 3436.5,
+      "request_total_ms_min": 1004.6,
+      "request_total_ms_max": 5423.7,
+      "duration_s_median": 3.52,
+      "duration_s_min": 3.36,
+      "duration_s_max": 3.6,
+      "rtf_client_median": 0.9762784090909091,
+      "rtf_client_min": 0.2920348837209302,
+      "rtf_client_max": 1.5065833333333334
+    },
+    {
+      "model": "timbre-v3.0",
+      "voice": "Tarika",
+      "length": "medium",
+      "input_chars": 396,
+      "input_words": 75,
+      "successful_trials": 5,
+      "attempts": 5,
+      "case_trials": 5,
+      "attempt_success_rate": 1.0,
+      "eventual_case_success_rate": 1.0,
+      "request_total_ms_median": 6504.2,
+      "request_total_ms_min": 3003.9,
+      "request_total_ms_max": 7599.4,
+      "duration_s_median": 22.72,
+      "duration_s_min": 14.8,
+      "duration_s_max": 23.44,
+      "rtf_client_median": 0.3242064846416382,
+      "rtf_client_min": 0.13221390845070424,
+      "rtf_client_max": 0.43947297297297294
+    },
+    {
+      "model": "timbre-v3.0",
+      "voice": "Tarika",
+      "length": "long",
+      "input_chars": 930,
+      "input_words": 160,
+      "successful_trials": 5,
+      "attempts": 5,
+      "case_trials": 5,
+      "attempt_success_rate": 1.0,
+      "eventual_case_success_rate": 1.0,
+      "request_total_ms_median": 11747.1,
+      "request_total_ms_min": 9000.3,
+      "request_total_ms_max": 16007.3,
+      "duration_s_median": 52.88,
+      "duration_s_min": 40.32,
+      "duration_s_max": 54.64,
+      "rtf_client_median": 0.2221463691376702,
+      "rtf_client_min": 0.17020234493192132,
+      "rtf_client_max": 0.37468005952380956
+    },
+    {
+      "model": "timbre-v2.5",
+      "voice": "Kaveri",
+      "length": "short",
+      "input_chars": 61,
+      "input_words": 10,
+      "successful_trials": 5,
+      "attempts": 5,
+      "case_trials": 5,
+      "attempt_success_rate": 1.0,
+      "eventual_case_success_rate": 1.0,
+      "request_total_ms_median": 766.6,
+      "request_total_ms_min": 730.6,
+      "request_total_ms_max": 1164.0,
+      "duration_s_median": 3.04,
+      "duration_s_min": 2.88,
+      "duration_s_max": 3.2,
+      "rtf_client_median": 0.2536805555555556,
+      "rtf_client_min": 0.22921875,
+      "rtf_client_max": 0.38289473684210523
+    },
+    {
+      "model": "timbre-v2.5",
+      "voice": "Kaveri",
+      "length": "medium",
+      "input_chars": 396,
+      "input_words": 75,
+      "successful_trials": 5,
+      "attempts": 5,
+      "case_trials": 5,
+      "attempt_success_rate": 1.0,
+      "eventual_case_success_rate": 1.0,
+      "request_total_ms_median": 1183.2,
+      "request_total_ms_min": 1164.1,
+      "request_total_ms_max": 1354.5,
+      "duration_s_median": 17.76,
+      "duration_s_min": 17.6,
+      "duration_s_max": 18.4,
+      "rtf_client_median": 0.06722727272727272,
+      "rtf_client_min": 0.0641521739130435,
+      "rtf_client_max": 0.07626689189189188
+    },
+    {
+      "model": "timbre-v2.5",
+      "voice": "Kaveri",
+      "length": "long",
+      "input_chars": 930,
+      "input_words": 160,
+      "successful_trials": 5,
+      "attempts": 5,
+      "case_trials": 5,
+      "attempt_success_rate": 1.0,
+      "eventual_case_success_rate": 1.0,
+      "request_total_ms_median": 2563.6,
+      "request_total_ms_min": 2474.3,
+      "request_total_ms_max": 2944.3,
+      "duration_s_median": 42.56,
+      "duration_s_min": 41.92,
+      "duration_s_max": 43.36,
+      "rtf_client_median": 0.059123616236162364,
+      "rtf_client_min": 0.058208955223880594,
+      "rtf_client_max": 0.06917998120300752
+    }
+  ],
+  "http_cohorts": {
+    "timbre_followup": {
+      "cases": 73,
+      "http_attempts": 74,
+      "valid_pcm_attempts": 66,
+      "disjoint_attempt_outcomes": {
+        "valid_pcm": 66,
+        "empty_pcm": 6,
+        "http_error": 2
+      },
+      "http_status_counts": {
+        "200": 72,
+        "500": 1,
+        "400": 1
+      },
+      "eventual_success_cases": 66,
+      "attempt_success_rate": 0.8918918918918919,
+      "eventual_case_success_rate": 0.9041095890410958,
+      "positive_case_success_rate": 0.9166666666666666,
+      "expected_rejections": 1,
+      "retry_attempts": 1,
+      "explicit_recheck_cases": 8,
+      "final_case_outcomes": {
+        "success": 65,
+        "persistent_empty": 6,
+        "recovered_on_retry": 1,
+        "expected_rejection": 1
+      }
+    },
+    "report4_controlled": {
+      "cases": 32,
+      "http_attempts": 32,
+      "valid_pcm_attempts": 32,
+      "disjoint_attempt_outcomes": {
+        "valid_pcm": 32
+      },
+      "http_status_counts": {
+        "200": 32
+      },
+      "eventual_success_cases": 32,
+      "attempt_success_rate": 1.0,
+      "eventual_case_success_rate": 1.0,
+      "positive_case_success_rate": 1.0,
+      "expected_rejections": 0,
+      "retry_attempts": 0,
+      "explicit_recheck_cases": 0,
+      "final_case_outcomes": {
+        "success": 32
+      }
+    },
+    "report4_quality": {
+      "cases": 54,
+      "http_attempts": 54,
+      "valid_pcm_attempts": 53,
+      "disjoint_attempt_outcomes": {
+        "valid_pcm": 53,
+        "empty_pcm": 1
+      },
+      "http_status_counts": {
+        "200": 54
+      },
+      "eventual_success_cases": 53,
+      "attempt_success_rate": 0.9814814814814815,
+      "eventual_case_success_rate": 0.9814814814814815,
+      "positive_case_success_rate": 0.9814814814814815,
+      "expected_rejections": 0,
+      "retry_attempts": 0,
+      "explicit_recheck_cases": 0,
+      "final_case_outcomes": {
+        "success": 53,
+        "persistent_empty": 1
+      }
+    }
+  },
+  "streaming": {
+    "streams": 32,
+    "chunk_rows": 4255,
+    "sensitivity_rows": 576,
+    "buffers_ms": [
+      0,
+      50,
+      100,
+      200,
+      500,
+      1000
+    ],
+    "tolerances_ms": [
+      1,
+      10,
+      20
+    ],
+    "buffer_summary": [
+      {
+        "cohort": "fresh_SSE",
+        "phase": "saved_trace",
+        "model": "timbre-v2.5",
+        "buffer_ms": 0,
+        "streams": 3,
+        "streams_with_underflows": 0,
+        "starvation_ms_median": 0,
+        "simulated_startup_ms_median": 169.5
+      },
+      {
+        "cohort": "fresh_SSE",
+        "phase": "saved_trace",
+        "model": "timbre-v2.5",
+        "buffer_ms": 50,
+        "streams": 3,
+        "streams_with_underflows": 0,
+        "starvation_ms_median": 0,
+        "simulated_startup_ms_median": 219.5
+      },
+      {
+        "cohort": "fresh_SSE",
+        "phase": "saved_trace",
+        "model": "timbre-v2.5",
+        "buffer_ms": 100,
+        "streams": 3,
+        "streams_with_underflows": 0,
+        "starvation_ms_median": 0,
+        "simulated_startup_ms_median": 269.5
+      },
+      {
+        "cohort": "fresh_SSE",
+        "phase": "saved_trace",
+        "model": "timbre-v2.5",
+        "buffer_ms": 200,
+        "streams": 3,
+        "streams_with_underflows": 0,
+        "starvation_ms_median": 0,
+        "simulated_startup_ms_median": 369.5
+      },
+      {
+        "cohort": "fresh_SSE",
+        "phase": "saved_trace",
+        "model": "timbre-v2.5",
+        "buffer_ms": 500,
+        "streams": 3,
+        "streams_with_underflows": 0,
+        "starvation_ms_median": 0,
+        "simulated_startup_ms_median": 669.5
+      },
+      {
+        "cohort": "fresh_SSE",
+        "phase": "saved_trace",
+        "model": "timbre-v2.5",
+        "buffer_ms": 1000,
+        "streams": 3,
+        "streams_with_underflows": 0,
+        "starvation_ms_median": 0,
+        "simulated_startup_ms_median": 1169.5
+      },
+      {
+        "cohort": "fresh_SSE",
+        "phase": "saved_trace",
+        "model": "timbre-v3.0",
+        "buffer_ms": 0,
+        "streams": 3,
+        "streams_with_underflows": 3,
+        "starvation_ms_median": 1380.125,
+        "simulated_startup_ms_median": 837.2916666666666
+      },
+      {
+        "cohort": "fresh_SSE",
+        "phase": "saved_trace",
+        "model": "timbre-v3.0",
+        "buffer_ms": 50,
+        "streams": 3,
+        "streams_with_underflows": 3,
+        "starvation_ms_median": 1330.125,
+        "simulated_startup_ms_median": 887.2916666666667
+      },
+      {
+        "cohort": "fresh_SSE",
+        "phase": "saved_trace",
+        "model": "timbre-v3.0",
+        "buffer_ms": 100,
+        "streams": 3,
+        "streams_with_underflows": 3,
+        "starvation_ms_median": 1280.125,
+        "simulated_startup_ms_median": 937.2916666666666
+      },
+      {
+        "cohort": "fresh_SSE",
+        "phase": "saved_trace",
+        "model": "timbre-v3.0",
+        "buffer_ms": 200,
+        "streams": 3,
+        "streams_with_underflows": 3,
+        "starvation_ms_median": 1180.125,
+        "simulated_startup_ms_median": 1037.2916666666667
+      },
+      {
+        "cohort": "fresh_SSE",
+        "phase": "saved_trace",
+        "model": "timbre-v3.0",
+        "buffer_ms": 500,
+        "streams": 3,
+        "streams_with_underflows": 3,
+        "starvation_ms_median": 880.125,
+        "simulated_startup_ms_median": 1337.2916666666667
+      },
+      {
+        "cohort": "fresh_SSE",
+        "phase": "saved_trace",
+        "model": "timbre-v3.0",
+        "buffer_ms": 1000,
+        "streams": 3,
+        "streams_with_underflows": 2,
+        "starvation_ms_median": 380.125,
+        "simulated_startup_ms_median": 1837.2916666666667
+      },
+      {
+        "cohort": "original_N8",
+        "phase": "saved_trace",
+        "model": "timbre-v2.5",
+        "buffer_ms": 0,
+        "streams": 2,
+        "streams_with_underflows": 0,
+        "starvation_ms_median": 0.0,
+        "simulated_startup_ms_median": 329.0
+      },
+      {
+        "cohort": "original_N8",
+        "phase": "saved_trace",
+        "model": "timbre-v2.5",
+        "buffer_ms": 50,
+        "streams": 2,
+        "streams_with_underflows": 0,
+        "starvation_ms_median": 0.0,
+        "simulated_startup_ms_median": 379.0
+      },
+      {
+        "cohort": "original_N8",
+        "phase": "saved_trace",
+        "model": "timbre-v2.5",
+        "buffer_ms": 100,
+        "streams": 2,
+        "streams_with_underflows": 0,
+        "starvation_ms_median": 0.0,
+        "simulated_startup_ms_median": 429.0
+      },
+      {
+        "cohort": "original_N8",
+        "phase": "saved_trace",
+        "model": "timbre-v2.5",
+        "buffer_ms": 200,
+        "streams": 2,
+        "streams_with_underflows": 0,
+        "starvation_ms_median": 0.0,
+        "simulated_startup_ms_median": 529.0
+      },
+      {
+        "cohort": "original_N8",
+        "phase": "saved_trace",
+        "model": "timbre-v2.5",
+        "buffer_ms": 500,
+        "streams": 2,
+        "streams_with_underflows": 0,
+        "starvation_ms_median": 0.0,
+        "simulated_startup_ms_median": 829.0
+      },
+      {
+        "cohort": "original_N8",
+        "phase": "saved_trace",
+        "model": "timbre-v2.5",
+        "buffer_ms": 1000,
+        "streams": 2,
+        "streams_with_underflows": 0,
+        "starvation_ms_median": 0.0,
+        "simulated_startup_ms_median": 1329.0
+      },
+      {
+        "cohort": "original_N8",
+        "phase": "saved_trace",
+        "model": "timbre-v3.0",
+        "buffer_ms": 0,
+        "streams": 12,
+        "streams_with_underflows": 12,
+        "starvation_ms_median": 1137.1041666666667,
+        "simulated_startup_ms_median": 2264.3333333333335
+      },
+      {
+        "cohort": "original_N8",
+        "phase": "saved_trace",
+        "model": "timbre-v3.0",
+        "buffer_ms": 50,
+        "streams": 12,
+        "streams_with_underflows": 12,
+        "starvation_ms_median": 1087.1041666666665,
+        "simulated_startup_ms_median": 2314.333333333333
+      },
+      {
+        "cohort": "original_N8",
+        "phase": "saved_trace",
+        "model": "timbre-v3.0",
+        "buffer_ms": 100,
+        "streams": 12,
+        "streams_with_underflows": 12,
+        "starvation_ms_median": 1037.1041666666665,
+        "simulated_startup_ms_median": 2364.333333333333
+      },
+      {
+        "cohort": "original_N8",
+        "phase": "saved_trace",
+        "model": "timbre-v3.0",
+        "buffer_ms": 200,
+        "streams": 12,
+        "streams_with_underflows": 12,
+        "starvation_ms_median": 937.1041666666667,
+        "simulated_startup_ms_median": 2464.333333333333
+      },
+      {
+        "cohort": "original_N8",
+        "phase": "saved_trace",
+        "model": "timbre-v3.0",
+        "buffer_ms": 500,
+        "streams": 12,
+        "streams_with_underflows": 12,
+        "starvation_ms_median": 637.1041666666666,
+        "simulated_startup_ms_median": 2764.3333333333335
+      },
+      {
+        "cohort": "original_N8",
+        "phase": "saved_trace",
+        "model": "timbre-v3.0",
+        "buffer_ms": 1000,
+        "streams": 12,
+        "streams_with_underflows": 6,
+        "starvation_ms_median": 138.10416666666666,
+        "simulated_startup_ms_median": 3264.3333333333335
+      },
+      {
+        "cohort": "report4_WS",
+        "phase": "cold_warmup",
+        "model": "timbre-v2.5",
+        "buffer_ms": 0,
+        "streams": 1,
+        "streams_with_underflows": 0,
+        "starvation_ms_median": 0,
+        "simulated_startup_ms_median": 164.70833333333334
+      },
+      {
+        "cohort": "report4_WS",
+        "phase": "cold_warmup",
+        "model": "timbre-v2.5",
+        "buffer_ms": 50,
+        "streams": 1,
+        "streams_with_underflows": 0,
+        "starvation_ms_median": 0,
+        "simulated_startup_ms_median": 214.70833333333334
+      },
+      {
+        "cohort": "report4_WS",
+        "phase": "cold_warmup",
+        "model": "timbre-v2.5",
+        "buffer_ms": 100,
+        "streams": 1,
+        "streams_with_underflows": 0,
+        "starvation_ms_median": 0,
+        "simulated_startup_ms_median": 264.7083333333333
+      },
+      {
+        "cohort": "report4_WS",
+        "phase": "cold_warmup",
+        "model": "timbre-v2.5",
+        "buffer_ms": 200,
+        "streams": 1,
+        "streams_with_underflows": 0,
+        "starvation_ms_median": 0,
+        "simulated_startup_ms_median": 364.70833333333337
+      },
+      {
+        "cohort": "report4_WS",
+        "phase": "cold_warmup",
+        "model": "timbre-v2.5",
+        "buffer_ms": 500,
+        "streams": 1,
+        "streams_with_underflows": 0,
+        "starvation_ms_median": 0,
+        "simulated_startup_ms_median": 664.7083333333334
+      },
+      {
+        "cohort": "report4_WS",
+        "phase": "cold_warmup",
+        "model": "timbre-v2.5",
+        "buffer_ms": 1000,
+        "streams": 1,
+        "streams_with_underflows": 0,
+        "starvation_ms_median": 0,
+        "simulated_startup_ms_median": 1164.7083333333333
+      },
+      {
+        "cohort": "report4_WS",
+        "phase": "cold_warmup",
+        "model": "timbre-v3.0",
+        "buffer_ms": 0,
+        "streams": 1,
+        "streams_with_underflows": 1,
+        "starvation_ms_median": 743.8333333333334,
+        "simulated_startup_ms_median": 3562.0833333333335
+      },
+      {
+        "cohort": "report4_WS",
+        "phase": "cold_warmup",
+        "model": "timbre-v3.0",
+        "buffer_ms": 50,
+        "streams": 1,
+        "streams_with_underflows": 1,
+        "starvation_ms_median": 693.8333333333333,
+        "simulated_startup_ms_median": 3612.0833333333335
+      },
+      {
+        "cohort": "report4_WS",
+        "phase": "cold_warmup",
+        "model": "timbre-v3.0",
+        "buffer_ms": 100,
+        "streams": 1,
+        "streams_with_underflows": 1,
+        "starvation_ms_median": 643.8333333333334,
+        "simulated_startup_ms_median": 3662.0833333333335
+      },
+      {
+        "cohort": "report4_WS",
+        "phase": "cold_warmup",
+        "model": "timbre-v3.0",
+        "buffer_ms": 200,
+        "streams": 1,
+        "streams_with_underflows": 1,
+        "starvation_ms_median": 543.8333333333333,
+        "simulated_startup_ms_median": 3762.0833333333335
+      },
+      {
+        "cohort": "report4_WS",
+        "phase": "cold_warmup",
+        "model": "timbre-v3.0",
+        "buffer_ms": 500,
+        "streams": 1,
+        "streams_with_underflows": 1,
+        "starvation_ms_median": 243.83333333333334,
+        "simulated_startup_ms_median": 4062.083333333334
+      },
+      {
+        "cohort": "report4_WS",
+        "phase": "cold_warmup",
+        "model": "timbre-v3.0",
+        "buffer_ms": 1000,
+        "streams": 1,
+        "streams_with_underflows": 0,
+        "starvation_ms_median": 0,
+        "simulated_startup_ms_median": 4562.083333333334
+      },
+      {
+        "cohort": "report4_WS",
+        "phase": "warm_measured",
+        "model": "timbre-v2.5",
+        "buffer_ms": 0,
+        "streams": 5,
+        "streams_with_underflows": 0,
+        "starvation_ms_median": 0,
+        "simulated_startup_ms_median": 161.29166666666666
+      },
+      {
+        "cohort": "report4_WS",
+        "phase": "warm_measured",
+        "model": "timbre-v2.5",
+        "buffer_ms": 50,
+        "streams": 5,
+        "streams_with_underflows": 0,
+        "starvation_ms_median": 0,
+        "simulated_startup_ms_median": 211.29166666666666
+      },
+      {
+        "cohort": "report4_WS",
+        "phase": "warm_measured",
+        "model": "timbre-v2.5",
+        "buffer_ms": 100,
+        "streams": 5,
+        "streams_with_underflows": 0,
+        "starvation_ms_median": 0,
+        "simulated_startup_ms_median": 261.29166666666663
+      },
+      {
+        "cohort": "report4_WS",
+        "phase": "warm_measured",
+        "model": "timbre-v2.5",
+        "buffer_ms": 200,
+        "streams": 5,
+        "streams_with_underflows": 0,
+        "starvation_ms_median": 0,
+        "simulated_startup_ms_median": 361.2916666666667
+      },
+      {
+        "cohort": "report4_WS",
+        "phase": "warm_measured",
+        "model": "timbre-v2.5",
+        "buffer_ms": 500,
+        "streams": 5,
+        "streams_with_underflows": 0,
+        "starvation_ms_median": 0,
+        "simulated_startup_ms_median": 661.2916666666667
+      },
+      {
+        "cohort": "report4_WS",
+        "phase": "warm_measured",
+        "model": "timbre-v2.5",
+        "buffer_ms": 1000,
+        "streams": 5,
+        "streams_with_underflows": 0,
+        "starvation_ms_median": 0,
+        "simulated_startup_ms_median": 1161.2916666666665
+      },
+      {
+        "cohort": "report4_WS",
+        "phase": "warm_measured",
+        "model": "timbre-v3.0",
+        "buffer_ms": 0,
+        "streams": 5,
+        "streams_with_underflows": 5,
+        "starvation_ms_median": 1060.0833333333333,
+        "simulated_startup_ms_median": 813.0
+      },
+      {
+        "cohort": "report4_WS",
+        "phase": "warm_measured",
+        "model": "timbre-v3.0",
+        "buffer_ms": 50,
+        "streams": 5,
+        "streams_with_underflows": 5,
+        "starvation_ms_median": 1010.0833333333335,
+        "simulated_startup_ms_median": 863.0
+      },
+      {
+        "cohort": "report4_WS",
+        "phase": "warm_measured",
+        "model": "timbre-v3.0",
+        "buffer_ms": 100,
+        "streams": 5,
+        "streams_with_underflows": 5,
+        "starvation_ms_median": 960.0833333333333,
+        "simulated_startup_ms_median": 913.0
+      },
+      {
+        "cohort": "report4_WS",
+        "phase": "warm_measured",
+        "model": "timbre-v3.0",
+        "buffer_ms": 200,
+        "streams": 5,
+        "streams_with_underflows": 5,
+        "starvation_ms_median": 860.0833333333333,
+        "simulated_startup_ms_median": 1012.9999999999999
+      },
+      {
+        "cohort": "report4_WS",
+        "phase": "warm_measured",
+        "model": "timbre-v3.0",
+        "buffer_ms": 500,
+        "streams": 5,
+        "streams_with_underflows": 5,
+        "starvation_ms_median": 560.0833333333334,
+        "simulated_startup_ms_median": 1313.0
+      },
+      {
+        "cohort": "report4_WS",
+        "phase": "warm_measured",
+        "model": "timbre-v3.0",
+        "buffer_ms": 1000,
+        "streams": 5,
+        "streams_with_underflows": 3,
+        "starvation_ms_median": 60.083333333333336,
+        "simulated_startup_ms_median": 1813.0
+      }
+    ],
+    "warm_ws": [
+      {
+        "model": "timbre-v3.0",
+        "prompt_length": "short",
+        "successful_trials": 5,
+        "attempted_trials": 5,
+        "ttfa_ms_median": 813.0,
+        "ttfa_ms_min": 267.5,
+        "ttfa_ms_max": 3015.5
+      },
+      {
+        "model": "timbre-v2.5",
+        "prompt_length": "short",
+        "successful_trials": 5,
+        "attempted_trials": 5,
+        "ttfa_ms_median": 161.3,
+        "ttfa_ms_min": 156.6,
+        "ttfa_ms_max": 171.5
+      }
+    ],
+    "playback_examples": [
+      {
+        "case_id": "NF-S-3-short",
+        "model": "timbre-v3.0",
+        "buffer_ms": 0,
+        "underflows": 2,
+        "starvation_ms": 1686.2916666666667,
+        "path": "playback/NF-S-3-short__buffer_0.wav"
+      },
+      {
+        "case_id": "NF-S-3-short",
+        "model": "timbre-v3.0",
+        "buffer_ms": 500,
+        "underflows": 2,
+        "starvation_ms": 1186.2916666666667,
+        "path": "playback/NF-S-3-short__buffer_500.wav"
+      },
+      {
+        "case_id": "NF-S-3-short",
+        "model": "timbre-v3.0",
+        "buffer_ms": 1000,
+        "underflows": 2,
+        "starvation_ms": 686.2916666666666,
+        "path": "playback/NF-S-3-short__buffer_1000.wav"
+      },
+      {
+        "case_id": "NF-S-25-short",
+        "model": "timbre-v2.5",
+        "buffer_ms": 0,
+        "underflows": 0,
+        "starvation_ms": 0,
+        "path": "playback/NF-S-25-short__buffer_0.wav"
+      },
+      {
+        "case_id": "NF-S-25-short",
+        "model": "timbre-v2.5",
+        "buffer_ms": 500,
+        "underflows": 0,
+        "starvation_ms": 0,
+        "path": "playback/NF-S-25-short__buffer_500.wav"
+      },
+      {
+        "case_id": "NF-S-25-short",
+        "model": "timbre-v2.5",
+        "buffer_ms": 1000,
+        "underflows": 0,
+        "starvation_ms": 0,
+        "path": "playback/NF-S-25-short__buffer_1000.wav"
+      }
+    ]
+  },
+  "protocol_sha256": "e9c2a12ecf4882f75c7834914729e3722a640e495b8ae34f9fe5efabdf9f780f",
+  "latency_cause": "unresolved: no provider traces to isolate compute, queueing, processing stages or transport overhead",
+  "voice_limitation": "Tarika and Kaveri differ; matched text/language/speed/rate/client do not isolate a model-only effect",
+  "scope": "Original ASR/human TTS scores, prior 66 valid follow-up clips, and new controlled timing collection remain separate."
+}

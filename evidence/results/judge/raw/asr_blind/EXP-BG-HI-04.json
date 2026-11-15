@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-BG-HI-04",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-BG-HI-04.wav",
+ "latency_ms": 4364,
+ "reply": {
+  "transcript": "लक्ष्मी फिल्म के निर्मित कौन हैं",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 246,
+  "output": 30
+ }
+}

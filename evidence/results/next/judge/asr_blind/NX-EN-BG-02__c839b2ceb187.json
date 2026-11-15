@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-EN-BG-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c839b2ceb187262d5646f3c8",
+ "audio": "data/next/audio/NX-EN-BG-02.wav",
+ "latency_ms": 3706,
+ "reply": {
+  "transcript": "What is a rift lake?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 190,
+  "output": 29
+ }
+}

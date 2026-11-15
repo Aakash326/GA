@@ -1,0 +1,26 @@
+{
+ "task": "tts_judge",
+ "id": "NT030",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "b51ece7d597472155bc32722",
+ "audio": "results/next/audio/NT030.wav",
+ "latency_ms": 7337,
+ "reply": {
+  "targets": [
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "three thirty"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "Clear pronunciation and pacing, accurately reflecting the target text."
+ },
+ "tokens": {
+  "prompt": 400,
+  "output": 72
+ }
+}

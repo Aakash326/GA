@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT034",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "fb7ae4d0273f98d845517035",
+ "audio": "results/next/audio/NT034.wav",
+ "latency_ms": 5113,
+ "reply": {
+  "heard": "बदलाव माइनस एक दशमलव पांच प्रतिशत रहा",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 221,
+  "output": 20
+ }
+}

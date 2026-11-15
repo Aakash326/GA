@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-KN-NUM-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "6f245abed501954711dd8898",
+ "audio": "data/next/audio/NX-KN-NUM-01.wav",
+ "latency_ms": 4679,
+ "reply": {
+  "transcript": "ನೇಪಾಳ 2016 ರಲ್ಲಿ ಸಂಭವಿಸಿದ ಭೂಕಂಪ ಕೇಂದ್ರಬಿಂದು ಯಾವುದು",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 307,
+  "output": 44
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TA-MEDIA-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "52a9fbdf1a9c5eb47f1e3c11",
+ "audio": "data/next/audio/NX-TA-MEDIA-01.wav",
+ "latency_ms": 4164,
+ "reply": {
+  "transcript": "பிரிட்டிஷ் படையில் உயர்ந்த பதவியின் பெயர் என்ன?",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 210,
+  "output": 36
+ }
+}

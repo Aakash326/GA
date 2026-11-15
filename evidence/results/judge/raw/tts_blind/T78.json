@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T78",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T78.wav",
+ "latency_ms": 7872,
+ "reply": {
+  "heard": "The report includes N A V, ISIN and K Y C information.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 238,
+  "output": 25
+ }
+}

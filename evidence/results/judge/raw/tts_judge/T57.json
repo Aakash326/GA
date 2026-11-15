@@ -1,0 +1,25 @@
+{
+ "task": "tts_judge",
+ "id": "T57",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T57.wav",
+ "latency_ms": 10395,
+ "reply": {
+  "targets": [
+   {
+    "id": "ref",
+    "result": "correct",
+    "heard": "one two three four five six seven eight nine zero one two three four five six"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "All digits read accurately in sequence with clear pronunciation and steady rhythm."
+ },
+ "tokens": {
+  "prompt": 569,
+  "output": 117
+ }
+}

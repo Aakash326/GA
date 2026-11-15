@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-NUM-HI-03",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-NUM-HI-03.wav",
+ "latency_ms": 5014,
+ "reply": {
+  "transcript": "2011 की जनगणना के अनुसार उत्तराखंड राज्य की जनसंख्या कितनी है?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 256,
+  "output": 38
+ }
+}

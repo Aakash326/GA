@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT033",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "2ac8c28318edece683c5d3f3",
+ "audio": "results/next/audio/NT033.wav",
+ "latency_ms": 4298,
+ "reply": {
+  "heard": "बदलाव एक दशमलव पांच प्रतिशत रहा",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 203,
+  "output": 19
+ }
+}

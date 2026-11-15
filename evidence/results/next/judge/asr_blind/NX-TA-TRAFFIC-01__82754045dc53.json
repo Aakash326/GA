@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TA-TRAFFIC-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "82754045dc53de9aaac9f60c",
+ "audio": "data/next/audio/NX-TA-TRAFFIC-01.wav",
+ "latency_ms": 4552,
+ "reply": {
+  "transcript": "பங்களாதேசின் முதல் பெண் ஜனாதிபதி யார்?",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 277,
+  "output": 36
+ }
+}

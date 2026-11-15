@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-EN-NUM-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5f38fd3dceff2ac42b77429a",
+ "audio": "data/next/audio/NX-EN-NUM-03.wav",
+ "latency_ms": 3253,
+ "reply": {
+  "transcript": "When was the USS Arkansas BB-33 built?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 263,
+  "output": 34
+ }
+}

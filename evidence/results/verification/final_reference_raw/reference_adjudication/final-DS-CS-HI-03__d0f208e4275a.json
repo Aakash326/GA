@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-DS-CS-HI-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "d0f208e4275ae154ea693708",
+ "audio": "data/next/dataset_replacement/DS-CS-HI-03.wav",
+ "latency_ms": 6570,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "ते हैं कि else if के लिए syntax प्रविष्ट हो गया है यहाँ दिखाया गया prog",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The audio is cut off at the beginning ('आप देख सक-' is missing, starts with 'ते हैं') and includes extra speech at the end ('यहाँ दिखाया गया prog') that was omitted from the candidate."
+ },
+ "tokens": {
+  "prompt": 374,
+  "output": 82
+ }
+}

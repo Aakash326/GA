@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "CL-EN-04",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/CL-EN-04.wav",
+ "latency_ms": 7628,
+ "reply": {
+  "transcript": "How tall is Kathy Beale?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 212,
+  "output": 35
+ }
+}

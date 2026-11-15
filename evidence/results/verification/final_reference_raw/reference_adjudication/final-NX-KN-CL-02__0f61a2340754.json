@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-KN-CL-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "0f61a2340754c984ad35c10e",
+ "audio": "data/next/audio/NX-KN-CL-02.wav",
+ "latency_ms": 4676,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "ಬರ್ಮಾ ಜನರ ಮಾತೃಭಾಷೆ ಯಾವುದು",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The speaker clearly says 'ಬರ್ಮಾ ಜನರ ಮಾತೃಭಾಷೆ ಯಾವುದು' not 'ಮರ್ಮ ಜನರದ ಮಾತ್ರ ಭಾಷೆ ಯಾವುದು'."
+ },
+ "tokens": {
+  "prompt": 295,
+  "output": 65
+ }
+}

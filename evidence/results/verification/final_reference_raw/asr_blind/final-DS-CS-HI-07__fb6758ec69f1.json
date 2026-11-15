@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-DS-CS-HI-07",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "fb6758ec69f174e7dee2dfa3",
+ "audio": "data/next/dataset_replacement/DS-CS-HI-07.wav",
+ "latency_ms": 3851,
+ "reply": {
+  "transcript": "नोट्स टेक्स्ट बॉक्स के ऊपरी बाएं कोने पर त्रिकोण प्रविष्ट करें। त्रिकोण",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 275,
+  "output": 41
+ }
+}

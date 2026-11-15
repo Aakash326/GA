@@ -1,0 +1,36 @@
+{
+ "task": "tts_judge",
+ "id": "NT066",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "88f76278b321ee27db9b9f88",
+ "audio": "results/next/audio/NT066.wav",
+ "latency_ms": 7776,
+ "reply": {
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "fifteen"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "fifty"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "नहीं"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The numbers fifteen and fifty are clearly distinguished and the speech is intelligible with acceptable synthetic prosody."
+ },
+ "tokens": {
+  "prompt": 465,
+  "output": 139
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-MR-CL-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-MR-CL-01.wav",
+ "latency_ms": 5804,
+ "reply": {
+  "transcript": "कृष्णा वामसीची पत्नी कोण",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 199,
+  "output": 32
+ }
+}

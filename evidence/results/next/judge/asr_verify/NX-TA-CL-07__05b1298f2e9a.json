@@ -1,0 +1,22 @@
+{
+ "task": "asr_verify",
+ "id": "NX-TA-CL-07",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "05b1298f2e9a086930e39aac",
+ "audio": "data/next/audio/NX-TA-CL-07.wav",
+ "latency_ms": 6265,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "பல்கலைக்கழக்கத்தின்",
+    "heard": "பல்கலைக்கழகத்தின்"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 255,
+  "output": 38
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-TE-08",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-CL-TE-08.wav",
+ "latency_ms": 4167,
+ "reply": {
+  "transcript": "శోభారాజు తల్లిదండ్రుల పేర్లేమిటి",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 247,
+  "output": 39
+ }
+}

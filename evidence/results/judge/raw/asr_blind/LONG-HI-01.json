@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LONG-HI-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LONG-HI-01.wav",
+ "latency_ms": 4834,
+ "reply": {
+  "transcript": "हजारों साल पहले एरिस्टर्चस नामक एक व्यक्ति ने कहा था कि सौरमंडल सूर्य के चारों ओर घूमता है।",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 493,
+  "output": 51
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT060",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "91c01389975272c7f1f9bd01",
+ "audio": "results/next/audio/NT060.wav",
+ "latency_ms": 6591,
+ "reply": {
+  "heard": "बदल उणे एक पूर्णांक पाच टक्के आहे",
+  "target_spec_issues": [
+   "Target value specification is written in English ('one point five percent') for a Marathi input prompt"
+  ],
+  "targets": [
+   {
+    "id": "sign",
+    "result": "correct",
+    "heard": "उणे"
+   },
+   {
+    "id": "value",
+    "result": "correct",
+    "heard": "एक पूर्णांक पाच टक्के"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 354,
+  "output": 129
+ }
+}

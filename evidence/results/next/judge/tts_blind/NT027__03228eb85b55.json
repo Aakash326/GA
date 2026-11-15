@@ -1,0 +1,16 @@
+{
+ "task": "tts_blind",
+ "id": "NT027",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "03228eb85b55479c2c7a72e1",
+ "audio": "results/next/audio/NT027.wav",
+ "latency_ms": 4440,
+ "reply": {
+  "heard": "The call is at nine five A M.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 186,
+  "output": 19
+ }
+}

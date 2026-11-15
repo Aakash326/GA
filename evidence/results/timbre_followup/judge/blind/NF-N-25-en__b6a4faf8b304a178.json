@@ -1,0 +1,36 @@
+{
+  "task": "blind",
+  "id": "NF-N-25-en",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "b6a4faf8b304a178f0de93df5a117ded1e5c4d7513796f6398cd92922f454416",
+  "input_sha256": [
+    "d3f5bc0bbc4389ddf959a491d6f296c17f639a53b236c203088041f2d58c1802"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-N-25-en.wav"
+  ],
+  "reply": {
+    "heard": "Your request is ready. Please continue when you are ready.",
+    "naturalness_1to5": 4,
+    "prosody_1to5": 4,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "neutral",
+      "clear",
+      "polite"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "none",
+    "artifacts": [],
+    "confidence": "high",
+    "reason": "The speech is clean, clear, and well-paced with standard synthesis prosody."
+  },
+  "prompt_tokens": 317,
+  "output_tokens": 186,
+  "thought_tokens": 145,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

@@ -1,0 +1,50 @@
+﻿clip_id,category,kind,language,input_path,dataset_reference,status,heard_transcript,language_heard,listener_note,listener_id,listened_at
+CL-EN-01,clean_en,verify,en-IN,data/audio/CL-EN-01.wav,Who first identified blood types?,match,,,,R1,2026-11-13T16:13:45.680Z
+CL-EN-02,clean_en,verify,en-IN,data/audio/CL-EN-02.wav,What is the NBC-affiliated station in Tulsa?,match,,,,R1,2026-11-13T16:14:00.725Z
+CL-EN-03,clean_en,verify,en-IN,data/audio/CL-EN-03.wav,Who founded the Pearl Brewing Company?,match,,,,R1,2026-11-13T16:14:07.533Z
+CL-EN-04,clean_en,verify,en-IN,data/audio/CL-EN-04.wav,How tall is Kathy Beale?,match,,,,R1,2026-11-13T16:14:19.038Z
+CL-EN-05,clean_en,verify,en-IN,data/audio/CL-EN-05.wav,Where are avalanches most common?,skip,,,,R1,2026-11-13T16:14:31.317Z
+CL-EN-06,clean_en,verify,en-IN,data/audio/CL-EN-06.wav,When did WWE wrestling start?,match,,,,R1,2026-11-13T16:14:40.498Z
+CL-HI-01,clean_hi,verify,hi-IN,data/audio/CL-HI-01.wav,चित्रम फिल्म कब रिलीज हुई थी ?,match,,,,R1,2026-11-13T16:14:49.090Z
+CL-HI-02,clean_hi,verify,hi-IN,data/audio/CL-HI-02.wav,महाभारत पहले किसने लिखी है?,match,,,,R1,2026-11-13T16:14:54.871Z
+CL-HI-03,clean_hi,verify,hi-IN,data/audio/CL-HI-03.wav,तमिलनाडु राज्य का सबसे बड़ा जिला कौन सा है?,skip,,,,R1,2026-11-13T16:15:01.107Z
+CL-HI-04,clean_hi,verify,hi-IN,data/audio/CL-HI-04.wav,स्वतंत्र पाकिस्तान के पहले राष्ट्रपति कौन थे?,match,,,,R1,2026-11-13T16:15:20.620Z
+CL-HI-05,clean_hi,verify,hi-IN,data/audio/CL-HI-05.wav,क्या इस्लाम में दहेज हराम है?,match,,,,R1,2026-11-13T16:15:22.463Z
+CL-TE-01,clean_te,verify,te-IN,data/audio/CL-TE-01.wav,కృష్ణా జిల్లా యొక్క  విస్తీర్ణం ఎంత ?,match,,,,R1,2026-11-13T16:15:30.270Z
+CL-TE-02,clean_te,verify,te-IN,data/audio/CL-TE-02.wav,హైదరాబాద్ లో మెట్రో ని ఎప్పుడు ప్రారంభించారు?,match,,,,R1,2026-11-13T16:15:35.330Z
+CL-TE-03,clean_te,verify,te-IN,data/audio/CL-TE-03.wav,నీరు యొక్క రసాయన నిర్మాణం ఏంటి?,match,,,,R1,2026-11-13T16:15:43.318Z
+CL-TE-04,clean_te,verify,te-IN,data/audio/CL-TE-04.wav,న్యూమొనియాను మొదట ఏ దేశంలో కనుగొన్నారు?,match,,,,R1,2026-11-13T16:15:48.155Z
+NUM-EN-01,numbers,verify,en-IN,data/audio/NUM-EN-01.wav,Who was the leader of Switzerland in 1499?,match,,,,R1,2026-11-13T16:16:01.369Z
+NUM-EN-02,numbers,verify,en-IN,data/audio/NUM-EN-02.wav,Who won the most medals in the 2008 games?,match,,,,R1,2026-11-13T16:16:07.064Z
+NUM-EN-03,numbers,verify,en-IN,data/audio/NUM-EN-03.wav,What battle took place at Hill 60?,match,,,,R1,2026-11-13T16:16:12.236Z
+NUM-HI-01,numbers,verify,hi-IN,data/audio/NUM-HI-01.wav,2015 क्रिकेट विश्व कप के दौरान भारतीय टीम के सह- कप्तान कौन थे?,match,,,,R1,2026-11-13T16:16:17.984Z
+NUM-HI-02,numbers,verify,hi-IN,data/audio/NUM-HI-02.wav,गुंटूर गांव की जनसंख्या 2011 भारत की जानगण्डा के अनुसार कितनी थी?,,,,,,
+RN-EN-01,real_noise,verify,en-IN,data/audio/RN-EN-01.wav,What are the primary symptoms of Alzheimer's disease?,,,,,,
+RN-EN-02,real_noise,verify,en-IN,data/audio/RN-EN-02.wav,What year was the Revolution of Roses?,,,,,,
+RN-HI-01,real_noise,verify,hi-IN,data/audio/RN-HI-01.wav,पश्चिमी गोदावरी जिले में कुल कितने राजस्व मंडल हैं?,,,,,,
+RN-HI-02,real_noise,verify,hi-IN,data/audio/RN-HI-02.wav,मेक्सिको की राजभाषा क्या है?,,,,,,
+RNP-TE-01C,real_noise_pair,verify,te-IN,data/audio/RNP-TE-01C.wav,యెరకన్నపాలెం గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ ఏంటి?,,,,,,
+RNP-TE-01N,real_noise_pair,verify,te-IN,data/audio/RNP-TE-01N.wav,యెరకన్నపాలెం గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ ఏంటి?,,,,,,
+RNP-TE-02C,real_noise_pair,verify,te-IN,data/audio/RNP-TE-02C.wav,రొసాయిగుడ గ్రామ పిన్ కోడ్ ఎంత?,,,,,,
+RNP-TE-02N,real_noise_pair,verify,te-IN,data/audio/RNP-TE-02N.wav,రొసాయిగుడ గ్రామ పిన్ కోడ్ ఎంత?,,,,,,
+RNP-TE-03C,real_noise_pair,verify,te-IN,data/audio/RNP-TE-03C.wav,మనీలా లో అధికారిక భాష ఏంటి?,,,,,,
+RNP-TE-03N,real_noise_pair,verify,te-IN,data/audio/RNP-TE-03N.wav,మనీలా లో అధికారిక భాష ఏంటి?,,,,,,
+LONG-HI-01,long,verify,hi-IN,data/audio/LONG-HI-01.wav,"हज़ारों साल पहले, एरिस्टार्चस नामक एक व्यक्ति ने कहा था कि सौर मंडल सूर्य के चारों ओर घूमता है।",,,,,,
+LONG-HI-02,long,verify,hi-IN,data/audio/LONG-HI-02.wav,"आर्मंड वर्सास ने कहा, मैंने अपनी बहन और उसकी दोस्त को खो दिया, और रास्ते में व्हीलचेयर में दो दिव्यांग लोग थे, और लोग उनपर उछल रहे थे और उन्हें धक्का दे रहे थे”।",,,,,,
+LONG-TE-01,long,verify,te-IN,data/audio/LONG-TE-01.wav,"విద్యార్థులు తరచుగా అత్యంత విమర్శనాత్మక ప్రేక్షకులు కాబట్టి, విమర్శను నివారించడానికి బ్లాగు రచయిత రచనను మెరుగుపరచడానికి కృషి చేయడం మొదలు పెడతాడు.",,,,,,
+LONG-TE-02,long,verify,te-IN,data/audio/LONG-TE-02.wav,విజ్ఞాన శాస్త్ర విధానం ద్వారా ప్రపంచం ఎలా పనిచేస్తుందో కనుక్కోవటమే విజ్ఞాన శాస్త్ర ప్రధాన లక్ష్యం. నిజానికి ఈ పద్ధతి చాలా శాస్త్రీయ పరిశోధనలకు మార్గదర్శకంగా ఉంటుంది.,,,,,,
+SNR-EN-20,synthetic_noise,derived,en-IN,data/audio/SNR-EN-20.wav,Who first identified blood types?,,,,,,
+SNR-EN-10,synthetic_noise,derived,en-IN,data/audio/SNR-EN-10.wav,Who first identified blood types?,,,,,,
+SNR-EN-00,synthetic_noise,derived,en-IN,data/audio/SNR-EN-00.wav,Who first identified blood types?,,,,,,
+SNR-HI-20,synthetic_noise,derived,hi-IN,data/audio/SNR-HI-20.wav,चित्रम फिल्म कब रिलीज हुई थी ?,,,,,,
+SNR-HI-10,synthetic_noise,derived,hi-IN,data/audio/SNR-HI-10.wav,चित्रम फिल्म कब रिलीज हुई थी ?,,,,,,
+SNR-HI-00,synthetic_noise,derived,hi-IN,data/audio/SNR-HI-00.wav,चित्रम फिल्म कब रिलीज हुई थी ?,,,,,,
+TEL-EN-8K,telephony_sim,derived,en-IN,data/audio/TEL-EN-8K.wav,What is the NBC-affiliated station in Tulsa?,,,,,,
+TEL-EN-ALAW,telephony_sim,derived,en-IN,data/audio/TEL-EN-ALAW.wav,What is the NBC-affiliated station in Tulsa?,,,,,,
+TEL-EN-ULAW,telephony_sim,derived,en-IN,data/audio/TEL-EN-ULAW.wav,What is the NBC-affiliated station in Tulsa?,,,,,,
+TEL-HI-8K,telephony_sim,derived,hi-IN,data/audio/TEL-HI-8K.wav,महाभारत पहले किसने लिखी है?,,,,,,
+TEL-HI-ALAW,telephony_sim,derived,hi-IN,data/audio/TEL-HI-ALAW.wav,महाभारत पहले किसने लिखी है?,,,,,,
+TEL-HI-ULAW,telephony_sim,derived,hi-IN,data/audio/TEL-HI-ULAW.wav,महाभारत पहले किसने लिखी है?,,,,,,
+PAUSE-EN-01,pause,derived,en-IN,data/audio/PAUSE-EN-01.wav,Who founded the Pearl Brewing Company?,,,,,,
+NS-01,no_speech,nospeech,,data/audio/NS-01.wav,,,,,,,
+NS-02,no_speech,nospeech,,data/audio/NS-02.wav,,,,,,,

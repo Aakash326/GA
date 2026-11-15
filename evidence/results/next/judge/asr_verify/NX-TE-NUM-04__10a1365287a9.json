@@ -1,0 +1,17 @@
+{
+ "task": "asr_verify",
+ "id": "NX-TE-NUM-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "10a1365287a9e8d13b21680c",
+ "audio": "data/next/audio/NX-TE-NUM-04.wav",
+ "latency_ms": 4496,
+ "reply": {
+  "matches": true,
+  "differences": [],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 371,
+  "output": 16
+ }
+}

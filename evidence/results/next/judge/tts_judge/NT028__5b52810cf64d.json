@@ -1,0 +1,26 @@
+{
+ "task": "tts_judge",
+ "id": "NT028",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5b52810cf64df5d0ecfa7f0a",
+ "audio": "results/next/audio/NT028.wav",
+ "latency_ms": 7456,
+ "reply": {
+  "targets": [
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "nine oh five"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The audio is clear and accurately reflects the prompt, with intelligible pronunciation and standard pacing."
+ },
+ "tokens": {
+  "prompt": 400,
+  "output": 108
+ }
+}

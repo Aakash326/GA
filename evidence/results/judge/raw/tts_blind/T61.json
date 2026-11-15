@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T61",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T61.wav",
+ "latency_ms": 5335,
+ "reply": {
+  "heard": "कृपया ऑर्डर कैंसिल करें कन्फर्म नहीं",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 190,
+  "output": 18
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "task": "asr_verify",
+ "id": "NEG-SUBTLE-NUM-EN-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/NUM-EN-01.wav",
+ "latency_ms": 3307,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "1497",
+    "heard": "1499"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 282,
+  "output": 34
+ }
+}

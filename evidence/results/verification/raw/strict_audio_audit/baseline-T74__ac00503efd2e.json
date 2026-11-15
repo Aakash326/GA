@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T74",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ac00503efd2e53b25059de2f",
+ "audio": "results/tts_audio/T74.wav",
+ "latency_ms": 4626,
+ "reply": {
+  "heard": "Shanmugapriya will contact Srinivasan tomorrow.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "name1",
+    "result": "correct",
+    "heard": "Shanmugapriya"
+   },
+   {
+    "id": "name2",
+    "result": "correct",
+    "heard": "Srinivasan"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 387,
+  "output": 56
+ }
+}

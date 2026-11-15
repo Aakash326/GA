@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-EN-BG-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "dafb8b7348920a2b106bd008",
+ "audio": "data/next/audio/NX-EN-BG-01.wav",
+ "latency_ms": 8970,
+ "reply": {
+  "transcript": "What is the cell membrane made of?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 239,
+  "output": 31
+ }
+}

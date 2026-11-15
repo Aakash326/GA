@@ -1,0 +1,56 @@
+{
+ "ok": true,
+ "kind": "stt_stream",
+ "case_id": "LANG-KN-CL-01",
+ "run_tag": "ws",
+ "fingerprint": "6015981b4b5f6d3d754d8abd",
+ "connect_ms": 142.1,
+ "speech_end_s": 4.612,
+ "transcript": "ಜಹಾಂಗೀರ್ ನಗರ್ ವಿಶ್ವವಿದ್ಯಾಲಯವು ಎಂದು ಸ್ಥಾಪನೆಗೊಂಡಿತು?",
+ "first_final_s": 5.117,
+ "last_final_after_speech_ms": 504.7,
+ "server_latency_ms": [
+  166
+ ],
+ "segments": 1,
+ "errors": [],
+ "messages": [
+  {
+   "type": "connected",
+   "message": "STT service ready — VAD service connected",
+   "request_id": "01a1da42-5438-70b0-95bd-4948ed868a95",
+   "config": {
+    "sample_rate": 16000,
+    "chunk_size": 512,
+    "partials_enabled": false,
+    "partial_interval_ms": 450,
+    "partial_max_window_s": 15.0,
+    "language_code": "kn-IN",
+    "format": "transcribe"
+   },
+   "timestamp": "2026-11-14T13:32:22.521468+00:00",
+   "t_s": 0.04645639999944251
+  },
+  {
+   "type": "speech_start",
+   "utterance_id": "u24189f27",
+   "t_ms": 628,
+   "timestamp": "2026-11-14T13:32:23.393853+00:00",
+   "t_s": 0.9152406000066549
+  },
+  {
+   "type": "transcript",
+   "text": "ಜಹಾಂಗೀರ್ ನಗರ್ ವಿಶ್ವವಿದ್ಯಾಲಯವು ಎಂದು ಸ್ಥಾಪನೆಗೊಂಡಿತು?",
+   "audio_duration_ms": 4660.0,
+   "segment_id": "01a1da42-5438-70b0-95bd-4948ed868a95-seg-1",
+   "segment_index": 1,
+   "utterance_id": "u24189f27",
+   "is_final": true,
+   "latency": 166,
+   "prefetched": false,
+   "timestamp": "2026-11-14T13:32:27.594013+00:00",
+   "detected_language_code": "kn-IN",
+   "t_s": 5.116664400004083
+  }
+ ]
+}

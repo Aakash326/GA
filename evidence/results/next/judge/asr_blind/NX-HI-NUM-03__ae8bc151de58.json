@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-HI-NUM-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ae8bc151de58aa2a224aa3a1",
+ "audio": "data/next/audio/NX-HI-NUM-03.wav",
+ "latency_ms": 3639,
+ "reply": {
+  "transcript": "2011 में अमेरिकी राष्ट्रपति के रूप में किसने कार्य किया था?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 310,
+  "output": 38
+ }
+}

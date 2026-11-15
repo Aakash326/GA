@@ -1,0 +1,25 @@
+{
+ "task": "tts_judge",
+ "id": "T28",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T28.wav",
+ "latency_ms": 7584,
+ "reply": {
+  "targets": [
+   {
+    "id": "list",
+    "result": "correct",
+    "heard": "First, check your balance. Next, review your transactions. Finally, confirm the payment."
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "Clear pronunciation and distinct pauses between items, with slightly synthetic cadence."
+ },
+ "tokens": {
+  "prompt": 516,
+  "output": 118
+ }
+}

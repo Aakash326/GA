@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TE-NUM-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "e753629f2b0a10babafa05d5",
+ "audio": "data/next/audio/NX-TE-NUM-02.wav",
+ "latency_ms": 5119,
+ "reply": {
+  "transcript": "2002 నాటికి మంచాల గ్రామ జనాభా ఎంత",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 255,
+  "output": 38
+ }
+}

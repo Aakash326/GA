@@ -1,0 +1,56 @@
+{
+ "ok": true,
+ "kind": "stt_stream",
+ "case_id": "LANG-TA-CL-02",
+ "run_tag": "ws",
+ "fingerprint": "2b152999f9cdd29b3952eeaf",
+ "connect_ms": 123.3,
+ "speech_end_s": 2.756,
+ "transcript": "விசாகப்பட்டினத்தின் வேறு பெயர் என்ன?",
+ "first_final_s": 3.109,
+ "last_final_after_speech_ms": 353.1,
+ "server_latency_ms": [
+  99
+ ],
+ "segments": 1,
+ "errors": [],
+ "messages": [
+  {
+   "type": "connected",
+   "message": "STT service ready — VAD service connected",
+   "request_id": "01a1da42-332a-7509-9e99-ef3c6b049035",
+   "config": {
+    "sample_rate": 16000,
+    "chunk_size": 512,
+    "partials_enabled": false,
+    "partial_interval_ms": 450,
+    "partial_max_window_s": 15.0,
+    "language_code": "ta-IN",
+    "format": "transcribe"
+   },
+   "timestamp": "2026-11-14T13:32:14.056408+00:00",
+   "t_s": 0.043793400007416494
+  },
+  {
+   "type": "speech_start",
+   "utterance_id": "uf2553aea",
+   "t_ms": 340,
+   "timestamp": "2026-11-14T13:32:14.642593+00:00",
+   "t_s": 0.6283710000134306
+  },
+  {
+   "type": "transcript",
+   "text": "விசாகப்பட்டினத்தின் வேறு பெயர் என்ன?",
+   "audio_duration_ms": 2996.0,
+   "segment_id": "01a1da42-332a-7509-9e99-ef3c6b049035-seg-1",
+   "segment_index": 1,
+   "utterance_id": "uf2553aea",
+   "is_final": true,
+   "latency": 99,
+   "prefetched": false,
+   "timestamp": "2026-11-14T13:32:17.123398+00:00",
+   "detected_language_code": "ta-IN",
+   "t_s": 3.1091270000033546
+  }
+ ]
+}

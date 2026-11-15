@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T84",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T84.wav",
+ "latency_ms": 5013,
+ "reply": {
+  "heard": "Your request is saved. Check the name, amount, and date before you continue. If anything is wrong, go back and edit the details.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 332,
+  "output": 45
+ }
+}

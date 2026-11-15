@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-TRAFFIC-TE-02",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-TRAFFIC-TE-02.wav",
+ "latency_ms": 5986,
+ "reply": {
+  "transcript": "బ్రిటిషోరు శ్రీకాకుళం పేరును ఏమని పిలిచేవారు?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 301,
+  "output": 43
+ }
+}

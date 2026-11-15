@@ -1,0 +1,36 @@
+{
+  "task": "blind",
+  "id": "NF-R-25-medium-3",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "11eef4d22fb092e0d8db8757c97edea407cbc9e2e87dfdf9603f7c19907afb0d",
+  "input_sha256": [
+    "a15ec3d106a1664cc3bf6e120d0f38b0f926afc58c15beabf7d27b1e084b96e9"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-R-25-medium-3.wav"
+  ],
+  "reply": {
+    "heard": "Your request has been received and is now under review. Please check the details shown in your account before you confirm the next step. If any information is wrong, contact our support team so we can help you update it. We will send a message when the review is complete. You do not need to submit the same request again. Keep your reference number safe, and use it when you ask us for an update.",
+    "naturalness_1to5": 4,
+    "prosody_1to5": 4,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "neutral",
+      "professional",
+      "clear"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "normal",
+    "artifacts": [],
+    "confidence": "high",
+    "reason": "The speech is clear, well-paced, and intelligible with consistent professional prosody."
+  },
+  "prompt_tokens": 702,
+  "output_tokens": 256,
+  "thought_tokens": 164,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

@@ -1,0 +1,16 @@
+{
+ "task": "asr_verify",
+ "id": "CL-EN-05",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/CL-EN-05.wav",
+ "latency_ms": 4667,
+ "reply": {
+  "matches": true,
+  "differences": [],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 243,
+  "output": 16
+ }
+}

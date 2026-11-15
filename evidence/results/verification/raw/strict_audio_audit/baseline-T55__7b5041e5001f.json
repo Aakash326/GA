@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T55",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "7b5041e5001fd31032ea8f2b",
+ "audio": "results/tts_audio/T55.wav",
+ "latency_ms": 6165,
+ "reply": {
+  "heard": "Your order code is A 1 B do C 3",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "code",
+    "result": "wrong",
+    "heard": "A 1 B do C 3"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 318,
+  "output": 45
+ }
+}

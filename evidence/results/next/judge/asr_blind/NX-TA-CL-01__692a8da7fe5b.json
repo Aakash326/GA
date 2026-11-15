@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TA-CL-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "692a8da7fe5b440926f684df",
+ "audio": "data/next/audio/NX-TA-CL-01.wav",
+ "latency_ms": 6049,
+ "reply": {
+  "transcript": "சானோ சானுக்கு முன்பு தாய்லாந்து நாட்டின் பிரதம மந்திரி யார்?",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 292,
+  "output": 41
+ }
+}

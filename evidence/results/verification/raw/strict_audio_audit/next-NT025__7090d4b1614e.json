@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT025",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "7090d4b1614e9e04076525e8",
+ "audio": "results/next/audio/NT025.wav",
+ "latency_ms": 4354,
+ "reply": {
+  "heard": "Your ID is triple zero one two three",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "digits",
+    "result": "correct",
+    "heard": "triple zero one two three"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 330,
+  "output": 38
+ }
+}

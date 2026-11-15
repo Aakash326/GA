@@ -1,0 +1,36 @@
+{
+ "task": "tts_judge",
+ "id": "NT039",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "2e0105c9435b51b82e7c17d0",
+ "audio": "results/next/audio/NT039.wav",
+ "latency_ms": 8206,
+ "reply": {
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "పదిహేను"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "యాభై"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "కాదు"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "All words were pronounced clearly with intelligible numbers and negation, though pacing is slightly deliberate."
+ },
+ "tokens": {
+  "prompt": 470,
+  "output": 143
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "task": "asr_verify",
+ "id": "LONG-HI-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LONG-HI-01.wav",
+ "latency_ms": 5729,
+ "reply": {
+  "matches": true,
+  "differences": [],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 564,
+  "output": 16
+ }
+}

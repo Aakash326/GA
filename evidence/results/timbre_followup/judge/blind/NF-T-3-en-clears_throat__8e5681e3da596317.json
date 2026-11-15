@@ -1,0 +1,37 @@
+{
+  "task": "blind",
+  "id": "NF-T-3-en-clears_throat",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "8e5681e3da596317e67961c5523783054ae2b1c7368a170dc2f9ae878a9e88a7",
+  "input_sha256": [
+    "2c3361efb575b158411ac7d0a65dc127eb6383f3d8acc2c849ce4ff5346d1b42"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-T-3-en-clears_throat.wav"
+  ],
+  "reply": {
+    "heard": "Your request is ready. Please continue when you're ready.",
+    "naturalness_1to5": 4,
+    "prosody_1to5": 4,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "natural pace",
+      "composed tone"
+    ],
+    "nonverbal_events": [
+      "throat-clearing"
+    ],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "none",
+    "artifacts": [],
+    "confidence": "high",
+    "reason": "Speech is clear and well-paced, interrupted briefly by an audible throat-clearing sound."
+  },
+  "prompt_tokens": 351,
+  "output_tokens": 140,
+  "thought_tokens": 310,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

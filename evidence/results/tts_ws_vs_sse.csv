@@ -1,0 +1,37 @@
+﻿case_id,voice,model,transport,connection,connect_ms,first_chunk_ms,smooth_start_ms,complete_ms,paused,run,smooth_total_ms,first_chunk_total_ms
+T31,Kaveri,v2.5,SSE,new request,0.0,701.0,752.4,1142.3,True,cmp_sse_kaveri_T31_r1,752.4,701.0
+T31,Tarika,v3.0,SSE,new request,0.0,468.5,1736.1,2809.7,True,cmp_sse_tarika_T31_r1,1736.1,468.5
+T23,Tarika,v3.0,SSE,new request,0.0,426.9,1679.0,7009.5,True,cmp_sse_tarika_T23_r1,1679.0,426.9
+T23,Tarika,v3.0,SSE,new request,0.0,498.4,3084.0,9888.4,True,cmp_sse_tarika_T23_r2,3084.0,498.4
+T31,Tarika,v3.0,SSE,new request,0.0,437.4,1711.4,3341.3,True,cmp_sse_tarika_T31_r2,1711.4,437.4
+T31,Kaveri,v2.5,SSE,new request,0.0,204.3,204.3,486.6,False,cmp_sse_kaveri_T31_r2,204.3,204.3
+T31,Kaveri,v2.5,SSE,new request,0.0,244.5,244.5,633.3,False,cmp_sse_kaveri_T31_r3,244.5,244.5
+T23,Tarika,v3.0,SSE,new request,0.0,491.7,1875.8,7231.4,True,cmp_sse_tarika_T23_r3,1875.8,491.7
+T31,Tarika,v3.0,SSE,new request,0.0,540.6,2616.2,4372.3,True,cmp_sse_tarika_T31_r3,2616.2,540.6
+T31,Tarika,v3.0,SSE,new request,0.0,544.1,3008.2,5040.3,True,cmp_sse_tarika_T31_r4,3008.2,544.1
+T31,Kaveri,v2.5,SSE,new request,0.0,189.2,189.2,452.0,False,cmp_sse_kaveri_T31_r4,189.2,189.2
+T31,Tarika,v3.0,SSE,new request,0.0,375.8,2014.3,3440.5,True,cmp_sse_tarika_T31_r5,2014.3,375.8
+T31,Kaveri,v2.5,SSE,new request,0.0,205.6,205.6,456.2,False,cmp_sse_kaveri_T31_r5,205.6,205.6
+T31,Tarika,v3.0,WebSocket,cold,244.7,677.8,3616.3,5789.2,True,cmp_ws_tarika_T31_r1_cold,3861.0,922.5
+T31,Tarika,v3.0,WebSocket,warm,0.0,445.9,1924.7,3419.9,True,cmp_ws_tarika_T31_r1_warm,1924.7,445.9
+T23,Tarika,v3.0,WebSocket,cold,386.5,317.4,1516.1,6239.6,True,cmp_ws_tarika_T23_r1_cold,1902.6,703.9
+T31,Kaveri,v2.5,WebSocket,cold,376.4,178.5,178.5,568.7,False,cmp_ws_kaveri_T31_r1_cold,554.9,554.9
+T31,Kaveri,v2.5,WebSocket,warm,0.0,231.3,231.3,765.6,False,cmp_ws_kaveri_T31_r1_warm,231.3,231.3
+T23,Tarika,v3.0,WebSocket,cold,368.5,410.5,1352.4,4883.7,True,cmp_ws_tarika_T23_r2_cold,1720.9,779.0
+T31,Kaveri,v2.5,WebSocket,cold,376.7,172.8,172.8,445.0,False,cmp_ws_kaveri_T31_r2_cold,549.5,549.5
+T31,Kaveri,v2.5,WebSocket,warm,0.0,176.4,176.4,447.6,False,cmp_ws_kaveri_T31_r2_warm,176.4,176.4
+T31,Tarika,v3.0,WebSocket,cold,241.8,512.6,2373.6,4037.8,True,cmp_ws_tarika_T31_r2_cold,2615.4,754.4000000000001
+T31,Tarika,v3.0,WebSocket,warm,0.0,652.3,2254.1,3816.1,True,cmp_ws_tarika_T31_r2_warm,2254.1,652.3
+T31,Tarika,v3.0,WebSocket,cold,344.2,422.2,1514.4,2551.6,True,cmp_ws_tarika_T31_r3_cold,1858.6000000000001,766.4
+T31,Tarika,v3.0,WebSocket,warm,0.0,407.7,1311.8,2619.3,True,cmp_ws_tarika_T31_r3_warm,1311.8,407.7
+T23,Tarika,v3.0,WebSocket,cold,275.6,464.1,2084.0,7255.7,True,cmp_ws_tarika_T23_r3_cold,2359.6,739.7
+T31,Kaveri,v2.5,WebSocket,cold,305.8,181.3,181.3,587.9,False,cmp_ws_kaveri_T31_r3_cold,487.1,487.1
+T31,Kaveri,v2.5,WebSocket,warm,0.0,185.1,185.1,600.4,False,cmp_ws_kaveri_T31_r3_warm,185.1,185.1
+T31,Kaveri,v2.5,WebSocket,cold,261.9,181.5,181.5,551.5,False,cmp_ws_kaveri_T31_r4_cold,443.4,443.4
+T31,Kaveri,v2.5,WebSocket,warm,0.0,178.5,178.5,513.9,False,cmp_ws_kaveri_T31_r4_warm,178.5,178.5
+T31,Tarika,v3.0,WebSocket,cold,264.1,724.9,2694.6,4689.8,True,cmp_ws_tarika_T31_r4_cold,2958.7,989.0
+T31,Tarika,v3.0,WebSocket,warm,0.0,635.2,2885.3,5343.6,True,cmp_ws_tarika_T31_r4_warm,2885.3,635.2
+T31,Kaveri,v2.5,WebSocket,cold,325.3,247.2,247.2,607.2,False,cmp_ws_kaveri_T31_r5_cold,572.5,572.5
+T31,Kaveri,v2.5,WebSocket,warm,0.0,177.2,177.2,466.3,False,cmp_ws_kaveri_T31_r5_warm,177.2,177.2
+T31,Tarika,v3.0,WebSocket,cold,350.6,390.5,1986.7,3594.0,True,cmp_ws_tarika_T31_r5_cold,2337.3,741.1
+T31,Tarika,v3.0,WebSocket,warm,0.0,510.0,1763.1,2809.0,True,cmp_ws_tarika_T31_r5_warm,1763.1,510.0

@@ -1,0 +1,11 @@
+﻿pair_id,category,language,model,expected_meaning,raw_case_id,rewrite_case_id,raw_audio_path,rewrite_audio_path,listener_id,raw_correct,rewrite_correct,outcome,notes
+R4-N-01,negative,en-IN,timbre-v2.5,minus 3.75 percent,R4-N-01-raw,R4-N-01-rewrite,results/report4_quality/listen/R4-N-01-raw.wav,results/report4_quality/listen/R4-N-01-rewrite.wav,,,,,
+R4-N-02,currency,en-IN,timbre-v2.5,24680 rupees and 50 paise,R4-N-02-raw,R4-N-02-rewrite,results/report4_quality/listen/R4-N-02-raw.wav,results/report4_quality/listen/R4-N-02-rewrite.wav,,,,,
+R4-N-03,identifier,en-IN,timbre-v2.5,0 0 4 8 in order,R4-N-03-raw,R4-N-03-rewrite,results/report4_quality/listen/R4-N-03-raw.wav,results/report4_quality/listen/R4-N-03-rewrite.wav,,,,,
+R4-N-04,identifier,en-IN,timbre-v2.5,0 0 1 0 2 6 in order,R4-N-04-raw,R4-N-04-rewrite,results/report4_quality/listen/R4-N-04-raw.wav,results/report4_quality/listen/R4-N-04-rewrite.wav,,,,,
+R4-N-05,date,en-IN,timbre-v2.5,17 April 2027,R4-N-05-raw,R4-N-05-rewrite,results/report4_quality/listen/R4-N-05-raw.wav,results/report4_quality/listen/R4-N-05-rewrite.wav,,,,,
+R4-N-06,time,en-IN,timbre-v2.5,09:07 AM,R4-N-06-raw,R4-N-06-rewrite,results/report4_quality/listen/R4-N-06-raw.wav,results/report4_quality/listen/R4-N-06-rewrite.wav,,,,,
+R4-N-07,time,en-IN,timbre-v2.5,12:05 PM,R4-N-07-raw,R4-N-07-rewrite,results/report4_quality/listen/R4-N-07-raw.wav,results/report4_quality/listen/R4-N-07-rewrite.wav,,,,,
+R4-N-08,currency,en-IN,timbre-v2.5,8240 rupees,R4-N-08-raw,R4-N-08-rewrite,results/report4_quality/listen/R4-N-08-raw.wav,results/report4_quality/listen/R4-N-08-rewrite.wav,,,,,
+R4-N-09,negation,en-IN,timbre-v2.5,buy 12; prohibit buying 21,R4-N-09-raw,R4-N-09-rewrite,results/report4_quality/listen/R4-N-09-raw.wav,results/report4_quality/listen/R4-N-09-rewrite.wav,,,,,
+R4-N-10,negation,en-IN,timbre-v2.5,prohibit transfer 950; retain 1250,R4-N-10-raw,R4-N-10-rewrite,results/report4_quality/listen/R4-N-10-raw.wav,results/report4_quality/listen/R4-N-10-rewrite.wav,,,,,

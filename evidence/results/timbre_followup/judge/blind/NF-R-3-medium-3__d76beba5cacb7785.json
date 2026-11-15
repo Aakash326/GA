@@ -1,0 +1,36 @@
+{
+  "task": "blind",
+  "id": "NF-R-3-medium-3",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "d76beba5cacb7785307693216dbac88e01aeb07065a0dd8df41cb75b41e4decb",
+  "input_sha256": [
+    "44dd53fde6127a86526ddb698e8c0128ed110c2782d6979d708b85def4823f72"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-R-3-medium-3.wav"
+  ],
+  "reply": {
+    "heard": "Your request has been received and is now under review. Please check the details shown in your account before you confirm the next step. If any information is wrong, contact our support team so we can help you update it. We will send a message when the review is complete.",
+    "naturalness_1to5": 3,
+    "prosody_1to5": 3,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "clear",
+      "customer service tone",
+      "measured pace"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "none",
+    "artifacts": [],
+    "confidence": "high",
+    "reason": "Clear synthesized speech with standard automated customer service pacing and rhythm."
+  },
+  "prompt_tokens": 629,
+  "output_tokens": 236,
+  "thought_tokens": 166,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

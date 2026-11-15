@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T07",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c684bf54a53d9f917f1f07a9",
+ "audio": "results/tts_audio/T07.wav",
+ "latency_ms": 3213,
+ "reply": {
+  "heard": "Your UCC has been activated.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "ucc",
+    "result": "correct",
+    "heard": "UCC"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 288,
+  "output": 33
+ }
+}

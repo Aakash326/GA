@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-DS-CS-HI-05",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ecc6eded9792ac580b9abaa4",
+ "audio": "data/next/dataset_replacement/DS-CS-HI-05.wav",
+ "latency_ms": 5749,
+ "reply": {
+  "transcript": "इस tutorial में हम एक उदाहरण से arguments के साथ main function के बारे में सीखेंगे। इस",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 350,
+  "output": 42
+ }
+}

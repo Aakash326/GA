@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-HI-CL-08",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "cdb1c0f37c55b4ba6ca5fe50",
+ "audio": "data/next/audio/NX-HI-CL-08.wav",
+ "latency_ms": 6455,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "सऊदी अरब के एकीकरण के बाद सऊदी अरब की राजधानी कहाँ स्थापित की गई?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The word 'कहाँ' (where) was misspelled as 'कहा' (said) in the dataset candidate."
+ },
+ "tokens": {
+  "prompt": 381,
+  "output": 64
+ }
+}

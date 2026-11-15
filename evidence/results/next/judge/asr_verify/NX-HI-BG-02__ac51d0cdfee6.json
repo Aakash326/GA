@@ -1,0 +1,22 @@
+{
+ "task": "asr_verify",
+ "id": "NX-HI-BG-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ac51d0cdfee63665793b92bf",
+ "audio": "data/next/audio/NX-HI-BG-02.wav",
+ "latency_ms": 3976,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "उपमहाद्वपी",
+    "heard": "उपमहाद्वीप"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 317,
+  "output": 33
+ }
+}

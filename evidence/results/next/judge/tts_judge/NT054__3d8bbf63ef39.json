@@ -1,0 +1,31 @@
+{
+ "task": "tts_judge",
+ "id": "NT054",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "3d8bbf63ef39c1d75786d8b0",
+ "audio": "results/next/audio/NT054.wav",
+ "latency_ms": 5330,
+ "reply": {
+  "targets": [
+   {
+    "id": "sign",
+    "result": "correct",
+    "heard": "ಮೈನಸ್"
+   },
+   {
+    "id": "value",
+    "result": "correct",
+    "heard": "ಒಂದು ಪಾಯಿಂಟ್ ಐದು ಶೇಕಡಾ"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and accurately reflects the text without artifacts."
+ },
+ "tokens": {
+  "prompt": 461,
+  "output": 144
+ }
+}

@@ -1,0 +1,39 @@
+{
+  "task": "blind",
+  "id": "NF-R-25-long-1",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "4e6dad65b12f0e82c3d93397ae561142ecaf09a4e7e5c59ae5ccb23899ca67f9",
+  "input_sha256": [
+    "49926198e5e814e16663a6c6956296ab22ba16b4eda02bc57f3c0d5daebd2e2d"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-R-25-long-1.wav"
+  ],
+  "reply": {
+    "heard": "Your request has been received and is now under review. Please check the details shown in your account before you confirm the next step. If any information is wrong, contact our support team so we can help you update it. We will send a message when the review is complete. You do not need to submit the same request again. Keep your reference number safe and use it when you ask us for an update. Before placing an order review the company name, quantity, and price carefully. The amount shown on the confirmation screen may include charges that were not included in an earlier estimate. If you decide to change the order return to the details page, and check the updated information before confirming. Do not share your password or verification code with anyone who contacts you unexpectedly. You can find the official support contact details inside your account. Once the request is complete, save the receipt for your records.",
+    "naturalness_1to5": 3,
+    "prosody_1to5": 3,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "clear",
+      "steady pace",
+      "instructional",
+      "formal"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "none",
+    "artifacts": [
+      "subtle synthetic quality"
+    ],
+    "confidence": "high",
+    "reason": "Clear and intelligible TTS delivery with smooth pacing, though slightly stylized and synthetic."
+  },
+  "prompt_tokens": 1309,
+  "output_tokens": 376,
+  "thought_tokens": 336,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

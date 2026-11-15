@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-DS-FIN-TE-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "6ebd38d293bae9806490518f",
+ "audio": "data/next/dataset_replacement/DS-FIN-TE-03.wav",
+ "latency_ms": 5631,
+ "reply": {
+  "transcript": "Jewish బ్యాంకును ఎప్పుడు స్థాపించారు?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 225,
+  "output": 31
+ }
+}

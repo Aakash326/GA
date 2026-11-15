@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T81",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5f06aeca2590d921fcf3a7ad",
+ "audio": "results/tts_audio/T81.wav",
+ "latency_ms": 4564,
+ "reply": {
+  "heard": "Please record the message. The record is now complete.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "verb",
+    "result": "correct",
+    "heard": "record"
+   },
+   {
+    "id": "noun",
+    "result": "correct",
+    "heard": "The record"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 369,
+  "output": 50
+ }
+}

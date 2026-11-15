@@ -1,0 +1,90 @@
+﻿case_id,listener_id,listener_languages,target_id,target_critical,target_result,naturalness_1to5,prosody_1to5,content_complete,meaning_preserved,artifact_flags,comment,blind_transcription,blind_before_reveal,cannot_judge,rated_at
+T06,,,kyc,true,correct,,,,,,,,false,false,2026-11-14T17:10:08.391Z
+T07,,,ucc,true,correct,,,,,,,,false,false,2026-11-14T17:16:03.646Z
+T11,,,sip,true,correct,,,,,,,,false,false,2026-11-14T17:15:55.516Z
+T11,,,english,true,correct,,,,,,,,false,false,2026-11-14T17:15:55.516Z
+T11,,,hindi,true,correct,,,,,,,,false,false,2026-11-14T17:15:55.516Z
+T16,,,hdfc,true,correct,,,,,,,,false,false,2026-11-14T17:12:38.225Z
+T21,,,start,true,correct,,,,,,,,false,false,2026-11-14T17:15:36.174Z
+T21,,,end,true,ambiguous,,,,,,,,false,false,2026-11-14T17:15:36.174Z
+T34,,,value,true,wrong,,,,,,,,false,false,2026-11-14T17:12:43.428Z
+T40,,,neg_amount,true,wrong,,,,,,,,false,false,2026-11-14T17:13:26.241Z
+T40,,,pos_amount,true,correct,,,,,,,,false,false,2026-11-14T17:13:26.241Z
+T40,,,not,true,correct,,,,,,,,false,false,2026-11-14T17:13:26.241Z
+T41,,,qty,true,correct,,,,,,,,false,false,2026-11-14T17:04:43.396Z
+T41,,,rejected,true,correct,,,,,,,,false,false,2026-11-14T17:04:43.396Z
+T41,,,not,true,correct,,,,,,,,false,false,2026-11-14T17:04:43.396Z
+T44,,,start,true,wrong,,,,,,it said 9 5 am ,,false,false,2026-11-14T17:12:59.440Z
+T44,,,end,true,correct,,,,,,it said 9 5 am ,,false,false,2026-11-14T17:12:59.440Z
+T52,,,digits,true,wrong,,,,,,,,false,false,2026-11-14T17:14:43.331Z
+T55,,,code,true,correct,,,,,,,,false,false,2026-11-14T17:14:06.702Z
+T60,,,amount,true,correct,,,,,,,,false,false,2026-11-14T17:09:42.774Z
+T60,,,english,false,correct,,,,,,,,false,false,2026-11-14T17:09:42.774Z
+T60,,,time,true,correct,,,,,,,,false,false,2026-11-14T17:09:42.774Z
+T69,,,dr,true,correct,,,,,,,,false,false,2026-11-14T17:12:27.660Z
+T69,,,name,false,correct,,,,,,,,false,false,2026-11-14T17:12:27.660Z
+T94,,,negation,true,,,,,,,,,false,false,2026-11-14T17:14:47.741Z
+T94,,,otp,true,correct,,,,,,,,false,false,2026-11-14T17:14:47.741Z
+T100,,,negation,true,,,,,,,,,false,false,2026-11-14T17:15:04.590Z
+T100,,,otp,true,correct,,,,,,,,false,false,2026-11-14T17:15:04.590Z
+T101,,,content,true,,,,,,,,,false,false,2026-11-14T17:03:16.058Z
+NT015,,,sign,true,wrong,,,,,,,,false,false,2026-11-14T17:15:17.658Z
+NT015,,,value,true,correct,,,,,,,,false,false,2026-11-14T17:15:17.658Z
+NT016,,,sign,true,wrong,,,,,,it didnt say minus,,false,false,2026-11-14T17:10:44.139Z
+NT016,,,value,true,correct,,,,,,it didnt say minus,,false,false,2026-11-14T17:10:44.139Z
+NT017,,,sign,true,correct,,,,,,,,false,false,2026-11-14T17:10:15.081Z
+NT017,,,value,true,correct,,,,,,,,false,false,2026-11-14T17:10:15.081Z
+NT018,,,sign,true,wrong,,,,,,,,false,false,2026-11-14T17:14:55.456Z
+NT018,,,value,true,correct,,,,,,,,false,false,2026-11-14T17:14:55.456Z
+NT019,,,sign,true,correct,,,,,,,,false,false,2026-11-14T17:14:32.902Z
+NT019,,,value,true,correct,,,,,,,,false,false,2026-11-14T17:14:32.902Z
+NT020,,,sign,true,correct,,,,,,,,false,false,2026-11-14T17:15:41.687Z
+NT020,,,value,true,correct,,,,,,,,false,false,2026-11-14T17:15:41.687Z
+NT027,,,time,true,wrong,,,,,,,,false,false,2026-11-14T17:14:21.548Z
+NT028,,,time,true,correct,,,,,,,,false,false,2026-11-14T17:15:59.872Z
+NT031,,,qty,true,correct,,,,,,it said numbers in hindi,,false,false,2026-11-14T17:16:23.566Z
+NT031,,,rejected,true,correct,,,,,,it said numbers in hindi,,false,false,2026-11-14T17:16:23.566Z
+NT031,,,not,true,correct,,,,,,it said numbers in hindi,,false,false,2026-11-14T17:16:23.566Z
+NT033,,,sign,true,wrong,,,,,,,,false,false,2026-11-14T17:15:47.652Z
+NT033,,,value,true,correct,,,,,,,,false,false,2026-11-14T17:15:47.652Z
+NT034,,,sign,true,correct,,,,,,,,false,false,2026-11-14T17:11:14.953Z
+NT034,,,value,true,correct,,,,,,,,false,false,2026-11-14T17:11:14.953Z
+NT035,,,digits,true,wrong,,,,,,,,false,false,2026-11-14T17:16:31.549Z
+NT036,,,digits,true,correct,,,,,,,,false,false,2026-11-14T17:12:33.495Z
+NT039,,,qty,true,correct,,,,,,,,false,false,2026-11-14T17:17:01.253Z
+NT039,,,rejected,true,,,,,,,,,false,false,2026-11-14T17:17:01.253Z
+NT039,,,not,true,correct,,,,,,,,false,false,2026-11-14T17:17:01.253Z
+NT041,,,sign,true,wrong,,,,,,no negitive and said .5 percent,,false,false,2026-11-14T17:12:16.125Z
+NT041,,,value,true,wrong,,,,,,no negitive and said .5 percent,,false,false,2026-11-14T17:12:16.125Z
+NT042,,,sign,true,correct,,,,,,,,false,false,2026-11-14T17:15:11.403Z
+NT042,,,value,true,correct,,,,,,,,false,false,2026-11-14T17:15:11.403Z
+NT043,,,digits,true,wrong,,,,,,it said 70,,false,false,2026-11-14T17:13:16.860Z
+NT044,,,digits,true,correct,,,,,,,,false,false,2026-11-14T17:14:15.930Z
+NT047,,,sign,true,,,,,,,,,false,false,2026-11-14T17:02:58.020Z
+NT047,,,value,true,,,,,,,,,false,false,2026-11-14T17:02:58.020Z
+NT048,,,sign,true,correct,,,,,,,,false,false,2026-11-14T17:16:51.988Z
+NT048,,,value,true,,,,,,,,,false,false,2026-11-14T17:16:51.988Z
+NT049,,,digits,true,,,,,,,dont know,,false,false,2026-11-14T17:11:41.794Z
+NT050,,,digits,true,correct,,,,,,,,false,false,2026-11-14T17:14:00.571Z
+NT053,,,sign,true,wrong,,,,,,,,false,false,2026-11-14T17:13:07.923Z
+NT053,,,value,true,correct,,,,,,,,false,false,2026-11-14T17:13:07.923Z
+NT054,,,sign,true,correct,,,,,,i dont know tamil,,false,false,2026-11-14T17:10:02.324Z
+NT054,,,value,true,,,,,,,i dont know tamil,,false,false,2026-11-14T17:10:02.324Z
+NT055,,,digits,true,,,,,,,i think it was 70 ,,false,false,2026-11-14T17:11:33.324Z
+NT056,,,digits,true,correct,,,,,,,,false,false,2026-11-14T17:16:40.021Z
+NT059,,,sign,true,,,,,,,,,false,false,2026-11-14T17:03:51.637Z
+NT059,,,value,true,,,,,,,,,false,false,2026-11-14T17:03:51.637Z
+NT060,,,sign,true,,,,,,,,,false,false,2026-11-14T17:03:56.362Z
+NT060,,,value,true,,,,,,,,,false,false,2026-11-14T17:03:56.362Z
+NT061,,,digits,true,,,,,,,it said 70 only ,,false,false,2026-11-14T17:10:27.883Z
+NT062,,,digits,true,correct,,,,,,,,false,false,2026-11-14T17:14:38.269Z
+NT063,,,sign,true,wrong,,,,,,,,false,false,2026-11-14T17:16:45.520Z
+NT063,,,value,true,correct,,,,,,,,false,false,2026-11-14T17:16:45.520Z
+NT064,,,sign,true,correct,,,,,,,,false,false,2026-11-14T17:04:55.216Z
+NT064,,,value,true,correct,,,,,,,,false,false,2026-11-14T17:04:55.216Z
+NT065,,,qty,true,wrong,,,,,,it said 5 instad of 15,,false,false,2026-11-14T17:13:52.942Z
+NT065,,,rejected,true,correct,,,,,,it said 5 instad of 15,,false,false,2026-11-14T17:13:52.942Z
+NT065,,,not,true,correct,,,,,,it said 5 instad of 15,,false,false,2026-11-14T17:13:52.942Z
+NT066,,,qty,true,correct,,,,,,,,false,false,2026-11-14T17:11:05.890Z
+NT066,,,rejected,true,correct,,,,,,,,false,false,2026-11-14T17:11:05.890Z
+NT066,,,not,true,ambiguous,,,,,,,,false,false,2026-11-14T17:11:05.890Z

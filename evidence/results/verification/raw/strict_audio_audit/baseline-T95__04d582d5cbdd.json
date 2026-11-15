@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T95",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "04d582d5cbdd9486f5320330",
+ "audio": "results/tts_audio/T95.wav",
+ "latency_ms": 5544,
+ "reply": {
+  "heard": "ನಿಮ್ಮ ವಿನಂತಿಯನ್ನು ಸ್ವೀಕರಿಸಲಾಗಿದೆ. ನಾಳೆ ನಿಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸುತ್ತೇವೆ.",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "content",
+    "result": "correct",
+    "heard": "ನಿಮ್ಮ ವಿನಂತಿಯನ್ನು ಸ್ವೀಕರಿಸಲಾಗಿದೆ. ನಾಳೆ ನಿಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸುತ್ತೇವೆ."
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 365,
+  "output": 68
+ }
+}

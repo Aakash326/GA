@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T49",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T49.wav",
+ "latency_ms": 4850,
+ "reply": {
+  "heard": "Your reference number is double zero double zero four two.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 224,
+  "output": 21
+ }
+}

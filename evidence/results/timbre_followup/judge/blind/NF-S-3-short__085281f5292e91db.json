@@ -1,0 +1,36 @@
+{
+  "task": "blind",
+  "id": "NF-S-3-short",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "085281f5292e91dba785985bbcfaff12083d83883175338deb66586113704333",
+  "input_sha256": [
+    "21dcf0dbdf702f2811ba4d924338998de8c5b9d4311e566a3d92df59835732fd"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-S-3-short.wav"
+  ],
+  "reply": {
+    "heard": "Your request has been received. We will contact you tomorrow.",
+    "naturalness_1to5": 4,
+    "prosody_1to5": 4,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "clear",
+      "calm",
+      "neutral tone"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "normal brief pause before speaking",
+    "artifacts": [],
+    "confidence": "high",
+    "reason": "Speech is cleanly articulated with natural pacing and consistent professional tone."
+  },
+  "prompt_tokens": 357,
+  "output_tokens": 134,
+  "thought_tokens": 223,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

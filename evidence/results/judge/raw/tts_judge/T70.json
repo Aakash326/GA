@@ -1,0 +1,35 @@
+{
+ "task": "tts_judge",
+ "id": "T70",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T70.wav",
+ "latency_ms": 7814,
+ "reply": {
+  "targets": [
+   {
+    "id": "neft",
+    "result": "correct",
+    "heard": "N E F T"
+   },
+   {
+    "id": "upi",
+    "result": "correct",
+    "heard": "U P I"
+   },
+   {
+    "id": "contrast",
+    "result": "correct",
+    "heard": "pending then complete"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "Accurate pronunciation and clean phrasing with clear acronym spelling."
+ },
+ "tokens": {
+  "prompt": 553,
+  "output": 138
+ }
+}

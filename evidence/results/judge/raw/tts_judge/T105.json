@@ -1,0 +1,30 @@
+{
+ "task": "tts_judge",
+ "id": "T105",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T105.wav",
+ "latency_ms": 7161,
+ "reply": {
+  "targets": [
+   {
+    "id": "kyc",
+    "result": "correct",
+    "heard": "K Y C"
+   },
+   {
+    "id": "english",
+    "result": "correct",
+    "heard": "pending ... complete"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "artifacts": [],
+  "comment": "The text was read accurately with clear English loanwords and letter spelling."
+ },
+ "tokens": {
+  "prompt": 466,
+  "output": 138
+ }
+}

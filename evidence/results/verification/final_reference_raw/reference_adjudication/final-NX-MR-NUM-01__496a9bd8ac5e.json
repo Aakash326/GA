@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-MR-NUM-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "496a9bd8ac5ee77d6070a8fe",
+ "audio": "data/next/audio/NX-MR-NUM-01.wav",
+ "latency_ms": 3872,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "जगातील 70% पाण्यापैकी मानव मूलभूत गरजांसाठी किती टक्के पाणी वापरतो ?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "Typo in the candidate: 'पण्यापैकी' should be 'पाण्यापैकी'."
+ },
+ "tokens": {
+  "prompt": 384,
+  "output": 61
+ }
+}

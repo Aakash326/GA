@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "CL-TE-03",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/CL-TE-03.wav",
+ "latency_ms": 4184,
+ "reply": {
+  "transcript": "నీరు యొక్క రసాయన నిర్మాణం ఏంటి",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 307,
+  "output": 40
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-KN-NUM-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "09ee2eed470ba4dd1d379e0e",
+ "audio": "data/next/audio/NX-KN-NUM-02.wav",
+ "latency_ms": 5834,
+ "reply": {
+  "transcript": "2018 ರಲ್ಲಿ ಯುನೈಟೆಡ್ ಸ್ಟೇಟ್ಸ್ ಆಫ್ ಅಮೆರಿಕದ ರಾಷ್ಟ್ರಪತಿ ಯಾರಾಗಿರುವರು",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 344,
+  "output": 52
+ }
+}

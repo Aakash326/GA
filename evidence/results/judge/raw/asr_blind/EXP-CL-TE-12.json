@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-TE-12",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-CL-TE-12.wav",
+ "latency_ms": 4987,
+ "reply": {
+  "transcript": "జిల్లెడిపూడి గ్రామ విస్తీర్ణం ఎంత",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 253,
+  "output": 42
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "task": "asr_verify",
+ "id": "EXP-CL-EN-04",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-CL-EN-04.wav",
+ "latency_ms": 4820,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "is head",
+    "heard": "is the head"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 243,
+  "output": 53
+ }
+}

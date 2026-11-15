@@ -1,0 +1,31 @@
+{
+  "task": "pair",
+  "id": "NF-V-25-1_15",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "6a91a6977a3f865b11334fadb9afd7cfab605dc4e66178953c4253204ae47e0d",
+  "input_sha256": [
+    "d3f5bc0bbc4389ddf959a491d6f296c17f639a53b236c203088041f2d58c1802",
+    "a0a5e24be79afc7a078239960a4156fea7b53e9efbf8a1536db54f8d65f244b3"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-N-25-en.wav",
+    "results/timbre_followup/listen/NF-V-25-1_15.wav"
+  ],
+  "reply": {
+    "more_cue": "B",
+    "cue_audible_A": false,
+    "cue_audible_B": true,
+    "content_preserved_A": true,
+    "content_preserved_B": true,
+    "literal_tag_spoken_A": false,
+    "literal_tag_spoken_B": false,
+    "confidence": "medium",
+    "reason": "Clip B exhibits a noticeably faster speaking rate and quicker pacing while preserving all content accurately."
+  },
+  "prompt_tokens": 309,
+  "output_tokens": 116,
+  "thought_tokens": 245,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

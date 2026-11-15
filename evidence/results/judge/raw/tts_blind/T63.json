@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T63",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T63.wav",
+ "latency_ms": 10048,
+ "reply": {
+  "heard": "Your refund अभी pending है. कृपया कल फिर check करें.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 214,
+  "output": 28
+ }
+}

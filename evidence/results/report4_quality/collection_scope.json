@@ -1,0 +1,12 @@
+{
+  "asr_clips": 15,
+  "asr_conditions": [
+    "baseline",
+    "hinted"
+  ],
+  "tts_cases": 54,
+  "naturalness_human_ratings_collected": 0,
+  "critical_target_human_ratings_collected": 0,
+  "policy_sha256": "ae264eef30ae71eb31dde37795e90b3a3d4ba705fcdc905907ad23a19f3dbc65",
+  "limitations": "Source transcripts are dataset labels; new TTS quality and rewrite outcomes remain unscored until independent human review."
+}

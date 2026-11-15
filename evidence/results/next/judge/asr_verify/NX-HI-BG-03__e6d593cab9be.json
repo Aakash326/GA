@@ -1,0 +1,22 @@
+{
+ "task": "asr_verify",
+ "id": "NX-HI-BG-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "e6d593cab9be20e0f629a7e2",
+ "audio": "data/next/audio/NX-HI-BG-03.wav",
+ "latency_ms": 3042,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "रक्षणा",
+    "heard": "रक्षा"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 302,
+  "output": 30
+ }
+}

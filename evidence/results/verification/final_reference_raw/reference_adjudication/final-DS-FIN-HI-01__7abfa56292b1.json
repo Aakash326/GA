@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-DS-FIN-HI-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "7abfa56292b1060323d8183b",
+ "audio": "data/next/dataset_replacement/DS-FIN-HI-01.wav",
+ "latency_ms": 3886,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "Hey Google 2015 में भारत के वित्त मंत्री कौन हैं?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The speaker begins with 'Hey Google', which was omitted from the dataset candidate."
+ },
+ "tokens": {
+  "prompt": 356,
+  "output": 54
+ }
+}

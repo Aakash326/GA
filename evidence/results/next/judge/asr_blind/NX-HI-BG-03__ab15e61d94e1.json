@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-HI-BG-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ab15e61d94e17cdcd3dac0f6",
+ "audio": "data/next/audio/NX-HI-BG-03.wav",
+ "latency_ms": 3922,
+ "reply": {
+  "transcript": "फिल्म रक्षा का निर्माण किस कंपनी ने किया था",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 264,
+  "output": 33
+ }
+}

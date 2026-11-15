@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T69",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T69.wav",
+ "latency_ms": 3709,
+ "reply": {
+  "heard": "Please ask Doctor Meera Rao to review the request.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 194,
+  "output": 27
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-KN-CL-07",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/LANG-KN-CL-07.wav",
+ "latency_ms": 8118,
+ "reply": {
+  "transcript": "ಭೂತಾನದ ದಾದ ಜಿಲ್ಲೆ ಯಾವುದು",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 271,
+  "output": 35
+ }
+}

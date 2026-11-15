@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T104",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T104.wav",
+ "latency_ms": 3512,
+ "reply": {
+  "heard": "तुमचा संदर्भ क्रमांक शून्य शून्य चार दोन नऊ एक आहे",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 259,
+  "output": 23
+ }
+}

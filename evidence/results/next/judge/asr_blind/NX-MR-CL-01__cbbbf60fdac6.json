@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-MR-CL-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "cbbbf60fdac6b526a4ac26b2",
+ "audio": "data/next/audio/NX-MR-CL-01.wav",
+ "latency_ms": 5040,
+ "reply": {
+  "transcript": "मध्यपूर्व जगातील सर्वात प्राचीन संस्कृतीचे नाव काय आहे?",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 223,
+  "output": 42
+ }
+}

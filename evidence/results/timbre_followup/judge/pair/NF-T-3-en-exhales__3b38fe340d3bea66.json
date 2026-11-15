@@ -1,0 +1,31 @@
+{
+  "task": "pair",
+  "id": "NF-T-3-en-exhales",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "3b38fe340d3bea66648a6ac7cd5307635b54c1aab9789c753ebc5805b5460f12",
+  "input_sha256": [
+    "466c965542b89539b0c88ba0d05d505e274624cbfd24d3c259d36747b6c6c8bd",
+    "d7cfb60caf0eaa67241cab4151d0464892ea0fbfd7956e5e7f1bfffbfb5c7590"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-T-3-en-exhales.wav",
+    "results/timbre_followup/listen/NF-N-3-en.wav"
+  ],
+  "reply": {
+    "more_cue": "A",
+    "cue_audible_A": true,
+    "cue_audible_B": false,
+    "content_preserved_A": true,
+    "content_preserved_B": true,
+    "literal_tag_spoken_A": false,
+    "literal_tag_spoken_B": false,
+    "confidence": "high",
+    "reason": "Clip A includes a distinct audible sigh/exhale between the two sentences, while Clip B speaks the text continuously without an exhale."
+  },
+  "prompt_tokens": 376,
+  "output_tokens": 125,
+  "thought_tokens": 82,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

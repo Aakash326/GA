@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-NX-MR-CL-07",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "4d3a5ef9f2865baa2bb2184a",
+ "audio": "data/next/audio/NX-MR-CL-07.wav",
+ "latency_ms": 3495,
+ "reply": {
+  "dataset_matches": true,
+  "selected_reference": "मेनहेटन मधील सर्वात उंच इमारत कोणती आहे ?",
+  "confidence": "high",
+  "unclear": [],
+  "reason": ""
+ },
+ "tokens": {
+  "prompt": 334,
+  "output": 36
+ }
+}

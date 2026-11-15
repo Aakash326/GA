@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T90",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "27318eefc86857591325f4e4",
+ "audio": "results/tts_audio/T90.wav",
+ "latency_ms": 6049,
+ "reply": {
+  "heard": "உங்கள் இருப்பு ஒரு லட்சம் இருபத்தைந்து ஆயிரத்து நானூற்று ஐம்பது ரூபாய்",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "ஒரு லட்சம் இருபத்தைந்து ஆயிரத்து நானூற்று ஐம்பது ரூபாய்"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 372,
+  "output": 58
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T10",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "4ae0e5648142a19cb5d37411",
+ "audio": "results/tts_audio/T10.wav",
+ "latency_ms": 4804,
+ "reply": {
+  "heard": "You can increase your S I P by 500 rupees",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "sip",
+    "result": "correct",
+    "heard": "S I P"
+   },
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "500 rupees"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 366,
+  "output": 56
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "task": "tts_judge",
+ "id": "NT025",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "12822ba64186f3979f158850",
+ "audio": "results/next/audio/NT025.wav",
+ "latency_ms": 9227,
+ "reply": {
+  "targets": [
+   {
+    "id": "digits",
+    "result": "correct",
+    "heard": "triple zero one two three"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The prompt is read clearly with accepted triple zero grouping and intelligible Indian English pronunciation."
+ },
+ "tokens": {
+  "prompt": 419,
+  "output": 109
+ }
+}

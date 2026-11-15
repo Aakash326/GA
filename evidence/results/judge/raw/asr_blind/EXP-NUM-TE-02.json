@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-NUM-TE-02",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-NUM-TE-02.wav",
+ "latency_ms": 25694,
+ "reply": {
+  "transcript": "2011 నాటికి దొండపూడి గ్రామ జనాభా ఎంత?",
+  "language": "Telugu",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 283,
+  "output": 50
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "task": "tts_judge",
+ "id": "T89",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T89.wav",
+ "latency_ms": 4765,
+ "reply": {
+  "targets": [
+   {
+    "id": "content",
+    "result": "correct",
+    "heard": "உங்கள் கோரிக்கை பெறப்பட்டது. நாளை உங்களைத் தொடர்பு கொள்வோம்."
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "artifacts": [],
+  "comment": "The text was pronounced accurately and naturally with fluent Tamil prosody."
+ },
+ "tokens": {
+  "prompt": 417,
+  "output": 113
+ }
+}

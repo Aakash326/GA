@@ -1,0 +1,56 @@
+{
+ "ok": true,
+ "kind": "stt_stream",
+ "case_id": "CALLER-L6",
+ "run_tag": "multi",
+ "fingerprint": "75ece4d1cbed7922b0d0c94e",
+ "connect_ms": 133.8,
+ "speech_end_s": 1.924,
+ "transcript": "मेरा KYC update नहीं हुआ है।",
+ "first_final_s": 2.372,
+ "last_final_after_speech_ms": 447.8,
+ "server_latency_ms": [
+  73
+ ],
+ "segments": 1,
+ "errors": [],
+ "messages": [
+  {
+   "type": "connected",
+   "message": "STT service ready — VAD service connected",
+   "request_id": "01a1da1b-d331-7557-bc72-2bc28023f49e",
+   "config": {
+    "sample_rate": 16000,
+    "chunk_size": 512,
+    "partials_enabled": false,
+    "partial_interval_ms": 450,
+    "partial_max_window_s": 15.0,
+    "language_code": "hi-IN",
+    "format": "transcribe"
+   },
+   "timestamp": "2026-11-14T12:50:19.120455+00:00",
+   "t_s": 0.04081570000562351
+  },
+  {
+   "type": "speech_start",
+   "utterance_id": "u2c21c1ae",
+   "t_ms": 0,
+   "timestamp": "2026-11-14T12:50:19.354442+00:00",
+   "t_s": 0.274873899994418
+  },
+  {
+   "type": "transcript",
+   "text": "मेरा KYC update नहीं हुआ है।",
+   "audio_duration_ms": 2304.0,
+   "segment_id": "01a1da1b-d331-7557-bc72-2bc28023f49e-seg-1",
+   "segment_index": 1,
+   "utterance_id": "u2c21c1ae",
+   "is_final": true,
+   "latency": 73,
+   "prefetched": false,
+   "timestamp": "2026-11-14T12:50:21.450283+00:00",
+   "detected_language_code": "hi-IN",
+   "t_s": 2.3717674000072293
+  }
+ ]
+}

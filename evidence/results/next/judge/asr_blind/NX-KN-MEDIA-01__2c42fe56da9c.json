@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-KN-MEDIA-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "2c42fe56da9cb19bf9d2e50a",
+ "audio": "data/next/audio/NX-KN-MEDIA-01.wav",
+ "latency_ms": 4017,
+ "reply": {
+  "transcript": "ಅತ್ಯಂತ ಹೆಚ್ಚಿನ ಕೋಳಿಗಳು ಯಾವ ದೇಶದಲ್ಲಿದೆ?",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 299,
+  "output": 35
+ }
+}

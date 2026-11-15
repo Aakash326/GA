@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "final-NX-MR-CL-05",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "d0b07e5b4e25daf56a8f1961",
+ "audio": "data/next/audio/NX-MR-CL-05.wav",
+ "latency_ms": 3411,
+ "reply": {
+  "transcript": "कॅलिफोर्निया मधील क्षेत्रफळाच्या दृष्टीने राज्यातील सर्वात मोठे शहर कोणते आहे?",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 271,
+  "output": 44
+ }
+}

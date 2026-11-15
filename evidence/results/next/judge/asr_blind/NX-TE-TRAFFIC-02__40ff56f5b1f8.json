@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TE-TRAFFIC-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "40ff56f5b1f8157b192377bd",
+ "audio": "data/next/audio/NX-TE-TRAFFIC-02.wav",
+ "latency_ms": 5114,
+ "reply": {
+  "transcript": "ఆంధ్రప్రదేశ్ రాష్ట్ర హైకోర్టు ఎక్కడ ఉంది",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 267,
+  "output": 34
+ }
+}

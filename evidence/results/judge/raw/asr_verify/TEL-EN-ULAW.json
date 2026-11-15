@@ -1,0 +1,16 @@
+{
+ "task": "asr_verify",
+ "id": "TEL-EN-ULAW",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/TEL-EN-ULAW.wav",
+ "latency_ms": 3424,
+ "reply": {
+  "matches": true,
+  "differences": [],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 270,
+  "output": 25
+ }
+}

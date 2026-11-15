@@ -1,0 +1,36 @@
+{
+  "task": "blind",
+  "id": "NF-I-25-happy",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "a9eafeb2cb59735f4ac080c373ca7d7de37576a8ef4d614d9a3e18d9c0fa99ce",
+  "input_sha256": [
+    "9e3e37b49db14dfe501786ffe73a6413bd7bef5cb1fa370cdd0c06677f07ee13"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-I-25-happy.wav"
+  ],
+  "reply": {
+    "heard": "Your request is ready. Please continue when you are ready.",
+    "naturalness_1to5": 3,
+    "prosody_1to5": 3,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "calm",
+      "neutral",
+      "polite"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "normal brief silence before speech",
+    "artifacts": [],
+    "confidence": "high",
+    "reason": "Speech is intelligible and clean with a slightly synthetic cadence and standard pacing."
+  },
+  "prompt_tokens": 321,
+  "output_tokens": 136,
+  "thought_tokens": 154,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-KN-BG-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "3fd5e308be01a2746bfcb6e2",
+ "audio": "data/next/audio/NX-KN-BG-03.wav",
+ "latency_ms": 5295,
+ "reply": {
+  "transcript": "ಟೈಟಾನಿಕ್ ಯಾವ ಸಮುದ್ರದಲ್ಲಿ ಮುಳುಗಿತು",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 221,
+  "output": 44
+ }
+}

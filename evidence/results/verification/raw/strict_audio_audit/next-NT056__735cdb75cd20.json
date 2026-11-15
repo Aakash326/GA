@@ -1,0 +1,23 @@
+{
+ "task": "strict_audio_audit",
+ "id": "next-NT056",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "735cdb75cd20bff1db30eeaf",
+ "audio": "results/next/audio/NT056.wav",
+ "latency_ms": 3420,
+ "reply": {
+  "heard": "ನಿಮ್ಮ ಕೋಡ್ ಸೊನ್ನೆ ಸೊನ್ನೆ ಏಳು ಸೊನ್ನೆ",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "digits",
+    "result": "correct",
+    "heard": "0 0 7 0"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 331,
+  "output": 44
+ }
+}

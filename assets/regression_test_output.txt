@@ -1,0 +1,85 @@
+{"valid_call_reviews": 1, "applied": true}
+{"valid_recordings": 1, "applied": true}
+{"valid_reference_decisions": 1, "applied": true}
+{"snapshots": [{"provider": "Gnani", "opening_balance_inr": "100", "current_balance_inr": "90", "credits_added_inr": "20", "captured_at_utc": "2026-11-14T10:00:00+00:00", "covers_all_evaluation_usage": "false", "evidence_note": "dashboard sample", "observed_spend_inr": 30.0}], "applied": true}
+{"snapshots": [{"provider": "Gnani", "opening_balance_inr": "100", "current_balance_inr": "90", "credits_added_inr": "20", "captured_at_utc": "2026-11-14T10:00:00+00:00", "covers_all_evaluation_usage": "true", "evidence_note": "dashboard sample", "observed_spend_inr": 30.0}], "applied": true}
+
+test_corpus_weighting_and_no_speech_exclusion (test_assignment_metrics.CustomMetricTests.test_corpus_weighting_and_no_speech_exclusion) ... ok
+test_deletion (test_assignment_metrics.CustomMetricTests.test_deletion) ... ok
+test_empty_hypothesis (test_assignment_metrics.CustomMetricTests.test_empty_hypothesis) ... ok
+test_empty_reference (test_assignment_metrics.CustomMetricTests.test_empty_reference) ... ok
+test_exact_match (test_assignment_metrics.CustomMetricTests.test_exact_match) ... ok
+test_insertion (test_assignment_metrics.CustomMetricTests.test_insertion) ... ok
+test_mixed_scripts_not_exempted (test_assignment_metrics.CustomMetricTests.test_mixed_scripts_not_exempted) ... ok
+test_more_than_one_hundred_percent_is_valid (test_assignment_metrics.CustomMetricTests.test_more_than_one_hundred_percent_is_valid) ... ok
+test_punctuation_and_number_formatting (test_assignment_metrics.CustomMetricTests.test_punctuation_and_number_formatting) ... ok
+test_substitution (test_assignment_metrics.CustomMetricTests.test_substitution) ... ok
+test_unicode_composition_and_case (test_assignment_metrics.CustomMetricTests.test_unicode_composition_and_case) ... ok
+test_unicode_digits_and_signs (test_assignment_metrics.CustomMetricTests.test_unicode_digits_and_signs) ... ok
+test_whitespace_and_cer (test_assignment_metrics.CustomMetricTests.test_whitespace_and_cer) ... ok
+test_24_actual_audio_files_and_hashes (test_dataset_mode.DatasetMode.test_24_actual_audio_files_and_hashes) ... ok
+test_no_microphone_capture_in_public_review_pages (test_dataset_mode.DatasetMode.test_no_microphone_capture_in_public_review_pages) ... ok
+test_source_and_coverage_labels_preserved (test_dataset_mode.DatasetMode.test_source_and_coverage_labels_preserved) ... ok
+test_all_24_calls_succeeded_and_references_are_machine_labelled (test_final_evaluation.FinalEvaluation.test_all_24_calls_succeeded_and_references_are_machine_labelled) ... ok
+test_owner_tts_blanks_remain_pending (test_final_evaluation.FinalEvaluation.test_owner_tts_blanks_remain_pending) ... ok
+test_reference_audit_uses_unchanged_input_audio (test_final_evaluation.FinalEvaluation.test_reference_audit_uses_unchanged_input_audio) ... ok
+test_report_summary_uses_weighted_word_counts (test_final_evaluation.FinalEvaluation.test_report_summary_uses_weighted_word_counts) ... ok
+test_interruption_closes_old_socket (test_followup.BargeInRegression.test_interruption_closes_old_socket) ... ok
+test_changed_input_keeps_old_response_immutable (test_followup.CacheRegressions.test_changed_input_keeps_old_response_immutable) ... ok
+test_decode_failure_invalidates_http_success (test_followup.CacheRegressions.test_decode_failure_invalidates_http_success) ... ok
+test_asr_fingerprint_changes_with_audio_and_settings (test_offline.Fingerprints.test_asr_fingerprint_changes_with_audio_and_settings) ... ok
+test_latest_success_refuses_stale_cache (test_offline.Fingerprints.test_latest_success_refuses_stale_cache) ... ok
+test_tts_fingerprint_changes_with_text_voice_and_model (test_offline.Fingerprints.test_tts_fingerprint_changes_with_text_voice_and_model) ... ok
+test_no_request_without_live (test_offline.LiveGuard.test_no_request_without_live) ... ok
+test_sign_order_and_extras_detected (test_offline.NumberChecks.test_sign_order_and_extras_detected) ... ok
+test_summary_metrics_present_and_consistent (test_offline.ReportInputs.test_summary_metrics_present_and_consistent) ... ok
+test_stall_simulation_and_stall_free_start (test_offline.Streaming.test_stall_simulation_and_stall_free_start) ... ok
+test_all_saved_streams_and_pcm_bytes (test_public_submission.IndependentPlaybackTests.test_all_saved_streams_and_pcm_bytes) ... ok
+test_continuous_control (test_public_submission.IndependentPlaybackTests.test_continuous_control) ... ok
+test_fixed_prebuffer_can_remove_a_planted_short_underrun (test_public_submission.IndependentPlaybackTests.test_fixed_prebuffer_can_remove_a_planted_short_underrun) ... ok
+test_invalid_timelines_fail (test_public_submission.IndependentPlaybackTests.test_invalid_timelines_fail) ... ok
+test_planted_gap_and_exact_delayed_start (test_public_submission.IndependentPlaybackTests.test_planted_gap_and_exact_delayed_start) ... ok
+test_tolerance_changes_reporting_not_actual_playout (test_public_submission.IndependentPlaybackTests.test_tolerance_changes_reporting_not_actual_playout) ... ok
+test_connection_runs_and_paired_stream_cohort (test_public_submission.MeasurementTraceTests.test_connection_runs_and_paired_stream_cohort) ... ok
+test_pcm_rtf_and_baseline_timers_reconcile (test_public_submission.MeasurementTraceTests.test_pcm_rtf_and_baseline_timers_reconcile) ... ok
+test_all_reported_audio_is_public_and_available (test_public_submission.PublicSubmissionTests.test_all_reported_audio_is_public_and_available) ... ok
+test_audio_duration_uses_actual_pcm_not_placeholder_headers (test_public_submission.PublicSubmissionTests.test_audio_duration_uses_actual_pcm_not_placeholder_headers) ... ok
+test_human_only_tts_headlines_and_complete_pairs (test_public_submission.PublicSubmissionTests.test_human_only_tts_headlines_and_complete_pairs) ... ok
+test_quality_ratings_deduplicate_target_rows (test_public_submission.PublicSubmissionTests.test_quality_ratings_deduplicate_target_rows) ... ok
+test_source_reference_headlines (test_public_submission.PublicSubmissionTests.test_source_reference_headlines) ... ok
+test_known_secret_blocks_release_without_printing_value (test_release_privacy.ReleasePrivacyTests.test_known_secret_blocks_release_without_printing_value) ... ok
+test_mixed_private_json_still_redacts_before_publication (test_release_privacy.ReleasePrivacyTests.test_mixed_private_json_still_redacts_before_publication) ... ok
+test_plaintext_api_error_with_json_suffix_is_preserved (test_release_privacy.ReleasePrivacyTests.test_plaintext_api_error_with_json_suffix_is_preserved) ... ok
+test_private_call_audio_path_caches_are_omitted (test_release_privacy.ReleasePrivacyTests.test_private_call_audio_path_caches_are_omitted) ... ok
+test_private_csv_records_are_omitted_entirely (test_release_privacy.ReleasePrivacyTests.test_private_csv_records_are_omitted_entirely) ... ok
+test_private_log_drops_transcript (test_release_privacy.ReleasePrivacyTests.test_private_log_drops_transcript) ... ok
+test_public_csv_unchanged (test_release_privacy.ReleasePrivacyTests.test_public_csv_unchanged) ... ok
+test_public_json_preserves_frozen_and_response_byte_hashes (test_release_privacy.ReleasePrivacyTests.test_public_json_preserves_frozen_and_response_byte_hashes) ... ok
+test_raw_private_assets_excluded (test_release_privacy.ReleasePrivacyTests.test_raw_private_assets_excluded) ... ok
+test_audio_path_cannot_escape (test_remaining_workflow.WorkflowTests.test_audio_path_cannot_escape) ... ok
+test_barge_in_server_timing_is_logged (test_remaining_workflow.WorkflowTests.test_barge_in_server_timing_is_logged) ... ok
+test_budget_shared_between_calls_and_rest (test_remaining_workflow.WorkflowTests.test_budget_shared_between_calls_and_rest) ... ok
+test_call_pass_requires_barge_in_observations (test_remaining_workflow.WorkflowTests.test_call_pass_requires_barge_in_observations) ... ok
+test_nan_dashboard_rejected (test_remaining_workflow.WorkflowTests.test_nan_dashboard_rejected) ... ok
+test_recording_requires_consent_and_imports_verified_audio (test_remaining_workflow.WorkflowTests.test_recording_requires_consent_and_imports_verified_audio) ... ok
+test_reference_overlay_keeps_original_dataset_unchanged (test_remaining_workflow.WorkflowTests.test_reference_overlay_keeps_original_dataset_unchanged) ... ok
+test_topups_and_partial_dashboard_period (test_remaining_workflow.WorkflowTests.test_topups_and_partial_dashboard_period) ... ok
+test_controlled_30_and_earlier_60_are_different_sets (test_report4.Report4Tests.test_controlled_30_and_earlier_60_are_different_sets) ... ok
+test_controlled_repetitions_settings_hashes_and_per_trial_rtf (test_report4.Report4Tests.test_controlled_repetitions_settings_hashes_and_per_trial_rtf) ... ok
+test_frozen_policy_precedes_asr_and_audio_never_overlaps_primary (test_report4.Report4Tests.test_frozen_policy_precedes_asr_and_audio_never_overlaps_primary) ... ok
+test_heldout_scores_and_scope_are_separate_and_no_human_marks_invented (test_report4.Report4Tests.test_heldout_scores_and_scope_are_separate_and_no_human_marks_invented) ... ok
+test_original_attempts_reconcile_including_sse_and_negative_case (test_report4.Report4Tests.test_original_attempts_reconcile_including_sse_and_negative_case) ... ok
+test_positive_pcm_not_http_status_defines_success_and_retry_chain (test_report4.Report4Tests.test_positive_pcm_not_http_status_defines_success_and_retry_chain) ... ok
+test_validation_events_do_not_duplicate_requests (test_report4.Report4Tests.test_validation_events_do_not_duplicate_requests) ... ok
+test_warm_ws_excludes_cold_warmups_and_buffer_tradeoff (test_report4.Report4Tests.test_warm_ws_excludes_cold_warmups_and_buffer_tradeoff) ... ok
+test_judge_cache_has_real_audio_hashes_and_separate_provenance (test_timbre_followup.TimbreFollowupTests.test_judge_cache_has_real_audio_hashes_and_separate_provenance) ... ok
+test_live_evidence_canonical_audio_preserves_decoded_samples (test_timbre_followup.TimbreFollowupTests.test_live_evidence_canonical_audio_preserves_decoded_samples) ... ok
+test_live_setup_does_not_require_private_cost_file (test_timbre_followup.TimbreFollowupTests.test_live_setup_does_not_require_private_cost_file) ... ok
+test_manifest_uses_documented_tags_and_keeps_failed_originals (test_timbre_followup.TimbreFollowupTests.test_manifest_uses_documented_tags_and_keeps_failed_originals) ... ok
+test_planted_initial_tone_gap_and_sentence_pause_differ (test_timbre_followup.TimbreFollowupTests.test_planted_initial_tone_gap_and_sentence_pause_differ) ... ok
+test_replay_cannot_generate_or_judge_audio_and_reconciles_failures (test_timbre_followup.TimbreFollowupTests.test_replay_cannot_generate_or_judge_audio_and_reconciles_failures) ... ok
+
+----------------------------------------------------------------------
+Ran 74 tests in 5.532s
+
+OK

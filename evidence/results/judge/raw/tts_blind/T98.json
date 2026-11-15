@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T98",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T98.wav",
+ "latency_ms": 4340,
+ "reply": {
+  "heard": "ನಿಮ್ಮ ಉಲ್ಲೇಖ ಸಂಖ್ಯೆ ಸೊನ್ನೆ ಸೊನ್ನೆ ನಾಲ್ಕು ಎರಡು ಒಂಬತ್ತು ಒಂದು",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 248,
+  "output": 29
+ }
+}

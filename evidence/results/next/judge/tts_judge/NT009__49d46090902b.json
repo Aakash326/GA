@@ -1,0 +1,36 @@
+{
+ "task": "tts_judge",
+ "id": "NT009",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "49d46090902b9aeb35bd676c",
+ "audio": "results/next/audio/NT009.wav",
+ "latency_ms": 7920,
+ "reply": {
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "seventeen"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "seventy"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "not"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "artifacts": [],
+  "comment": "Clear pronunciation with accurate contrast between seventeen and seventy."
+ },
+ "tokens": {
+  "prompt": 481,
+  "output": 109
+ }
+}

@@ -1,0 +1,16 @@
+﻿clip_id,baseline_word_edits,hinted_word_edits,delta_word_edits,baseline_wer,hinted_wer,outcome,baseline_target_exact,hinted_target_exact,hinted_vocabulary_insertion_flags
+R4-ASR-01,3,3,0,0.21428571428571427,0.21428571428571427,unchanged,True,True,0
+R4-ASR-02,4,4,0,0.6666666666666666,0.6666666666666666,unchanged,True,True,0
+R4-ASR-03,1,1,0,0.05,0.05,unchanged,True,True,0
+R4-ASR-04,0,0,0,0.0,0.0,unchanged,True,True,0
+R4-ASR-05,7,7,0,0.5833333333333334,0.5833333333333334,unchanged,True,True,0
+R4-ASR-06,0,0,0,0.0,0.0,unchanged,True,True,0
+R4-ASR-07,0,0,0,0.0,0.0,unchanged,True,True,0
+R4-ASR-08,7,7,0,0.7777777777777778,0.7777777777777778,unchanged,True,True,0
+R4-ASR-09,3,2,-1,0.375,0.25,improved,False,True,0
+R4-ASR-10,0,0,0,0.0,0.0,unchanged,True,True,0
+R4-ASR-11,0,0,0,0.0,0.0,unchanged,True,True,0
+R4-ASR-12,1,1,0,0.09090909090909091,0.09090909090909091,unchanged,True,True,0
+R4-ASR-13,1,1,0,0.14285714285714285,0.14285714285714285,unchanged,True,True,0
+R4-ASR-14,0,0,0,0.0,0.0,unchanged,True,True,0
+R4-ASR-15,2,2,0,0.3333333333333333,0.3333333333333333,unchanged,True,True,0

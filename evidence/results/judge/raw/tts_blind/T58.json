@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T58",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T58.wav",
+ "latency_ms": 3975,
+ "reply": {
+  "heard": "The account ending in four eight two one is selected. The account ending in four eight one two is not.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 278,
+  "output": 32
+ }
+}

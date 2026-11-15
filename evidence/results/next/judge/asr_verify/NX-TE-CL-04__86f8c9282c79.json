@@ -1,0 +1,22 @@
+{
+ "task": "asr_verify",
+ "id": "NX-TE-CL-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "86f8c9282c79a676d3a49369",
+ "audio": "data/next/audio/NX-TE-CL-04.wav",
+ "latency_ms": 7615,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "కొమ్మాలపాడు",
+    "heard": "కొమ్మలపాడు"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 270,
+  "output": 36
+ }
+}

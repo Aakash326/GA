@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-PAUSE-02",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-PAUSE-02.wav",
+ "latency_ms": 3949,
+ "reply": {
+  "transcript": "What is the population of Tokyo?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 288,
+  "output": 30
+ }
+}

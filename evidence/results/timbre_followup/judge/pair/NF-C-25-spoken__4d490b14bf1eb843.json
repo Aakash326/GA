@@ -1,0 +1,31 @@
+{
+  "task": "pair",
+  "id": "NF-C-25-spoken",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "4d490b14bf1eb843db4593bc1a777314807243a2d6681fd2ff21f047d72548fd",
+  "input_sha256": [
+    "bb2b7350019cb206f59dd94cde3b6fee39cf650ba91effc14286bcc700deab63",
+    "d5d1ffb004d4aa55e87e1e411ccf63de24165c6e356bd37bb59ba1a430f72660"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-C-25-spoken.wav",
+    "results/timbre_followup/listen/NF-C-25-raw.wav"
+  ],
+  "reply": {
+    "more_cue": "A",
+    "cue_audible_A": true,
+    "cue_audible_B": true,
+    "content_preserved_A": true,
+    "content_preserved_B": true,
+    "literal_tag_spoken_A": false,
+    "literal_tag_spoken_B": false,
+    "confidence": "medium",
+    "reason": "Clip A renders the time format more naturally as 'nine o five am', whereas Clip B omits the 'o' and says 'nine five am'."
+  },
+  "prompt_tokens": 501,
+  "output_tokens": 130,
+  "thought_tokens": 586,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

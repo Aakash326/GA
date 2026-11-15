@@ -1,0 +1,36 @@
+{
+  "task": "blind",
+  "id": "NF-T-25-en-whispers",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "a59ebd5d6acdb1648c433a55e4c5f2dc27b4b9d6815ac7dc4933c69f35b0b850",
+  "input_sha256": [
+    "af1a1d01352b622b8fd271fdb6884839fe84e7f71f5b608465368c8d054908b0"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-T-25-en-whispers.wav"
+  ],
+  "reply": {
+    "heard": "Your request is ready. Please continue when you are ready.",
+    "naturalness_1to5": 3,
+    "prosody_1to5": 3,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "calm",
+      "clear",
+      "synthetic"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "none",
+    "artifacts": [],
+    "confidence": "high",
+    "reason": "Speech is clear and fully intelligible with standard synthetic TTS intonation."
+  },
+  "prompt_tokens": 321,
+  "output_tokens": 130,
+  "thought_tokens": 126,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

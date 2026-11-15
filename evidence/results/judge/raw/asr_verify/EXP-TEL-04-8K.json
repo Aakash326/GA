@@ -1,0 +1,21 @@
+{
+ "task": "asr_verify",
+ "id": "EXP-TEL-04-8K",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-TEL-04-8K.wav",
+ "latency_ms": 4181,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "गर्ज",
+    "heard": "जॉर्ज"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 290,
+  "output": 31
+ }
+}

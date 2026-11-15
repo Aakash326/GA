@@ -1,0 +1,33 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T60",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "504477df842b2fdf9fc482a7",
+ "audio": "results/tts_audio/T60.wav",
+ "latency_ms": 8285,
+ "reply": {
+  "heard": "आपका balance एक हज़ार दो सौ पचास रुपए है और अगली payment कल होगी",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "एक हज़ार दो सौ पचास रुपए"
+   },
+   {
+    "id": "english",
+    "result": "correct",
+    "heard": "balance ... payment"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "कल"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 480,
+  "output": 71
+ }
+}

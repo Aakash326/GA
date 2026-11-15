@@ -1,0 +1,28 @@
+{
+ "task": "strict_audio_audit",
+ "id": "baseline-T36",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "feb81d6733de229607975cb8",
+ "audio": "results/tts_audio/T36.wav",
+ "latency_ms": 4404,
+ "reply": {
+  "heard": "आपका portfolio balance अभी update हुआ है।",
+  "target_spec_issues": [],
+  "targets": [
+   {
+    "id": "hindi",
+    "result": "correct",
+    "heard": "आपका ... अभी ... हुआ है"
+   },
+   {
+    "id": "english",
+    "result": "correct",
+    "heard": "portfolio balance update"
+   }
+  ]
+ },
+ "tokens": {
+  "prompt": 384,
+  "output": 53
+ }
+}

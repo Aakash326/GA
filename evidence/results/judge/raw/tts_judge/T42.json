@@ -1,0 +1,30 @@
+{
+ "task": "tts_judge",
+ "id": "T42",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T42.wav",
+ "latency_ms": 9112,
+ "reply": {
+  "targets": [
+   {
+    "id": "old",
+    "result": "correct",
+    "heard": "seven point zero five percent"
+   },
+   {
+    "id": "new",
+    "result": "correct",
+    "heard": "seven point five zero percent"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "artifacts": [],
+  "comment": "The text was read accurately with clear pronunciation and appropriate pacing."
+ },
+ "tokens": {
+  "prompt": 555,
+  "output": 139
+ }
+}

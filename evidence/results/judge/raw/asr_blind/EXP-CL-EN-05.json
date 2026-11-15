@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-EN-05",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-CL-EN-05.wav",
+ "latency_ms": 5224,
+ "reply": {
+  "transcript": "How tall is Johnny Cueto Ortiz?",
+  "language": "English",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 220,
+  "output": 31
+ }
+}

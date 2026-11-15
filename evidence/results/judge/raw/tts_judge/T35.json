@@ -1,0 +1,25 @@
+{
+ "task": "tts_judge",
+ "id": "T35",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T35.wav",
+ "latency_ms": 6534,
+ "reply": {
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "double zero four two nine one"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "artifacts": [],
+  "comment": "Clear, fluent, and naturally paced Indian English speech with correct phrasing for the digits."
+ },
+ "tokens": {
+  "prompt": 454,
+  "output": 82
+ }
+}

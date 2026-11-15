@@ -1,0 +1,36 @@
+{
+ "task": "tts_judge",
+ "id": "NT012",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "8e1653f7bff7875a0ef175f4",
+ "audio": "results/next/audio/NT012.wav",
+ "latency_ms": 9127,
+ "reply": {
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "eighteen"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "eighty"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "not"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "artifacts": [],
+  "comment": "Speech is clear with distinct pronunciation separating eighteen and eighty."
+ },
+ "tokens": {
+  "prompt": 467,
+  "output": 109
+ }
+}

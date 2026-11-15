@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TA-TRAFFIC-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "2009a2e59296672d47187bcb",
+ "audio": "data/next/audio/NX-TA-TRAFFIC-02.wav",
+ "latency_ms": 3652,
+ "reply": {
+  "transcript": "ஈரானின் தற்போதைய ஜனாதிபதி யார்",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 271,
+  "output": 36
+ }
+}

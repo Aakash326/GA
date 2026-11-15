@@ -1,0 +1,38 @@
+{
+  "task": "blind",
+  "id": "NF-R-3-medium-1",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "ece646795b99e0f56285f7b4eedcae95f1547564e9919b72b864ffb8c77e0ab8",
+  "input_sha256": [
+    "465594bdf7091f0dd7819eb70c1256c89b49432d54a514f97a03933ad270c886"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-R-3-medium-1.wav"
+  ],
+  "reply": {
+    "heard": "If any information is wrong, contact our support team so we can help you update it. We will send a message when the review is complete.",
+    "naturalness_1to5": 3,
+    "prosody_1to5": 3,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "clear",
+      "steady pace",
+      "neutral tone"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "none",
+    "artifacts": [
+      "subtle synthetic resonance"
+    ],
+    "confidence": "high",
+    "reason": "Speech is clear and cleanly enunciated with slight synthetic cadence."
+  },
+  "prompt_tokens": 447,
+  "output_tokens": 151,
+  "thought_tokens": 141,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

@@ -1,0 +1,22 @@
+{
+ "task": "asr_verify",
+ "id": "NX-EN-TRAFFIC-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "e8fe90d21b05099daafdbb7c",
+ "audio": "data/next/audio/NX-EN-TRAFFIC-02.wav",
+ "latency_ms": 4089,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "the",
+    "heard": ""
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 278,
+  "output": 26
+ }
+}

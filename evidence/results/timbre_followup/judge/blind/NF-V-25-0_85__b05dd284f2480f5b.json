@@ -1,0 +1,38 @@
+{
+  "task": "blind",
+  "id": "NF-V-25-0_85",
+  "model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "fingerprint": "b05dd284f2480f5bd9fa2b066f50f26408140f2d0894ae85213ca6d1c76c002f",
+  "input_sha256": [
+    "19b81fa4f2a775130a23a3c44d50816c372fd9b48e60e4b04b268a519d0ad85a"
+  ],
+  "audio_paths": [
+    "results/timbre_followup/listen/NF-V-25-0_85.wav"
+  ],
+  "reply": {
+    "heard": "Your request is ready. Please continue when you are ready.",
+    "naturalness_1to5": 3,
+    "prosody_1to5": 3,
+    "intelligibility_1to5": 4,
+    "observed_delivery": [
+      "calm",
+      "neutral",
+      "synthetic"
+    ],
+    "nonverbal_events": [],
+    "tag_words_spoken": false,
+    "initial_sound_then_unexpected_silence": false,
+    "leading_silence_description": "normal brief pause",
+    "artifacts": [
+      "mild robotic resonance"
+    ],
+    "confidence": "high",
+    "reason": "The speech is intelligible with a slightly robotic, synthesized cadence and timbre."
+  },
+  "prompt_tokens": 333,
+  "output_tokens": 205,
+  "thought_tokens": 130,
+  "assessor": "audio_model_provisional",
+  "human_verified": false
+}

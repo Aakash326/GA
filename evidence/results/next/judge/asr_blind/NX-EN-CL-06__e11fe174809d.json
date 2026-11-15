@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-EN-CL-06",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "e11fe174809d01bdf6dbb929",
+ "audio": "data/next/audio/NX-EN-CL-06.wav",
+ "latency_ms": 4493,
+ "reply": {
+  "transcript": "What scientific name does the Asian black bear have?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 227,
+  "output": 33
+ }
+}

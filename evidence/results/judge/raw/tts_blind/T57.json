@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T57",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T57.wav",
+ "latency_ms": 4368,
+ "reply": {
+  "heard": "Your reference is one two three four five six seven eight nine zero one two three four five six.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 316,
+  "output": 30
+ }
+}

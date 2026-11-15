@@ -1,0 +1,35 @@
+{
+ "task": "tts_judge",
+ "id": "M-T41-PRANAV-W",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/M-T41-PRANAV-W.wav",
+ "latency_ms": 7453,
+ "reply": {
+  "targets": [
+   {
+    "id": "qty",
+    "result": "correct",
+    "heard": "fifteen"
+   },
+   {
+    "id": "rejected",
+    "result": "correct",
+    "heard": "fifty"
+   },
+   {
+    "id": "not",
+    "result": "correct",
+    "heard": "not"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "artifacts": [],
+  "comment": "Clear pronunciation with appropriate distinction between fifteen and fifty."
+ },
+ "tokens": {
+  "prompt": 452,
+  "output": 130
+ }
+}

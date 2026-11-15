@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T89",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T89.wav",
+ "latency_ms": 3981,
+ "reply": {
+  "heard": "உங்கள் கோரிக்கை பெறப்பட்டது நாளை உங்களை தொடர்பு கொள்வோம்",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 211,
+  "output": 22
+ }
+}

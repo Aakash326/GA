@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T29",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T29.wav",
+ "latency_ms": 3794,
+ "reply": {
+  "heard": "I will read the report now, I read it yesterday.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 194,
+  "output": 22
+ }
+}

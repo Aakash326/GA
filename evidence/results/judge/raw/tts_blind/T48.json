@@ -1,0 +1,15 @@
+{
+ "task": "tts_blind",
+ "id": "T48",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T48.wav",
+ "latency_ms": 3945,
+ "reply": {
+  "heard": "You hold one hundred one shares and eleven shares are pending.",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 220,
+  "output": 22
+ }
+}

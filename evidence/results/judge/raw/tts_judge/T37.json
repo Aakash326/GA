@@ -1,0 +1,25 @@
+{
+ "task": "tts_judge",
+ "id": "T37",
+ "model": "gemini-3.8-flash",
+ "audio": "results/tts_audio/T37.wav",
+ "latency_ms": 8108,
+ "reply": {
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "one lakh twenty-five thousand four hundred fifty rupees"
+   }
+  ],
+  "content_complete": true,
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "artifacts": [],
+  "comment": "Accurate pronunciation and natural phrasing throughout."
+ },
+ "tokens": {
+  "prompt": 464,
+  "output": 106
+ }
+}

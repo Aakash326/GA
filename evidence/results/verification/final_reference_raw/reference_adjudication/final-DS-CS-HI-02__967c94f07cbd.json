@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-DS-CS-HI-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "967c94f07cbd000367f3e334",
+ "audio": "data/next/dataset_replacement/DS-CS-HI-02.wav",
+ "latency_ms": 6985,
+ "reply": {
+  "dataset_matches": true,
+  "selected_reference": "अब हम लिबर ऑफिस impress पर tutorial की समाप्ति की ओर आ गए हैं",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The audio accurately matches the dataset candidate text, treating English/Devanagari transliteration differences as equivalent according to the instructions."
+ },
+ "tokens": {
+  "prompt": 396,
+  "output": 64
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "task": "asr_blind",
+ "id": "NX-TE-BG-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "afc270be03e7c8480bb4acbd",
+ "audio": "data/next/audio/NX-TE-BG-03.wav",
+ "latency_ms": 5260,
+ "reply": {
+  "transcript": "మందస నుండి చీపికి ఎంత దూరం",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 243,
+  "output": 34
+ }
+}

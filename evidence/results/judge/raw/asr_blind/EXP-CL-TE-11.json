@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-TE-11",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-CL-TE-11.wav",
+ "latency_ms": 3633,
+ "reply": {
+  "transcript": "చెన్న భూపాలపట్నం గ్రామ పిన్ కోడ్ ఏంటి",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 253,
+  "output": 38
+ }
+}

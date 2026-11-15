@@ -1,0 +1,19 @@
+{
+ "task": "reference_adjudication",
+ "id": "final-DS-CS-HI-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "4dbd1af44fb9d5154a7a0efd",
+ "audio": "data/next/dataset_replacement/DS-CS-HI-01.wav",
+ "latency_ms": 3885,
+ "reply": {
+  "dataset_matches": false,
+  "selected_reference": "यदि आपके पास अच्छा bandwidth नहीं है तो आप इसे download करके देख सकते हैं Spoken Tutorial project team",
+  "confidence": "high",
+  "unclear": [],
+  "reason": "The candidate misses 'Spoken Tutorial project team' spoken at the end of the audio."
+ },
+ "tokens": {
+  "prompt": 374,
+  "output": 61
+ }
+}

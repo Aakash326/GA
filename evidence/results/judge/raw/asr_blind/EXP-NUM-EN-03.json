@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-NUM-EN-03",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-NUM-EN-03.wav",
+ "latency_ms": 3793,
+ "reply": {
+  "transcript": "Who won the Survivor Series in 1993?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 226,
+  "output": 35
+ }
+}

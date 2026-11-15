@@ -1,0 +1,21 @@
+{
+ "task": "asr_verify",
+ "id": "NEG-SWAP-CL-EN-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/CL-EN-01.wav",
+ "latency_ms": 4324,
+ "reply": {
+  "matches": false,
+  "differences": [
+   {
+    "reference": "won the 85th 24 Hours of Le Mans",
+    "heard": "first identified blood types"
+   }
+  ],
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 260,
+  "output": 65
+ }
+}

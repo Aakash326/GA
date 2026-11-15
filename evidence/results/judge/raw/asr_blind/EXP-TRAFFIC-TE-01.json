@@ -1,0 +1,17 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-TRAFFIC-TE-01",
+ "model": "gemini-3.8-flash",
+ "audio": "data/audio/EXP-TRAFFIC-TE-01.wav",
+ "latency_ms": 4537,
+ "reply": {
+  "transcript": "నవిపేట్ గ్రామ విస్తీర్ణం ఎంత?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 255,
+  "output": 34
+ }
+}

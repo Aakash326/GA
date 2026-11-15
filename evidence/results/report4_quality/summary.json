@@ -1,0 +1,51 @@
+{
+  "new_api_calls_in_replay": 0,
+  "asr_paired_clips": 15,
+  "asr": {
+    "baseline": {
+      "speech_clips": 15,
+      "reference_words": 150,
+      "word_edits": 29,
+      "wer": 0.19333333333333333,
+      "cer": 0.15827338129496402,
+      "cer_no_spaces": 0.15178571428571427,
+      "target_terms_correct": 14,
+      "target_terms_total": 15,
+      "target_set_exact_clips": 14,
+      "critical_lexical_slots_correct_clips": 14,
+      "hinted_vocabulary_insertion_flags": 0
+    },
+    "hinted": {
+      "speech_clips": 15,
+      "reference_words": 150,
+      "word_edits": 28,
+      "wer": 0.18666666666666668,
+      "cer": 0.15251798561151078,
+      "cer_no_spaces": 0.14642857142857144,
+      "target_terms_correct": 15,
+      "target_terms_total": 15,
+      "target_set_exact_clips": 15,
+      "critical_lexical_slots_correct_clips": 15,
+      "hinted_vocabulary_insertion_flags": 0
+    }
+  },
+  "paired_outcomes": {
+    "unchanged": 14,
+    "improved": 1
+  },
+  "quality_audio_available": 33,
+  "quality_audio_planned": 34,
+  "quality_unique_prompts": 16,
+  "matched_neutral_prompt_pairs": 15,
+  "new_human_rating_rows": 0,
+  "rewrite_audio_available": 20,
+  "rewrite_pairs_scored": 0,
+  "rewrite_outcomes": {},
+  "assessment_scope": "Held-out banking source-reference ASR is separate from baseline; new TTS panel and rewrite scores require new human input.",
+  "critical_slots_definition": "Frozen target-word set exactness plus numeric-string order and negative-marker presence; lexical diagnostics, not full semantic correctness.",
+  "source_limits": "MInDS-14 en-US source speech with en-IN API hint; speaker identities unavailable; selected domain-term convenience sample; not Indian-accent population validation.",
+  "target_term_coverage": {
+    "account": 15
+  },
+  "policy_sha256": "ae264eef30ae71eb31dde37795e90b3a3d4ba705fcdc905907ad23a19f3dbc65"
+}
